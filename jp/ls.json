@@ -46,6 +46,19 @@
         ], 
         "name": "探求王の命"
     }, 
+    "10000": {
+        "desc": "全能力を１５％アップ", 
+        "effects": [
+            {
+                "atk% buff": 15, 
+                "def% buff": 15, 
+                "hp% buff": 15, 
+                "passive id": "1", 
+                "rec% buff": 15
+            }
+        ], 
+        "name": "幻剣将の力"
+    }, 
     "1001": {
         "desc": "シーカータイプの最大ＨＰが５０％アップ", 
         "effects": [
@@ -148,6 +161,42 @@
             }
         ], 
         "name": "炎創神の力"
+    }, 
+    "10101": {
+        "desc": "全能力を２０％アップし、敵からの弱点属性攻撃を無効化", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "rec% buff": 20
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }
+        ], 
+        "name": "幻剣将の威光"
+    }, 
+    "10102": {
+        "desc": "全能力を３５％アップし、敵からの弱点属性攻撃を無効化", 
+        "effects": [
+            {
+                "atk% buff": 35, 
+                "def% buff": 35, 
+                "hp% buff": 35, 
+                "passive id": "1", 
+                "rec% buff": 35
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }
+        ], 
+        "name": "夢幻剣将の覇気"
     }, 
     "102": {
         "desc": "炎属性ユニットの攻撃力５０％アップ、ＨＰ１０％アップ", 
@@ -1810,6 +1859,33 @@
         ], 
         "name": "戦士の光"
     }, 
+    "1806": {
+        "desc": "ＢＢゲージ上昇量が大幅にアップし、ＢＣ獲得数が一定値を超える度に２ターンＢＢゲージが増加する効果が発動＆ＨＣ獲得数が一定値を超える度に２ターンＨＰ回復する効果が発動", 
+        "effects": [
+            {
+                "bb gauge fill rate%": 50, 
+                "passive id": "32"
+            }, 
+            {
+                "bc receive count buff activation": 30, 
+                "buff": {
+                    "buff turns (37)": "2", 
+                    "increase bb gauge gradual buff": 4
+                }, 
+                "passive id": "82"
+            }, 
+            {
+                "buff": {
+                    "buff turns (8)": "2", 
+                    "gradual heal high": 1400, 
+                    "gradual heal low": 800
+                }, 
+                "hc receive count buff activation": 30, 
+                "passive id": "84"
+            }
+        ], 
+        "name": "戦魔神の絶昂"
+    }, 
     "1900": {
         "desc": "すべてのユニットの攻撃力が１０％アップ", 
         "effects": [
@@ -2065,6 +2141,95 @@
             }
         ], 
         "name": "悪疫統神の轟咆"
+    }, 
+    "1916": {
+        "desc": "すべてのユニットの攻撃力が４０％アップ＆炎属性と水属性ユニットが弱点属性に与えるダメージをかなりアップ", 
+        "effects": [
+            {
+                "atk% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "elemental weakness multiplier%": 75.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "water units do extra elemental weakness dmg": true
+            }
+        ], 
+        "name": "零滅神の力"
+    }, 
+    "1917": {
+        "desc": "すべてのユニットの攻撃力が８０％アップ＆与ダメージか被ダメージが一定値を超える度に次ターン攻撃ＢＢの威力をアップ＆炎水属性ユニットが弱点属性に与えるダメージを大幅にアップ", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "passive id": "1"
+            }, 
+            {
+                "buff": {
+                    "bb atk% buff": 100, 
+                    "buff turns (72)": "2", 
+                    "sbb atk% buff": 100, 
+                    "ubb atk% buff": 100
+                }, 
+                "damage dealt threshold buff activation": 10000, 
+                "passive id": "80"
+            }, 
+            {
+                "buff": {
+                    "bb atk% buff": 100, 
+                    "buff turns (72)": "2", 
+                    "sbb atk% buff": 100, 
+                    "ubb atk% buff": 100
+                }, 
+                "damage threshold buff activation": 10000, 
+                "passive id": "78"
+            }, 
+            {
+                "elemental weakness multiplier%": 125.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "water units do extra elemental weakness dmg": true
+            }
+        ], 
+        "name": "零滅神の慟哭"
+    }, 
+    "1918": {
+        "desc": "すべてのユニットの攻撃力が４０％アップ＆通常攻撃時、ＢＢゲージがかなり増加", 
+        "effects": [
+            {
+                "atk% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill when attacking high": 5, 
+                "bc fill when attacking low": 5, 
+                "bc fill when attacking%": 100, 
+                "passive id": "35"
+            }
+        ], 
+        "name": "絶武神の力"
+    }, 
+    "1919": {
+        "desc": "すべてのユニットの攻撃力が８０％アップ＆通常攻撃時、ＢＢゲージが大幅に増加＆通常攻撃のＨＩＴ数が増加", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill when attacking high": 7, 
+                "bc fill when attacking low": 7, 
+                "bc fill when attacking%": 100, 
+                "passive id": "35"
+            }, 
+            {
+                "extra hits dmg%": -50, 
+                "hit increase/hit": 1, 
+                "passive id": "37"
+            }
+        ], 
+        "name": "絶武剛神の闘拳"
     }, 
     "2": {
         "desc": "リーダースキル１説明", 
@@ -2736,6 +2901,52 @@
         ], 
         "name": "永遠の麗星命"
     }, 
+    "2130": {
+        "desc": "全ての状態異常を無効化し、攻撃力１５％アップ＆スパーク時、与えるダメージがアップ", 
+        "effects": [
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "atk% buff": 15, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 30, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "蒼穹の輝風"
+    }, 
+    "2131": {
+        "desc": "全ての状態異常を無効化し、攻撃力３０％アップ＆スパーク時、与えるダメージが大幅にアップ", 
+        "effects": [
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "atk% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 75, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "翠穹の輝星風"
+    }, 
     "2200": {
         "desc": "パーティのユニットが５属性以上で攻撃力が２５％アップ", 
         "effects": [
@@ -3076,6 +3287,30 @@
             }
         ], 
         "name": "五光霊神の天命"
+    }, 
+    "2222": {
+        "desc": "パーティのユニットが５属性以上でＨＰが３０％アップ＆攻撃力が１００％アップ＆攻撃時、高確率でランダムに状態異常を付与", 
+        "effects": [
+            {
+                "atk% buff": 100, 
+                "hp% buff": 30, 
+                "passive id": "41", 
+                "unique elements required": 5
+            }, 
+            {
+                "injury%": 15, 
+                "passive id": "20", 
+                "poison%": 10, 
+                "sick%": 15, 
+                "weaken%": 15
+            }, 
+            {
+                "curse%": 10, 
+                "paralysis%": 10, 
+                "passive id": "20"
+            }
+        ], 
+        "name": "五光蝕神の悪疫"
     }, 
     "2300": {
         "desc": "クリティカル時、与えるダメージが少しアップ", 
@@ -3758,6 +3993,32 @@
             }
         ], 
         "name": "悪疫統神の覇気"
+    }, 
+    "3009": {
+        "desc": "攻撃時、高確率でランダムに状態異常を付与＆クリティカル時、与えるダメージがかなりアップ＆攻撃力が８０％アップ", 
+        "effects": [
+            {
+                "injury%": 15, 
+                "passive id": "20", 
+                "poison%": 10, 
+                "sick%": 15, 
+                "weaken%": 15
+            }, 
+            {
+                "curse%": 10, 
+                "paralysis%": 10, 
+                "passive id": "20"
+            }, 
+            {
+                "crit multiplier%": 150.0, 
+                "passive id": "34"
+            }, 
+            {
+                "atk% buff": 80, 
+                "passive id": "1"
+            }
+        ], 
+        "name": "悪疫覚神の閃撃"
     }, 
     "301": {
         "desc": "炎属性ユニットの回復力が５０％アップ", 
@@ -4603,6 +4864,82 @@
             }
         ], 
         "name": "焔軍神の幻魔境"
+    }, 
+    "4316": {
+        "desc": "すべてのユニットのＨＰと防御力３０％アップ＆確率でダメージを少し軽減", 
+        "effects": [
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "dmg reduction chance%": 10, 
+                "dmg reduction%": 20, 
+                "passive id": "14"
+            }
+        ], 
+        "name": "覇王の聖界"
+    }, 
+    "4317": {
+        "desc": "すべてのユニットのＨＰと防御力３０％アップ＆確率でダメージを少し軽減＆ＢＢゲージ上昇量がアップ", 
+        "effects": [
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "dmg reduction chance%": 10, 
+                "dmg reduction%": 20, 
+                "passive id": "14"
+            }, 
+            {
+                "bb gauge fill rate%": 30, 
+                "passive id": "32"
+            }
+        ], 
+        "name": "征覇帝の皇界"
+    }, 
+    "4318": {
+        "desc": "すべてのユニットのＨＰと防御力３０％アップ＆ＢＣの出現率がアップ", 
+        "effects": [
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "bc drop rate% buff": 15, 
+                "passive id": "19"
+            }
+        ], 
+        "name": "光彩神の聖法"
+    }, 
+    "4319": {
+        "desc": "すべてのユニットのＨＰと防御力４０％アップ＆ＢＣの出現率がアップ＆ＢＢゲージ上昇量がアップ＆被ダメージ時、ＢＢゲージが増加", 
+        "effects": [
+            {
+                "def% buff": 40, 
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "bc drop rate% buff": 15, 
+                "passive id": "19"
+            }, 
+            {
+                "bb gauge fill rate%": 30, 
+                "passive id": "32"
+            }, 
+            {
+                "bc fill when attacked high": 4, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }
+        ], 
+        "name": "光彩神の聖覇術"
     }, 
     "4400": {
         "desc": "ターン経過でＢＢゲージが増加＆状態異常にかかりにくくなる", 
@@ -5533,6 +5870,27 @@
         ], 
         "name": "千輝秤神の天掟"
     }, 
+    "551": {
+        "desc": "雷属性ユニットから受けるダメージを１５％軽減＆樹属性ユニットが雷属性ユニットに与えるダメージを大幅にアップ＆攻撃ＢＢ使用時の威力がかなりアップ", 
+        "effects": [
+            {
+                "passive id": "5", 
+                "thunder resist%": 15
+            }, 
+            {
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 150.0, 
+                "passive id": "50"
+            }, 
+            {
+                "bb atk% buff": 100, 
+                "passive id": "64", 
+                "sbb atk% buff": 100, 
+                "ubb atk% buff": 100
+            }
+        ], 
+        "name": "翡煌神の断罪"
+    }, 
     "5510": {
         "desc": "すべてのユニットのＨＰが３０％アップ", 
         "effects": [
@@ -5562,6 +5920,102 @@
             }
         ], 
         "name": "通信士の恵愛"
+    }, 
+    "5512": {
+        "desc": "すべてのユニットのＨＰが３０％アップ＆クリティカル時とスパーク時、与えるダメージがかなりアップ", 
+        "effects": [
+            {
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "crit multiplier%": 100.0, 
+                "passive id": "34"
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "煉焔皇の天承"
+    }, 
+    "5513": {
+        "desc": "すべてのユニットのＨＰが３０％アップ＆クリティカル時とスパーク時、与えるダメージがかなりアップ＆攻撃ＢＢ使用時の威力がかなりアップ", 
+        "effects": [
+            {
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "crit multiplier%": 150.0, 
+                "passive id": "34"
+            }, 
+            {
+                "damage% for spark": 70, 
+                "passive id": "31"
+            }, 
+            {
+                "bb atk% buff": 100, 
+                "passive id": "64", 
+                "sbb atk% buff": 100, 
+                "ubb atk% buff": 100
+            }
+        ], 
+        "name": "神煉焔皇の天刃"
+    }, 
+    "5514": {
+        "desc": "すべてのユニットのＨＰが３０％アップ＆スパーク時、与えるダメージが大幅にアップ", 
+        "effects": [
+            {
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 75, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "影蝕神の天閃"
+    }, 
+    "5515": {
+        "desc": "すべてのユニットのＨＰが３０％アップ＆スパーク時、与えるダメージが超絶アップし、ＢＢゲージがすこし増加", 
+        "effects": [
+            {
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }, 
+            {
+                "bc fill on spark high": 2, 
+                "bc fill on spark low": 1, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }
+        ], 
+        "name": "影魔闔神の天耀"
+    }, 
+    "552": {
+        "desc": "水属性ユニットから受けるダメージを１５％軽減＆雷属性ユニットが水属性ユニットに与えるダメージを大幅にアップ＆敵からのクリティカルを無効化", 
+        "effects": [
+            {
+                "passive id": "5", 
+                "water resist%": 15
+            }, 
+            {
+                "elemental weakness multiplier%": 150.0, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true
+            }, 
+            {
+                "crit chance base resist%": 100, 
+                "crit chance buffed resist%": 100, 
+                "passive id": "53"
+            }
+        ], 
+        "name": "琥魄神の断罪"
     }, 
     "5600": {
         "desc": "光属性と闇属性ユニットの攻撃力が２５％アップ", 
@@ -6007,6 +6461,104 @@
         ], 
         "name": "ノーヴルスマイル"
     }, 
+    "6602": {
+        "desc": "ターン経過で大幅にＢＢゲージが増加＆ＢＢゲージ上昇量がアップ＆ＢＢの発動に必要なＢＢゲージを軽減", 
+        "effects": [
+            {
+                "bc fill per turn": 4, 
+                "passive id": "9"
+            }, 
+            {
+                "bb gauge fill rate%": 30, 
+                "passive id": "32"
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 20
+            }
+        ], 
+        "name": "フューチャーライブ"
+    }, 
+    "6603": {
+        "desc": "ＨＣ出現率アップ＆回復量大幅アップ＆被ダメージ時、確率でＨＰが回復", 
+        "effects": [
+            {
+                "hc effectiveness%": 75, 
+                "passive id": "10"
+            }, 
+            {
+                "hc drop rate% buff": 20, 
+                "passive id": "19"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }
+        ], 
+        "name": "ヴィーナスベール"
+    }, 
+    "6604": {
+        "desc": "すべてのユニットの防御力が１５％アップ＆被ダメージ時、ＢＢゲージがすこし増加", 
+        "effects": [
+            {
+                "def% buff": 15, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }
+        ], 
+        "name": "ホーリージェミニ"
+    }, 
+    "6605": {
+        "desc": "すべてのユニットの防御力が３０％アップ＆被ダメージ時、ＢＢゲージが増加", 
+        "effects": [
+            {
+                "def% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill when attacked high": 5, 
+                "bc fill when attacked low": 3, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }
+        ], 
+        "name": "エンジェルスマイル"
+    }, 
+    "6606": {
+        "desc": "すべてのユニットの攻撃力が１５％アップ＆スパーク時、与えるダメージがアップ", 
+        "effects": [
+            {
+                "atk% buff": 15, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 30, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "シャインジェミニ"
+    }, 
+    "6607": {
+        "desc": "すべてのユニットの攻撃力が３０％アップ＆スパーク時、与えるダメージがかなりアップ", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "ミラクルプレイヤー"
+    }, 
     "6700": {
         "desc": "クリティカル時、与えるダメージが少しアップ＆スパーク時、与えるダメージがアップ", 
         "effects": [
@@ -6378,6 +6930,42 @@
         ], 
         "name": "崩樹竜神の霊瘴"
     }, 
+    "7408": {
+        "desc": "すべてのユニットのＨＰと攻撃力が３０％アップ＆ＢＢゲージが半分以上の時、攻撃力・防御力・回復力がすこしアップ", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "atk% buff": 15, 
+                "bb gauge above % buff requirement": 50, 
+                "def% buff": 15, 
+                "passive id": "30", 
+                "rec% buff": 15
+            }
+        ], 
+        "name": "覇澪妃の霊力"
+    }, 
+    "7409": {
+        "desc": "すべてのユニットのＨＰと攻撃力が３０％アップ＆ＢＢゲージが半分以上の時、攻撃力・防御力・回復力がかなりアップ", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "atk% buff": 50, 
+                "bb gauge above % buff requirement": 50, 
+                "def% buff": 50, 
+                "passive id": "30", 
+                "rec% buff": 50
+            }
+        ], 
+        "name": "覇麗妃の崇力"
+    }, 
     "7500": {
         "desc": "攻撃時、確率でＨＰをすこし吸収する", 
         "effects": [
@@ -6580,6 +7168,203 @@
             }
         ], 
         "name": "剣神"
+    }, 
+    "7906": {
+        "desc": "残りＨＰが高いほど攻撃力がアップ＆ターン経過でＢＢゲージが増加", 
+        "effects": [
+            {
+                "atk% base buff": 20, 
+                "atk% extra buff based on hp": 80, 
+                "buff proportional to hp": "remaining", 
+                "passive id": "46"
+            }, 
+            {
+                "bc fill per turn": 3, 
+                "passive id": "9"
+            }
+        ], 
+        "name": "強き絆で結ばれた者"
+    }, 
+    "7907": {
+        "desc": "ＢＣ、ＨＣ、ゼルのドロップ率をかなりアップ＆ハートクリスタルの回復量がかなりアップ", 
+        "effects": [
+            {
+                "bc drop rate% buff": 15, 
+                "hc drop rate% buff": 15, 
+                "passive id": "19", 
+                "zel drop rate% buff": 20
+            }, 
+            {
+                "hc effectiveness%": 50, 
+                "passive id": "10"
+            }
+        ], 
+        "name": "レンズハンター"
+    }, 
+    "7908": {
+        "desc": "スパーク時、与えるダメージがかなりアップ＆ＢＢゲージ上昇量がアップ", 
+        "effects": [
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }, 
+            {
+                "bb gauge fill rate%": 30, 
+                "passive id": "32"
+            }
+        ], 
+        "name": "狙い鋭き魔術蜂"
+    }, 
+    "7909": {
+        "desc": "クリティカル時、与えるダメージがすこしアップ＆被ダメージ時、ＢＢゲージがすこし増加", 
+        "effects": [
+            {
+                "crit multiplier%": 75.0, 
+                "passive id": "34"
+            }, 
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }
+        ], 
+        "name": "魔術の申し子"
+    }, 
+    "7910": {
+        "desc": "ＢＢゲージが半分以上の時、攻撃力・防御力・回復力がかなりアップ＆ターン経過でＢＢゲージが増加", 
+        "effects": [
+            {
+                "atk% buff": 65, 
+                "bb gauge above % buff requirement": 50, 
+                "def% buff": 65, 
+                "passive id": "30", 
+                "rec% buff": 65
+            }, 
+            {
+                "bc fill per turn": 2, 
+                "passive id": "9"
+            }
+        ], 
+        "name": "バトルマスター"
+    }, 
+    "7911": {
+        "desc": "残りＨＰが低いほど攻撃力がアップ＆スパーク時、ＢＢゲージが増加", 
+        "effects": [
+            {
+                "atk% base buff": 20, 
+                "atk% extra buff based on hp": 110, 
+                "buff proportional to hp": "lost", 
+                "passive id": "46"
+            }, 
+            {
+                "bc fill on spark high": 2, 
+                "bc fill on spark low": 1, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }
+        ], 
+        "name": "強き魂を持つ者"
+    }, 
+    "7912": {
+        "desc": "すべてのユニットのクリティカル率をアップ＆クリティカル時、与えるダメージがアップ", 
+        "effects": [
+            {
+                "crit multiplier%": 100.0, 
+                "passive id": "34"
+            }, 
+            {
+                "crit% buff": 10, 
+                "passive id": "1"
+            }
+        ], 
+        "name": "惨殺の狂戦士"
+    }, 
+    "7913": {
+        "desc": "すべてのユニットのクリティカル率をアップ＆クリティカル時、与えるダメージがかなりアップ", 
+        "effects": [
+            {
+                "crit multiplier%": 125.0, 
+                "passive id": "34"
+            }, 
+            {
+                "crit% buff": 10, 
+                "passive id": "1"
+            }
+        ], 
+        "name": "英雄を殺めし者"
+    }, 
+    "7914": {
+        "desc": "すべてのユニットの攻撃力・防御力・回復力が１５％アップ＆被ダメージ時、確率でＨＰが回復", 
+        "effects": [
+            {
+                "atk% buff": 15, 
+                "def% buff": 15, 
+                "passive id": "1", 
+                "rec% buff": 15
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 25, 
+                "passive id": "24"
+            }
+        ], 
+        "name": "神の隣に座せし者"
+    }, 
+    "7915": {
+        "desc": "すべてのユニットの攻撃力・防御力・回復力が２０％アップ＆被ダメージ時、確率でＨＰが回復", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "def% buff": 20, 
+                "passive id": "1", 
+                "rec% buff": 20
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 25, 
+                "passive id": "24"
+            }
+        ], 
+        "name": "超次元の覇者"
+    }, 
+    "7916": {
+        "desc": "すべてのユニットのＨＰが２０％アップ＆炎属性・水属性・樹属性・雷属性のユニットから受けるダメージを１０％軽減", 
+        "effects": [
+            {
+                "hp% buff": 20, 
+                "passive id": "1"
+            }, 
+            {
+                "dmg% mitigation for elemental attacks": 10.0, 
+                "mitigate earth attacks": true, 
+                "mitigate fire attacks": true, 
+                "mitigate thunder attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62"
+            }
+        ], 
+        "name": "精霊の主"
+    }, 
+    "7917": {
+        "desc": "すべてのユニットのＨＰが２５％アップ＆炎属性・水属性・樹属性・雷属性のユニットから受けるダメージを１０％軽減", 
+        "effects": [
+            {
+                "hp% buff": 25, 
+                "passive id": "1"
+            }, 
+            {
+                "dmg% mitigation for elemental attacks": 10.0, 
+                "mitigate earth attacks": true, 
+                "mitigate fire attacks": true, 
+                "mitigate thunder attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62"
+            }
+        ], 
+        "name": "揺るぎなき信念を貫く者"
     }, 
     "8": {
         "desc": "リーダースキル１説明", 
@@ -7017,6 +7802,105 @@
             }
         ], 
         "name": "護水炎の閃光"
+    }, 
+    "8703": {
+        "desc": "雷属性と水属性ユニットから受けるダメージを１５％軽減", 
+        "effects": [
+            {
+                "dmg% mitigation for elemental attacks": 15.0, 
+                "mitigate thunder attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62"
+            }
+        ], 
+        "name": "水雷の結界"
+    }, 
+    "8704": {
+        "desc": "雷属性と水属性ユニットから受けるダメージを１５％軽減＆すべてのユニットのＨＰが３０％アップ", 
+        "effects": [
+            {
+                "dmg% mitigation for elemental attacks": 15.0, 
+                "mitigate thunder attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62"
+            }, 
+            {
+                "hp% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "name": "護水雷の幻界"
+    }, 
+    "8705": {
+        "desc": "雷属性と水属性ユニットから受けるダメージを１５％軽減＆すべてのユニットのＨＰが３０％アップ＆クリティカル時、ＢＢゲージが大幅に増加", 
+        "effects": [
+            {
+                "dmg% mitigation for elemental attacks": 15.0, 
+                "mitigate thunder attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62"
+            }, 
+            {
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill on crit max": 8, 
+                "bc fill on crit min": 6, 
+                "bc fill on crit%": 100.0, 
+                "passive id": "65"
+            }
+        ], 
+        "name": "護水雷の龍鱗"
+    }, 
+    "8706": {
+        "desc": "光属性と闇属性ユニットから受けるダメージを１５％軽減", 
+        "effects": [
+            {
+                "dmg% mitigation for elemental attacks": 15.0, 
+                "mitigate dark attacks": true, 
+                "mitigate light attacks": true, 
+                "passive id": "62"
+            }
+        ], 
+        "name": "光闇の結界"
+    }, 
+    "8707": {
+        "desc": "光属性と闇属性ユニットから受けるダメージを１５％軽減＆すべてのユニットのＨＰが３０％アップ", 
+        "effects": [
+            {
+                "dmg% mitigation for elemental attacks": 15.0, 
+                "mitigate dark attacks": true, 
+                "mitigate light attacks": true, 
+                "passive id": "62"
+            }, 
+            {
+                "hp% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "name": "護光闇の幻界"
+    }, 
+    "8708": {
+        "desc": "光属性と闇属性ユニットから受けるダメージを１５％軽減＆すべてのユニットのＨＰが３０％アップ＆被ダメージが一定値を超える度にＢＢゲージが超絶に増加", 
+        "effects": [
+            {
+                "dmg% mitigation for elemental attacks": 15.0, 
+                "mitigate dark attacks": true, 
+                "mitigate light attacks": true, 
+                "passive id": "62"
+            }, 
+            {
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "damage threshold activation": 5000, 
+                "increase bb gauge": 10, 
+                "passive id": "79"
+            }
+        ], 
+        "name": "護光闇の龍鱗"
     }, 
     "8800": {
         "desc": "すべてのユニットのＨＰと回復力が１５％アップ", 
@@ -8138,7 +9022,7 @@
         "name": "魂狩神の葬棺"
     }, 
     "9750": {
-        "desc": "全ての状態異常を無効化し、ＯＤゲージの上昇量をアップ＆与ダメージが一定値を超える度に次ターンの攻撃力をアップし、さらにスパークが一定回数を超える度に次ターンのスパーク時、与えるダメージが大幅にアップ", 
+        "desc": "全状態異常を無効化、ＯＤゲージ上昇量アップ＆与ダメージが一定値を超える度に次ターンの攻撃力をアップ、スパークが一定数を超える度に次ターンのスパーク時ダメージが大幅アップ", 
         "effects": [
             {
                 "curse resist%": 100, 
@@ -8273,5 +9157,72 @@
             }
         ], 
         "name": "闇神の天冠"
+    }, 
+    "9800": {
+        "desc": "すべてのユニットの攻撃力が１５％アップ＆攻撃ＢＢ使用時の威力がアップ", 
+        "effects": [
+            {
+                "atk% buff": 15, 
+                "passive id": "1"
+            }, 
+            {
+                "bb atk% buff": 50, 
+                "passive id": "64", 
+                "sbb atk% buff": 50, 
+                "ubb atk% buff": 50
+            }
+        ], 
+        "name": "銀騎士隊の印"
+    }, 
+    "9801": {
+        "desc": "すべてのユニットの攻撃力が３０％アップ＆攻撃ＢＢ使用時の威力がかなりアップ", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "bb atk% buff": 100, 
+                "passive id": "64", 
+                "sbb atk% buff": 100, 
+                "ubb atk% buff": 100
+            }
+        ], 
+        "name": "銀騎士隊の記憶"
+    }, 
+    "9900": {
+        "desc": "すべてのユニットのＨＰが３０％アップ＆ＨＰが半分以下のユニットの攻撃力がアップ", 
+        "effects": [
+            {
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "atk% buff": 50, 
+                "hp below % buff requirement": 50, 
+                "passive id": "11"
+            }
+        ], 
+        "name": "煉神の昂揚"
+    }, 
+    "9901": {
+        "desc": "すべてのユニットのＨＰが４０％アップ＆ＨＰが半分以上のユニットの攻撃力がアップし、ＨＰが半分以下のユニットの攻撃力が大幅にアップ", 
+        "effects": [
+            {
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "atk% buff": 50, 
+                "hp above % buff requirement": 50, 
+                "passive id": "11"
+            }, 
+            {
+                "atk% buff": 100, 
+                "hp below % buff requirement": 50, 
+                "passive id": "11"
+            }
+        ], 
+        "name": "閻煉神の剛毅"
     }
 }
