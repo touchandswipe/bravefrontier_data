@@ -3434,6 +3434,43 @@
         "name": "Igneous Stone Rineth", 
         "rarity": 6
     }, 
+    "10704": {
+        "amount": 500000, 
+        "evo": {
+            "id": 10705, 
+            "name": "Sorcerer's Army Velnar", 
+            "rarity": 6
+        }, 
+        "mats": [
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "10133", 
+                "name": "Fire Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "10191", 
+                "name": "Fire Pot", 
+                "type": "unit"
+            }, 
+            {
+                "id": "10132", 
+                "name": "Fire Idol", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Velnar", 
+        "rarity": 5
+    }, 
     "20011": {
         "amount": 2500, 
         "evo": {
@@ -6905,6 +6942,43 @@
         ], 
         "name": "Waterfall Staff Quartz", 
         "rarity": 6
+    }, 
+    "20654": {
+        "amount": 500000, 
+        "evo": {
+            "id": 20655, 
+            "name": "Sorcerer's Army Yuni", 
+            "rarity": 6
+        }, 
+        "mats": [
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "20133", 
+                "name": "Water Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "20191", 
+                "name": "Water Pot", 
+                "type": "unit"
+            }, 
+            {
+                "id": "20132", 
+                "name": "Water Idol", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Yuni", 
+        "rarity": 5
     }, 
     "30011": {
         "amount": 2500, 
@@ -10415,6 +10489,43 @@
         "name": "Terra Broadsword Duran", 
         "rarity": 6
     }, 
+    "30654": {
+        "amount": 500000, 
+        "evo": {
+            "id": 30655, 
+            "name": "Wildcat Lindsey", 
+            "rarity": 6
+        }, 
+        "mats": [
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "30133", 
+                "name": "Earth Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "30191", 
+                "name": "Earth Pot", 
+                "type": "unit"
+            }, 
+            {
+                "id": "30132", 
+                "name": "Earth Idol", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Lindsey", 
+        "rarity": 5
+    }, 
     "40011": {
         "amount": 2500, 
         "evo": {
@@ -13776,6 +13887,117 @@
         "name": "Lightning Rod Rhoa", 
         "rarity": 6
     }, 
+    "40614": {
+        "amount": 500000, 
+        "evo": {
+            "id": 40615, 
+            "name": "Violet Thunder Mahalu", 
+            "rarity": 6
+        }, 
+        "mats": [
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "40133", 
+                "name": "Thunder Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "40133", 
+                "name": "Thunder Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "40191", 
+                "name": "Thunder Pot", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Bolt Axe Mahalu", 
+        "rarity": 5
+    }, 
+    "40615": {
+        "amount": 1500000, 
+        "evo": {
+            "id": 40616, 
+            "name": "Storm Chieftess Mahalu", 
+            "rarity": 7
+        }, 
+        "mats": [
+            {
+                "id": "40334", 
+                "name": "Thunder Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "40133", 
+                "name": "Thunder Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Violet Thunder Mahalu", 
+        "rarity": 6
+    }, 
+    "40624": {
+        "amount": 500000, 
+        "evo": {
+            "id": 40625, 
+            "name": "Holy Knight Symphonia", 
+            "rarity": 6
+        }, 
+        "mats": [
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "40133", 
+                "name": "Thunder Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "40191", 
+                "name": "Thunder Pot", 
+                "type": "unit"
+            }, 
+            {
+                "id": "40132", 
+                "name": "Thunder Idol", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Symphonia", 
+        "rarity": 5
+    }, 
     "50011": {
         "amount": 50000, 
         "evo": {
@@ -17082,6 +17304,117 @@
         ], 
         "name": "Honorable Knight Krantz", 
         "rarity": 6
+    }, 
+    "50764": {
+        "amount": 500000, 
+        "evo": {
+            "id": 50765, 
+            "name": "Celestial Knight Nadore", 
+            "rarity": 6
+        }, 
+        "mats": [
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50123", 
+                "name": "Light Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50123", 
+                "name": "Light Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50191", 
+                "name": "Light Pot", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Heavenly Lance Nadore", 
+        "rarity": 5
+    }, 
+    "50765": {
+        "amount": 1500000, 
+        "evo": {
+            "id": 50766, 
+            "name": "Angelic Champion Nadore", 
+            "rarity": 7
+        }, 
+        "mats": [
+            {
+                "id": "50394", 
+                "name": "Light Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50123", 
+                "name": "Light Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Celestial Knight Nadore", 
+        "rarity": 6
+    }, 
+    "50774": {
+        "amount": 500000, 
+        "evo": {
+            "id": 50775, 
+            "name": "Captain Yuuri", 
+            "rarity": 6
+        }, 
+        "mats": [
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50123", 
+                "name": "Light Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50191", 
+                "name": "Light Pot", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50122", 
+                "name": "Light Idol", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Yuuri", 
+        "rarity": 5
     }, 
     "60011": {
         "amount": 50000, 
@@ -20454,6 +20787,117 @@
         "name": "Shadow Serpent Kafka", 
         "rarity": 6
     }, 
+    "60774": {
+        "amount": 500000, 
+        "evo": {
+            "id": 60775, 
+            "name": "Spirit Master Charis", 
+            "rarity": 6
+        }, 
+        "mats": [
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60123", 
+                "name": "Dark Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60123", 
+                "name": "Dark Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60201", 
+                "name": "Dark Pot", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Shadow Collector Charis", 
+        "rarity": 5
+    }, 
+    "60775": {
+        "amount": 1500000, 
+        "evo": {
+            "id": 60776, 
+            "name": "Soul Covenant Charis", 
+            "rarity": 7
+        }, 
+        "mats": [
+            {
+                "id": "60344", 
+                "name": "Dark Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60123", 
+                "name": "Dark Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Spirit Master Charis", 
+        "rarity": 6
+    }, 
+    "60794": {
+        "amount": 500000, 
+        "evo": {
+            "id": 60795, 
+            "name": "Chronographia Phoena", 
+            "rarity": 6
+        }, 
+        "mats": [
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60123", 
+                "name": "Dark Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60201", 
+                "name": "Dark Pot", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60122", 
+                "name": "Dark Idol", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Phoena", 
+        "rarity": 5
+    }, 
     "810003": {
         "amount": 100000, 
         "evo": {
@@ -20933,6 +21377,43 @@
             }
         ], 
         "name": "Cantata Meiko", 
+        "rarity": 5
+    }, 
+    "810265": {
+        "amount": 200000, 
+        "evo": {
+            "id": 810266, 
+            "name": "Universal Mage Aludra", 
+            "rarity": 6
+        }, 
+        "mats": [
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "10133", 
+                "name": "Fire Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "10191", 
+                "name": "Fire Pot", 
+                "type": "unit"
+            }, 
+            {
+                "id": "10132", 
+                "name": "Fire Idol", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Aludra", 
         "rarity": 5
     }, 
     "810525": {
@@ -22895,6 +23376,80 @@
         ], 
         "name": "Gemini Kagamine Len", 
         "rarity": 5
+    }, 
+    "850265": {
+        "amount": 200000, 
+        "evo": {
+            "id": 850266, 
+            "name": "Silver Wolf Barienna", 
+            "rarity": 6
+        }, 
+        "mats": [
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50123", 
+                "name": "Light Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50191", 
+                "name": "Light Pot", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50122", 
+                "name": "Light Idol", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Barienna", 
+        "rarity": 5
+    }, 
+    "850346": {
+        "amount": 500000, 
+        "evo": {
+            "id": 850347, 
+            "name": "Mad Heretic Gazia", 
+            "rarity": 7
+        }, 
+        "mats": [
+            {
+                "id": "50394", 
+                "name": "Light Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50123", 
+                "name": "Light Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50123", 
+                "name": "Light Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "110100", 
+                "name": "Legend Stone", 
+                "type": "item"
+            }
+        ], 
+        "name": "Gazia", 
+        "rarity": 6
     }, 
     "860003": {
         "amount": 100000, 

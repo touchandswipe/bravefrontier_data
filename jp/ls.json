@@ -212,6 +212,18 @@
         ], 
         "name": "炎業神の力"
     }, 
+    "10200": {
+        "desc": "クリティカル時、ＢＢケージを少し上昇", 
+        "effects": [
+            {
+                "bc fill on crit max": 3, 
+                "bc fill on crit min": 2, 
+                "bc fill on crit%": 100.0, 
+                "passive id": "65"
+            }
+        ], 
+        "name": "闘輝神の刃"
+    }, 
     "103": {
         "desc": "炎属性ユニットの攻撃力が５０％アップ＆ターン経過でＢＢゲージが増加", 
         "effects": [
@@ -229,6 +241,18 @@
         ], 
         "name": "炎煌神の力"
     }, 
+    "10300": {
+        "desc": "攻撃時、確率でＨＰを少し吸収する", 
+        "effects": [
+            {
+                "hp drain chance%": 40, 
+                "hp drain% high": 8, 
+                "hp drain% low": 3, 
+                "passive id": "17"
+            }
+        ], 
+        "name": "狩王の吸魂"
+    }, 
     "104": {
         "desc": "炎属性ユニットの攻撃力が５０％アップ＆防御力と回復力が１０％アップ", 
         "effects": [
@@ -244,6 +268,17 @@
         ], 
         "name": "炎伐神の力"
     }, 
+    "10400": {
+        "desc": "ゼル・カルマ出現率を少しアップ", 
+        "effects": [
+            {
+                "karma drop rate% buff": 10, 
+                "passive id": "19", 
+                "zel drop rate% buff": 10
+            }
+        ], 
+        "name": "盗賊の巧術"
+    }, 
     "105": {
         "desc": "炎属性ユニットの攻撃力が６５％アップ", 
         "effects": [
@@ -256,6 +291,18 @@
             }
         ], 
         "name": "炎統神の力"
+    }, 
+    "10500": {
+        "desc": "ターン経過でＨＰを少し回復", 
+        "effects": [
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 600, 
+                "turn heal low": 400
+            }
+        ], 
+        "name": "天界の恵み"
     }, 
     "106": {
         "desc": "炎属性ユニットの攻撃力１００％アップ、ＨＰ３０％アップ", 
@@ -3599,6 +3646,27 @@
         ], 
         "name": "刹那の天陣"
     }, 
+    "2508": {
+        "desc": "戦闘開始から２ターン、攻撃力と防御力を１２０％アップ＆確率でダメージを軽減し、ＢＢの発動に必要なＢＢゲージを軽減する", 
+        "effects": [
+            {
+                "first x turns": 2, 
+                "first x turns atk% (1)": 120, 
+                "first x turns def% (3)": 120, 
+                "passive id": "21"
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 25
+            }, 
+            {
+                "dmg reduction chance%": 10, 
+                "dmg reduction%": 25, 
+                "passive id": "14"
+            }
+        ], 
+        "name": "刹那の天龍陣"
+    }, 
     "2600": {
         "desc": "通常攻撃時、確率でＢＢゲージがかなり増加", 
         "effects": [
@@ -3724,7 +3792,7 @@
         "name": "虚壊神の凄震"
     }, 
     "2900": {
-        "desc": "被ダメージ時ＢＢゲージ増加＆超低確率で被ダメージを１にする", 
+        "desc": "被ダメージ時、ＢＢゲージ増加＆超低確率で被ダメージを１にする", 
         "effects": [
             {
                 "bc fill when attacked high": 1, 
@@ -3740,7 +3808,7 @@
         "name": "聖姫の守護"
     }, 
     "2901": {
-        "desc": "被ダメージ時ＢＢゲージ増加＆低確率で被ダメージを１にする", 
+        "desc": "被ダメージ時、ＢＢゲージ増加＆低確率で被ダメージを１にする", 
         "effects": [
             {
                 "bc fill when attacked high": 2, 
@@ -3756,7 +3824,7 @@
         "name": "聖姫神の守護"
     }, 
     "2902": {
-        "desc": "被ダメージ時ＢＢゲージが大幅増加＆確率で被ダメージを１にする", 
+        "desc": "被ダメージ時、ＢＢゲージが大幅増加＆確率で被ダメージを１にする", 
         "effects": [
             {
                 "bc fill when attacked high": 5, 
@@ -3770,6 +3838,26 @@
             }
         ], 
         "name": "聖統姫神の守護"
+    }, 
+    "2903": {
+        "desc": "全てのユニットの最大ＨＰを４０％アップ＆被ダメージ時、ＢＢゲージが大幅増加＆確率で被ダメージを１にする", 
+        "effects": [
+            {
+                "bc fill when attacked high": 5, 
+                "bc fill when attacked low": 3, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "passive id": "43", 
+                "take 1 dmg%": 15
+            }, 
+            {
+                "hp% buff": 40, 
+                "passive id": "1"
+            }
+        ], 
+        "name": "聖統姫神の守界域"
     }, 
     "3": {
         "desc": "リーダースキル１説明", 
@@ -6174,6 +6262,58 @@
             }
         ], 
         "name": "オールチャーミング"
+    }, 
+    "5802": {
+        "desc": "スパーク時、ＢＢゲージが増加しＨＰが回復＆スパークが一定回数を超える度に、次ターン攻撃ＢＢの威力をアップする", 
+        "effects": [
+            {
+                "bc fill on spark high": 3, 
+                "bc fill on spark low": 2, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }, 
+            {
+                "unknown passive id": "101", 
+                "unknown passive params": "100,400,100"
+            }, 
+            {
+                "buff": {
+                    "bb atk% buff": 100, 
+                    "buff turns (72)": "2", 
+                    "sbb atk% buff": 100, 
+                    "ubb atk% buff": 100
+                }, 
+                "passive id": "86", 
+                "spark count buff activation": 20
+            }
+        ], 
+        "name": "ホワイト・ノーツ"
+    }, 
+    "5803": {
+        "desc": "スパーク時、与えるダメージがかなりアップし、ＢＢゲージが増加＆スパークが一定回数を超える度に、次ターン攻撃ＢＢの威力をアップする", 
+        "effects": [
+            {
+                "bc fill on spark high": 3, 
+                "bc fill on spark low": 2, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }, 
+            {
+                "buff": {
+                    "bb atk% buff": 100, 
+                    "buff turns (72)": "2", 
+                    "sbb atk% buff": 100, 
+                    "ubb atk% buff": 100
+                }, 
+                "passive id": "86", 
+                "spark count buff activation": 20
+            }
+        ], 
+        "name": "ブラック・ノーツ"
     }, 
     "5900": {
         "desc": "パーティのユニットが６属性以上で攻撃力・防御力・回復力・最大ＨＰが２０％アップ", 

@@ -30,6 +30,7 @@
         "land": "Mistral", 
         "mimic_info": {}, 
         "name": "Start of Adventure", 
+        "requires": "2", 
         "xp": 20, 
         "zel": 300
     }, 
@@ -1454,6 +1455,77 @@
         "requires": "10001", 
         "xp": 3650, 
         "zel": 4200
+    }, 
+    "1000210": {
+        "area": "Frontier Hunter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_1000210_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "1000210", 
+        "energy_use": 0, 
+        "id": "1000210", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_1000210_NAME", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000211": {
+        "area": "Frontier Hunter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_1000211_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "1000210", 
+        "energy_use": 0, 
+        "id": "1000211", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_1000211_NAME", 
+        "requires": "1000210", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000212": {
+        "area": "Frontier Hunter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_1000212_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "1000210", 
+        "energy_use": 0, 
+        "id": "1000212", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_1000212_NAME", 
+        "requires": "1000211", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000213": {
+        "area": "Frontier Hunter", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_1000213_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "1000210", 
+        "energy_use": 0, 
+        "id": "1000213", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_1000213_NAME", 
+        "requires": "1000212", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "10003": {
         "area": "Celgrad", 
@@ -3309,6 +3381,61 @@
         "mimic_info": {}, 
         "name": "Mega Jewel Parade", 
         "xp": 5000, 
+        "zel": 0
+    }, 
+    "100660": {
+        "area": "100650", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_100660_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "100660", 
+        "energy_use": 25, 
+        "id": "100660", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_100660_NAME", 
+        "xp": 5200, 
+        "zel": 0
+    }, 
+    "100661": {
+        "area": "100650", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_100661_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "100660", 
+        "energy_use": 40, 
+        "id": "100661", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_100661_NAME", 
+        "xp": 8800, 
+        "zel": 0
+    }, 
+    "100662": {
+        "area": "100650", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_100662_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "100660", 
+        "energy_use": 60, 
+        "id": "100662", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_100662_NAME", 
+        "xp": 15400, 
         "zel": 0
     }, 
     "10070": {
@@ -7378,6 +7505,116 @@
         "xp": 4800, 
         "zel": 6000
     }, 
+    "105800": {
+        "area": "Soul Island Forest", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "As you become lost in a strange forest, eerie silence surrounds you. The moment you hear a noise in the bushes, a girl jumps straight at you.", 
+        "difficulty": 1, 
+        "dungeon": "104100", 
+        "energy_use": 10, 
+        "id": "105800", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Sea Breeze Tribe Lv. 1", 
+        "xp": 700, 
+        "zel": 0
+    }, 
+    "105801": {
+        "area": "Soul Island Forest", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The girl resembles a wildcat and her movements are incredibly fast. The minute she sees an opening, she may just trick you by sneaking in from behind.", 
+        "difficulty": 1, 
+        "dungeon": "104100", 
+        "energy_use": 20, 
+        "id": "105801", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Sea Breeze Tribe Lv. 2", 
+        "xp": 1700, 
+        "zel": 0
+    }, 
+    "105802": {
+        "area": "Soul Island Forest", 
+        "battle_count": 7, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "She is half-human, half Sea Breeze Tribe. The reason why her pranks don't stop even in the heat of battle, is because she's found beloved friends.", 
+        "difficulty": 1, 
+        "dungeon": "104100", 
+        "energy_use": 30, 
+        "id": "105802", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Sea Breeze Tribe Lv. 3", 
+        "xp": 3500, 
+        "zel": 0
+    }, 
+    "105900": {
+        "area": "Holy Knight's Castle", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "As you come across a beautiful castle, an intimidating air overcomes you. Before you awaits the warrioress dubbed the \"Holy Knight of Glamour.\"", 
+        "difficulty": 1, 
+        "dungeon": "104200", 
+        "energy_use": 10, 
+        "id": "105900", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Holy Knight of Glamour Lv. 1", 
+        "xp": 700, 
+        "zel": 0
+    }, 
+    "105901": {
+        "area": "Holy Knight's Castle", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The gallant and dazzling knight seems to grow even brighter with each battle. Her mere presence encourages her men, who also come after you.", 
+        "difficulty": 1, 
+        "dungeon": "104200", 
+        "energy_use": 20, 
+        "id": "105901", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Holy Knight of Glamour Lv. 2", 
+        "xp": 1700, 
+        "zel": 0
+    }, 
+    "105902": {
+        "area": "Holy Knight's Castle", 
+        "battle_count": 7, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The knight smiles without a hint of hesitation. Proud of her soldiers, who gave their all in battle, she attacks one last time seeking victory.", 
+        "difficulty": 1, 
+        "dungeon": "104200", 
+        "energy_use": 30, 
+        "id": "105902", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Holy Knight of Glamour Lv. 3", 
+        "xp": 3500, 
+        "zel": 0
+    }, 
     "1060": {
         "area": "Mirvana", 
         "battle_count": 10, 
@@ -7592,6 +7829,91 @@
         "xp": 3800, 
         "zel": 3500
     }, 
+    "110050": {
+        "area": "110000", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_110050_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "110000", 
+        "energy_use": 15, 
+        "id": "110050", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_110050_NAME", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110060": {
+        "area": "110001", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_110060_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "110001", 
+        "energy_use": 15, 
+        "id": "110060", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_110060_NAME", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110070": {
+        "area": "110002", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_110070_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "110002", 
+        "energy_use": 15, 
+        "id": "110070", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_110070_NAME", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110080": {
+        "area": "110003", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_110080_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "110003", 
+        "energy_use": 15, 
+        "id": "110080", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_110080_NAME", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110090": {
+        "area": "110004", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_110090_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "110004", 
+        "energy_use": 15, 
+        "id": "110090", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_110090_NAME", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
     "1101": {
         "area": "Lanara", 
         "battle_count": 9, 
@@ -7615,6 +7937,125 @@
         "requires": "1100", 
         "xp": 3950, 
         "zel": 3800
+    }, 
+    "110100": {
+        "area": "110005", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_110100_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "110005", 
+        "energy_use": 15, 
+        "id": "110100", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_110100_NAME", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110110": {
+        "area": "110006", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_110110_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "110006", 
+        "energy_use": 15, 
+        "id": "110110", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_110110_NAME", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110120": {
+        "area": "110007", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_110120_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "110007", 
+        "energy_use": 15, 
+        "id": "110120", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_110120_NAME", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110130": {
+        "area": "110008", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_110130_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "110008", 
+        "energy_use": 15, 
+        "id": "110130", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_110130_NAME", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110140": {
+        "area": "110009", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_110140_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "110009", 
+        "energy_use": 15, 
+        "id": "110140", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_110140_NAME", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110150": {
+        "area": "110010", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_110150_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "110010", 
+        "energy_use": 15, 
+        "id": "110150", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_110150_NAME", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110160": {
+        "area": "110011", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_110160_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "110011", 
+        "energy_use": 15, 
+        "id": "110160", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_110160_NAME", 
+        "xp": 1000, 
+        "zel": 0
     }, 
     "1102": {
         "area": "Lanara", 
@@ -12843,6 +13284,181 @@
         "mimic_info": {}, 
         "name": "Sliver of Pride", 
         "requires": "150505", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
+    "150601": {
+        "area": "Grand Gaia Chronicles", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "zel": "500000"
+            }, 
+            {
+                "karma": "100000"
+            }, 
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_150601_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "150006", 
+        "energy_use": 30, 
+        "id": "150601", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_150601_NAME", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
+    "150602": {
+        "area": "Grand Gaia Chronicles", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "zel": "1000000"
+            }, 
+            {
+                "karma": "200000"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "47205"
+                }
+            }, 
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": false, 
+        "desc": "MST_DUNGEONS_MISSION_150602_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "150006", 
+        "energy_use": 50, 
+        "id": "150602", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_150602_NAME", 
+        "requires": "150601", 
+        "xp": 10000, 
+        "zel": 0
+    }, 
+    "150700": {
+        "area": "Grand Gaia Chronicles", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "zel": "500000"
+            }, 
+            {
+                "karma": "100000"
+            }
+        ], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_150700_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "150007", 
+        "energy_use": 30, 
+        "id": "150700", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_150700_NAME", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
+    "150701": {
+        "area": "Grand Gaia Chronicles", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "zel": "500000"
+            }, 
+            {
+                "karma": "100000"
+            }, 
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_150701_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "150007", 
+        "energy_use": 30, 
+        "id": "150701", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_150701_NAME", 
+        "requires": "150700", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
+    "150702": {
+        "area": "Grand Gaia Chronicles", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "zel": "1000000"
+            }, 
+            {
+                "karma": "200000"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "47206"
+                }
+            }, 
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": false, 
+        "desc": "MST_DUNGEONS_MISSION_150702_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "150007", 
+        "energy_use": 50, 
+        "id": "150702", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_150702_NAME", 
+        "requires": "150701", 
+        "xp": 10000, 
+        "zel": 0
+    }, 
+    "150703": {
+        "area": "Grand Gaia Chronicles", 
+        "battle_count": 2, 
+        "clear_bonus": [
+            {
+                "zel": "500000"
+            }, 
+            {
+                "karma": "100000"
+            }, 
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "MST_DUNGEONS_MISSION_150703_DESCRIPTION", 
+        "difficulty": 1, 
+        "dungeon": "150007", 
+        "energy_use": 30, 
+        "id": "150703", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "MST_DUNGEONS_MISSION_150703_NAME", 
+        "requires": "150702", 
         "xp": 5000, 
         "zel": 0
     }, 
@@ -18497,7 +19113,7 @@
         "battle_count": 6, 
         "clear_bonus": [], 
         "continue": false, 
-        "desc": "The relics of Athensphere have yielded interesting results. Noel\u2019s thirst for knowledge has the summoner searching for a particular figure in the memory gear\u2026", 
+        "desc": "I\u2019ve finally done it!! My research has led me to this man of great importance. There is much I would like to ask him but first, would you like a challenge?", 
         "difficulty": 1, 
         "dungeon": "The Tinkerer\u2019s Deceit", 
         "energy_use": 20, 
@@ -18792,6 +19408,24 @@
         "requires": "514", 
         "xp": 2040, 
         "zel": 1200
+    }, 
+    "5200000": {
+        "area": "GQ Chain Chronicle", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "Under Lucius's orders, Tilith, Karl, and Seria travel to another world to defeat a demon, but they're somehow unable to return. Grahdens believes this is connected to the demon which appeared right after they had crossed over, so he sends the Summoner, Lugina, and Paris after it. However, they unexpectedly run into three otherworldly beings on the way...", 
+        "difficulty": 1, 
+        "dungeon": "5200000", 
+        "energy_use": 15, 
+        "id": "5200000", 
+        "karma": 3000, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Otherworldly Visitors", 
+        "requires": "2", 
+        "xp": 3000, 
+        "zel": 10000
     }, 
     "521": {
         "area": "Encervis", 
@@ -24292,6 +24926,28 @@
         "xp": 60000, 
         "zel": 3000000
     }, 
+    "8360051": {
+        "area": "Trial Test", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "I\u2019ve finally done it!! My research has led me to this man of great importance. There is much I would like to ask him but first, would you like a challenge?", 
+        "difficulty": 1, 
+        "dungeon": "Trial No. 004", 
+        "energy_use": 50, 
+        "id": "8360051", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Trial No. X4", 
+        "requires": "2000000,5008001,8360041", 
+        "xp": 90000, 
+        "zel": 3000000
+    }, 
     "8360061": {
         "area": "Soul Bound Saga", 
         "battle_count": 7, 
@@ -24830,6 +25486,79 @@
         "requires": "834", 
         "xp": 3600, 
         "zel": 3300
+    }, 
+    "8400000": {
+        "area": "Magic Renaissance", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "As you investigate a magical laboratory, you feel a burning gaze on you. Behind you appears a mysterious figure out of thin air.", 
+        "difficulty": 1, 
+        "dungeon": "840000", 
+        "energy_use": 10, 
+        "id": "8400000", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Magic Research Lv. 1", 
+        "xp": 700, 
+        "zel": 0
+    }, 
+    "8400001": {
+        "area": "Magic Renaissance", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The experienced and beautiful lady of the mage's guild is both dominant and seasoned. She attacks you as if teasing you, testing your capabilities.", 
+        "difficulty": 2, 
+        "dungeon": "840000", 
+        "energy_use": 20, 
+        "id": "8400001", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Magic Research Lv. 2", 
+        "xp": 1700, 
+        "zel": 0
+    }, 
+    "8400002": {
+        "area": "Magic Renaissance", 
+        "battle_count": 7, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The mage laughs of someone who holds many secrets. Knowing there are more yet to be found, she prepares a unique spell for this special occasion.", 
+        "difficulty": 3, 
+        "dungeon": "840000", 
+        "energy_use": 30, 
+        "id": "8400002", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Magic Research Lv. 3", 
+        "xp": 3500, 
+        "zel": 0
     }, 
     "841": {
         "area": "Ryvern", 

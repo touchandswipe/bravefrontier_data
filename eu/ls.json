@@ -416,6 +416,16 @@
         ], 
         "name": "Pulsating Ascension"
     }, 
+    "1203": {
+        "desc": "BB gauge fills massively after each turn", 
+        "effects": [
+            {
+                "bc fill per turn": 5, 
+                "passive id": "9"
+            }
+        ], 
+        "name": "Pulsating Guidance"
+    }, 
     "121": {
         "desc": "50% boost to Atk Power of Earth Types", 
         "effects": [
@@ -645,6 +655,34 @@
         ], 
         "name": "Raging Might"
     }, 
+    "1313": {
+        "desc": "Huge boost to damage produced during Spark & slight boost to critical hit damage", 
+        "effects": [
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }, 
+            {
+                "crit multiplier%": 50.0, 
+                "passive id": "34"
+            }
+        ], 
+        "name": "Intense Edge"
+    }, 
+    "1314": {
+        "desc": "Huge boost to damage produced during Spark & adds chance of ignoring an opponent's Def when attacking", 
+        "effects": [
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }, 
+            {
+                "ignore def%": 15, 
+                "passive id": "29"
+            }
+        ], 
+        "name": "Ruin God's Epidemic"
+    }, 
     "132": {
         "desc": "50% boost to Atk power and 10% increase in HP of Thunder types", 
         "effects": [
@@ -769,6 +807,50 @@
             }
         ], 
         "name": "Light God's Power"
+    }, 
+    "1410": {
+        "desc": "Small reduction in BB gauge required for BB & large boost to drop rate of BC produced during Spark", 
+        "effects": [
+            {
+                "bc drop% for spark": 70, 
+                "passive id": "31"
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 15
+            }
+        ], 
+        "name": "Combat Magic"
+    }, 
+    "1411": {
+        "desc": "Small reduction in BB gauge amount consumed during BB & large boost to drop rate of BC produced during Spark", 
+        "effects": [
+            {
+                "bc drop% for spark": 70, 
+                "passive id": "31"
+            }, 
+            {
+                "passive id": "49", 
+                "reduced bb bc use chance%": 100, 
+                "reduced bb bc use% high": 20, 
+                "reduced bb bc use% low": 15
+            }
+        ], 
+        "name": "Combat Ambition"
+    }, 
+    "1412": {
+        "desc": "Small boost in the BB gauge fill rate & large boost to drop rate of BC produced during Spark", 
+        "effects": [
+            {
+                "bc drop% for spark": 70, 
+                "passive id": "31"
+            }, 
+            {
+                "bb gauge fill rate%": 20, 
+                "passive id": "32"
+            }
+        ], 
+        "name": "Combat Wave"
     }, 
     "142": {
         "desc": "50% boost to Atk power and 10% increase in HP of Light types", 
@@ -907,6 +989,17 @@
             }
         ], 
         "name": "Crusade Strobe"
+    }, 
+    "1511": {
+        "desc": "Great boost to BC and HC drop rate produced during Spark", 
+        "effects": [
+            {
+                "bc drop% for spark": 70, 
+                "hc drop% for spark": 35, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "Crusade Aether"
     }, 
     "152": {
         "desc": "50% boost to Atk power and 10% increase in HP of Dark types", 
@@ -1174,6 +1267,36 @@
             }
         ], 
         "name": "Ancient Authority"
+    }, 
+    "1906": {
+        "desc": "30% Atk boost for all Units & recovers HP each turn", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 600, 
+                "turn heal low": 400
+            }
+        ], 
+        "name": "War God's Revelation"
+    }, 
+    "1907": {
+        "desc": "30% Atk boost for all Units & huge boost to BC drop rate", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "bc drop rate% buff": 20, 
+                "passive id": "19"
+            }
+        ], 
+        "name": "War God's Flames"
     }, 
     "2": {
         "desc": "Leader Skill 1 Description", 
@@ -1487,6 +1610,27 @@
         ], 
         "name": "Eternal Blessing"
     }, 
+    "2108": {
+        "desc": "Nullifies all status ailments & probable HP recovery when attacked", 
+        "effects": [
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }
+        ], 
+        "name": "Eternal Awakening"
+    }, 
     "211": {
         "desc": "50% boost to Def Power of Dark Types", 
         "effects": [
@@ -1499,6 +1643,30 @@
             }
         ], 
         "name": "Dark God's Protection"
+    }, 
+    "2120": {
+        "desc": "Nullifies all status ailments and critical hits from enemies & adds very small chance of reducing damage taken to 1", 
+        "effects": [
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "base crit% resist": 100, 
+                "buff crit% resist": 100, 
+                "passive id": "45"
+            }, 
+            {
+                "passive id": "43", 
+                "take 1 dmg%": 5
+            }
+        ], 
+        "name": "Eternal Hymn"
     }, 
     "2200": {
         "desc": "25% boost to Atk power of all Units when 5 elements or more are present", 
@@ -1829,6 +1997,17 @@
             }
         ], 
         "name": "Instant Herculean Power"
+    }, 
+    "2506": {
+        "desc": "100% boost to Atk power for first 2 turns", 
+        "effects": [
+            {
+                "first x turns": 2, 
+                "first x turns atk% (1)": 100, 
+                "passive id": "21"
+            }
+        ], 
+        "name": "Instant Divine Power"
     }, 
     "2600": {
         "desc": "Chance of BB gauge filling when attacking", 
@@ -2257,6 +2436,24 @@
         ], 
         "name": "Burning Light's Spirit"
     }, 
+    "3102": {
+        "desc": "65% boost to Atk power of Fire and Light types & large boost in effectiveness of HC", 
+        "effects": [
+            {
+                "atk% buff": 65, 
+                "elements buffed": [
+                    "fire", 
+                    "light"
+                ], 
+                "passive id": "2"
+            }, 
+            {
+                "hc effectiveness%": 50, 
+                "passive id": "10"
+            }
+        ], 
+        "name": "Burning Light's Assault"
+    }, 
     "311": {
         "desc": "50% boost to Recovery of Dark Types", 
         "effects": [
@@ -2298,6 +2495,24 @@
         ], 
         "name": "Cold Darkness' Spirit"
     }, 
+    "3202": {
+        "desc": "65% boost to Atk power of Water and Dark types & boosts damage produced during Spark", 
+        "effects": [
+            {
+                "atk% buff": 65, 
+                "elements buffed": [
+                    "water", 
+                    "dark"
+                ], 
+                "passive id": "2"
+            }, 
+            {
+                "damage% for spark": 30, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "Cold Darkness's Assault"
+    }, 
     "3300": {
         "desc": "25% boost to Atk power of Earth and Dark types", 
         "effects": [
@@ -2326,6 +2541,28 @@
         ], 
         "name": "Lush Darkness' Spirit"
     }, 
+    "3302": {
+        "desc": "65% boost to Atk power of Earth and Dark types & boosts effectiveness and drop rate of HC", 
+        "effects": [
+            {
+                "atk% buff": 65, 
+                "elements buffed": [
+                    "earth", 
+                    "dark"
+                ], 
+                "passive id": "2"
+            }, 
+            {
+                "hc drop rate% buff": 15, 
+                "passive id": "19"
+            }, 
+            {
+                "hc effectiveness%": 25, 
+                "passive id": "10"
+            }
+        ], 
+        "name": "Lush Darkness's Assault"
+    }, 
     "3400": {
         "desc": "25% boost to Atk power of Thunder and Light types", 
         "effects": [
@@ -2353,6 +2590,26 @@
             }
         ], 
         "name": "Bursting Light's Spirit"
+    }, 
+    "3402": {
+        "desc": "65% boost to Atk power of Thunder and Light types & recovers HP each turn", 
+        "effects": [
+            {
+                "atk% buff": 65, 
+                "elements buffed": [
+                    "thunder", 
+                    "light"
+                ], 
+                "passive id": "2"
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 600, 
+                "turn heal low": 400
+            }
+        ], 
+        "name": "Bursting Light's Assault"
     }, 
     "3500": {
         "desc": "15% boost to Atk power of Light, Fire, and Thunder types", 
@@ -2396,6 +2653,32 @@
         ], 
         "name": "Holy Light's Spirit"
     }, 
+    "3502": {
+        "desc": "65% boost to Atk power of Light, Fire, and Thunder types & adds chance of reducing damage taken", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "elements buffed": [
+                    "light", 
+                    "fire"
+                ], 
+                "passive id": "2"
+            }, 
+            {
+                "atk% buff": 50, 
+                "elements buffed": [
+                    "thunder"
+                ], 
+                "passive id": "2"
+            }, 
+            {
+                "dmg reduction chance%": 10, 
+                "dmg reduction%": 25, 
+                "passive id": "14"
+            }
+        ], 
+        "name": "Holy Light's Assault"
+    }, 
     "3600": {
         "desc": "15% boost to Atk power of Dark, Water, and Earth types", 
         "effects": [
@@ -2437,6 +2720,31 @@
             }
         ], 
         "name": "Black Hole's Spirit"
+    }, 
+    "3602": {
+        "desc": "65% boost to Atk power of Dark, Water, and Earth types & BB gauge greatly fills after each turn", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "elements buffed": [
+                    "dark", 
+                    "water"
+                ], 
+                "passive id": "2"
+            }, 
+            {
+                "atk% buff": 50, 
+                "elements buffed": [
+                    "earth"
+                ], 
+                "passive id": "2"
+            }, 
+            {
+                "bc fill per turn": 2, 
+                "passive id": "9"
+            }
+        ], 
+        "name": "Black Hole's Assault"
     }, 
     "3700": {
         "desc": "25% boost to Atk power of all types", 
@@ -2873,6 +3181,21 @@
         ], 
         "name": "War God's Magic"
     }, 
+    "4912": {
+        "desc": "Reduction in BB gauge required to activate BB & adds chance of small reduction in damage taken", 
+        "effects": [
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 20
+            }, 
+            {
+                "dmg reduction chance%": 10, 
+                "dmg reduction%": 20, 
+                "passive id": "14"
+            }
+        ], 
+        "name": "Magical Sanctuary"
+    }, 
     "5": {
         "desc": "Leader Skill 1 Description", 
         "effects": [
@@ -3256,6 +3579,100 @@
         ], 
         "name": "Authority of the Dark God"
     }, 
+    "524": {
+        "desc": "15% reduction in damage from Fire types & 20% boost to Atk and max HP for all Units", 
+        "effects": [
+            {
+                "fire resist%": 15, 
+                "passive id": "5"
+            }, 
+            {
+                "atk% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1"
+            }
+        ], 
+        "name": "Fire God Barrier"
+    }, 
+    "525": {
+        "desc": "15% reduction in damage from Water types & 20% boost to Def and max HP for all Units", 
+        "effects": [
+            {
+                "passive id": "5", 
+                "water resist%": 15
+            }, 
+            {
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1"
+            }
+        ], 
+        "name": "Water God Barrier"
+    }, 
+    "526": {
+        "desc": "15% reduction in damage from Earth types & probable boost of BB gauge and or HP recovery when attacked", 
+        "effects": [
+            {
+                "earth resist%": 15, 
+                "passive id": "5"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }, 
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 40, 
+                "passive id": "25"
+            }
+        ], 
+        "name": "Earth God Barrier"
+    }, 
+    "527": {
+        "desc": "15% reduction in damage from Thunder types & great boost in BB gauge produced during Spark", 
+        "effects": [
+            {
+                "passive id": "5", 
+                "thunder resist%": 15
+            }, 
+            {
+                "damage% for spark": 75, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "Thunder God Barrier"
+    }, 
+    "528": {
+        "desc": "15% reduction in damage from Light types & BB gauge fills hugely after each turn", 
+        "effects": [
+            {
+                "light resist%": 15, 
+                "passive id": "5"
+            }, 
+            {
+                "bc fill per turn": 3, 
+                "passive id": "9"
+            }
+        ], 
+        "name": "Light God Barrier"
+    }, 
+    "529": {
+        "desc": "15% reduction in damage from Dark types & 25% boost to Atk for all Units", 
+        "effects": [
+            {
+                "dark resist%": 15, 
+                "passive id": "5"
+            }, 
+            {
+                "atk% buff": 25, 
+                "passive id": "1"
+            }
+        ], 
+        "name": "Dark God Barrier"
+    }, 
     "5300": {
         "desc": "Large boost in critical hit damage & large boost in damage dealt to weak elements", 
         "effects": [
@@ -3524,6 +3941,20 @@
         ], 
         "name": "Authority of the Six Gods"
     }, 
+    "5902": {
+        "desc": "30% boost to Atk, Def, Rec and max HP of all Units when 6 elements are present", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "41", 
+                "rec% buff": 30, 
+                "unique elements required": 6
+            }
+        ], 
+        "name": "Supremacy of the Six Gods"
+    }, 
     "6": {
         "desc": "Leader Skill 1 Description", 
         "effects": [
@@ -3571,6 +4002,17 @@
         ], 
         "name": "Power of the Six Gods"
     }, 
+    "6002": {
+        "desc": "100% boost to Atk power of all Units when 6 elements are present", 
+        "effects": [
+            {
+                "atk% buff": 100, 
+                "passive id": "41", 
+                "unique elements required": 6
+            }
+        ], 
+        "name": "Might of the Six Gods"
+    }, 
     "601": {
         "desc": "20% reduction in damage Taken", 
         "effects": [
@@ -3616,6 +4058,24 @@
             }
         ], 
         "name": "Phantom God Awakening"
+    }, 
+    "6102": {
+        "desc": "Probable great boost in the BB gauge when attacked & probable HP recovery when attacked", 
+        "effects": [
+            {
+                "bc fill when attacked high": 6, 
+                "bc fill when attacked low": 4, 
+                "bc fill when attacked%": 50, 
+                "passive id": "25"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }
+        ], 
+        "name": "Phantom Ruler's Awakening"
     }, 
     "6300": {
         "desc": "Chance of BB gauge filling when attacking", 
@@ -4151,6 +4611,28 @@
         ], 
         "name": "Mantis Noblesse"
     }, 
+    "7400": {
+        "desc": "15% boost to Atk and max HP for all Units", 
+        "effects": [
+            {
+                "atk% buff": 15, 
+                "hp% buff": 15, 
+                "passive id": "1"
+            }
+        ], 
+        "name": "Monarch's Chakra"
+    }, 
+    "7401": {
+        "desc": "30% boost to Atk and max HP for all Units", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "name": "High Ruler's Chakra"
+    }, 
     "740115": {
         "desc": "35% boost to Atk Power of Female Units. Additional 30% when 5 elements or more are present", 
         "effects": [
@@ -4210,7 +4692,7 @@
         "name": "Crystal Clear 3.0"
     }, 
     "740143": {
-        "desc": "150% boost to crit damage & 5% boost to crit rate", 
+        "desc": "75% boost to crit damage & 5% boost to crit rate", 
         "effects": [
             {
                 "crit multiplier%": 75.0, 
@@ -4224,7 +4706,7 @@
         "name": "Shy Ram"
     }, 
     "740144": {
-        "desc": "150% boost to crit damage & 10% boost to crit rate", 
+        "desc": "75% boost to crit damage & 10% boost to crit rate", 
         "effects": [
             {
                 "crit multiplier%": 75.0, 
@@ -4251,6 +4733,33 @@
         ], 
         "name": "King of the Ram "
     }, 
+    "7402": {
+        "desc": "30% boost to Atk and max HP for all Units & adds chance of ignoring an opponent's Def when attacking", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "ignore def%": 15, 
+                "passive id": "29"
+            }
+        ], 
+        "name": "Destruction God's Chakra"
+    }, 
+    "7500": {
+        "desc": "Adds chance of slightly absorbing HP when attacking", 
+        "effects": [
+            {
+                "hp drain chance%": 50, 
+                "hp drain% high": 8, 
+                "hp drain% low": 3, 
+                "passive id": "17"
+            }
+        ], 
+        "name": "Chaos Possession"
+    }, 
     "750014": {
         "desc": "Huge boost to drop rates during battle, especially during Christmas season", 
         "effects": [
@@ -4262,6 +4771,18 @@
             }
         ], 
         "name": "Chimney Sweep"
+    }, 
+    "7501": {
+        "desc": "Adds chance of absorbing HP when attacking", 
+        "effects": [
+            {
+                "hp drain chance%": 50, 
+                "hp drain% high": 15, 
+                "hp drain% low": 5, 
+                "passive id": "17"
+            }
+        ], 
+        "name": "Chaos God's Possession"
     }, 
     "750115": {
         "desc": "35% boost to Atk Power of Female Units. Additional 30% when 5 elements or more are present", 
@@ -4355,6 +4876,42 @@
         ], 
         "name": "Ascendance of the Light Eagle"
     }, 
+    "7502": {
+        "desc": "Adds chance of absorbing HP when attacking & considerable boost in damage dealt to weak elements", 
+        "effects": [
+            {
+                "hp drain chance%": 50, 
+                "hp drain% high": 15, 
+                "hp drain% low": 5, 
+                "passive id": "17"
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 100.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }
+        ], 
+        "name": "Chaos God's Transgression"
+    }, 
+    "7600": {
+        "desc": "50% boost to Atk of Water & Light types", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "elements buffed": [
+                    "water", 
+                    "light"
+                ], 
+                "passive id": "2"
+            }
+        ], 
+        "name": "Imperial Power"
+    }, 
     "760013": {
         "desc": "Fills BB gauge after each turn (3 BC/Turn) & Boosts the BB gauge fill rate (25%)", 
         "effects": [
@@ -4396,6 +4953,22 @@
             }
         ], 
         "name": "Bogey's Golden Record"
+    }, 
+    "7601": {
+        "desc": "50% boost to Atk, Def, and Rec of Water & Light types", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "def% buff": 50, 
+                "elements buffed": [
+                    "water", 
+                    "light"
+                ], 
+                "passive id": "2", 
+                "rec% buff": 50
+            }
+        ], 
+        "name": "Imperial Authority"
     }, 
     "760115": {
         "desc": "35% boost to Atk Power of Female Units. Additional 30% when 5 elements or more are present", 
