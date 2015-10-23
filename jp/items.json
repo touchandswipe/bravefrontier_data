@@ -15260,6 +15260,39 @@
         "thumbnail": "sphere_thum_1_1.png", 
         "type": "sphere"
     }, 
+    "47207": {
+        "desc": "攻撃力・防御力・回復力を３０％アップ＆BC獲得時、BBゲージ上昇量が増加＆ＨＣの回復量がアップ＆ODゲージの上昇量がアップ", 
+        "effect": [
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }, 
+            {
+                "bb gauge fill rate%": 30, 
+                "passive id": "32"
+            }, 
+            {
+                "hc effectiveness%": 50, 
+                "passive id": "10"
+            }, 
+            {
+                "od fill rate%": 30, 
+                "passive id": "70"
+            }
+        ], 
+        "id": 47207, 
+        "max_stack": 1, 
+        "name": "叛神の罪過", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_1_1.png", 
+        "type": "sphere"
+    }, 
     "47300": {
         "desc": "最大HP、回復力１０％アップ＆クリティカル時のダメージが少しアップ", 
         "effect": [
@@ -15393,6 +15426,31 @@
         "sphere type": 2, 
         "sphere type text": "Critical", 
         "thumbnail": "sphere_thum_5_6.png", 
+        "type": "sphere"
+    }, 
+    "47502": {
+        "desc": "攻撃時、ＢＣ・ＨＣのドロップ率をかなりアップ＆攻撃力、防御力を１５％アップ", 
+        "effect": [
+            {
+                "bc drop rate% buff": 15, 
+                "hc drop rate% buff": 15, 
+                "passive id": "19"
+            }, 
+            {
+                "atk% buff": 15, 
+                "def% buff": 15, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 47502, 
+        "max_stack": 1, 
+        "name": "魔祓剣セレネー", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 10000, 
+        "sphere type": 3, 
+        "sphere type text": "Drop", 
+        "thumbnail": "sphere_thum_1_5.png", 
         "type": "sphere"
     }, 
     "47600": {
@@ -16599,7 +16657,7 @@
         "type": "sphere"
     }, 
     "48800": {
-        "desc": "通常攻撃時、スパーク時、クリティカル時にＢＢゲージが増加＆さらに攻撃力・防御力を２０％アップ", 
+        "desc": "残りＨＰが多いほど攻撃力がアップし、残りＨＰが少ないほど攻撃力がダウンする", 
         "effect": [
             {
                 "atk% base buff": -50, 
@@ -16610,7 +16668,7 @@
         ], 
         "id": 48800, 
         "max_stack": 1, 
-        "name": "透剣スティルメア", 
+        "name": "アルテマウェポン", 
         "raid": false, 
         "rarity": 3, 
         "sell_price": 30000, 
@@ -16718,6 +16776,75 @@
         "sphere type": 13, 
         "sphere type text": "Atk Boosting", 
         "thumbnail": "sphere_thum_3_1.png", 
+        "type": "sphere"
+    }, 
+    "49100": {
+        "desc": "ターン毎にＢＢゲージがかなり増加し、ＨＰがかなり回復＆被ダメージ時ＢＢゲージが少し増加し、確率でＨＰが回復する", 
+        "effect": [
+            {
+                "bc fill per turn": 4, 
+                "passive id": "9"
+            }, 
+            {
+                "bc fill when attacked high": 6, 
+                "bc fill when attacked low": 4, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 3000, 
+                "turn heal low": 2500
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 40, 
+                "dmg% to hp% when attacked low": 40, 
+                "passive id": "24"
+            }
+        ], 
+        "id": 49100, 
+        "max_stack": 1, 
+        "name": "神器ヴォール=メオン", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 30000, 
+        "sphere type": 6, 
+        "sphere type text": "BB Gauge", 
+        "thumbnail": "sphere_thum_5_5.png", 
+        "type": "sphere"
+    }, 
+    "49200": {
+        "desc": "攻撃力・最大ＨＰを３０％アップ＆スパーク時、ダメージを５０％増加＆クリティカル時のダメージがアップ＆ＢＢの発動に必要なＢＢゲージを軽減", 
+        "effect": [
+            {
+                "atk% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 15
+            }, 
+            {
+                "crit multiplier%": 50.0, 
+                "passive id": "34"
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 49200, 
+        "max_stack": 1, 
+        "name": "メイリスの刻珠", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_2_1.png", 
         "type": "sphere"
     }, 
     "50000": {
