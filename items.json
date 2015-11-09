@@ -14087,7 +14087,7 @@
         "type": "sphere"
     }, 
     "44703": {
-        "desc": "\u30b9\u30d1\u30fc\u30af\u6642\u306e\u30c0\u30e1\u30fc\u30b8\u3092\uff11\uff10\uff10\uff05\u5897\u52a0\u3057\u3001\u3055\u3089\u306b\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u30fb\u56de\u5fa9\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff11\uff15\uff05\u30a2\u30c3\u30d7\u3059\u308b", 
+        "desc": "100% boost to Spark damage & 15% boost to Atk, Def, Rec, max HP", 
         "effect": [
             {
                 "damage% for spark": 100, 
@@ -14103,7 +14103,7 @@
         ], 
         "id": 44703, 
         "max_stack": 1, 
-        "name": "MST_SPHERES_44703_NAME", 
+        "name": "Infidelity Orb", 
         "raid": false, 
         "rarity": 3, 
         "sell_price": 10000, 
@@ -17193,6 +17193,32 @@
         "thumbnail": "item_thum_800007.png", 
         "type": "material"
     }, 
+    "800103": {
+        "desc": "Heals all abnormalities of one ally", 
+        "effect": {
+            "effect": [
+                {
+                    "remove curse": true, 
+                    "remove injury": true, 
+                    "remove paralysis": true, 
+                    "remove poison": true, 
+                    "remove sick": true, 
+                    "remove weaken": true
+                }
+            ], 
+            "target_area": "single", 
+            "target_type": "party"
+        }, 
+        "id": 800103, 
+        "max equipped": 10, 
+        "max_stack": 99, 
+        "name": "Candy Treat", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 200, 
+        "thumbnail": "item_thum_800103.png", 
+        "type": "consumable"
+    }, 
     "800200": {
         "desc": "A pretty snow flake, cool to the touch. Unique event crafting material.", 
         "id": 800200, 
@@ -18018,7 +18044,7 @@
         ], 
         "id": 818912, 
         "max_stack": 1, 
-        "name": "Paskuan Weapon Enhancer", 
+        "name": "Paskuan Enhancer", 
         "raid": false, 
         "rarity": 3, 
         "recipe": {
