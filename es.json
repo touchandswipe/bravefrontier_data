@@ -5163,7 +5163,7 @@
         "target": "self"
     }, 
     "7500": {
-        "desc": "MST_EXTRAPASSIVESKILL_7500_DESCRIPTION", 
+        "desc": "Damage taken slightly boosts BB gauge", 
         "effects": [
             {
                 "bc fill when attacked high": 3, 
@@ -5173,11 +5173,11 @@
                 "passive id": "25"
             }
         ], 
-        "name": "MST_EXTRAPASSIVESKILL_7500_NAME", 
+        "name": "Pragmatic Dreamer", 
         "target": "self"
     }, 
     "7600": {
-        "desc": "MST_EXTRAPASSIVESKILL_7600_DESCRIPTION", 
+        "desc": "Boosts BB attack", 
         "effects": [
             {
                 "bb atk% buff": 150, 
@@ -5187,11 +5187,11 @@
                 "ubb atk% buff": 150
             }
         ], 
-        "name": "MST_EXTRAPASSIVESKILL_7600_NAME", 
+        "name": "Remnants for the Future", 
         "target": "self"
     }, 
     "7700": {
-        "desc": "MST_EXTRAPASSIVESKILL_7700_DESCRIPTION", 
+        "desc": "Hugely boosts BB gauge each turn", 
         "effects": [
             {
                 "bc fill per turn": 4, 
@@ -5199,11 +5199,11 @@
                 "passive id": "9"
             }
         ], 
-        "name": "MST_EXTRAPASSIVESKILL_7700_NAME", 
+        "name": "Unwavering Loyalty", 
         "target": "self"
     }, 
     "7800": {
-        "desc": "MST_EXTRAPASSIVESKILL_7800_DESCRIPTION", 
+        "desc": "Boosts Atk when BB gauge is full", 
         "effects": [
             {
                 "atk% buff": 50, 
@@ -5212,7 +5212,7 @@
                 "passive id": "30"
             }
         ], 
-        "name": "MST_EXTRAPASSIVESKILL_7800_NAME", 
+        "name": "Cultivated Friendship", 
         "target": "self"
     }, 
     "7900": {
@@ -5370,6 +5370,20 @@
             }
         ], 
         "name": "Ruthless Instinct", 
+        "target": "self"
+    }, 
+    "811017": {
+        "desc": "Boost to BB Atk", 
+        "effects": [
+            {
+                "bb atk% buff": 100, 
+                "conditions": [], 
+                "passive id": "64", 
+                "sbb atk% buff": 100, 
+                "ubb atk% buff": 100
+            }
+        ], 
+        "name": "Divinity Unchained", 
         "target": "self"
     }, 
     "820147": {
