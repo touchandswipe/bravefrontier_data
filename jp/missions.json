@@ -1829,6 +1829,148 @@
         "xp": 0, 
         "zel": 0
     }, 
+    "1000250": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの入口付近。<br>奥に比べ弱い魔物が多いとはいえ油断は禁物だ。", 
+        "difficulty": 1, 
+        "dungeon": "1000250", 
+        "energy_use": 0, 
+        "id": "1000250", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・序地", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000251": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの中部付近。<br>未開拓な領域となるこの地で待ち受けるものとは……。", 
+        "difficulty": 1, 
+        "dungeon": "1000250", 
+        "energy_use": 0, 
+        "id": "1000251", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・中部", 
+        "requires": "1000250", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000252": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの奥地。<br>そこには中部を遙かに越える凶悪な魔物が待ち受けていた。", 
+        "difficulty": 1, 
+        "dungeon": "1000250", 
+        "energy_use": 0, 
+        "id": "1000252", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・奥地", 
+        "requires": "1000251", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000253": {
+        "area": "フロンティアハンター", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリア奥地のさらに先。<br>大気を震わすほどの壮絶な圧力が召喚師に襲いかかる。", 
+        "difficulty": 1, 
+        "dungeon": "1000250", 
+        "energy_use": 0, 
+        "id": "1000253", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・極地", 
+        "requires": "1000252", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000260": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの入口付近。<br>奥に比べ弱い魔物が多いとはいえ油断は禁物だ。", 
+        "difficulty": 1, 
+        "dungeon": "1000260", 
+        "energy_use": 0, 
+        "id": "1000260", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・序地", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000261": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの中部付近。<br>未開拓な領域となるこの地で待ち受けるものとは……。", 
+        "difficulty": 1, 
+        "dungeon": "1000260", 
+        "energy_use": 0, 
+        "id": "1000261", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・中部", 
+        "requires": "1000260", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000262": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの奥地。<br>そこには中部を遙かに越える凶悪な魔物が待ち受けていた。", 
+        "difficulty": 1, 
+        "dungeon": "1000260", 
+        "energy_use": 0, 
+        "id": "1000262", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・奥地", 
+        "requires": "1000261", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000263": {
+        "area": "フロンティアハンター", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリア奥地のさらに先。<br>大気を震わすほどの壮絶な圧力が召喚師に襲いかかる。", 
+        "difficulty": 1, 
+        "dungeon": "1000260", 
+        "energy_use": 0, 
+        "id": "1000263", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・極地", 
+        "requires": "1000262", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "10003": {
         "area": "セルグラード", 
         "battle_count": 7, 
@@ -3680,7 +3822,7 @@
         "zel": 0
     }, 
     "100660": {
-        "area": "100650", 
+        "area": "石版守の伝承", 
         "battle_count": 3, 
         "clear_bonus": [], 
         "continue": true, 
@@ -3697,7 +3839,7 @@
         "zel": 0
     }, 
     "100661": {
-        "area": "100650", 
+        "area": "石版守の伝承", 
         "battle_count": 3, 
         "clear_bonus": [], 
         "continue": true, 
@@ -3714,7 +3856,7 @@
         "zel": 0
     }, 
     "100662": {
-        "area": "100650", 
+        "area": "石版守の伝承", 
         "battle_count": 3, 
         "clear_bonus": [
             {
@@ -8578,7 +8720,7 @@
         "zel": 6400
     }, 
     "103610": {
-        "area": "103401", 
+        "area": "鏡に映った少女", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -8595,7 +8737,7 @@
         "zel": 0
     }, 
     "103611": {
-        "area": "103401", 
+        "area": "鏡に映った少女", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -8612,7 +8754,7 @@
         "zel": 0
     }, 
     "103612": {
-        "area": "103401", 
+        "area": "鏡に映った少女", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -8950,7 +9092,7 @@
         "zel": 4300
     }, 
     "10400": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -8960,7 +9102,7 @@
         "energy_use": 17, 
         "id": "10400", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9032,7 +9174,7 @@
         "zel": 0
     }, 
     "10401": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9042,7 +9184,7 @@
         "energy_use": 18, 
         "id": "10401", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9073,7 +9215,7 @@
         "zel": 0
     }, 
     "10402": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9083,7 +9225,7 @@
         "energy_use": 18, 
         "id": "10402", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9097,7 +9239,7 @@
         "zel": 5100
     }, 
     "10403": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9107,7 +9249,7 @@
         "energy_use": 19, 
         "id": "10403", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9121,7 +9263,7 @@
         "zel": 5400
     }, 
     "10404": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -9135,7 +9277,7 @@
         "energy_use": 20, 
         "id": "10404", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9173,7 +9315,7 @@
         "zel": 4600
     }, 
     "10410": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9183,7 +9325,7 @@
         "energy_use": 17, 
         "id": "10410", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9255,7 +9397,7 @@
         "zel": 0
     }, 
     "10411": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9265,7 +9407,7 @@
         "energy_use": 18, 
         "id": "10411", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9297,7 +9439,7 @@
         "zel": 0
     }, 
     "10412": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9307,7 +9449,7 @@
         "energy_use": 18, 
         "id": "10412", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9321,7 +9463,7 @@
         "zel": 5200
     }, 
     "10413": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9331,7 +9473,7 @@
         "energy_use": 19, 
         "id": "10413", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9345,7 +9487,7 @@
         "zel": 5500
     }, 
     "10414": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -9359,7 +9501,7 @@
         "energy_use": 20, 
         "id": "10414", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9397,7 +9539,7 @@
         "zel": 4900
     }, 
     "10420": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9407,7 +9549,7 @@
         "energy_use": 17, 
         "id": "10420", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9479,7 +9621,7 @@
         "zel": 0
     }, 
     "10421": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9489,7 +9631,7 @@
         "energy_use": 18, 
         "id": "10421", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9521,7 +9663,7 @@
         "zel": 0
     }, 
     "10422": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9531,7 +9673,7 @@
         "energy_use": 18, 
         "id": "10422", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9545,7 +9687,7 @@
         "zel": 5300
     }, 
     "10423": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9555,7 +9697,7 @@
         "energy_use": 19, 
         "id": "10423", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9569,7 +9711,7 @@
         "zel": 5600
     }, 
     "10424": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -9583,7 +9725,7 @@
         "energy_use": 20, 
         "id": "10424", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9621,7 +9763,7 @@
         "zel": 5200
     }, 
     "10430": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 1, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9631,7 +9773,7 @@
         "energy_use": 17, 
         "id": "10430", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9703,7 +9845,7 @@
         "zel": 0
     }, 
     "10431": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9713,7 +9855,7 @@
         "energy_use": 18, 
         "id": "10431", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9745,7 +9887,7 @@
         "zel": 0
     }, 
     "10432": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9755,7 +9897,7 @@
         "energy_use": 18, 
         "id": "10432", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9769,7 +9911,7 @@
         "zel": 5400
     }, 
     "10433": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9779,7 +9921,7 @@
         "energy_use": 19, 
         "id": "10433", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9793,7 +9935,7 @@
         "zel": 5700
     }, 
     "10434": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -9807,7 +9949,7 @@
         "energy_use": 20, 
         "id": "10434", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -9845,7 +9987,7 @@
         "zel": 5500
     }, 
     "10440": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9855,7 +9997,7 @@
         "energy_use": 18, 
         "id": "10440", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -9927,7 +10069,7 @@
         "zel": 0
     }, 
     "10441": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9937,7 +10079,7 @@
         "energy_use": 19, 
         "id": "10441", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -9969,7 +10111,7 @@
         "zel": 0
     }, 
     "10442": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9979,7 +10121,7 @@
         "energy_use": 19, 
         "id": "10442", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -9993,7 +10135,7 @@
         "zel": 5600
     }, 
     "10443": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10003,7 +10145,7 @@
         "energy_use": 20, 
         "id": "10443", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -10017,7 +10159,7 @@
         "zel": 5900
     }, 
     "10444": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -10031,7 +10173,7 @@
         "energy_use": 21, 
         "id": "10444", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -10073,7 +10215,7 @@
         "zel": 5800
     }, 
     "10450": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10083,7 +10225,7 @@
         "energy_use": 18, 
         "id": "10450", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -10097,7 +10239,7 @@
         "zel": 5200
     }, 
     "104500": {
-        "area": "103645", 
+        "area": "ラフォート研究所", 
         "battle_count": 6, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10115,7 +10257,7 @@
         "zel": 0
     }, 
     "104501": {
-        "area": "103645", 
+        "area": "ラフォート研究所", 
         "battle_count": 6, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10133,7 +10275,7 @@
         "zel": 0
     }, 
     "104502": {
-        "area": "103645", 
+        "area": "ラフォート研究所", 
         "battle_count": 6, 
         "clear_bonus": [
             {
@@ -10155,7 +10297,7 @@
         "zel": 0
     }, 
     "10451": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10165,7 +10307,7 @@
         "energy_use": 19, 
         "id": "10451", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -10179,7 +10321,7 @@
         "zel": 5500
     }, 
     "10452": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10189,7 +10331,7 @@
         "energy_use": 19, 
         "id": "10452", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -10203,7 +10345,7 @@
         "zel": 5800
     }, 
     "10453": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10213,7 +10355,7 @@
         "energy_use": 20, 
         "id": "10453", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -10227,7 +10369,7 @@
         "zel": 6100
     }, 
     "10454": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -10241,7 +10383,7 @@
         "energy_use": 21, 
         "id": "10454", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -10255,7 +10397,7 @@
         "zel": 6400
     }, 
     "10460": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10265,7 +10407,7 @@
         "energy_use": 19, 
         "id": "10460", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -10279,7 +10421,7 @@
         "zel": 6200
     }, 
     "10461": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10289,7 +10431,7 @@
         "energy_use": 20, 
         "id": "10461", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -10303,7 +10445,7 @@
         "zel": 6500
     }, 
     "10462": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 10, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10313,7 +10455,7 @@
         "energy_use": 21, 
         "id": "10462", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -10327,7 +10469,7 @@
         "zel": 6800
     }, 
     "10463": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 10, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10337,7 +10479,7 @@
         "energy_use": 22, 
         "id": "10463", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -10351,7 +10493,7 @@
         "zel": 7100
     }, 
     "10464": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 11, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10361,7 +10503,7 @@
         "energy_use": 23, 
         "id": "10464", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -10375,7 +10517,7 @@
         "zel": 7400
     }, 
     "10465": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 12, 
         "clear_bonus": [
             {
@@ -10389,7 +10531,7 @@
         "energy_use": 25, 
         "id": "10465", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -10403,7 +10545,7 @@
         "zel": 7700
     }, 
     "10470": {
-        "area": "10500", 
+        "area": "ラクシュルト", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -10423,7 +10565,7 @@
         "energy_use": 50, 
         "id": "10470", 
         "karma": 0, 
-        "land": "15", 
+        "land": "ラクシュルト", 
         "mimic_info": {}, 
         "name": "探求の従神", 
         "requires": "10370,10465", 
@@ -10455,7 +10597,7 @@
         "zel": 4500
     }, 
     "10500": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10465,7 +10607,7 @@
         "energy_use": 17, 
         "id": "10500", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -10534,7 +10676,7 @@
         "zel": 0
     }, 
     "10501": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10544,7 +10686,7 @@
         "energy_use": 18, 
         "id": "10501", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -10558,7 +10700,7 @@
         "zel": 4900
     }, 
     "10502": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10568,7 +10710,7 @@
         "energy_use": 19, 
         "id": "10502", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -10582,7 +10724,7 @@
         "zel": 5200
     }, 
     "10503": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10592,7 +10734,7 @@
         "energy_use": 19, 
         "id": "10503", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -10606,7 +10748,7 @@
         "zel": 5500
     }, 
     "10504": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -10620,7 +10762,7 @@
         "energy_use": 20, 
         "id": "10504", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -10658,7 +10800,7 @@
         "zel": 4800
     }, 
     "10510": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10668,7 +10810,7 @@
         "energy_use": 17, 
         "id": "10510", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -10737,7 +10879,7 @@
         "zel": 0
     }, 
     "10511": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10747,7 +10889,7 @@
         "energy_use": 18, 
         "id": "10511", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -10761,7 +10903,7 @@
         "zel": 5000
     }, 
     "10512": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10771,7 +10913,7 @@
         "energy_use": 19, 
         "id": "10512", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -10785,7 +10927,7 @@
         "zel": 5300
     }, 
     "10513": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10795,7 +10937,7 @@
         "energy_use": 19, 
         "id": "10513", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -10809,7 +10951,7 @@
         "zel": 5600
     }, 
     "10514": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -10823,7 +10965,7 @@
         "energy_use": 20, 
         "id": "10514", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -10861,7 +11003,7 @@
         "zel": 5100
     }, 
     "10520": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10871,7 +11013,7 @@
         "energy_use": 17, 
         "id": "10520", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -10940,7 +11082,7 @@
         "zel": 0
     }, 
     "10521": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10950,7 +11092,7 @@
         "energy_use": 18, 
         "id": "10521", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -10964,7 +11106,7 @@
         "zel": 5100
     }, 
     "10522": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10974,7 +11116,7 @@
         "energy_use": 19, 
         "id": "10522", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -10988,7 +11130,7 @@
         "zel": 5400
     }, 
     "10523": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10998,7 +11140,7 @@
         "energy_use": 19, 
         "id": "10523", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -11012,7 +11154,7 @@
         "zel": 5700
     }, 
     "10524": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -11026,7 +11168,7 @@
         "energy_use": 20, 
         "id": "10524", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -11064,7 +11206,7 @@
         "zel": 5400
     }, 
     "10530": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11074,7 +11216,7 @@
         "energy_use": 17, 
         "id": "10530", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -11143,7 +11285,7 @@
         "zel": 0
     }, 
     "10531": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11153,7 +11295,7 @@
         "energy_use": 18, 
         "id": "10531", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -11167,7 +11309,7 @@
         "zel": 5200
     }, 
     "10532": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11177,7 +11319,7 @@
         "energy_use": 19, 
         "id": "10532", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -11191,7 +11333,7 @@
         "zel": 5500
     }, 
     "10533": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11201,7 +11343,7 @@
         "energy_use": 19, 
         "id": "10533", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -11215,7 +11357,7 @@
         "zel": 5800
     }, 
     "10534": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -11229,7 +11371,7 @@
         "energy_use": 20, 
         "id": "10534", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -11267,7 +11409,7 @@
         "zel": 5700
     }, 
     "10540": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11277,7 +11419,7 @@
         "energy_use": 18, 
         "id": "10540", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -11346,7 +11488,7 @@
         "zel": 0
     }, 
     "10541": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11356,7 +11498,7 @@
         "energy_use": 19, 
         "id": "10541", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -11370,7 +11512,7 @@
         "zel": 5400
     }, 
     "10542": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11380,7 +11522,7 @@
         "energy_use": 20, 
         "id": "10542", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -11394,7 +11536,7 @@
         "zel": 5700
     }, 
     "10543": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11404,7 +11546,7 @@
         "energy_use": 20, 
         "id": "10543", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -11418,7 +11560,7 @@
         "zel": 6000
     }, 
     "10544": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -11432,7 +11574,7 @@
         "energy_use": 21, 
         "id": "10544", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -11474,7 +11616,7 @@
         "zel": 6000
     }, 
     "10550": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11484,7 +11626,7 @@
         "energy_use": 18, 
         "id": "10550", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -11536,7 +11678,7 @@
         "zel": 0
     }, 
     "10551": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11546,7 +11688,7 @@
         "energy_use": 19, 
         "id": "10551", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -11560,7 +11702,7 @@
         "zel": 5600
     }, 
     "10552": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11570,7 +11712,7 @@
         "energy_use": 20, 
         "id": "10552", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -11584,7 +11726,7 @@
         "zel": 5900
     }, 
     "10553": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11594,7 +11736,7 @@
         "energy_use": 20, 
         "id": "10553", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -11608,7 +11750,7 @@
         "zel": 6200
     }, 
     "10554": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -11622,7 +11764,7 @@
         "energy_use": 21, 
         "id": "10554", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -11636,7 +11778,7 @@
         "zel": 6500
     }, 
     "10560": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11646,7 +11788,7 @@
         "energy_use": 19, 
         "id": "10560", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -11715,7 +11857,7 @@
         "zel": 0
     }, 
     "10561": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11725,7 +11867,7 @@
         "energy_use": 20, 
         "id": "10561", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -11739,7 +11881,7 @@
         "zel": 6600
     }, 
     "10562": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 10, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11749,7 +11891,7 @@
         "energy_use": 21, 
         "id": "10562", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -11763,7 +11905,7 @@
         "zel": 6900
     }, 
     "10563": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 10, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11773,7 +11915,7 @@
         "energy_use": 22, 
         "id": "10563", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -11787,7 +11929,7 @@
         "zel": 7200
     }, 
     "10564": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 11, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11797,7 +11939,7 @@
         "energy_use": 24, 
         "id": "10564", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -11811,7 +11953,7 @@
         "zel": 7500
     }, 
     "10565": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 12, 
         "clear_bonus": [], 
         "continue": true, 
@@ -11821,7 +11963,7 @@
         "energy_use": 25, 
         "id": "10565", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -11835,7 +11977,7 @@
         "zel": 7800
     }, 
     "10566": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 1, 
         "clear_bonus": [
             {
@@ -11849,7 +11991,7 @@
         "energy_use": 25, 
         "id": "10566", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -11863,7 +12005,7 @@
         "zel": 3000
     }, 
     "10570": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 6, 
         "clear_bonus": [
             {
@@ -11889,7 +12031,7 @@
         "energy_use": 50, 
         "id": "10570", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {}, 
         "name": "呼応せし刻神", 
         "requires": "10470,10566", 
@@ -11952,7 +12094,7 @@
         "zel": 0
     }, 
     "10571": {
-        "area": "10600", 
+        "area": "ザームブルグ", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -11966,7 +12108,7 @@
         "energy_use": 30, 
         "id": "10571", 
         "karma": 0, 
-        "land": "16", 
+        "land": "ザームブルグ", 
         "mimic_info": {}, 
         "name": "閻業神鬼", 
         "requires": "10570", 
@@ -12108,7 +12250,7 @@
         "zel": 4700
     }, 
     "10600": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 1, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12118,7 +12260,7 @@
         "energy_use": 17, 
         "id": "10600", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12131,8 +12273,63 @@
         "xp": 2000, 
         "zel": 1000
     }, 
+    "106000": {
+        "area": "斬水の凛剣", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "空気の澄んだ城塞の前に凛と佇む剣士がいる。気迫に満ちた表情から、幾多の戦場を乗り越えた猛者であることが伺える。", 
+        "difficulty": 1, 
+        "dungeon": "104300", 
+        "energy_use": 10, 
+        "id": "106000", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "清涼の凛剣士Lv.1", 
+        "xp": 700, 
+        "zel": 0
+    }, 
+    "106001": {
+        "area": "斬水の凛剣", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "剣士は多くの兵士を指揮しながらも、華麗な身のこなしで攻撃を仕掛ける。決して揺るがぬ刃から熱き思いが伝わってくる。", 
+        "difficulty": 1, 
+        "dungeon": "104300", 
+        "energy_use": 20, 
+        "id": "106001", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "清涼の凛剣士Lv.2", 
+        "xp": 1700, 
+        "zel": 0
+    }, 
+    "106002": {
+        "area": "斬水の凛剣", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "不敵な笑みを浮かべながら修羅の如く襲い掛かる剣士。研ぎ澄まされた剣先から、水をも切り裂く一撃が放たれようとしていた。", 
+        "difficulty": 1, 
+        "dungeon": "104300", 
+        "energy_use": 30, 
+        "id": "106002", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "清涼の凛剣士Lv.3", 
+        "xp": 3500, 
+        "zel": 0
+    }, 
     "10601": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12142,7 +12339,7 @@
         "energy_use": 18, 
         "id": "10601", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12156,7 +12353,7 @@
         "zel": 4900
     }, 
     "10602": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12166,7 +12363,7 @@
         "energy_use": 19, 
         "id": "10602", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12180,7 +12377,7 @@
         "zel": 5200
     }, 
     "10603": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12190,7 +12387,7 @@
         "energy_use": 20, 
         "id": "10603", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12204,7 +12401,7 @@
         "zel": 5500
     }, 
     "10604": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -12218,7 +12415,7 @@
         "energy_use": 20, 
         "id": "10604", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12256,7 +12453,7 @@
         "zel": 5000
     }, 
     "10610": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12266,7 +12463,7 @@
         "energy_use": 17, 
         "id": "10610", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12279,8 +12476,63 @@
         "xp": 4050, 
         "zel": 4700
     }, 
+    "106100": {
+        "area": "鋭鳴の獣爪", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "薄暗い森を彷徨っていると、何者かに捕捉されていることに気付く。次の瞬間、猫耳の少女が鋭い鉤爪を光らせて姿を現した。", 
+        "difficulty": 1, 
+        "dungeon": "104400", 
+        "energy_use": 10, 
+        "id": "106100", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "爪鳴の姫猫Lv.1", 
+        "xp": 700, 
+        "zel": 0
+    }, 
+    "106101": {
+        "area": "鋭鳴の獣爪", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "俊敏な動きで自由気ままに駆け回る少女。愛くるしい勇姿に見惚れていると、瞬く間に必殺の一撃で仕留められるだろう。", 
+        "difficulty": 1, 
+        "dungeon": "104400", 
+        "energy_use": 20, 
+        "id": "106101", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "爪鳴の姫猫Lv.2", 
+        "xp": 1700, 
+        "zel": 0
+    }, 
+    "106102": {
+        "area": "鋭鳴の獣爪", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "愛する自由を守るため、少女は最後の猛反撃を開始する。魔力の共振により切れ味を増幅させた強力な鉤爪を構えながら。 ", 
+        "difficulty": 1, 
+        "dungeon": "104400", 
+        "energy_use": 30, 
+        "id": "106102", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "爪鳴の姫猫Lv.3", 
+        "xp": 3500, 
+        "zel": 0
+    }, 
     "10611": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12290,7 +12542,7 @@
         "energy_use": 18, 
         "id": "10611", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12304,7 +12556,7 @@
         "zel": 5000
     }, 
     "10612": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12314,7 +12566,7 @@
         "energy_use": 19, 
         "id": "10612", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12328,7 +12580,7 @@
         "zel": 5300
     }, 
     "10613": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12338,7 +12590,7 @@
         "energy_use": 20, 
         "id": "10613", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12352,7 +12604,7 @@
         "zel": 5600
     }, 
     "10614": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -12366,7 +12618,7 @@
         "energy_use": 20, 
         "id": "10614", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12404,7 +12656,7 @@
         "zel": 5300
     }, 
     "10620": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12414,7 +12666,7 @@
         "energy_use": 17, 
         "id": "10620", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12427,8 +12679,32 @@
         "xp": 4060, 
         "zel": 4800
     }, 
+    "106200": {
+        "area": "シードの試練", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "49910"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "かつて意思を持つ千本の武器とともに戦った異界の騎士シード。前世で叶わなかった願いを託すため、召喚師の腕前を確認する。", 
+        "difficulty": 1, 
+        "dungeon": "104500", 
+        "energy_use": 30, 
+        "id": "106200", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "シードの試練", 
+        "xp": 4000, 
+        "zel": 0
+    }, 
     "10621": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12438,7 +12714,7 @@
         "energy_use": 18, 
         "id": "10621", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12452,7 +12728,7 @@
         "zel": 5100
     }, 
     "10622": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12462,7 +12738,7 @@
         "energy_use": 19, 
         "id": "10622", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12476,7 +12752,7 @@
         "zel": 5400
     }, 
     "10623": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12486,7 +12762,7 @@
         "energy_use": 20, 
         "id": "10623", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12500,7 +12776,7 @@
         "zel": 5700
     }, 
     "10624": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -12514,7 +12790,7 @@
         "energy_use": 20, 
         "id": "10624", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12552,7 +12828,7 @@
         "zel": 5600
     }, 
     "10630": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12562,7 +12838,7 @@
         "energy_use": 17, 
         "id": "10630", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12575,8 +12851,63 @@
         "xp": 4070, 
         "zel": 4900
     }, 
+    "106300": {
+        "area": "崩壊する大地", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "荒れ果てた辺境の土地で、地下に続く入口が開く…。<br>だが、目を凝らしてみても、見えるのは深い闇だけ…。", 
+        "difficulty": 1, 
+        "dungeon": "104600", 
+        "energy_use": 10, 
+        "id": "106300", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "辺境の地Lv.1", 
+        "xp": 700, 
+        "zel": 0
+    }, 
+    "106301": {
+        "area": "崩壊する大地", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "地下への入口の前で、１人で佇む槍使い…。<br>我々から入口を守っているようにも見えるが…。", 
+        "difficulty": 1, 
+        "dungeon": "104600", 
+        "energy_use": 20, 
+        "id": "106301", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "辺境の地Lv.2", 
+        "xp": 1700, 
+        "zel": 0
+    }, 
+    "106302": {
+        "area": "崩壊する大地", 
+        "battle_count": 6, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "この大地の奥底には“神”と称される存在がいるという…。<br>槍使いは神を守っているのか、それとも求めているのか…？", 
+        "difficulty": 1, 
+        "dungeon": "104600", 
+        "energy_use": 30, 
+        "id": "106302", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "辺境の地Lv.3", 
+        "xp": 3500, 
+        "zel": 0
+    }, 
     "10631": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12586,7 +12917,7 @@
         "energy_use": 18, 
         "id": "10631", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12600,7 +12931,7 @@
         "zel": 5200
     }, 
     "10632": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12610,7 +12941,7 @@
         "energy_use": 19, 
         "id": "10632", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12624,7 +12955,7 @@
         "zel": 5500
     }, 
     "10633": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12634,7 +12965,7 @@
         "energy_use": 20, 
         "id": "10633", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12648,7 +12979,7 @@
         "zel": 5800
     }, 
     "10634": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -12662,7 +12993,7 @@
         "energy_use": 20, 
         "id": "10634", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "50", 
             "group_1_monster_group": "1100", 
@@ -12700,7 +13031,7 @@
         "zel": 5900
     }, 
     "10640": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12710,7 +13041,7 @@
         "energy_use": 18, 
         "id": "10640", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -12723,8 +13054,71 @@
         "xp": 4460, 
         "zel": 5100
     }, 
+    "106400": {
+        "area": "ブレフロ世界征服", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "突如、グランガイアに自分たちを“六英雄”だと名乗る謎の一団が出現！果たして、彼らの目的は一体何なのか！？", 
+        "difficulty": 1, 
+        "dungeon": "104700", 
+        "energy_use": 15, 
+        "id": "106400", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "出現した六英雄？", 
+        "xp": 1200, 
+        "zel": 0
+    }, 
+    "106401": {
+        "area": "ブレフロ世界征服", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "“六英雄”を名乗る一団は、なんと魔物を操る装置を使用。魔物と戦わせて、こちらを弱らせてからトドメをさす作戦らしい。", 
+        "difficulty": 1, 
+        "dungeon": "104700", 
+        "energy_use": 15, 
+        "id": "106401", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "本当に六英雄？", 
+        "requires": "106400", 
+        "xp": 1200, 
+        "zel": 0
+    }, 
+    "106402": {
+        "area": "ブレフロ世界征服", 
+        "battle_count": 6, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "49950"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "最後の総力戦を挑んでくる自称“六英雄”たち。彼らが発した<br>「た〜か〜の〜つ〜め〜！！」という言葉にはどんな意味が…？", 
+        "difficulty": 1, 
+        "dungeon": "104700", 
+        "energy_use": 20, 
+        "id": "106402", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "鷹の爪…？？", 
+        "requires": "106401", 
+        "xp": 1700, 
+        "zel": 0
+    }, 
     "10641": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12734,7 +13128,7 @@
         "energy_use": 19, 
         "id": "10641", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -12748,7 +13142,7 @@
         "zel": 5400
     }, 
     "10642": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12758,7 +13152,7 @@
         "energy_use": 20, 
         "id": "10642", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -12772,7 +13166,7 @@
         "zel": 5700
     }, 
     "10643": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12782,7 +13176,7 @@
         "energy_use": 21, 
         "id": "10643", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -12796,7 +13190,7 @@
         "zel": 6000
     }, 
     "10644": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -12810,7 +13204,7 @@
         "energy_use": 21, 
         "id": "10644", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -12848,7 +13242,7 @@
         "zel": 6200
     }, 
     "10650": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12858,7 +13252,7 @@
         "energy_use": 18, 
         "id": "10650", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -12871,8 +13265,46 @@
         "xp": 4480, 
         "zel": 5300
     }, 
+    "106500": {
+        "area": "104600", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "アクラス召喚院設立期に活躍したエルガイア連邦の武芸家。<br>望むのは強者との戦いのみ。死後もその魂は敵を求め続ける。", 
+        "difficulty": 1, 
+        "dungeon": "104800", 
+        "energy_use": 40, 
+        "id": "106500", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "強者たる証明Lv.6", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "106501": {
+        "area": "104600", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "その武芸者は戦いの中でのみ生を感じていた。<br>魔神との戦いで感じられた熱を今なお求め続ける。", 
+        "difficulty": 1, 
+        "dungeon": "104800", 
+        "energy_use": 50, 
+        "id": "106501", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "強者たる証明Lv.7", 
+        "xp": 9000, 
+        "zel": 0
+    }, 
     "10651": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12882,7 +13314,7 @@
         "energy_use": 19, 
         "id": "10651", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -12896,7 +13328,7 @@
         "zel": 5600
     }, 
     "10652": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12906,7 +13338,7 @@
         "energy_use": 20, 
         "id": "10652", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -12920,7 +13352,7 @@
         "zel": 5900
     }, 
     "10653": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12930,7 +13362,7 @@
         "energy_use": 21, 
         "id": "10653", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -12944,7 +13376,7 @@
         "zel": 6200
     }, 
     "10654": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 10, 
         "clear_bonus": [
             {
@@ -12958,7 +13390,7 @@
         "energy_use": 21, 
         "id": "10654", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "40", 
             "group_1_monster_group": "1100", 
@@ -13000,7 +13432,7 @@
         "zel": 6500
     }, 
     "10660": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13010,7 +13442,7 @@
         "energy_use": 20, 
         "id": "10660", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -13023,8 +13455,46 @@
         "xp": 5500, 
         "zel": 6300
     }, 
+    "106600": {
+        "area": "104700", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "かつてエルガイア連邦で極秘に結成されたイシュグリア調査隊。<br>咎人たちで結成されたその部隊を率いたのは１人の役人だった。", 
+        "difficulty": 1, 
+        "dungeon": "104900", 
+        "energy_use": 40, 
+        "id": "106600", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "咎人と歩む道Lv.6", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "106601": {
+        "area": "104700", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "連邦の裏切りによりエルガイアへ戻る扉が閉じられた。<br>魔神が跋扈する地でその身を堕とした魂は今も彷徨う…。", 
+        "difficulty": 1, 
+        "dungeon": "104900", 
+        "energy_use": 50, 
+        "id": "106601", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "咎人と歩む道Lv.7", 
+        "xp": 9000, 
+        "zel": 0
+    }, 
     "10661": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 9, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13034,7 +13504,7 @@
         "energy_use": 20, 
         "id": "10661", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -13048,7 +13518,7 @@
         "zel": 6600
     }, 
     "10662": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 10, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13058,7 +13528,7 @@
         "energy_use": 21, 
         "id": "10662", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -13072,7 +13542,7 @@
         "zel": 6900
     }, 
     "10663": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 10, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13082,7 +13552,7 @@
         "energy_use": 22, 
         "id": "10663", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -13096,7 +13566,7 @@
         "zel": 7200
     }, 
     "10664": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 11, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13106,7 +13576,7 @@
         "energy_use": 24, 
         "id": "10664", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -13120,7 +13590,7 @@
         "zel": 7500
     }, 
     "10665": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 12, 
         "clear_bonus": [
             {
@@ -13134,7 +13604,7 @@
         "energy_use": 25, 
         "id": "10665", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {
             "group_1_chance": "30", 
             "group_1_monster_group": "1100", 
@@ -13148,7 +13618,7 @@
         "zel": 7800
     }, 
     "10670": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -13174,15 +13644,53 @@
         "energy_use": 50, 
         "id": "10670", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {}, 
         "name": "見守る導神", 
         "requires": "10570,10665", 
         "xp": 11000, 
         "zel": 30000
     }, 
+    "106700": {
+        "area": "104800", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "異界技術の研究において多くの功績を残した連邦の研究者。<br>愛する機械人形に宿る狂気は制作者と同じ魂なのだろうか？", 
+        "difficulty": 1, 
+        "dungeon": "105000", 
+        "energy_use": 40, 
+        "id": "106700", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "暴発する研究心Lv.6", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "106701": {
+        "area": "104800", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "彼の愛した機械人形は対魔神用にさらに改造されたという。<br>狂気を宿した魂と体は今も破壊対象を探し続ける。", 
+        "difficulty": 1, 
+        "dungeon": "105000", 
+        "energy_use": 50, 
+        "id": "106701", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "暴発する研究心Lv.7", 
+        "xp": 9000, 
+        "zel": 0
+    }, 
     "10671": {
-        "area": "10700", 
+        "area": "ファル・ナーガ", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -13202,10 +13710,1102 @@
         "energy_use": 50, 
         "id": "10671", 
         "karma": 0, 
-        "land": "17", 
+        "land": "ファル・ナーガ", 
         "mimic_info": {}, 
         "name": "神凰の目覚め", 
         "requires": "10670", 
+        "xp": 12800, 
+        "zel": 30000
+    }, 
+    "106800": {
+        "area": "104900", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "かつてエルガイア辺境に強靭な戦士を有する集落があった。<br>ある事件で全滅したその集落には残された戦士の怨念が漂う。", 
+        "difficulty": 1, 
+        "dungeon": "105100", 
+        "energy_use": 40, 
+        "id": "106800", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "勇猛なる雷鳴Lv.6", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "106801": {
+        "area": "104900", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "魔獣討伐を生業としたその部族の戦士が復讐後に望んだのは<br>安寧ではなくより凶悪な魔獣との邂逅であったという。", 
+        "difficulty": 1, 
+        "dungeon": "105100", 
+        "energy_use": 50, 
+        "id": "106801", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "勇猛なる雷鳴Lv.7", 
+        "xp": 9000, 
+        "zel": 0
+    }, 
+    "106900": {
+        "area": "105000", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "封神ルシアスを信奉したエルガイア連邦の神官。<br>彼女にとっての正義は神の教えだけであり他は悪である。", 
+        "difficulty": 1, 
+        "dungeon": "105200", 
+        "energy_use": 40, 
+        "id": "106900", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "天命の啓示Lv.6", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "106901": {
+        "area": "105000", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "彼女の行動は一貫していた。“神の敵を倒す”。<br>死した後もそれは変わらないのだろうか？", 
+        "difficulty": 1, 
+        "dungeon": "105200", 
+        "energy_use": 50, 
+        "id": "106901", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "天命の啓示Lv.7", 
+        "xp": 9000, 
+        "zel": 0
+    }, 
+    "10700": {
+        "area": "エストリア", 
+        "battle_count": 8, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "モーラの目的は、すべてを統一し、争いを終わらせることだという。しかし、彼女も魔神。そのための争いを厭うことはない。", 
+        "difficulty": 1, 
+        "dungeon": "10700", 
+        "energy_use": 17, 
+        "id": "10700", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "燃え続ける炎", 
+        "requires": "10665", 
+        "xp": 4060, 
+        "zel": 4700
+    }, 
+    "107000": {
+        "area": "105100", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "エルガイア連邦に潜んでいたランドール皇国の諜報員。<br>彼はイシュグリア調査隊を探るため孤独な戦いを続けた。", 
+        "difficulty": 1, 
+        "dungeon": "105300", 
+        "energy_use": 40, 
+        "id": "107000", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "密命を胸にLv.6", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "107001": {
+        "area": "105100", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "帰る道を閉ざされた後も彼はあがき続けたという。<br>その魂は今も任務の終わりを告げるため故郷を目指す。", 
+        "difficulty": 1, 
+        "dungeon": "105300", 
+        "energy_use": 50, 
+        "id": "107001", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "密命を胸にLv.7", 
+        "xp": 9000, 
+        "zel": 0
+    }, 
+    "10701": {
+        "area": "エストリア", 
+        "battle_count": 8, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "モーラは明確に言葉にはしなかったが、協力を求めている。しかし、みんなの心は決まっている。彼女の野望には同意できない。", 
+        "difficulty": 1, 
+        "dungeon": "10700", 
+        "energy_use": 18, 
+        "id": "10701", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "過日の栄華", 
+        "requires": "10700", 
+        "xp": 4430, 
+        "zel": 5000
+    }, 
+    "10702": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "この施設は海底地下に眠る油を汲み上げるものらしい。異界の技術で作られた物は、その油を利用するものが多い。", 
+        "difficulty": 1, 
+        "dungeon": "10700", 
+        "energy_use": 19, 
+        "id": "10702", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "無尽の灯火", 
+        "requires": "10701", 
+        "xp": 4690, 
+        "zel": 5300
+    }, 
+    "10703": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "汲み上げられた油は、不純物を取り除くために、一部が燃やされる。この施設からは止まることなく炎が吹き出している理由だ。", 
+        "difficulty": 1, 
+        "dungeon": "10700", 
+        "energy_use": 20, 
+        "id": "10703", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "血気湧出", 
+        "requires": "10702", 
+        "xp": 5030, 
+        "zel": 5600
+    }, 
+    "10704": {
+        "area": "エストリア", 
+        "battle_count": 10, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "もうもうと立ち上る真っ黒い有毒な煙。モーラの待つ雪原へと急ぎたいが、まずは立ち塞がる敵を倒さねばならない。", 
+        "difficulty": 1, 
+        "dungeon": "10700", 
+        "energy_use": 20, 
+        "id": "10704", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "煙の中の死闘", 
+        "requires": "10703", 
+        "xp": 5390, 
+        "zel": 5900
+    }, 
+    "10710": {
+        "area": "エストリア", 
+        "battle_count": 8, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "仲間の被害は軽そうだ。モーラとの戦いに集中し、救出は後にしよう。因縁の相手との戦いだ。これが最後になるといいが。", 
+        "difficulty": 1, 
+        "dungeon": "10710", 
+        "energy_use": 17, 
+        "id": "10710", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "氷の亀裂", 
+        "requires": "10704", 
+        "xp": 4070, 
+        "zel": 4800
+    }, 
+    "10711": {
+        "area": "エストリア", 
+        "battle_count": 8, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "カルナ・マスタと戦うためには魔神の力を集める必要がある。つまり、モーラの言葉に嘘が無ければ、彼女の協力が必要だ。", 
+        "difficulty": 1, 
+        "dungeon": "10710", 
+        "energy_use": 18, 
+        "id": "10711", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "白一色の視界", 
+        "requires": "10710", 
+        "xp": 4450, 
+        "zel": 5100
+    }, 
+    "10712": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "肌が凍りつきそうになるほどの寒風が吹きすさぶ。雪を踏む音も吹雪にかき消されて聞こえない。視界は白く、道はまだ長い。", 
+        "difficulty": 1, 
+        "dungeon": "10710", 
+        "energy_use": 19, 
+        "id": "10712", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "凍える闘気", 
+        "requires": "10711", 
+        "xp": 4700, 
+        "zel": 5400
+    }, 
+    "10713": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "吹雪に視界を奪われ道を見失いそうだ。しかし、目的は見失わない。迷うことなく、惑うことなく、ティリスを救うため進む。", 
+        "difficulty": 1, 
+        "dungeon": "10710", 
+        "energy_use": 20, 
+        "id": "10713", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "無迷無惑", 
+        "requires": "10712", 
+        "xp": 5050, 
+        "zel": 5700
+    }, 
+    "10714": {
+        "area": "エストリア", 
+        "battle_count": 10, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "深く積もった雪を踏みしめながら、ただひたすら先を目指す。不意に猛烈な風が巻き起こり、吹雪がより一層強くなった。", 
+        "difficulty": 1, 
+        "dungeon": "10710", 
+        "energy_use": 20, 
+        "id": "10714", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "吹雪の歓迎", 
+        "requires": "10713", 
+        "xp": 5400, 
+        "zel": 6000
+    }, 
+    "10720": {
+        "area": "エストリア", 
+        "battle_count": 8, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "凍りついた林に辿り着いたことで、ようやく吹雪の暴威から解放された。それでも寒さは相変わらずで、手はかじかんでいる。", 
+        "difficulty": 1, 
+        "dungeon": "10720", 
+        "energy_use": 17, 
+        "id": "10720", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "凍結の針葉樹", 
+        "requires": "10714", 
+        "xp": 4080, 
+        "zel": 4900
+    }, 
+    "10721": {
+        "area": "エストリア", 
+        "battle_count": 8, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "しんと静まり返った林の中は、まるで時間まで凍り付いてしまっているように見える。深く息を吐いて、しっかりと歩を進める。", 
+        "difficulty": 1, 
+        "dungeon": "10720", 
+        "energy_use": 18, 
+        "id": "10721", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "透き通る心", 
+        "requires": "10720", 
+        "xp": 4470, 
+        "zel": 5200
+    }, 
+    "10722": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "木々の合間を縫って雪が降りしきる。時折、木の枝から落ちた雪が大きな音をたて、敵の出現かと驚かされてしまう。", 
+        "difficulty": 1, 
+        "dungeon": "10720", 
+        "energy_use": 19, 
+        "id": "10722", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "風花の木立", 
+        "requires": "10721", 
+        "xp": 4710, 
+        "zel": 5500
+    }, 
+    "10723": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "真っ白な雪と黒々とした木々は目を欺く。深く積もった雪は足を絡めとる。この場所で戦い続けるのは思ったよりも大変だ。", 
+        "difficulty": 1, 
+        "dungeon": "10720", 
+        "energy_use": 20, 
+        "id": "10723", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "静深白林", 
+        "requires": "10722", 
+        "xp": 5070, 
+        "zel": 5800
+    }, 
+    "10724": {
+        "area": "エストリア", 
+        "battle_count": 10, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "樹間が広がり疎らになってきた。もうじき林を抜けるはずだ。暖かい場所が恋しい。次は寒さのしのげる地形だといいのだが。", 
+        "difficulty": 1, 
+        "dungeon": "10720", 
+        "energy_use": 20, 
+        "id": "10724", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "白き大地", 
+        "requires": "10723", 
+        "xp": 5410, 
+        "zel": 6100
+    }, 
+    "10730": {
+        "area": "エストリア", 
+        "battle_count": 8, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "断崖の割れ目、巨大な谷の入り口に、それに見合った大きさの巨大な門が築かれている。どうやら機械仕掛けのようだ。", 
+        "difficulty": 1, 
+        "dungeon": "10730", 
+        "energy_use": 17, 
+        "id": "10730", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "雷走る門扉", 
+        "requires": "10724", 
+        "xp": 4090, 
+        "zel": 5000
+    }, 
+    "10731": {
+        "area": "エストリア", 
+        "battle_count": 8, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "機械仕掛けの門へ延々と続く一本道。やはり、この場所でシュスイと戦わなければならないのか。準備をしておこう。", 
+        "difficulty": 1, 
+        "dungeon": "10730", 
+        "energy_use": 18, 
+        "id": "10731", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "閃きの瞬間", 
+        "requires": "10730", 
+        "xp": 4530, 
+        "zel": 5300
+    }, 
+    "10732": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "道の途中には、機械でできたよくわからないものが配置されている。油田で作られた力を運ぶための装置なのだろうか？", 
+        "difficulty": 1, 
+        "dungeon": "10730", 
+        "energy_use": 19, 
+        "id": "10732", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "稲妻の迅速", 
+        "requires": "10731", 
+        "xp": 4730, 
+        "zel": 5600
+    }, 
+    "10733": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "雪原や林よりはましだけど、ここもやはり寒い。あまりの寒さにはやくシュスイと戦いたいような気持ちまで湧いてきた。", 
+        "difficulty": 1, 
+        "dungeon": "10730", 
+        "energy_use": 20, 
+        "id": "10733", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "電流交錯", 
+        "requires": "10732", 
+        "xp": 5090, 
+        "zel": 5900
+    }, 
+    "10734": {
+        "area": "エストリア", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "満身創痍のシュスイの姿は、やはりオーンとの戦いのせいだろうか？それともモーラの罠か。とはいえ、手加減は無用だ。", 
+        "difficulty": 1, 
+        "dungeon": "10730", 
+        "energy_use": 20, 
+        "id": "10734", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "50", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "50", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "その名はシュスイ", 
+        "requires": "10733", 
+        "xp": 3000, 
+        "zel": 2000
+    }, 
+    "10740": {
+        "area": "エストリア", 
+        "battle_count": 8, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ようやく寒さから解放された。厳密に言えばここも寒いのだが、これまでに比べれば格段に暖かい。生き返った心地だ。", 
+        "difficulty": 1, 
+        "dungeon": "10740", 
+        "energy_use": 18, 
+        "id": "10740", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "40", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "60", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "光を散らして", 
+        "requires": "10734", 
+        "xp": 4490, 
+        "zel": 5200
+    }, 
+    "10741": {
+        "area": "エストリア", 
+        "battle_count": 8, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "洞窟内だが、壁は透明度の高い氷で、外の光が差し込んでくる。乱反射した光があらゆる角度から照らし、影を消している。", 
+        "difficulty": 1, 
+        "dungeon": "10740", 
+        "energy_use": 19, 
+        "id": "10741", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "40", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "60", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "照らされし道", 
+        "requires": "10740", 
+        "xp": 4870, 
+        "zel": 5500
+    }, 
+    "10742": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "洞窟は光だけではなく、音も反射させる。歩く音が幾重にも反響し、まるで大人数が行軍しているようにすら聞こえる。", 
+        "difficulty": 1, 
+        "dungeon": "10740", 
+        "energy_use": 20, 
+        "id": "10742", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "40", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "60", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "明るい未来を", 
+        "requires": "10741", 
+        "xp": 5290, 
+        "zel": 5800
+    }, 
+    "10743": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "広い空洞に出た。どうやら屈折した光が集中している地点のようで、氷が融けている部分もある。ありがたいことに少し暖かい。", 
+        "difficulty": 1, 
+        "dungeon": "10740", 
+        "energy_use": 21, 
+        "id": "10743", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "40", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "60", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "乱反射光", 
+        "requires": "10742", 
+        "xp": 5630, 
+        "zel": 6100
+    }, 
+    "10744": {
+        "area": "エストリア", 
+        "battle_count": 10, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "光が眩い洞窟を進んできたせいか、目が疲労してきた。乾燥もしているし、視界が少しぼやけてきた。今襲われたら危険だ。", 
+        "difficulty": 1, 
+        "dungeon": "10740", 
+        "energy_use": 22, 
+        "id": "10744", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "40", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "60", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "幻惑の彼方", 
+        "requires": "10743", 
+        "xp": 6100, 
+        "zel": 6400
+    }, 
+    "10750": {
+        "area": "エストリア", 
+        "battle_count": 8, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "カルの優しさは弱さだとルジーナは言った。では、強いということはなんなのだろうか？雄大な自然は何も答えない。", 
+        "difficulty": 1, 
+        "dungeon": "10750", 
+        "energy_use": 18, 
+        "id": "10750", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "40", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "60", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "暗く寒い所", 
+        "requires": "10744", 
+        "xp": 4510, 
+        "zel": 5400
+    }, 
+    "10751": {
+        "area": "エストリア", 
+        "battle_count": 8, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "氷の断崖の横を、強風が恐ろしいうなり声のように通り抜けていく。洞窟内で温まった体は瞬く間に冷え切ってしまった。", 
+        "difficulty": 1, 
+        "dungeon": "10750", 
+        "energy_use": 19, 
+        "id": "10751", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "40", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "60", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "閉じた前途", 
+        "requires": "10750", 
+        "xp": 4920, 
+        "zel": 5700
+    }, 
+    "10752": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "氷壁に張り出した道を慎重に登っていく。いくつもの岐路の中から、なるべく安全そうな場所を選んで行かなければならない。", 
+        "difficulty": 1, 
+        "dungeon": "10750", 
+        "energy_use": 20, 
+        "id": "10752", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "40", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "60", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "闇の壁", 
+        "requires": "10751", 
+        "xp": 5320, 
+        "zel": 6000
+    }, 
+    "10753": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "恐らくこの断崖を登りきれば、モーラの待つ城へと辿り着くだろう。上を見ても下を見ても身がすくむ状況だが、進むしかない。", 
+        "difficulty": 1, 
+        "dungeon": "10750", 
+        "energy_use": 21, 
+        "id": "10753", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "40", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "60", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "虚心無想", 
+        "requires": "10752", 
+        "xp": 5660, 
+        "zel": 6300
+    }, 
+    "10754": {
+        "area": "エストリア", 
+        "battle_count": 10, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "上端に近付いてきた。もしも今足を踏み外せば命は無いだろう。こんな場所でも敵はお構いなしに襲ってくる。注意が必要だ。", 
+        "difficulty": 1, 
+        "dungeon": "10750", 
+        "energy_use": 22, 
+        "id": "10754", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "40", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "60", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "零下の断崖", 
+        "requires": "10753", 
+        "xp": 6120, 
+        "zel": 6600
+    }, 
+    "10760": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "先行するセリアとルジーナが罠を解除してくれた道を進む。すると、待っていたかのように敵が現れた。罠と伏兵の二段構えか。", 
+        "difficulty": 1, 
+        "dungeon": "10760", 
+        "energy_use": 20, 
+        "id": "10760", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "30", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "70", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "封鎖された門", 
+        "requires": "10754", 
+        "xp": 5550, 
+        "zel": 6400
+    }, 
+    "10761": {
+        "area": "エストリア", 
+        "battle_count": 9, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "かつての魔神の盟主の居城は、それに相応しい優雅さと荘厳さを持っている。長い年月が過ぎた今でもそれは変わらない。", 
+        "difficulty": 1, 
+        "dungeon": "10760", 
+        "energy_use": 21, 
+        "id": "10761", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "30", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "70", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "凍りし過去", 
+        "requires": "10760", 
+        "xp": 6150, 
+        "zel": 6700
+    }, 
+    "10762": {
+        "area": "エストリア", 
+        "battle_count": 10, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "魔神の盟主がこの城を去ってから、魔神たちは混沌とした争いの時代を迎えたという。それ以来この城の役目は失われたらしい。", 
+        "difficulty": 1, 
+        "dungeon": "10760", 
+        "energy_use": 21, 
+        "id": "10762", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "30", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "70", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "閉ざされた扉", 
+        "requires": "10761", 
+        "xp": 6520, 
+        "zel": 7000
+    }, 
+    "10763": {
+        "area": "エストリア", 
+        "battle_count": 10, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "召喚老の２人にベルツとリオメルグ、彼らもこの城に着いているはずだ。誰が最初にモーラと遭遇するかが重要になるだろう。", 
+        "difficulty": 1, 
+        "dungeon": "10760", 
+        "energy_use": 22, 
+        "id": "10763", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "30", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "70", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "縛られた記憶", 
+        "requires": "10762", 
+        "xp": 7130, 
+        "zel": 7300
+    }, 
+    "10764": {
+        "area": "エストリア", 
+        "battle_count": 11, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "この城の本来の主は争いを無くすという魔神らしからぬ望みを持っていたらしい。モーラはその遺志を継ぐと言っていたが……。", 
+        "difficulty": 1, 
+        "dungeon": "10760", 
+        "energy_use": 24, 
+        "id": "10764", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "30", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "70", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "禁じられた心", 
+        "requires": "10763", 
+        "xp": 8050, 
+        "zel": 7600
+    }, 
+    "10765": {
+        "area": "エストリア", 
+        "battle_count": 12, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "セリアとともにモーラに挑む。他の魔神たちの力を取り込んだモーラは以前とは段違いに強くなっている。全力で戦おう！", 
+        "difficulty": 1, 
+        "dungeon": "10760", 
+        "energy_use": 25, 
+        "id": "10765", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "30", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "70", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "集いし魔神の力", 
+        "requires": "10764", 
+        "xp": 8600, 
+        "zel": 7900
+    }, 
+    "10766": {
+        "area": "エストリア", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "ティリスとの再会を喜ぶのは後にして、今はモーラを倒さなければ！取り込んだ魔神たちの力を制御できない今こそ勝機がある！", 
+        "difficulty": 1, 
+        "dungeon": "10760", 
+        "energy_use": 25, 
+        "id": "10766", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {
+            "group_1_chance": "30", 
+            "group_1_monster_group": "1100", 
+            "group_2_chance": "70", 
+            "group_2_monster_group": "1200", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "遺志を継ぐ者", 
+        "requires": "10765", 
+        "xp": 7500, 
+        "zel": 3000
+    }, 
+    "10770": {
+        "area": "エストリア", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "110001"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "セリアの気持ちを正面から受け止めて、全力を以って応えよう。きっとセリアなら、そこから何かを見つけ出してくれるだろう。", 
+        "difficulty": 1, 
+        "dungeon": "10770", 
+        "energy_use": 50, 
+        "id": "10770", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {}, 
+        "name": "鬼神が望む力", 
+        "requires": "10670,10766", 
+        "xp": 11000, 
+        "zel": 30000
+    }, 
+    "10771": {
+        "area": "エストリア", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "unit": {
+                    "count": "1", 
+                    "id": "20302"
+                }
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "110011"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "真の力と姿を見せたバリュオン。魔神の力を覚醒させたカルとともに立ち向かおう！カルが望む答えはきっとその先に！", 
+        "difficulty": 1, 
+        "dungeon": "10770", 
+        "energy_use": 50, 
+        "id": "10771", 
+        "karma": 0, 
+        "land": "エストリア", 
+        "mimic_info": {}, 
+        "name": "真なる竜覇の力", 
+        "requires": "10770", 
         "xp": 12800, 
         "zel": 30000
     }, 
@@ -13548,7 +15148,7 @@
         "zel": 0
     }, 
     "110110": {
-        "area": "110006", 
+        "area": "至高の楽園20", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13565,7 +15165,7 @@
         "zel": 0
     }, 
     "110120": {
-        "area": "110007", 
+        "area": "至高の楽園21", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13582,7 +15182,7 @@
         "zel": 0
     }, 
     "110130": {
-        "area": "110008", 
+        "area": "至高の楽園22", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13599,7 +15199,7 @@
         "zel": 0
     }, 
     "110140": {
-        "area": "110009", 
+        "area": "至高の楽園23", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13616,7 +15216,7 @@
         "zel": 0
     }, 
     "110150": {
-        "area": "110010", 
+        "area": "至高の楽園24", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13633,7 +15233,7 @@
         "zel": 0
     }, 
     "110160": {
-        "area": "110011", 
+        "area": "至高の楽園25", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13646,6 +15246,57 @@
         "land": "狭間", 
         "mimic_info": {}, 
         "name": "幼魔の園", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110170": {
+        "area": "至高の楽園26", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "1日1回だけ開かれるという天上への入口。<br>聞こえてくるケロケロという鳴き声は複数種類あるようだが…。", 
+        "difficulty": 1, 
+        "dungeon": "110012", 
+        "energy_use": 15, 
+        "id": "110170", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "天上の園", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110180": {
+        "area": "至高の楽園27", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "1日1回だけ入ることの許された幼魔達の楽園。<br>小さなものたちは合成相手を噂し合っているとか。", 
+        "difficulty": 1, 
+        "dungeon": "110013", 
+        "energy_use": 15, 
+        "id": "110180", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "幼魔の園", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110190": {
+        "area": "至高の楽園28", 
+        "battle_count": 2, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "1日1回だけ開く石版守の園へと繋がる扉。<br>その先では石版を大切に抱えた存在が待っているという。", 
+        "difficulty": 1, 
+        "dungeon": "110014", 
+        "energy_use": 15, 
+        "id": "110190", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "石版守の園", 
         "xp": 1000, 
         "zel": 0
     }, 
@@ -13672,6 +15323,57 @@
         "requires": "1101", 
         "xp": 4150, 
         "zel": 4100
+    }, 
+    "110200": {
+        "area": "至高の楽園29", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "1日1回だけ開かれるという天上への入口。<br>聞こえてくるケロケロという鳴き声は複数種類あるようだが…。", 
+        "difficulty": 1, 
+        "dungeon": "110015", 
+        "energy_use": 15, 
+        "id": "110200", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "天上の園", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110210": {
+        "area": "至高の楽園30", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "1日1回だけ入ることの許された幼魔達の楽園。<br>小さなものたちは合成相手を噂し合っているとか。", 
+        "difficulty": 1, 
+        "dungeon": "110016", 
+        "energy_use": 15, 
+        "id": "110210", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "幼魔の園", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110220": {
+        "area": "至高の楽園31", 
+        "battle_count": 2, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "1日1回だけ開く石版守の園へと繋がる扉。<br>その先では石版を大切に抱えた存在が待っているという。", 
+        "difficulty": 1, 
+        "dungeon": "110017", 
+        "energy_use": 15, 
+        "id": "110220", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "石版守の園", 
+        "xp": 1000, 
+        "zel": 0
     }, 
     "1103": {
         "area": "ラナーラ", 
@@ -19250,6 +20952,92 @@
         "xp": 3800, 
         "zel": 4000
     }, 
+    "151000": {
+        "area": "グランガイア戦記", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "zel": "500000"
+            }, 
+            {
+                "karma": "100000"
+            }
+        ], 
+        "continue": true, 
+        "desc": "【神託の騎士団 vol.1】封神ルシアスに仕える“神託の騎士”。その候補者の１人“アーク”は悩んでいた…。", 
+        "difficulty": 1, 
+        "dungeon": "150010", 
+        "energy_use": 30, 
+        "id": "151000", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "神託の騎士", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
+    "151001": {
+        "area": "グランガイア戦記", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "zel": "500000"
+            }, 
+            {
+                "karma": "100000"
+            }, 
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "【神託の騎士団 vol.2】神託の騎士と巫女、そしてその仲間たちはルシアスの命に従い、大神皇の元を目指す。", 
+        "difficulty": 1, 
+        "dungeon": "150010", 
+        "energy_use": 30, 
+        "id": "151001", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "大神皇を目指して", 
+        "requires": "151000", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
+    "151002": {
+        "area": "グランガイア戦記", 
+        "battle_count": 2, 
+        "clear_bonus": [
+            {
+                "zel": "1000000"
+            }, 
+            {
+                "karma": "200000"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "47209"
+                }
+            }, 
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": false, 
+        "desc": "【神託の騎士団 vol.3】人を滅ぼすことを決断した大神皇カルナ・マスタと神託の騎士団の決戦が今、始まる！", 
+        "difficulty": 1, 
+        "dungeon": "150010", 
+        "energy_use": 50, 
+        "id": "151002", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "神との対峙　そして…", 
+        "requires": "151001", 
+        "xp": 10000, 
+        "zel": 0
+    }, 
     "1511": {
         "area": "バリウラ", 
         "battle_count": 8, 
@@ -20685,6 +22473,46 @@
         "land": "狭間", 
         "mimic_info": {}, 
         "name": "黄の閃光", 
+        "requires": "2000011", 
+        "xp": 100000, 
+        "zel": 3000000
+    }, 
+    "2000013": {
+        "area": "召喚術研究所", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "49940"
+                }
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "110051"
+                }
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "110060"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "今回の擬似ユニットは<br>これまでとはすっごく違う素材だよ！<br>戦い始めたらきっとキミは<br>すっごく驚くと思うな♪", 
+        "difficulty": 1, 
+        "dungeon": "召喚術研究所", 
+        "energy_use": 50, 
+        "id": "2000013", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "超えるべき壁", 
         "requires": "2000011", 
         "xp": 100000, 
         "zel": 3000000
@@ -22885,6 +24713,40 @@
         "xp": 0, 
         "zel": 0
     }, 
+    "3000190": {
+        "area": "新フロンティアゲート", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "水属性ユニットのみが挑むことができる修練プログラム。<br>限られたユニットを駆使し、立ち塞がる強敵を撃破しろ！", 
+        "difficulty": 1, 
+        "dungeon": "3000011", 
+        "energy_use": 0, 
+        "id": "3000190", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "水の界域", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000191": {
+        "area": "新フロンティアゲート", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "水属性ユニットのみが挑むことができる修練プログラム。<br>限られたユニットを駆使し、立ち塞がる強敵を撃破しろ！", 
+        "difficulty": 1, 
+        "dungeon": "3000011", 
+        "energy_use": 0, 
+        "id": "3000191", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "水の界域 最終層", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "3000200": {
         "area": "新フロンティアゲート", 
         "battle_count": 3, 
@@ -22919,6 +24781,74 @@
         "xp": 0, 
         "zel": 0
     }, 
+    "3000210": {
+        "area": "新フロンティアゲート", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "雷属性ユニットのみが挑むことができる修練プログラム。<br>限られたユニットを駆使し、立ち塞がる強敵を撃破しろ！", 
+        "difficulty": 1, 
+        "dungeon": "3000013", 
+        "energy_use": 0, 
+        "id": "3000210", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "雷の界域", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000211": {
+        "area": "新フロンティアゲート", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "雷属性ユニットのみが挑むことができる修練プログラム。<br>限られたユニットを駆使し、立ち塞がる強敵を撃破しろ！", 
+        "difficulty": 1, 
+        "dungeon": "3000013", 
+        "energy_use": 0, 
+        "id": "3000211", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "雷の界域 最終層", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000220": {
+        "area": "新フロンティアゲート", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "光属性ユニットのみが挑むことができる修練プログラム。<br>限られたユニットを駆使し、立ち塞がる強敵を撃破しろ！", 
+        "difficulty": 1, 
+        "dungeon": "3000014", 
+        "energy_use": 0, 
+        "id": "3000220", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "光の界域", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000221": {
+        "area": "新フロンティアゲート", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "光属性ユニットのみが挑むことができる修練プログラム。<br>限られたユニットを駆使し、立ち塞がる強敵を撃破しろ！", 
+        "difficulty": 1, 
+        "dungeon": "3000014", 
+        "energy_use": 0, 
+        "id": "3000221", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "光の界域 最終層", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "3000230": {
         "area": "新フロンティアゲート", 
         "battle_count": 3, 
@@ -22950,6 +24880,57 @@
         "land": "狭間", 
         "mimic_info": {}, 
         "name": "闇の界域 最終層", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000240": {
+        "area": "新フロンティアゲート", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "★６以下のユニットのみが挑戦できる修練プログラム。<br>限られたユニットを駆使し、立ち塞がる強敵を撃破しろ！", 
+        "difficulty": 1, 
+        "dungeon": "3000016", 
+        "energy_use": 0, 
+        "id": "3000240", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "六星制戦", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000241": {
+        "area": "新フロンティアゲート", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "★６以下のユニットのみが挑戦できる修練プログラム。<br>限られたユニットを駆使し、立ち塞がる強敵を撃破しろ！", 
+        "difficulty": 1, 
+        "dungeon": "3000016", 
+        "energy_use": 0, 
+        "id": "3000241", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "六星制戦 最終層", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000250": {
+        "area": "新フロンティアゲート", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "短期間での瞬間的な攻撃力が試される修練プログラム。<br>敵が３ターン目に自滅してしまう前に大ダメージを叩きこめ！", 
+        "difficulty": 1, 
+        "dungeon": "3000017", 
+        "energy_use": 0, 
+        "id": "3000250", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "総攻化演習", 
         "xp": 0, 
         "zel": 0
     }, 
@@ -25425,6 +27406,24 @@
         "xp": 3000, 
         "zel": 10000
     }, 
+    "5200001": {
+        "area": "グラクエ千メモ", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "神々の怒りに触れ滅ぶ前のバリウラ帝国。第<br>八皇女アリスは謎の少女より皇帝の命令を伝<br>えられ、研究所跡にいるシードという人物の<br>暗殺におもむく。同じ頃、アリスの姉である<br>第二皇女エルザは、彼女を守るため先んじて<br>シードを殺そうと出発していた。だが２人は<br>道中で異世界から来たというロネッサ、アー<br>サーに遭遇。それぞれと旅をすることに。", 
+        "difficulty": 1, 
+        "dungeon": "5200001", 
+        "energy_use": 15, 
+        "id": "5200001", 
+        "karma": 3000, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "鏡花水月の輻輳", 
+        "requires": "3", 
+        "xp": 3000, 
+        "zel": 10000
+    }, 
     "521": {
         "area": "エンセルビス", 
         "battle_count": 9, 
@@ -26142,6 +28141,23 @@
         "requires": "565", 
         "xp": 2400, 
         "zel": 1500
+    }, 
+    "6000000": {
+        "area": "召喚術演習場", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "召喚術のトレーニングを行える施設。さまざまなシチュエーションを想定したバトルを構成することができる特殊空間。", 
+        "difficulty": 1, 
+        "dungeon": "6000000", 
+        "energy_use": 0, 
+        "id": "6000000", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "召喚術演習場", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "601": {
         "area": "パルミナ", 
@@ -29929,7 +31945,7 @@
         "zel": 0
     }, 
     "900010": {
-        "area": "900001", 
+        "area": "紅桜の闇舞", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -29946,7 +31962,7 @@
         "zel": 0
     }, 
     "900011": {
-        "area": "900001", 
+        "area": "紅桜の闇舞", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -29963,7 +31979,7 @@
         "zel": 0
     }, 
     "900012": {
-        "area": "900001", 
+        "area": "紅桜の闇舞", 
         "battle_count": 7, 
         "clear_bonus": [
             {
