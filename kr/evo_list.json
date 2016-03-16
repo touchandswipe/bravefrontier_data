@@ -1811,6 +1811,43 @@
         "name": "\uc5f0\uaf43\ub3c4\ub07c\uc2e0 \ubbf8\uc140", 
         "rarity": 5
     }, 
+    "10255": {
+        "amount": 1500000, 
+        "evo": {
+            "id": 10256, 
+            "name": "\ubd88\ud0c0\ub294 \uc5f0\uaf43\ub3c4\ub07c\uc2e0 \ubbf8\uc140", 
+            "rarity": 7
+        }, 
+        "mats": [
+            {
+                "id": "10354", 
+                "name": "\uc5c5\uc5fc\uc758 \uae30\uacc4\uc2e0", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "\uae30\uc801\uc758 \uac70\uc2e0", 
+                "type": "unit"
+            }, 
+            {
+                "id": "10133", 
+                "name": "\ubd88\uc758 \uac70\uc2e0", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "\ub4dc\ub798\uace4 \ubbf8\ubbf9", 
+                "type": "unit"
+            }, 
+            {
+                "id": "110100", 
+                "name": "\uc2e0\uc6d4\uc758 \ud63c\uc11d", 
+                "type": "item"
+            }
+        ], 
+        "name": "\uc704\ub300\ud55c \uc5f0\uaf43\ub3c4\ub07c\uc2e0 \ubbf8\uc140", 
+        "rarity": 6
+    }, 
     "10261": {
         "amount": 50000, 
         "evo": {
@@ -3394,7 +3431,7 @@
                 "type": "unit"
             }
         ], 
-        "name": "\uc791\ub728\uac70\uc6b4 \uc0d8\uc774\uc2e0 \ub8e8\ube44", 
+        "name": "\uc791\uc5f4\uc120\uc2e0 \ub8e8\ube44", 
         "rarity": 5
     }, 
     "10645": {
@@ -3586,8 +3623,8 @@
         "amount": 500000, 
         "evo": {
             "id": 10675, 
-            "name": "74VFwuTd", 
-            "rarity": 0
+            "name": "\uac15\uc778\ud55c \uc5c5\uc5fc\uc2e0 \uae00\ub9ac\ud504", 
+            "rarity": 6
         }, 
         "mats": [
             {
@@ -3616,15 +3653,15 @@
                 "type": "unit"
             }
         ], 
-        "name": "pn16CNah", 
-        "rarity": 0
+        "name": "\uac15\uc5fc\uc2e0 \uae00\ub9ac\ud504", 
+        "rarity": 5
     }, 
     "10675": {
         "amount": 1500000, 
         "evo": {
             "id": 10676, 
-            "name": "74VFwuTd", 
-            "rarity": 0
+            "name": "\uac15\uc778\ud55c \uc7a5\uad70\uc2e0 \uae00\ub9ac\ud504", 
+            "rarity": 7
         }, 
         "mats": [
             {
@@ -3653,8 +3690,8 @@
                 "type": "unit"
             }
         ], 
-        "name": "pn16CNah", 
-        "rarity": 0
+        "name": "\uac15\uc778\ud55c \uc5c5\uc5fc\uc2e0 \uae00\ub9ac\ud504", 
+        "rarity": 6
     }, 
     "20011": {
         "amount": 2500, 
@@ -7169,8 +7206,8 @@
         "amount": 500000, 
         "evo": {
             "id": 20635, 
-            "name": "74VFwuTd", 
-            "rarity": 0
+            "name": "\ub0a8\ube5b \uc5bc\uc74c\uc2e0 \uc544\uc774\ub9ac\uc2a4", 
+            "rarity": 6
         }, 
         "mats": [
             {
@@ -7199,15 +7236,15 @@
                 "type": "unit"
             }
         ], 
-        "name": "pn16CNah", 
-        "rarity": 0
+        "name": "\ub0a8\ube5b \uc5bc\uc74c\uacf5\uc8fc \uc544\uc774\ub9ac\uc2a4", 
+        "rarity": 5
     }, 
     "20635": {
         "amount": 1500000, 
         "evo": {
             "id": 20636, 
-            "name": "74VFwuTd", 
-            "rarity": 0
+            "name": "\ub0a8\ube5b \uba85\ucc9c\ub839\uc2e0 \uc544\uc774\ub9ac\uc2a4", 
+            "rarity": 7
         }, 
         "mats": [
             {
@@ -7236,8 +7273,8 @@
                 "type": "unit"
             }
         ], 
-        "name": "pn16CNah", 
-        "rarity": 0
+        "name": "\ub0a8\ube5b \uc5bc\uc74c\uc2e0 \uc544\uc774\ub9ac\uc2a4", 
+        "rarity": 6
     }, 
     "30011": {
         "amount": 2500, 
@@ -10789,8 +10826,8 @@
         "amount": 500000, 
         "evo": {
             "id": 30625, 
-            "name": "74VFwuTd", 
-            "rarity": 0
+            "name": "\uace0\uc6b4 \uccad\ub85d\uc8fc\uc2e0 \ub9ac\ubca0\ub77c", 
+            "rarity": 6
         }, 
         "mats": [
             {
@@ -10819,15 +10856,15 @@
                 "type": "unit"
             }
         ], 
-        "name": "pn16CNah", 
-        "rarity": 0
+        "name": "\uace0\uc6b4 \uccad\ub85d\uc2e0 \ub9ac\ubca0\ub77c", 
+        "rarity": 5
     }, 
     "30625": {
         "amount": 1500000, 
         "evo": {
             "id": 30626, 
-            "name": "74VFwuTd", 
-            "rarity": 0
+            "name": "\ube5b\ub098\ub294 \uccad\ub85d\uc8fc\uc2e0 \ub9ac\ubca0\ub77c", 
+            "rarity": 7
         }, 
         "mats": [
             {
@@ -10856,8 +10893,8 @@
                 "type": "unit"
             }
         ], 
-        "name": "pn16CNah", 
-        "rarity": 0
+        "name": "\uace0\uc6b4 \uccad\ub85d\uc8fc\uc2e0 \ub9ac\ubca0\ub77c", 
+        "rarity": 6
     }, 
     "40011": {
         "amount": 2500, 
@@ -13369,6 +13406,43 @@
         "name": "\uc2e0\uc758 \ub1cc\uc218 \uc5d0\uc2a4\ub098", 
         "rarity": 5
     }, 
+    "40445": {
+        "amount": 1500000, 
+        "evo": {
+            "id": 40446, 
+            "name": "\ud658\uba85\uc2e0\uc218 \uc0ac\uac00\ubca8", 
+            "rarity": 7
+        }, 
+        "mats": [
+            {
+                "id": "40334", 
+                "name": "\ubd95\ub1cc\uc758 \uae30\uacc4\uc2e0", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "\uae30\uc801\uc758 \uac70\uc2e0", 
+                "type": "unit"
+            }, 
+            {
+                "id": "40133", 
+                "name": "\ubc88\uac1c\uc758 \uac70\uc2e0", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "\ub4dc\ub798\uace4 \ubbf8\ubbf9", 
+                "type": "unit"
+            }, 
+            {
+                "id": "110100", 
+                "name": "\uc2e0\uc6d4\uc758 \ud63c\uc11d", 
+                "type": "item"
+            }
+        ], 
+        "name": "\uc2e0\uc218 \uc5d1\uc2a4\ubca8", 
+        "rarity": 6
+    }, 
     "40452": {
         "amount": 100000, 
         "evo": {
@@ -14298,8 +14372,8 @@
         "amount": 500000, 
         "evo": {
             "id": 40605, 
-            "name": "74VFwuTd", 
-            "rarity": 0
+            "name": "\uc6a9\ub9f9\ud55c \ub1cc\uace4\uc2e0 \ub85c\uc544", 
+            "rarity": 6
         }, 
         "mats": [
             {
@@ -14328,15 +14402,15 @@
                 "type": "unit"
             }
         ], 
-        "name": "pn16CNah", 
-        "rarity": 0
+        "name": "\ub1cc\uace4\uc2e0 \ub85c\uc544", 
+        "rarity": 5
     }, 
     "40605": {
         "amount": 1500000, 
         "evo": {
             "id": 40606, 
-            "name": "74VFwuTd", 
-            "rarity": 0
+            "name": "\ud3ed\ud48d\uc758 \ub1cc\ud63c\uc2e0 \ub85c\uc544", 
+            "rarity": 7
         }, 
         "mats": [
             {
@@ -14365,8 +14439,8 @@
                 "type": "unit"
             }
         ], 
-        "name": "pn16CNah", 
-        "rarity": 0
+        "name": "\uc6a9\ub9f9\ud55c \ub1cc\uace4\uc2e0 \ub85c\uc544", 
+        "rarity": 6
     }, 
     "50011": {
         "amount": 50000, 
@@ -16051,6 +16125,43 @@
         ], 
         "name": "\uc2ed\uc775\ucc9c\uc131 \uba54\ub974\ud0a4\uc624", 
         "rarity": 5
+    }, 
+    "50275": {
+        "amount": 1500000, 
+        "evo": {
+            "id": 50276, 
+            "name": "\uac11\uc637\uc2e0 \uc81c\ub178 \uba54\ub974\ud0a4\uc624", 
+            "rarity": 7
+        }, 
+        "mats": [
+            {
+                "id": "50394", 
+                "name": "\ud30c\uad11\uc758 \uae30\uacc4\uc2e0", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "\uae30\uc801\uc758 \uac70\uc2e0", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50123", 
+                "name": "\ube5b\uc758 \uac70\uc2e0", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "\ub4dc\ub798\uace4 \ubbf8\ubbf9", 
+                "type": "unit"
+            }, 
+            {
+                "id": "110100", 
+                "name": "\uc2e0\uc6d4\uc758 \ud63c\uc11d", 
+                "type": "item"
+            }
+        ], 
+        "name": "\ub300\uc2e0\uc131 \uba54\ub974\ud0a4\uc624", 
+        "rarity": 6
     }, 
     "50285": {
         "amount": 1500000, 
@@ -17938,8 +18049,8 @@
         "amount": 500000, 
         "evo": {
             "id": 50755, 
-            "name": "74VFwuTd", 
-            "rarity": 0
+            "name": "\ud558\uc580 \uc2e0\uc131\uadc0\uc2e0 \ud06c\ub780\uce20", 
+            "rarity": 6
         }, 
         "mats": [
             {
@@ -17968,15 +18079,15 @@
                 "type": "unit"
             }
         ], 
-        "name": "pn16CNah", 
-        "rarity": 0
+        "name": "\ud558\uc580 \uc2e0\uc131\uc2e0 \ud06c\ub780\uce20", 
+        "rarity": 5
     }, 
     "50755": {
         "amount": 1500000, 
         "evo": {
             "id": 50756, 
-            "name": "74VFwuTd", 
-            "rarity": 0
+            "name": "\uc2e0\uc131\ud55c \ud328\ub2e8\uc2e0 \ud06c\ub780\uce20", 
+            "rarity": 7
         }, 
         "mats": [
             {
@@ -18005,8 +18116,8 @@
                 "type": "unit"
             }
         ], 
-        "name": "pn16CNah", 
-        "rarity": 0
+        "name": "\ud558\uc580 \uc2e0\uc131\uadc0\uc2e0 \ud06c\ub780\uce20", 
+        "rarity": 6
     }, 
     "60011": {
         "amount": 50000, 
@@ -21716,8 +21827,8 @@
         "amount": 500000, 
         "evo": {
             "id": 60765, 
-            "name": "74VFwuTd", 
-            "rarity": 0
+            "name": "\ub098\uc601\ud5c8\uc2e0 \uce74\ud504\uce74", 
+            "rarity": 6
         }, 
         "mats": [
             {
@@ -21746,15 +21857,15 @@
                 "type": "unit"
             }
         ], 
-        "name": "pn16CNah", 
-        "rarity": 0
+        "name": "\ub098\uc601\uc2e0 \uce74\ud504\uce74", 
+        "rarity": 5
     }, 
     "60765": {
         "amount": 1500000, 
         "evo": {
             "id": 60766, 
-            "name": "74VFwuTd", 
-            "rarity": 0
+            "name": "\ub098\uc5b8\uc758 \ubc31\uace8\uc2e0 \uce74\ud504\uce74", 
+            "rarity": 7
         }, 
         "mats": [
             {
@@ -21783,8 +21894,8 @@
                 "type": "unit"
             }
         ], 
-        "name": "pn16CNah", 
-        "rarity": 0
+        "name": "\ub098\uc601\ud5c8\uc2e0 \uce74\ud504\uce74", 
+        "rarity": 6
     }, 
     "850013": {
         "amount": 100000, 

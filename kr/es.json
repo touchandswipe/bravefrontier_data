@@ -958,6 +958,30 @@
         "name": "미래에 바치는 힘", 
         "target": "self"
     }, 
+    "3800": {
+        "desc": "통상공격의 히트 수 증가", 
+        "effects": [
+            {
+                "conditions": [], 
+                "hit increase/hit": 1, 
+                "passive id": "37"
+            }
+        ], 
+        "name": "고귀한 초연", 
+        "target": "self"
+    }, 
+    "3900": {
+        "desc": "스파크 시 데미지 크게 상승", 
+        "effects": [
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "평안 없는 전의", 
+        "target": "self"
+    }, 
     "4": {
         "desc": "리더스킬1설명", 
         "effects": [
@@ -1008,6 +1032,209 @@
         "name": "각오하는 대우행", 
         "target": "self"
     }, 
+    "4000": {
+        "desc": "스파크 시 BB게이지 조금 상승", 
+        "effects": [
+            {
+                "bc fill on spark high": 1, 
+                "bc fill on spark low": 1, 
+                "bc fill on spark%": 100, 
+                "conditions": [], 
+                "passive id": "47"
+            }
+        ], 
+        "name": "떨어질 무렵의 숙원", 
+        "target": "self"
+    }, 
+    "4100": {
+        "desc": "적의 약점 속성 공격을 무효화", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }
+        ], 
+        "name": "계승되는 비기", 
+        "target": "self"
+    }, 
+    "4200": {
+        "desc": "BB게이지가 가득 찼을 때 공격력 대폭 상승", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "bb gauge above % buff requirement": 100, 
+                "conditions": [], 
+                "passive id": "30"
+            }
+        ], 
+        "name": "패배 없는 승리", 
+        "target": "self"
+    }, 
+    "4300": {
+        "desc": "크리티컬 시 데미지 상승", 
+        "effects": [
+            {
+                "conditions": [], 
+                "crit multiplier%": 100.0, 
+                "passive id": "34"
+            }
+        ], 
+        "name": "여섯 갑옷에 대한 집념", 
+        "target": "self"
+    }, 
+    "4400": {
+        "desc": "데미지를 입으면 확률로 HP 조금 회복&데미지를 입으면 확률로 BB게이지 조금 증가", 
+        "effects": [
+            {
+                "conditions": [], 
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }, 
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 50, 
+                "conditions": [], 
+                "passive id": "25"
+            }
+        ], 
+        "name": "신에게 사랑받은 기사", 
+        "target": "self"
+    }, 
+    "4500": {
+        "desc": "데미지를 입으면 BB 게이지 증가", 
+        "effects": [
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "conditions": [], 
+                "passive id": "25"
+            }
+        ], 
+        "name": "마정등의 빛", 
+        "target": "self"
+    }, 
+    "4600": {
+        "desc": "공격BB 사용 시 위력 상승", 
+        "effects": [
+            {
+                "bb atk% buff": 150, 
+                "conditions": [], 
+                "passive id": "64", 
+                "sbb atk% buff": 150, 
+                "ubb atk% buff": 150
+            }
+        ], 
+        "name": "원한의 복수극", 
+        "target": "self"
+    }, 
+    "4700": {
+        "desc": "BB와 SBB에 3턴간 암속성을 부여하는 효과를 추가&「DUEL의 조각」을 장비하면 전투 중에 모든 능력치 20% 상승", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "conditions": [
+                    {
+                        "item required": [
+                            "47201"
+                        ]
+                    }
+                ], 
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "rec% buff": 20
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "elements added": [
+                            "dark"
+                        ], 
+                        "elements added turns": 3, 
+                        "proc id": "30", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }
+        ], 
+        "name": "미래를 바라보는 눈동자", 
+        "target": "self"
+    }, 
+    "4800": {
+        "desc": "모든 상태이상 무효화", 
+        "effects": [
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "name": "톱니바퀴를 세우는 운명", 
+        "target": "self"
+    }, 
+    "4900": {
+        "desc": "BB와 SBB에 상태이상 회복 효과를 추가&「하얗게 빛나는 갑옷 메르키오」를 장비하면 전투 중에 모든 능력치 20% 상승", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "conditions": [
+                    {
+                        "item required": [
+                            "47200"
+                        ]
+                    }
+                ], 
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "rec% buff": 20
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "ailments cured": [
+                            "poison", 
+                            "weaken", 
+                            "sick", 
+                            "injury", 
+                            "curse", 
+                            "paralysis", 
+                            "atk down", 
+                            "def down", 
+                            "rec down"
+                        ], 
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "proc id": "38", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }
+        ], 
+        "name": "신이 내려주신 영혼", 
+        "target": "self"
+    }, 
     "5": {
         "desc": "리더스킬1설명", 
         "effects": [
@@ -1055,6 +1282,143 @@
             }
         ], 
         "name": "성검의 기도", 
+        "target": "self"
+    }, 
+    "5000": {
+        "desc": "BB와 SBB에 3턴간 크리티컬 확률 상승 효과를 추가&크리티컬 발생 시 BB게이지 증가", 
+        "effects": [
+            {
+                "bc fill on crit max": 4, 
+                "bc fill on crit min": 4, 
+                "bc fill on crit%": 100.0, 
+                "conditions": [], 
+                "passive id": "65"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "buff turns": 3, 
+                        "crit% buff (7)": 60, 
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "element buffed": "all", 
+                        "proc id": "5", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }
+        ], 
+        "name": "장군인 이유", 
+        "target": "self"
+    }, 
+    "5100": {
+        "desc": "통상공격의 히트 수 증가", 
+        "effects": [
+            {
+                "conditions": [], 
+                "hit increase/hit": 1, 
+                "passive id": "37"
+            }
+        ], 
+        "name": "불변의 소원과 변하는 마음", 
+        "target": "self"
+    }, 
+    "5200": {
+        "desc": "데미지를 입으면 확률로 HP 조금 회복&1턴마다 HP 조금 회복", 
+        "effects": [
+            {
+                "conditions": [], 
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 600, 
+                "turn heal low": 400
+            }
+        ], 
+        "name": "미소에 숨겨진 강한 힘", 
+        "target": "self"
+    }, 
+    "5300": {
+        "desc": "BB와 SBB에 2턴간 방어력 무시 공격 부여 효과를 추가&스파크 시 BB게이지 조금 증가", 
+        "effects": [
+            {
+                "bc fill on spark high": 1, 
+                "bc fill on spark low": 1, 
+                "bc fill on spark%": 100, 
+                "conditions": [], 
+                "passive id": "47"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "defense% ignore": 100, 
+                        "defense% ignore turns (39)": 2, 
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "proc id": "22", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }
+        ], 
+        "name": "계승되는 기술", 
+        "target": "self"
+    }, 
+    "5400": {
+        "desc": "BB 발동에 필요한 BB게이지 감소&확률로 데미지 20% 감소", 
+        "effects": [
+            {
+                "conditions": [], 
+                "dmg reduction chance%": 20, 
+                "dmg reduction%": 20, 
+                "passive id": "14"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "48", 
+                "reduced bb bc cost%": 20
+            }
+        ], 
+        "name": "때를 기다리는 재능", 
+        "target": "self"
+    }, 
+    "5500": {
+        "desc": "데미지를 입으면 확률로 BB게이지 조금 증가&상태이상에 걸린 적에게 주는 데미지 대폭 상승", 
+        "effects": [
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 50, 
+                "conditions": [], 
+                "passive id": "25"
+            }, 
+            {
+                "atk% buff when enemy has ailment": 100, 
+                "atk% buff when enemy has curse": true, 
+                "atk% buff when enemy has injury": true, 
+                "atk% buff when enemy has paralysis": true, 
+                "atk% buff when enemy has poison": true, 
+                "atk% buff when enemy has sick": true, 
+                "atk% buff when enemy has weaken": true, 
+                "conditions": [], 
+                "passive id": "74"
+            }
+        ], 
+        "name": "타락한 각성", 
         "target": "self"
     }, 
     "6": {

@@ -48,7 +48,7 @@
         "name": "Seeker's Life"
     }, 
     "10000": {
-        "desc": "\u5168\u80fd\u529b\u3092\uff11\uff15\uff05\u30a2\u30c3\u30d7", 
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u5168\u80fd\u529b\u3092\uff11\uff15\uff05\u30a2\u30c3\u30d7", 
         "effects": [
             {
                 "atk% buff": 15, 
@@ -287,6 +287,50 @@
             }
         ], 
         "name": "\u5e7b\u82f1\u6975\u714c\u306e\u8987\u6c17"
+    }, 
+    "10107": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u5168\u80fd\u529b\u3092\uff12\uff10\uff05\u30a2\u30c3\u30d7\uff06\u5168\u72b6\u614b\u7570\u5e38\u3092\u7121\u52b9", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "rec% buff": 20
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "name": "\u5e7b\u9084\u795e\u306e\u8b77\u6cd5"
+    }, 
+    "10108": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u5168\u80fd\u529b\u3092\uff13\uff15\uff05\u30a2\u30c3\u30d7\uff06\u5168\u72b6\u614b\u7570\u5e38\u3092\u7121\u52b9", 
+        "effects": [
+            {
+                "atk% buff": 35, 
+                "def% buff": 35, 
+                "hp% buff": 35, 
+                "passive id": "1", 
+                "rec% buff": 35
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "name": "\u5e7b\u7a76\u795e\u306e\u8b77\u6cd5"
     }, 
     "102": {
         "desc": "50% boost to Atk power and 10% increase in HP of Fire types", 
@@ -975,6 +1019,27 @@
             }
         ], 
         "name": "Lovely Nature's Power"
+    }, 
+    "128": {
+        "desc": "\u6a39\u5c5e\u6027\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u3092\uff11\uff12\uff10\uff05\u30a2\u30c3\u30d7\uff06\uff22\uff22\u767a\u52d5\u306b\u5fc5\u8981\u306a\uff22\uff22\u30b2\u30fc\u30b8\u91cf\u3092\u304b\u306a\u308a\u8efd\u6e1b\uff06\u30bf\u30fc\u30f3\u6bce\u306b\uff22\uff22\u30b2\u30fc\u30b8\u3092\u304b\u306a\u308a\u5897\u52a0", 
+        "effects": [
+            {
+                "atk% buff": 120, 
+                "elements buffed": [
+                    "earth"
+                ], 
+                "passive id": "2"
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 25
+            }, 
+            {
+                "bc fill per turn": 4, 
+                "passive id": "9"
+            }
+        ], 
+        "name": "\u6a39\u8fc5\u7d71\u795e\u306e\u529b"
     }, 
     "13": {
         "desc": "\u30ea\u30fc\u30c0\u30fc\u30b9\u30ad\u30eb\uff11\u8aac\u660e", 
@@ -2136,6 +2201,32 @@
         ], 
         "name": "\u6226\u9b54\u795e\u306e\u7d76\u6602"
     }, 
+    "1807": {
+        "desc": "\uff22\uff23\u7372\u5f97\u6642\u306e\u5897\u52a0\u91cf\u3092\u304b\u306a\u308a\u30a2\u30c3\u30d7\uff06\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u3092\uff18\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u6642\u3001\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5c11\u3057\u5897\u52a0\u30fb\uff28\uff30\u3092\u56de\u5fa9", 
+        "effects": [
+            {
+                "bb gauge fill rate%": 50, 
+                "passive id": "32"
+            }, 
+            {
+                "atk% buff": 80, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill on spark high": 2, 
+                "bc fill on spark low": 1, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }, 
+            {
+                "heal on spark high": 400, 
+                "heal on spark low": 200, 
+                "heal on spark%": 100, 
+                "passive id": "101"
+            }
+        ], 
+        "name": "\u6226\u8755\u754c\u795e\u306e\u529b"
+    }, 
     "1900": {
         "desc": "10% boost to Atk", 
         "effects": [
@@ -2157,7 +2248,7 @@
         "name": "Royal Power"
     }, 
     "1902": {
-        "desc": "\u3059\u3079\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u304c\uff12\uff10\uff05\u30a2\u30c3\u30d7", 
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u3092\uff12\uff10\uff05\u30a2\u30c3\u30d7", 
         "effects": [
             {
                 "atk% buff": 20, 
@@ -2528,6 +2619,34 @@
             }
         ], 
         "name": "\u6c37\u5f71\u9583\u795e\u306e\u958b\u95e2"
+    }, 
+    "1923": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u3092\uff14\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff17\uff15\uff05\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 75, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "\u754f\u9650\u5983\u306e\u51a5\u529b"
+    }, 
+    "1924": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u3092\uff18\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff11\uff10\uff10\uff05\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "\u754f\u9650\u95c7\u5983\u306e\u51a5\u846c\u529b"
     }, 
     "2": {
         "desc": "\u30ea\u30fc\u30c0\u30fc\u30b9\u30ad\u30eb\uff11\u8aac\u660e", 
@@ -3562,6 +3681,22 @@
         ], 
         "name": "\u4e94\u5149\u8755\u795e\u306e\u60aa\u75ab"
     }, 
+    "2223": {
+        "desc": "\u30d1\u30fc\u30c6\u30a3\u306e\u30e6\u30cb\u30c3\u30c8\u304c\uff15\u5c5e\u6027\u4ee5\u4e0a\u3067\u653b\u6483\u529b\u3092\uff11\uff10\uff10\uff05\u30a2\u30c3\u30d7\u30fb\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 100, 
+                "hp% buff": 30, 
+                "passive id": "41", 
+                "unique elements required": 5
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "\u4e94\u5149\u52ab\u795e\u306e\u9583\u6483"
+    }, 
     "2300": {
         "desc": "Boost in critical hit damage", 
         "effects": [
@@ -3749,6 +3884,33 @@
             }
         ], 
         "name": "Fierce God's Wave"
+    }, 
+    "2404": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u3092\uff14\uff10\uff05\u30a2\u30c3\u30d7\uff06\uff28\uff23\u7372\u5f97\u6642\u306e\u56de\u5fa9\u91cf\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\u78ba\u7387\u3067\uff28\uff30\u3092\u56de\u5fa9\uff06\uff22\uff22\u767a\u52d5\u6642\u306e\uff22\uff22\u30b2\u30fc\u30b8\u6d88\u8cbb\u91cf\u3092\u5927\u5e45\u306b\u8efd\u6e1b", 
+        "effects": [
+            {
+                "atk% buff": 40, 
+                "def% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "hc effectiveness%": 80, 
+                "passive id": "10"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 30, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 25, 
+                "passive id": "24"
+            }, 
+            {
+                "passive id": "49", 
+                "reduced bb bc use chance%": 100, 
+                "reduced bb bc use% high": 30, 
+                "reduced bb bc use% low": 25
+            }
+        ], 
+        "name": "\u708e\u967d\u59eb\u795e\u306e\u6ce2\u714c"
     }, 
     "2500": {
         "desc": "25% boost to Atk and Def for first 2 turns", 
@@ -3949,6 +4111,33 @@
             }
         ], 
         "name": "Flashing God's Command"
+    }, 
+    "2603": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff14\uff10\uff05\u30a2\u30c3\u30d7\uff06\u901a\u5e38\u653b\u6483\u6642\u3001\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5927\u5e45\u306b\u5897\u52a0\uff06\u30b9\u30d1\u30fc\u30af\u6642\u3001\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5c11\u3057\u5897\u52a0\uff06\u30bf\u30fc\u30f3\u6bce\u306b\uff22\uff22\u30b2\u30fc\u30b8\u3092\u304b\u306a\u308a\u5897\u52a0", 
+        "effects": [
+            {
+                "bc fill when attacking high": 7, 
+                "bc fill when attacking low": 7, 
+                "bc fill when attacking%": 100, 
+                "passive id": "35"
+            }, 
+            {
+                "bc fill on spark high": 2, 
+                "bc fill on spark low": 1, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }, 
+            {
+                "atk% buff": 40, 
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill per turn": 5, 
+                "passive id": "9"
+            }
+        ], 
+        "name": "\u52c7\u84bc\u7adc\u795e\u306e\u8c6a\u5486"
     }, 
     "2700": {
         "desc": "30% boost to Atk power of Light and Dark types", 
@@ -5108,7 +5297,7 @@
         "name": "\u5dcc\u92fc\u795e\u306e\u8056\u57df"
     }, 
     "4310": {
-        "desc": "\u3059\u3079\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\uff28\uff30\u3068\u9632\u5fa1\u529b\uff13\uff10\uff05\u30a2\u30c3\u30d7", 
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u9632\u5fa1\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7", 
         "effects": [
             {
                 "def% buff": 30, 
@@ -5344,6 +5533,44 @@
             }
         ], 
         "name": "\u72c2\u546a\u7687\u306e\u9b54\u795e\u57df"
+    }, 
+    "4324": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u9632\u5fa1\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u3092\u7121\u52b9", 
+        "effects": [
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "crit chance base resist%": 100, 
+                "crit chance buffed resist%": 100, 
+                "crit dmg base damage resist%": 100, 
+                "crit dmg buffed damage resist%": 100, 
+                "passive id": "53"
+            }
+        ], 
+        "name": "\u7d2b\u96f7\u5bae\u306e\u8056\u78c1\u57df"
+    }, 
+    "4325": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u9632\u5fa1\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30fb\u5f31\u70b9\u5c5e\u6027\u30c0\u30e1\u30fc\u30b8\u3092\u7121\u52b9", 
+        "effects": [
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "crit chance base resist%": 100, 
+                "crit chance buffed resist%": 100, 
+                "crit dmg base damage resist%": 100, 
+                "crit dmg buffed damage resist%": 100, 
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }
+        ], 
+        "name": "\u7d2b\u9e97\u5bae\u306e\u7687\u78c1\u57df"
     }, 
     "4400": {
         "desc": "Boosts resistence to status ailments & fills BB gauge after each turn", 
@@ -6132,7 +6359,7 @@
         "name": "Royal Oracle"
     }, 
     "5501": {
-        "desc": "\u3059\u3079\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\uff28\uff30\u304c\uff13\uff10\uff05\u30a2\u30c3\u30d7", 
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7", 
         "effects": [
             {
                 "hp% buff": 30, 
@@ -6439,6 +6666,38 @@
         ], 
         "name": "\u7dcb\u92ed\u795e\u306e\u5929\u9b54\u5149"
     }, 
+    "5518": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\uff22\uff22\u767a\u52d5\u306b\u5fc5\u8981\u306a\uff22\uff22\u30b2\u30fc\u30b8\u91cf\u3092\u304b\u306a\u308a\u8efd\u6e1b", 
+        "effects": [
+            {
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 20
+            }
+        ], 
+        "name": "\u7ffc\u64ec\u795e\u306e\u5929\u6d41"
+    }, 
+    "5519": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u6700\u5927\uff28\uff30\u3092\uff14\uff10\uff05\u30a2\u30c3\u30d7\uff06\uff22\uff22\u767a\u52d5\u306b\u5fc5\u8981\u306a\uff22\uff22\u30b2\u30fc\u30b8\u91cf\u3092\u304b\u306a\u308a\u8efd\u6e1b\uff06\uff22\uff23\u7372\u5f97\u6642\u306e\u5897\u52a0\u91cf\u3092\u304b\u306a\u308a\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 25
+            }, 
+            {
+                "bb gauge fill rate%": 50, 
+                "passive id": "32"
+            }
+        ], 
+        "name": "\u84bc\u7ffc\u795e\u306e\u5929\u6f54\u6d41"
+    }, 
     "552": {
         "desc": "\u6c34\u5c5e\u6027\u30e6\u30cb\u30c3\u30c8\u304b\u3089\u53d7\u3051\u308b\u30c0\u30e1\u30fc\u30b8\u3092\uff11\uff15\uff05\u8efd\u6e1b\uff06\u96f7\u5c5e\u6027\u30e6\u30cb\u30c3\u30c8\u304c\u6c34\u5c5e\u6027\u30e6\u30cb\u30c3\u30c8\u306b\u4e0e\u3048\u308b\u30c0\u30e1\u30fc\u30b8\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7\uff06\u6575\u304b\u3089\u306e\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u3092\u7121\u52b9\u5316", 
         "effects": [
@@ -6458,6 +6717,30 @@
             }
         ], 
         "name": "\u7425\u9b44\u795e\u306e\u65ad\u7f6a"
+    }, 
+    "553": {
+        "desc": "\u6a39\u5c5e\u6027\u30e6\u30cb\u30c3\u30c8\u304b\u3089\u306e\u88ab\u30c0\u30e1\u30fc\u30b8\u3092\uff11\uff15\uff05\u8efd\u6e1b\uff06\u708e\u5c5e\u6027\u306e\u5f31\u70b9\u5c5e\u6027\u30c0\u30e1\u30fc\u30b8\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7\uff06\u5168\u72b6\u614b\u7570\u5e38\u3092\u7121\u52b9", 
+        "effects": [
+            {
+                "earth resist%": 15, 
+                "passive id": "5"
+            }, 
+            {
+                "elemental weakness multiplier%": 150.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "passive id": "50"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "name": "\u65cb\u70c8\u795e\u306e\u65ad\u7f6a"
     }, 
     "5600": {
         "desc": "25% boost to Atk of all Light and Dark Units", 
@@ -7314,7 +7597,7 @@
         "name": "Monarch's Chakra"
     }, 
     "7401": {
-        "desc": "\u3059\u3079\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\uff28\uff30\u3068\u653b\u6483\u529b\u304c\uff13\uff10\uff05\u30a2\u30c3\u30d7", 
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7", 
         "effects": [
             {
                 "atk% buff": 30, 
@@ -7541,6 +7824,98 @@
             }
         ], 
         "name": "\u9583\u92ed\u9b54\u5203\u306e\u970a\u529b"
+    }, 
+    "7414": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "\u92fc\u7344\u795e\u306e\u7834\u529b"
+    }, 
+    "7415": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff14\uff10\uff05\u30a2\u30c3\u30d7\uff06\u78ba\u7387\u3067\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u8010\u6027\u3092\uff12\u30bf\u30fc\u30f3\u4f4e\u4e0b\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff17\uff15\uff05\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 40, 
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 75, 
+                "passive id": "31"
+            }, 
+            {
+                "passive id": "75", 
+                "spark debuff chance%": 10, 
+                "spark debuff turns": 1, 
+                "spark debuff%": 20
+            }
+        ], 
+        "name": "\u92fc\u7344\u795e\u306e\u7149\u7834\u529b"
+    }, 
+    "7416": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\u78ba\u7387\u3067\u5168\u72b6\u614b\u7570\u5e38\u3092\u30e9\u30f3\u30c0\u30e0\u306b\u767a\u751f", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "injury%": 15, 
+                "passive id": "20", 
+                "poison%": 10, 
+                "sick%": 15, 
+                "weaken%": 15
+            }, 
+            {
+                "curse%": 10, 
+                "paralysis%": 10, 
+                "passive id": "20"
+            }
+        ], 
+        "name": "\u594f\u64ec\u795e\u306e\u6a84\u529b"
+    }, 
+    "7417": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\u78ba\u7387\u3067\u5168\u72b6\u614b\u7570\u5e38\u3092\u30e9\u30f3\u30c0\u30e0\u306b\u767a\u751f\uff06\u72b6\u614b\u7570\u5e38\u306e\u6575\u3078\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "injury%": 15, 
+                "passive id": "20", 
+                "poison%": 10, 
+                "sick%": 15, 
+                "weaken%": 15
+            }, 
+            {
+                "curse%": 10, 
+                "paralysis%": 10, 
+                "passive id": "20"
+            }, 
+            {
+                "atk% buff when enemy has ailment": 100, 
+                "atk% buff when enemy has curse": true, 
+                "atk% buff when enemy has injury": true, 
+                "atk% buff when enemy has paralysis": true, 
+                "atk% buff when enemy has poison": true, 
+                "atk% buff when enemy has sick": true, 
+                "atk% buff when enemy has weaken": true, 
+                "passive id": "74"
+            }
+        ], 
+        "name": "\u7634\u86c7\u795e\u306e\u5984\u6a84\u529b"
     }, 
     "7500": {
         "desc": "Adds chance of slightly absorbing HP when attacking", 
@@ -10127,6 +10502,238 @@
         ], 
         "name": "Storm Champion's Bastion"
     }, 
+    "801206": {
+        "desc": "Negates critical hits from foes", 
+        "effects": [
+            {
+                "base crit% resist": 100, 
+                "buff crit% resist": 100, 
+                "passive id": "45"
+            }
+        ], 
+        "name": "Klutz!"
+    }, 
+    "801207": {
+        "desc": "Largely boosts Atk relative to amount of depleted HP & negates critical hits from foes", 
+        "effects": [
+            {
+                "base crit% resist": 100, 
+                "buff crit% resist": 100, 
+                "passive id": "45"
+            }, 
+            {
+                "atk% base buff": 75, 
+                "atk% extra buff based on hp": 125, 
+                "buff proportional to hp": "lost", 
+                "passive id": "46"
+            }
+        ], 
+        "name": "Markswoman Aura"
+    }, 
+    "801208": {
+        "desc": "Boosts Thunder, Dark elemental damage, hugely boosts Atk relative to amount of depleted HP & negates critical hits from foes", 
+        "effects": [
+            {
+                "base crit% resist": 100, 
+                "buff crit% resist": 100, 
+                "passive id": "45"
+            }, 
+            {
+                "atk% base buff": 180, 
+                "atk% extra buff based on hp": 200, 
+                "buff proportional to hp": "lost", 
+                "passive id": "46"
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 200.0, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true
+            }
+        ], 
+        "name": "Silhouette of the Valkyrie"
+    }, 
+    "801209": {
+        "desc": "Greatly boosts Atk, Def, Rec\u00a0when BB gauge is more than half-full", 
+        "effects": [
+            {
+                "atk% buff": 60, 
+                "bb gauge above % buff requirement": 50, 
+                "def% buff": 60, 
+                "passive id": "30", 
+                "rec% buff": 60
+            }
+        ], 
+        "name": "Lovestruck!"
+    }, 
+    "801210": {
+        "desc": "35% boost to max HP & hugely boosts Atk, Def, Rec\u00a0when BB gauge is more than half-full", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "bb gauge above % buff requirement": 50, 
+                "def% buff": 80, 
+                "passive id": "30", 
+                "rec% buff": 80
+            }, 
+            {
+                "hp% buff": 35, 
+                "passive id": "1"
+            }
+        ], 
+        "name": "Creed of the Witch Hunter"
+    }, 
+    "801211": {
+        "desc": "50% boost to max HP, hugely boosts Atk, Def, Rec when BB gauge is more than half-full and boosts BB gauge fill rate", 
+        "effects": [
+            {
+                "atk% buff": 120, 
+                "bb gauge above % buff requirement": 50, 
+                "def% buff": 100, 
+                "passive id": "30", 
+                "rec% buff": 100
+            }, 
+            {
+                "hp% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "bb gauge fill rate%": 50, 
+                "passive id": "32"
+            }
+        ], 
+        "name": "Empowering Soul Howl"
+    }, 
+    "801212": {
+        "desc": "20% boost to all parameters & negates elemental damage", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "rec% buff": 20
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }
+        ], 
+        "name": "Insouciant Idealist"
+    }, 
+    "801213": {
+        "desc": "25% boost to all parameters, negates elemental damage & boosts elemental damage", 
+        "effects": [
+            {
+                "atk% buff": 25, 
+                "def% buff": 25, 
+                "hp% buff": 25, 
+                "passive id": "1", 
+                "rec% buff": 25
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 75.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }
+        ], 
+        "name": "Passion of the Maverick"
+    }, 
+    "801214": {
+        "desc": "30% boost to all parameters, negates elemental damage, boosts elemental damage & boosts OD gauge fill rate", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 100.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "od fill rate%": 20, 
+                "passive id": "70"
+            }
+        ], 
+        "name": "Loremaster's Sermon"
+    }, 
+    "801215": {
+        "desc": "20% boost to Atk & boosts critical damage", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "passive id": "1"
+            }, 
+            {
+                "crit multiplier%": 50.0, 
+                "passive id": "34"
+            }
+        ], 
+        "name": "Twinkle Pawz"
+    }, 
+    "801216": {
+        "desc": "40% boost to Atk, 10% boost to critical hit rate & largely boosts critical and Spark damage", 
+        "effects": [
+            {
+                "atk% buff": 40, 
+                "crit% buff": 10, 
+                "passive id": "1"
+            }, 
+            {
+                "crit multiplier%": 100.0, 
+                "passive id": "34"
+            }, 
+            {
+                "damage% for spark": 75, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "Double Twinkle Pawz"
+    }, 
+    "801217": {
+        "desc": "80% boost to Atk, 20% boost to critical hit rate & hugely boosts critical and Spark damage", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "crit% buff": 20, 
+                "passive id": "1"
+            }, 
+            {
+                "crit multiplier%": 150.0, 
+                "passive id": "34"
+            }, 
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "Nyaight Prowler"
+    }, 
     "802": {
         "desc": "25% boost to Def Power of Anima Types", 
         "effects": [
@@ -10224,6 +10831,33 @@
             }
         ], 
         "name": "Monarch's Protection"
+    }, 
+    "810101": {
+        "desc": "20% boost to max HP and Def", 
+        "effects": [
+            {
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1"
+            }
+        ], 
+        "name": "Rampart of Hope"
+    }, 
+    "810102": {
+        "desc": "30% boost to max HP, Def, and boosts BC & HC drop rate", 
+        "effects": [
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "bc drop rate% buff": 20, 
+                "hc drop rate% buff": 20, 
+                "passive id": "19"
+            }
+        ], 
+        "name": "Rampart of Faith"
     }, 
     "8102": {
         "desc": "20% boost to Def for all Units", 
