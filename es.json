@@ -3547,9 +3547,14 @@
         "effects": [
             {
                 "conditions": [], 
-                "passive target": "self", 
-                "unknown passive id": "71", 
-                "unknown passive params": "3,5,5,5,3,3"
+                "counter inflict curse%": 3, 
+                "counter inflict injury%": 5, 
+                "counter inflict paralysis%": 3, 
+                "counter inflict poison%": 3, 
+                "counter inflict sick%": 5, 
+                "counter inflict weaken%": 5, 
+                "passive id": "71", 
+                "passive target": "self"
             }
         ], 
         "name": "Revolution Banner Lv. 1", 
@@ -3560,9 +3565,14 @@
         "effects": [
             {
                 "conditions": [], 
-                "passive target": "self", 
-                "unknown passive id": "71", 
-                "unknown passive params": "5,8,8,8,5,5"
+                "counter inflict curse%": 5, 
+                "counter inflict injury%": 8, 
+                "counter inflict paralysis%": 5, 
+                "counter inflict poison%": 5, 
+                "counter inflict sick%": 8, 
+                "counter inflict weaken%": 8, 
+                "passive id": "71", 
+                "passive target": "self"
             }
         ], 
         "name": "Revolution Banner Lv. 2", 
@@ -3573,9 +3583,14 @@
         "effects": [
             {
                 "conditions": [], 
-                "passive target": "self", 
-                "unknown passive id": "71", 
-                "unknown passive params": "7,10,10,10,7,7"
+                "counter inflict curse%": 7, 
+                "counter inflict injury%": 10, 
+                "counter inflict paralysis%": 7, 
+                "counter inflict poison%": 7, 
+                "counter inflict sick%": 10, 
+                "counter inflict weaken%": 10, 
+                "passive id": "71", 
+                "passive target": "self"
             }
         ], 
         "name": "Revolution Banner Lv. 3", 
@@ -3880,6 +3895,31 @@
             }
         ], 
         "name": "\u795e\u5149\u306e\u9b42\u9332", 
+        "target": "self"
+    }, 
+    "1012760": {
+        "desc": "\uff22\uff23\u7372\u5f97\u6642\u306e\u5897\u52a0\u91cf\u3092\u5c11\u3057\u30a2\u30c3\u30d7\uff06\uff28\uff23\u7372\u5f97\u6642\u306e\u56de\u5fa9\u91cf\u3092\u5c11\u3057\u30a2\u30c3\u30d7\uff06\uff2f\uff24\u30b2\u30fc\u30b8\u306e\u5897\u52a0\u91cf\u3092\u304b\u306a\u308a\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "bb gauge fill rate%": 10, 
+                "conditions": [], 
+                "passive id": "32", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "hc effectiveness%": 20, 
+                "passive id": "10", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "od fill rate%": 20, 
+                "passive id": "70", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u7e41\u6804\u306e\u5927\u83ef", 
         "target": "self"
     }, 
     "1012800": {
@@ -4291,9 +4331,14 @@
             }, 
             {
                 "conditions": [], 
-                "passive target": "self", 
-                "unknown passive id": "71", 
-                "unknown passive params": "7,10,10,10,7,7"
+                "counter inflict curse%": 7, 
+                "counter inflict injury%": 10, 
+                "counter inflict paralysis%": 7, 
+                "counter inflict poison%": 7, 
+                "counter inflict sick%": 10, 
+                "counter inflict weaken%": 10, 
+                "passive id": "71", 
+                "passive target": "self"
             }
         ], 
         "name": "\u5b88\u8b77\u306e\u53db\u65d7", 
@@ -5522,9 +5567,14 @@
             }, 
             {
                 "conditions": [], 
-                "passive target": "self", 
-                "unknown passive id": "71", 
-                "unknown passive params": "8,10,10,10,8,8"
+                "counter inflict curse%": 8, 
+                "counter inflict injury%": 10, 
+                "counter inflict paralysis%": 8, 
+                "counter inflict poison%": 8, 
+                "counter inflict sick%": 10, 
+                "counter inflict weaken%": 10, 
+                "passive id": "71", 
+                "passive target": "self"
             }
         ], 
         "name": "\u7121\u7aae\u3067\u7121\u57a2\u306a\u308b\u6b32\u671b", 
@@ -5693,9 +5743,9 @@
         "effects": [
             {
                 "conditions": [], 
-                "passive target": "self", 
-                "unknown passive id": "71", 
-                "unknown passive params": "0,0,0,0,0,15"
+                "counter inflict paralysis%": 15, 
+                "passive id": "71", 
+                "passive target": "self"
             }, 
             {
                 "atk% buff when enemy has ailment": 100, 
