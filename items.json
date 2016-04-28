@@ -21200,7 +21200,7 @@
         "id": 818935, 
         "max_stack": 1, 
         "name": "Ritus Staff", 
-        "raid": false, 
+        "raid": true, 
         "rarity": 3, 
         "recipe": {
             "karma": "100000", 
@@ -21238,14 +21238,14 @@
                 "passive id": "14"
             }, 
             {
-                "passive id": "27", 
-                "target% chance": 50
+                "crit multiplier%": 50.0, 
+                "passive id": "34"
             }
         ], 
         "id": 818936, 
         "max_stack": 1, 
         "name": "Nyami's Bells", 
-        "raid": false, 
+        "raid": true, 
         "rarity": 3, 
         "recipe": {
             "karma": "100000", 
