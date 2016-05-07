@@ -1572,6 +1572,17 @@
         "thumbnail": "item_thum_1000.png", 
         "type": "material"
     }, 
+    "10909": {
+        "desc": "A nocturnal demon bug said to appear during downpours of miasma", 
+        "id": 10909, 
+        "max_stack": 99, 
+        "name": "Miasma Bug", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 50, 
+        "thumbnail": "item_thum_1005.png", 
+        "type": "material"
+    }, 
     "11000": {
         "desc": "A stone that has special elemental attack powers.", 
         "id": 11000, 
@@ -7623,6 +7634,32 @@
         "thumbnail": "sphere_thum_1_8.png", 
         "type": "sphere"
     }, 
+    "44703": {
+        "desc": "100% boost to Spark damage & 15% boost to Atk, Def, Rec, max HP", 
+        "effect": [
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }, 
+            {
+                "atk% buff": 15, 
+                "def% buff": 15, 
+                "hp% buff": 15, 
+                "passive id": "1", 
+                "rec% buff": 15
+            }
+        ], 
+        "id": 44703, 
+        "max_stack": 1, 
+        "name": "Infidelity Orb", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 10000, 
+        "sphere type": 11, 
+        "sphere type text": "Spark", 
+        "thumbnail": "sphere_thum_1_8.png", 
+        "type": "sphere"
+    }, 
     "44900": {
         "desc": "Boosts Atk, Def, Rec with full BB gauge & largely boosts Spark damage", 
         "effect": [
@@ -8052,6 +8089,71 @@
         "thumbnail": "sphere_thum_1_1.png", 
         "type": "sphere"
     }, 
+    "47200": {
+        "desc": "30% boost to Atk and Def & nullifies all status ailments and element based extra damage", 
+        "effect": [
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }
+        ], 
+        "id": 47200, 
+        "max_stack": 1, 
+        "name": "White Armor", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_1_1.png", 
+        "type": "sphere"
+    }, 
+    "47201": {
+        "desc": "30% boost Atk & max HP, boosts critical hit rate, probable Def ignore, criticals boost BB gauge greatly", 
+        "effect": [
+            {
+                "atk% buff": 30, 
+                "crit% buff": 20, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "ignore def%": 30, 
+                "passive id": "29"
+            }, 
+            {
+                "bc fill on crit max": 6, 
+                "bc fill on crit min": 4, 
+                "bc fill on crit%": 100.0, 
+                "passive id": "65"
+            }
+        ], 
+        "id": 47201, 
+        "max_stack": 1, 
+        "name": "DUEL Fragment", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_1_1.png", 
+        "type": "sphere"
+    }, 
     "47202": {
         "desc": "30% boost to Atk and Def & boosts BB Atk", 
         "effect": [
@@ -8099,6 +8201,64 @@
         "id": 47203, 
         "max_stack": 1, 
         "name": "Guardian Shard", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_1_1.png", 
+        "type": "sphere"
+    }, 
+    "47204": {
+        "desc": "30% boost to Def, max HP, greatly boosts HC drop rate & 100% Def boost when HP is over half-full", 
+        "effect": [
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "hc drop rate% buff": 15, 
+                "passive id": "19"
+            }, 
+            {
+                "def% buff": 100, 
+                "hp above % buff requirement": 50, 
+                "passive id": "11"
+            }
+        ], 
+        "id": 47204, 
+        "max_stack": 1, 
+        "name": "Guardian Sliver", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_1_1.png", 
+        "type": "sphere"
+    }, 
+    "47205": {
+        "desc": "30% boost to Def, max HP & adds resistance against 1 KO attack when damage received has exceeded 50,000 points.", 
+        "effect": [
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "buff": {
+                    "angel idol buff (12)": true, 
+                    "angel idol recover hp%": 100, 
+                    "buff turns (12)": "-1"
+                }, 
+                "damage threshold buff activation": 50000, 
+                "passive id": "78"
+            }
+        ], 
+        "id": 47205, 
+        "max_stack": 1, 
+        "name": "Guiding Light", 
         "raid": false, 
         "rarity": 3, 
         "sell_price": 10000, 
@@ -9028,6 +9188,140 @@
         "sphere type": 6, 
         "sphere type text": "BB Gauge", 
         "thumbnail": "sphere_thum_4_4.png", 
+        "type": "sphere"
+    }, 
+    "700013": {
+        "desc": "30% boost to max HP & recovers HP each turn (3,000~3,500 + 10% Rec) & Negates status ailments", 
+        "effect": [
+            {
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 11.0, 
+                "turn heal high": 3500, 
+                "turn heal low": 3000
+            }
+        ], 
+        "id": 700013, 
+        "max_stack": 1, 
+        "name": "Seed of Yggdrasil", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 0, 
+        "sphere type": 5, 
+        "sphere type text": "Status Ailments Resistant", 
+        "thumbnail": "sphere_thum_2_5.png", 
+        "type": "sphere"
+    }, 
+    "700017": {
+        "desc": "Boosts all stats by 30% & Reduce BB cost (20%) & Increases BB gauge every turn (2-3BC) & Spark (1BC) and Critical (2-3BC) damage boosts BB gauge", 
+        "effect": [
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }, 
+            {
+                "bc fill on crit max": 3, 
+                "bc fill on crit min": 2, 
+                "bc fill on crit%": 100.0, 
+                "passive id": "65"
+            }, 
+            {
+                "bc fill on spark high": 1, 
+                "bc fill on spark low": 1, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 20
+            }, 
+            {
+                "bc fill per turn": 2, 
+                "passive id": "9"
+            }
+        ], 
+        "id": 700017, 
+        "max_stack": 1, 
+        "name": "Perfect Elgaia Emblem", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 60000, 
+        "sphere type": 6, 
+        "sphere type text": "BB Gauge", 
+        "thumbnail": "sphere_thum_4_4.png", 
+        "type": "sphere"
+    }, 
+    "700018": {
+        "desc": "Adds Chance of Ignoring Enemy's Def when attacking (25%) & Boost all parameters (30%) & Boosts BB gauge when attacking (7-8 BC)", 
+        "effect": [
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }, 
+            {
+                "bc fill when attacking high": 8, 
+                "bc fill when attacking low": 7, 
+                "bc fill when attacking%": 100, 
+                "passive id": "35"
+            }, 
+            {
+                "ignore def%": 25, 
+                "passive id": "29"
+            }
+        ], 
+        "id": 700018, 
+        "max_stack": 1, 
+        "name": "Blink's Glasses", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 0, 
+        "sphere type": 12, 
+        "sphere type text": "Defense Penetrating", 
+        "thumbnail": "sphere_thum_3_4.png", 
+        "type": "sphere"
+    }, 
+    "700019": {
+        "desc": "Adds Chance of Ignoring Enemy's Defense when Attacking (10%) & Boost all parameters (10%)", 
+        "effect": [
+            {
+                "atk% buff": 10, 
+                "def% buff": 10, 
+                "hp% buff": 10, 
+                "passive id": "1", 
+                "rec% buff": 10
+            }, 
+            {
+                "ignore def%": 10, 
+                "passive id": "29"
+            }
+        ], 
+        "id": 700019, 
+        "max_stack": 1, 
+        "name": "Glass Fragment", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 0, 
+        "sphere type": 12, 
+        "sphere type text": "Defense Penetrating", 
+        "thumbnail": "sphere_thum_3_5.png", 
         "type": "sphere"
     }, 
     "70100": {

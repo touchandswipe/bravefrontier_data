@@ -2254,6 +2254,17 @@
         "thumbnail": "item_thum_1100.png", 
         "type": "material"
     }, 
+    "110070": {
+        "desc": "アークの擬似ユニットを進化させる稀少な結晶体", 
+        "id": 110070, 
+        "max_stack": 1, 
+        "name": "幻翼双晶", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10000, 
+        "thumbnail": "item_thum_110190.png", 
+        "type": "evomat"
+    }, 
     "11008": {
         "desc": "何人もの人が身を投げた火山の溶岩が固まったものとされる霊石", 
         "id": 11008, 
@@ -11352,6 +11363,37 @@
         "thumbnail": "sphere_thum_1_1.png", 
         "type": "sphere"
     }, 
+    "47210": {
+        "desc": "攻撃力・最大ＨＰを４０％アップ＆クリティカル率をかなりアップ＆確率でスパークダメージ耐性を１ターン低下＆スパーク時、確率でスパーククリティカルが発生", 
+        "effect": [
+            {
+                "atk% buff": 40, 
+                "crit% buff": 30, 
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "unknown passive id": "100", 
+                "unknown passive params": "40,50"
+            }, 
+            {
+                "passive id": "75", 
+                "spark debuff chance%": 25, 
+                "spark debuff turns": 0, 
+                "spark debuff%": 25
+            }
+        ], 
+        "id": 47210, 
+        "max_stack": 1, 
+        "name": "覇焔剣ダンデマグス", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_1_1.png", 
+        "type": "sphere"
+    }, 
     "47300": {
         "desc": "回復力・最大ＨＰを１０％アップ＆クリティカルダメージを少しアップ", 
         "effect": [
@@ -11462,8 +11504,15 @@
                 "ubb atk% buff": 500
             }, 
             {
-                "unknown passive id": "102", 
-                "unknown passive params": "1,2,3,4,5,6"
+                "elements added": [
+                    "fire", 
+                    "water", 
+                    "earth", 
+                    "thunder", 
+                    "light", 
+                    "dark"
+                ], 
+                "passive id": "102"
             }, 
             {
                 "atk% buff when enemy has ailment": 100, 
@@ -12193,8 +12242,13 @@
         "desc": "被ダメージ時、確率で全状態異常をランダムに発生・ＢＢゲージを増加＆ＢＣ獲得時の増加量をアップ", 
         "effect": [
             {
-                "unknown passive id": "71", 
-                "unknown passive params": "7,10,10,10,7,7"
+                "counter inflict curse%": 7, 
+                "counter inflict injury%": 10, 
+                "counter inflict paralysis%": 7, 
+                "counter inflict poison%": 7, 
+                "counter inflict sick%": 10, 
+                "counter inflict weaken%": 10, 
+                "passive id": "71"
             }, 
             {
                 "bc fill when attacked high": 4, 
@@ -12373,6 +12427,79 @@
         "sell_price": 10000, 
         "sphere type": 13, 
         "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_5_2.png", 
+        "type": "sphere"
+    }, 
+    "48216": {
+        "desc": "全状態異常を無効＆防御力・最大ＨＰを２０％アップ＆被ダメージ時、確率で全状態異常をランダムに発生", 
+        "effect": [
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "counter inflict curse%": 7, 
+                "counter inflict injury%": 10, 
+                "counter inflict paralysis%": 7, 
+                "counter inflict poison%": 7, 
+                "counter inflict sick%": 10, 
+                "counter inflict weaken%": 10, 
+                "passive id": "71"
+            }, 
+            {
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 48216, 
+        "max_stack": 1, 
+        "name": "天聖環レーヌ・トリストア", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 5, 
+        "sphere type text": "Status Ailments Resistant", 
+        "thumbnail": "sphere_thum_5_1.png", 
+        "type": "sphere"
+    }, 
+    "48217": {
+        "desc": "クリティカルを無効＆攻撃力・防御力・回復力・最大ＨＰを３０％アップ＆被ダメージ時、ＢＢゲージをかなり増加", 
+        "effect": [
+            {
+                "crit chance base resist%": 100, 
+                "crit chance buffed resist%": 100, 
+                "crit dmg base damage resist%": 100, 
+                "crit dmg buffed damage resist%": 100, 
+                "passive id": "53"
+            }, 
+            {
+                "bc fill when attacked high": 4, 
+                "bc fill when attacked low": 3, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }
+        ], 
+        "id": 48217, 
+        "max_stack": 1, 
+        "name": "幻導機・セクメティール", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
         "thumbnail": "sphere_thum_5_2.png", 
         "type": "sphere"
     }, 
@@ -13393,6 +13520,33 @@
         "thumbnail": "sphere_thum_1_7.png", 
         "type": "sphere"
     }, 
+    "49970": {
+        "desc": "確率で防御貫通効果を付与＆攻撃力を３０％アップ＆確率で怪我状態にする", 
+        "effect": [
+            {
+                "atk% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "injury%": 20, 
+                "passive id": "20"
+            }, 
+            {
+                "ignore def%": 15, 
+                "passive id": "29"
+            }
+        ], 
+        "id": 49970, 
+        "max_stack": 1, 
+        "name": "グレートランス", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 10000, 
+        "sphere type": 12, 
+        "sphere type text": "Defense Penetrating", 
+        "thumbnail": "sphere_thum_1_2.png", 
+        "type": "sphere"
+    }, 
     "50000": {
         "desc": "味方単体のＨＰを少し回復する", 
         "effect": {
@@ -13653,6 +13807,52 @@
         "rarity": 0, 
         "sell_price": 100, 
         "thumbnail": "item_thum_21100.png", 
+        "type": "consumable"
+    }, 
+    "52500": {
+        "desc": "１ターンの間、味方全体の被ダメージを１/４にする", 
+        "effect": {
+            "effect": [
+                {
+                    "dmg% reduction": 75, 
+                    "dmg% reduction turns (36)": 1, 
+                    "proc id": "18"
+                }
+            ], 
+            "target_area": "aoe", 
+            "target_type": "party"
+        }, 
+        "id": 52500, 
+        "max equipped": 50, 
+        "max_stack": 99, 
+        "name": "結界薬", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 100, 
+        "thumbnail": "item_thum_20600.png", 
+        "type": "consumable"
+    }, 
+    "52600": {
+        "desc": "３ターンの間、ＯＤゲージ上昇量を超絶アップ", 
+        "effect": {
+            "effect": [
+                {
+                    "od fill rate buff turns (132)": 3, 
+                    "od fill rate% buff": 200, 
+                    "proc id": "84"
+                }
+            ], 
+            "target_area": "aoe", 
+            "target_type": "party"
+        }, 
+        "id": 52600, 
+        "max equipped": 50, 
+        "max_stack": 99, 
+        "name": "英雄神笛", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 100, 
+        "thumbnail": "item_thum_22300.png", 
         "type": "consumable"
     }, 
     "60000": {
@@ -14110,8 +14310,15 @@
         "desc": "攻撃に全属性を付与＆弱点属性ダメージを超絶アップ＆与ダメージが一定数を超える度に２ターン、攻撃ＢＢの威力をアップ", 
         "effect": [
             {
-                "unknown passive id": "102", 
-                "unknown passive params": "1,2,3,4,5,6"
+                "elements added": [
+                    "fire", 
+                    "water", 
+                    "earth", 
+                    "thunder", 
+                    "light", 
+                    "dark"
+                ], 
+                "passive id": "102"
             }, 
             {
                 "dark units do extra elemental weakness dmg": true, 
@@ -14190,8 +14397,13 @@
                 "passive id": "26"
             }, 
             {
-                "unknown passive id": "71", 
-                "unknown passive params": "12,15,15,15,12,12"
+                "counter inflict curse%": 12, 
+                "counter inflict injury%": 15, 
+                "counter inflict paralysis%": 12, 
+                "counter inflict poison%": 12, 
+                "counter inflict sick%": 15, 
+                "counter inflict weaken%": 15, 
+                "passive id": "71"
             }, 
             {
                 "bc fill when attacked high": 2, 
@@ -14254,6 +14466,167 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "sphere_thum_5_5.png", 
+        "type": "sphere"
+    }, 
+    "62000": {
+        "desc": "攻撃力・防御力・回復力・最大ＨＰを３０％アップ＆スパーク時・被ダメージ時、確率でＢＢゲージをかなり増加＆スパークダメージを５０％アップ", 
+        "effect": [
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }, 
+            {
+                "bc fill on spark high": 4, 
+                "bc fill on spark low": 3, 
+                "bc fill on spark%": 50, 
+                "passive id": "47"
+            }, 
+            {
+                "bc fill when attacked high": 4, 
+                "bc fill when attacked low": 3, 
+                "bc fill when attacked%": 50, 
+                "passive id": "25"
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 62000, 
+        "max_stack": 1, 
+        "name": "聖鳳神の花冠", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 25000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_2_1.png", 
+        "type": "sphere"
+    }, 
+    "62010": {
+        "desc": "クリティカル・弱点属性ダメージを無効＆低確率で被ダメージを超絶軽減＆ＨＰが満タン時、防御力を超絶アップ＆被ダメージ時、ＢＢゲージを少し増加・確率でＨＰを回復", 
+        "effect": [
+            {
+                "crit chance base resist%": 100, 
+                "crit chance buffed resist%": 100, 
+                "crit dmg base damage resist%": 100, 
+                "crit dmg buffed damage resist%": 100, 
+                "passive id": "53"
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }, 
+            {
+                "def% buff": 200, 
+                "hp above % buff requirement": 100, 
+                "passive id": "11"
+            }, 
+            {
+                "passive id": "43", 
+                "take 1 dmg%": 10
+            }, 
+            {
+                "bc fill when attacked high": 2, 
+                "bc fill when attacked low": 1, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 30, 
+                "dmg% to hp% when attacked high": 30, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }
+        ], 
+        "id": 62010, 
+        "max_stack": 1, 
+        "name": "絶界壁シュトゥルモア", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 25000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_3_5.png", 
+        "type": "sphere"
+    }, 
+    "62020": {
+        "desc": "クリティカル率をかなりアップ＆クリティカルダメージをかなりアップ＆ＢＢゲージが満タン時、攻撃力を大幅にアップ＆弱点属性ダメージをアップ＆スパークダメージを５０％アップ", 
+        "effect": [
+            {
+                "crit% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "crit multiplier%": 100.0, 
+                "passive id": "34"
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 50.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }, 
+            {
+                "atk% buff": 100, 
+                "bb gauge above % buff requirement": 100, 
+                "passive id": "30"
+            }
+        ], 
+        "id": 62020, 
+        "max_stack": 1, 
+        "name": "覇冥絶斧アグラヴェイン", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 25000, 
+        "sphere type": 2, 
+        "sphere type text": "Critical", 
+        "thumbnail": "sphere_thum_4_6.png", 
+        "type": "sphere"
+    }, 
+    "62030": {
+        "desc": "通常攻撃時、ＢＢゲージを超絶増加＆ＢＢ発動に必要なＢＢゲージ量を少し軽減＆通常攻撃ＨＩＴ数を増加＆ＢＣ出現率をかなりアップ", 
+        "effect": [
+            {
+                "bc fill when attacking high": 10, 
+                "bc fill when attacking low": 10, 
+                "bc fill when attacking%": 100, 
+                "passive id": "35"
+            }, 
+            {
+                "hit increase/hit": 1, 
+                "passive id": "37"
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 10
+            }, 
+            {
+                "bc drop rate% buff": 15, 
+                "passive id": "19"
+            }
+        ], 
+        "id": 62030, 
+        "max_stack": 1, 
+        "name": "輝龍のアミュレット", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 25000, 
+        "sphere type": 6, 
+        "sphere type text": "BB Gauge", 
+        "thumbnail": "sphere_thum_5_4.png", 
         "type": "sphere"
     }, 
     "70000": {
