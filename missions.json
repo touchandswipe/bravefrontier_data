@@ -1900,6 +1900,77 @@
         "xp": 0, 
         "zel": 0
     }, 
+    "1000260": {
+        "area": "Frontier Hunter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the entrance to the mysterious area that appeared beyond the Vortex Gate. The beasts here are somewhat weak, but you mustn't be careless.", 
+        "difficulty": 1, 
+        "dungeon": "1000260", 
+        "energy_use": 0, 
+        "id": "1000260", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Entrance 26", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000261": {
+        "area": "Frontier Hunter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the center of the mysterious area that appeared beyond the Vortex Gate. Who knows what awaits you in this uncharted frontier...", 
+        "difficulty": 1, 
+        "dungeon": "1000260", 
+        "energy_use": 0, 
+        "id": "1000261", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Middle 26", 
+        "requires": "1000260", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000262": {
+        "area": "Frontier Hunter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the end of the mysterious area that appeared beyond the Vortex Gate. Beasts far more powerful than those you've encountered await you.", 
+        "difficulty": 1, 
+        "dungeon": "1000260", 
+        "energy_use": 0, 
+        "id": "1000262", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - End 26", 
+        "requires": "1000261", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000263": {
+        "area": "Frontier Hunter", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the end of the mysterious area that appeared beyond the Vortex Gate. The air shakes as an awesome force descends upon you.", 
+        "difficulty": 1, 
+        "dungeon": "1000260", 
+        "energy_use": 0, 
+        "id": "1000263", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Terminus 26", 
+        "requires": "1000262", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "10003": {
         "area": "Celgrad", 
         "battle_count": 7, 
@@ -3809,6 +3880,61 @@
         "mimic_info": {}, 
         "name": "Guardians of Lore Lv. 7", 
         "xp": 15400, 
+        "zel": 0
+    }, 
+    "100663": {
+        "area": "100651", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You who seek the luminous tablets, open the door if you have prepared your heart and mind. A trial unlike any you have faced before awaits.", 
+        "difficulty": 1, 
+        "dungeon": "100661", 
+        "energy_use": 50, 
+        "id": "100663", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Forbidden Tablets Lv. 5", 
+        "xp": 9200, 
+        "zel": 0
+    }, 
+    "100664": {
+        "area": "100651", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "These valuable tablets with their unusual powers are not easily obtained. Only those with immense power and rare luck are granted a chance at them.", 
+        "difficulty": 1, 
+        "dungeon": "100661", 
+        "energy_use": 70, 
+        "id": "100664", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Forbidden Tablets Lv. 7", 
+        "xp": 15600, 
+        "zel": 0
+    }, 
+    "100665": {
+        "area": "100651", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Only those who are prepared to die may proceed. Unfathomable despair and the ultimate power granted only to the chosen one await you.", 
+        "difficulty": 1, 
+        "dungeon": "100661", 
+        "energy_use": 100, 
+        "id": "100665", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Forbidden Tablets Lv. 10", 
+        "xp": 21000, 
         "zel": 0
     }, 
     "10070": {
@@ -21470,6 +21596,34 @@
         "xp": 100000, 
         "zel": 3000000
     }, 
+    "2000014": {
+        "area": "Trial Test", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "110041"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "These mock Units are made of something completely different. You're in for a shock once you start fighting them!", 
+        "difficulty": 1, 
+        "dungeon": "Trial No. 004", 
+        "energy_use": 50, 
+        "id": "2000014", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Rainbow Goddess", 
+        "requires": "2000013", 
+        "xp": 100000, 
+        "zel": 3000000
+    }, 
     "20001": {
         "area": "Cordelica", 
         "battle_count": 7, 
@@ -26038,6 +26192,24 @@
         "requires": "10075", 
         "xp": 10000, 
         "zel": 50000
+    }, 
+    "5000013": {
+        "area": "Grand Quest 2", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "The 7 leaders of the Akras Summoners' Hall Demon Slayers--Griff, Iris, Kafka, Rhoa, Libera, Krantz, and Mirfah--head to the world of Ishgria to survey the land. However, they face an enormous demon soon after arriving. Their leader, Griff, goes after the demon alone. As acting commander, Krantz leads the rest to where the return gate should be, but...", 
+        "difficulty": 4, 
+        "dungeon": "5000013", 
+        "energy_use": 50, 
+        "id": "5000013", 
+        "karma": 5000, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Entrusted Will", 
+        "requires": "10566", 
+        "xp": 8000, 
+        "zel": 30000
     }, 
     "5008001": {
         "area": "Grand Quest", 
@@ -32142,7 +32314,7 @@
         "desc": "Nothing bores her more than incompetent, weak fighters. The demon in her is telling her to fight to survive, and devour to succeed.", 
         "difficulty": 1, 
         "dungeon": "The Half-blood Princess", 
-        "energy_use": 0, 
+        "energy_use": 25, 
         "id": "8362000", 
         "karma": 0, 
         "land": "Vortex", 
@@ -32186,7 +32358,7 @@
         "desc": "She doesn't care if a human, god, or demon stands in her way. Her demon blade will only stop for someone who excites her...but only for brief while.", 
         "difficulty": 1, 
         "dungeon": "The Half-blood Princess", 
-        "energy_use": 0, 
+        "energy_use": 35, 
         "id": "8363000", 
         "karma": 0, 
         "land": "Vortex", 
@@ -34141,5 +34313,233 @@
         "requires": "1066", 
         "xp": 10000, 
         "zel": 30000
+    }, 
+    "996300": {
+        "area": "999901", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "\u5f37\u8005\u305f\u308b\u8a3c\u660eLv.6", 
+        "difficulty": 1, 
+        "dungeon": "999953", 
+        "energy_use": 0, 
+        "id": "996300", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "\u5f37\u8005\u305f\u308b\u8a3c\u660e\u5bfaLv.6", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "996301": {
+        "area": "999901", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "\u5f37\u8005\u305f\u308b\u8a3c\u660eLv.7", 
+        "difficulty": 1, 
+        "dungeon": "999953", 
+        "energy_use": 0, 
+        "id": "996301", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "\u5f37\u8005\u305f\u308b\u8a3c\u660e\u5bfaLv.7", 
+        "xp": 9000, 
+        "zel": 0
+    }, 
+    "996302": {
+        "area": "999901", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "\u548e\u4eba\u3068\u6b69\u3080\u9053Lv.6", 
+        "difficulty": 1, 
+        "dungeon": "999953", 
+        "energy_use": 0, 
+        "id": "996302", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "\u548e\u4eba\u3068\u6b69\u3080\u9053\u5bfaLv.6", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "996303": {
+        "area": "999901", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "\u548e\u4eba\u3068\u6b69\u3080\u9053Lv.7", 
+        "difficulty": 1, 
+        "dungeon": "999953", 
+        "energy_use": 0, 
+        "id": "996303", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "\u548e\u4eba\u3068\u6b69\u3080\u9053\u5bfaLv.7", 
+        "xp": 9000, 
+        "zel": 0
+    }, 
+    "996304": {
+        "area": "999901", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "\u66b4\u767a\u3059\u308b\u7814\u7a76\u5fc3Lv.6", 
+        "difficulty": 1, 
+        "dungeon": "999953", 
+        "energy_use": 0, 
+        "id": "996304", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "\u66b4\u767a\u3059\u308b\u7814\u7a76\u5fc3\u5bfaLv.6", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "996305": {
+        "area": "999901", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "\u66b4\u767a\u3059\u308b\u7814\u7a76\u5fc3Lv.7", 
+        "difficulty": 1, 
+        "dungeon": "999953", 
+        "energy_use": 0, 
+        "id": "996305", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "\u66b4\u767a\u3059\u308b\u7814\u7a76\u5fc3\u5bfaLv.7", 
+        "xp": 9000, 
+        "zel": 0
+    }, 
+    "996306": {
+        "area": "999901", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "\u52c7\u731b\u306a\u308b\u96f7\u9cf4Lv.6", 
+        "difficulty": 1, 
+        "dungeon": "999953", 
+        "energy_use": 0, 
+        "id": "996306", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "\u52c7\u731b\u306a\u308b\u96f7\u9cf4\u5bfaLv.6", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "996307": {
+        "area": "999901", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "\u52c7\u731b\u306a\u308b\u96f7\u9cf4Lv.7", 
+        "difficulty": 1, 
+        "dungeon": "999953", 
+        "energy_use": 0, 
+        "id": "996307", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "\u52c7\u731b\u306a\u308b\u96f7\u9cf4\u5bfaLv.7", 
+        "xp": 9000, 
+        "zel": 0
+    }, 
+    "996308": {
+        "area": "999901", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "\u5929\u547d\u306e\u5553\u793aLv.6", 
+        "difficulty": 1, 
+        "dungeon": "999953", 
+        "energy_use": 0, 
+        "id": "996308", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "\u5929\u547d\u306e\u5553\u793a\u5bfaLv.6", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "996309": {
+        "area": "999901", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "\u5929\u547d\u306e\u5553\u793aLv.7", 
+        "difficulty": 1, 
+        "dungeon": "999953", 
+        "energy_use": 0, 
+        "id": "996309", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "\u5929\u547d\u306e\u5553\u793a\u5bfaLv.7", 
+        "xp": 9000, 
+        "zel": 0
+    }, 
+    "996310": {
+        "area": "999901", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "\u5bc6\u547d\u3092\u80f8\u306bLv.6", 
+        "difficulty": 1, 
+        "dungeon": "999953", 
+        "energy_use": 0, 
+        "id": "996310", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "\u5bc6\u547d\u3092\u80f8\u306b\u5bfaLv.6", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "996311": {
+        "area": "999901", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "\u5bc6\u547d\u3092\u80f8\u306bLv.7", 
+        "difficulty": 1, 
+        "dungeon": "999953", 
+        "energy_use": 0, 
+        "id": "996311", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "\u5bc6\u547d\u3092\u80f8\u306b\u5bfaLv.7", 
+        "xp": 9000, 
+        "zel": 0
     }
 }
