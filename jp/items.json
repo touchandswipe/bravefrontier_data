@@ -15780,6 +15780,49 @@
         "thumbnail": "sphere_thum_1_1.png", 
         "type": "sphere"
     }, 
+    "47211": {
+        "desc": "最大ＨＰを４０％アップ＆獲得ＢＣ一定毎に３ターン、攻撃力を大幅にアップ＆獲得ＨＣ一定毎に３ターン、防御力を大幅にアップ＆ＢＣ・ＨＣ・ゼル・カルマ・アイテム出現率を大幅にアップ", 
+        "effect": [
+            {
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "bc drop rate% buff": 15, 
+                "hc drop rate% buff": 15, 
+                "item drop rate% buff": 3, 
+                "karma drop rate% buff": 10, 
+                "passive id": "19", 
+                "zel drop rate% buff": 15
+            }, 
+            {
+                "bc receive count buff activation": 30, 
+                "buff": {
+                    "atk% buff (1)": 150, 
+                    "buff turns (1)": "3"
+                }, 
+                "passive id": "82"
+            }, 
+            {
+                "buff": {
+                    "buff turns (3)": "3", 
+                    "def% buff (3)": 150
+                }, 
+                "hc receive count buff activation": 15, 
+                "passive id": "84"
+            }
+        ], 
+        "id": 47211, 
+        "max_stack": 1, 
+        "name": "大盗神の宝石精", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_1_1.png", 
+        "type": "sphere"
+    }, 
     "47300": {
         "desc": "回復力・最大ＨＰを１０％アップ＆クリティカルダメージを少しアップ", 
         "effect": [
@@ -17189,6 +17232,70 @@
         "thumbnail": "sphere_thum_5_2.png", 
         "type": "sphere"
     }, 
+    "48218": {
+        "desc": "クリティカルダメージをアップ＆与ダメージが一定数を超える度に１ターン、被ダメージを軽減＆攻撃力・最大ＨＰを３０％アップ", 
+        "effect": [
+            {
+                "crit multiplier%": 50.0, 
+                "passive id": "34"
+            }, 
+            {
+                "buff": {
+                    "buff turns (36)": "1", 
+                    "dmg reduction% buff": 25
+                }, 
+                "damage dealt threshold buff activation": 100000, 
+                "passive id": "80"
+            }, 
+            {
+                "atk% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 48218, 
+        "max_stack": 1, 
+        "name": "幻導機・ガルグヌス", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 2, 
+        "sphere type text": "Critical", 
+        "thumbnail": "sphere_thum_5_2.png", 
+        "type": "sphere"
+    }, 
+    "48219": {
+        "desc": "ＨＰを少し吸収＆被ダメージ時、確率でＨＰを回復＆防御力・最大ＨＰを３０％アップ", 
+        "effect": [
+            {
+                "hp drain chance%": 100, 
+                "hp drain% high": 10, 
+                "hp drain% low": 5, 
+                "passive id": "17"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }, 
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 48219, 
+        "max_stack": 1, 
+        "name": "幻導機・ネヌビース", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 7, 
+        "sphere type text": "HP Recovery", 
+        "thumbnail": "sphere_thum_5_2.png", 
+        "type": "sphere"
+    }, 
     "48300": {
         "desc": "ターン毎にＢＢゲージを増加・ＨＰを回復＆ＢＣ・ＨＣ出現率をかなりアップ＆ＢＣ・ＨＣ獲得時の増加量・回復量をアップ", 
         "effect": [
@@ -18369,6 +18476,62 @@
         "sphere type": 12, 
         "sphere type text": "Defense Penetrating", 
         "thumbnail": "sphere_thum_1_2.png", 
+        "type": "sphere"
+    }, 
+    "49980": {
+        "desc": "通常攻撃ＨＩＴ数を増加＆ＢＣ・ＨＣ・ゼル・カルマ・アイテム出現率を大幅にアップ", 
+        "effect": [
+            {
+                "hit increase/hit": 1, 
+                "passive id": "37"
+            }, 
+            {
+                "bc drop rate% buff": 15, 
+                "hc drop rate% buff": 15, 
+                "item drop rate% buff": 3, 
+                "karma drop rate% buff": 10, 
+                "passive id": "19", 
+                "zel drop rate% buff": 15
+            }
+        ], 
+        "id": 49980, 
+        "max_stack": 1, 
+        "name": "怪盗の闇迅衣", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 10000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_4_6.png", 
+        "type": "sphere"
+    }, 
+    "49990": {
+        "desc": "攻撃ＢＢの威力をかなりアップ＆攻撃力を３０％アップ＆スパークダメージを５０％アップ", 
+        "effect": [
+            {
+                "bb atk% buff": 100, 
+                "passive id": "64", 
+                "sbb atk% buff": 100, 
+                "ubb atk% buff": 100
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }, 
+            {
+                "atk% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 49990, 
+        "max_stack": 1, 
+        "name": "クリスタル・コア", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 10000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_1_5.png", 
         "type": "sphere"
     }, 
     "50000": {
@@ -19864,6 +20027,295 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "sphere_thum_1_6.png", 
+        "type": "sphere"
+    }, 
+    "62080": {
+        "desc": "何かしらの能力が６上昇", 
+        "effect": [
+            {
+                "atk% buff": 6, 
+                "crit% buff": 6, 
+                "def% buff": 6, 
+                "hp% buff": 6, 
+                "passive id": "1", 
+                "rec% buff": 6
+            }, 
+            {
+                "bb atk% buff": 6, 
+                "passive id": "64", 
+                "sbb atk% buff": 6, 
+                "ubb atk% buff": 6
+            }, 
+            {
+                "od fill rate%": 6, 
+                "passive id": "70"
+            }, 
+            {
+                "ignore def%": 6, 
+                "passive id": "29"
+            }, 
+            {
+                "damage% for spark": 6, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 62080, 
+        "max_stack": 1, 
+        "name": "終天偽『ロクライザー』", 
+        "raid": false, 
+        "rarity": 1, 
+        "sell_price": 666666, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_5_2.png", 
+        "type": "sphere"
+    }, 
+    "62090": {
+        "desc": "ガード時のダメージ軽減率を大幅にアップ＆低確率で被ダメージを超絶軽減＆防御力・最大ＨＰを３０％アップ＆被ダメージ時、ＢＢゲージを少し増加＆ガード時、ＢＢゲージを超絶増加＆ガード成立時、ＢＢゲージを増加", 
+        "effect": [
+            {
+                "guard increase mitigation%": 20, 
+                "passive id": "58"
+            }, 
+            {
+                "passive id": "43", 
+                "take 1 dmg%": 12
+            }, 
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "bc filled on guard": 10, 
+                "passive id": "61"
+            }, 
+            {
+                "bc filled when attacked while guarded": 2, 
+                "passive id": "59"
+            }, 
+            {
+                "bc fill when attacked high": 1, 
+                "bc fill when attacked low": 1, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }
+        ], 
+        "id": 62090, 
+        "max_stack": 1, 
+        "name": "護魂機動鎧セロ", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 46400
+                }, 
+                {
+                    "count": 1, 
+                    "id": 44501
+                }, 
+                {
+                    "count": 1, 
+                    "id": 45600
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_4_7.png", 
+        "type": "sphere"
+    }, 
+    "62100": {
+        "desc": "ＢＣ・ＨＣ・ゼル・カルマ・アイテム出現率を超絶アップ＆ＢＣ獲得時の増加量を少しアップ＆ＨＣ獲得時の回復量をかなりアップ＆ スパーク時、ＢＣ・ＨＣ出現率をアップ ・ダメージを１００％アップ", 
+        "effect": [
+            {
+                "bc drop rate% buff": 20, 
+                "hc drop rate% buff": 20, 
+                "item drop rate% buff": 5, 
+                "karma drop rate% buff": 15, 
+                "passive id": "19", 
+                "zel drop rate% buff": 20
+            }, 
+            {
+                "bb gauge fill rate%": 15, 
+                "passive id": "32"
+            }, 
+            {
+                "hc effectiveness%": 50, 
+                "passive id": "10"
+            }, 
+            {
+                "bc drop% for spark": 50, 
+                "damage% for spark": 100, 
+                "hc drop% for spark": 35, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 62100, 
+        "max_stack": 1, 
+        "name": "ゼクマーシュ宝冠", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 46100
+                }, 
+                {
+                    "count": 1, 
+                    "id": 45500
+                }, 
+                {
+                    "count": 1, 
+                    "id": 40300
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 3, 
+        "sphere type text": "Drop", 
+        "thumbnail": "sphere_thum_5_8.png", 
+        "type": "sphere"
+    }, 
+    "62110": {
+        "desc": "確率で被ダメージの２０％を相手に反射する＆最大ＨＰを６０％アップ＆戦闘開始から３ターン、防御力を７５％アップ＆被ダメージ時、確率で全状態異常をランダムに発生・確率でＨＰを回復＆全状態異常を無効", 
+        "effect": [
+            {
+                "dmg% reflect chance%": 40, 
+                "dmg% reflect high": 20, 
+                "dmg% reflect low": 20, 
+                "passive id": "26"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }, 
+            {
+                "hp% buff": 60, 
+                "passive id": "1"
+            }, 
+            {
+                "first x turns": 3, 
+                "first x turns def% (3)": 75, 
+                "passive id": "21"
+            }, 
+            {
+                "counter inflict curse%": 7, 
+                "counter inflict injury%": 10, 
+                "counter inflict paralysis%": 7, 
+                "counter inflict poison%": 7, 
+                "counter inflict sick%": 10, 
+                "counter inflict weaken%": 10, 
+                "passive id": "71"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "id": 62110, 
+        "max_stack": 1, 
+        "name": "聖壁の破煌鏡", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 46700
+                }, 
+                {
+                    "count": 1, 
+                    "id": 37200
+                }, 
+                {
+                    "count": 1, 
+                    "id": 30307
+                }, 
+                {
+                    "count": 1, 
+                    "id": 31101
+                }, 
+                {
+                    "count": 1, 
+                    "id": 39000
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 9, 
+        "sphere type text": "Damage Reflecting", 
+        "thumbnail": "sphere_thum_5_5.png", 
+        "type": "sphere"
+    }, 
+    "62120": {
+        "desc": "ＢＣ獲得時の増加量を大幅にアップ＆被ダメージ時、ＢＢゲージをかなり増加＆確率で被ダメージを３０％軽減＆弱点属性ダメージを無効", 
+        "effect": [
+            {
+                "bb gauge fill rate%": 60, 
+                "passive id": "32"
+            }, 
+            {
+                "bc fill when attacked high": 4, 
+                "bc fill when attacked low": 3, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "dmg reduction chance%": 30, 
+                "dmg reduction%": 30, 
+                "passive id": "14"
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }
+        ], 
+        "id": 62120, 
+        "max_stack": 1, 
+        "name": "神紡の光恵符", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 42100
+                }, 
+                {
+                    "count": 1, 
+                    "id": 42700
+                }, 
+                {
+                    "count": 1, 
+                    "id": 36100
+                }, 
+                {
+                    "count": 1, 
+                    "id": 47904
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 6, 
+        "sphere type text": "BB Gauge", 
+        "thumbnail": "sphere_thum_5_4.png", 
         "type": "sphere"
     }, 
     "70000": {
