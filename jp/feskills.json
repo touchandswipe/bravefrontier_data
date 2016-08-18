@@ -4139,6 +4139,223 @@
             }
         ]
     }, 
+    "30447": {
+        "category": {
+            "1": {
+                "name": "ステアップ系"
+            }, 
+            "11": {
+                "name": "特殊"
+            }, 
+            "4": {
+                "name": "攻撃強化系"
+            }, 
+            "7": {
+                "name": "ドロップ系"
+            }
+        }, 
+        "skills": [
+            {
+                "category": "1", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "710000", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "攻撃力・防御力・回復力・最大ＨＰを２０％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "atk% buff": 20, 
+                                "def% buff": 20, 
+                                "hp% buff": 20, 
+                                "passive id": "1", 
+                                "rec% buff": 20
+                            }
+                        }
+                    ], 
+                    "id": "710000", 
+                    "level": 2, 
+                    "name": "全能力＋２０％", 
+                    "series": "700000"
+                }
+            }, 
+            {
+                "category": "4", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "3100001", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "通常攻撃ＨＩＴ数を増加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "hit increase/hit": 1, 
+                                "passive id": "37"
+                            }
+                        }
+                    ], 
+                    "id": "3100001", 
+                    "level": 2, 
+                    "name": "通常攻撃のＨＩＴ数が増加", 
+                    "series": "3100000"
+                }
+            }, 
+            {
+                "category": "7", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "6110001", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "アイテム出現率を少しアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "item drop rate% buff": 1, 
+                                "passive id": "19"
+                            }
+                        }
+                    ], 
+                    "id": "6110001", 
+                    "level": 3, 
+                    "name": "アイテム出現率が少しアップ", 
+                    "series": "6100000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "10000002", 
+                "skill": {
+                    "bp": 30, 
+                    "desc": "ＯＤゲージの増加量をアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "od fill rate%": 15, 
+                                "passive id": "70"
+                            }
+                        }
+                    ], 
+                    "id": "10000002", 
+                    "level": 3, 
+                    "name": "ＯＤゲージ増加量をアップ", 
+                    "series": "10000000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "36000000", 
+                "skill": {
+                    "bp": 30, 
+                    "desc": "ＢＢ及びＳＢＢの「ＢＣ・ＨＣ出現率をアップ」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "bc drop rate% buff (10)": 10, 
+                                "hc drop rate% buff (9)": 10, 
+                                "proc id": "6"
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "bc drop rate% buff (10)": 10, 
+                                "hc drop rate% buff (9)": 10, 
+                                "proc id": "6"
+                            }
+                        }
+                    ], 
+                    "id": "36000000", 
+                    "level": 3, 
+                    "name": "ＢＢ・ＳＢＢの「ＢＣ・ＨＣ出現率をアップ」効果を強化", 
+                    "series": "36000000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "34001100", 
+                "skill": {
+                    "bp": 50, 
+                    "desc": "ＢＢ及びＳＢＢの「味方のＢＢゲージを増加」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "increase bb gauge": 3, 
+                                "proc id": "31"
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "increase bb gauge": 3, 
+                                "proc id": "31"
+                            }
+                        }
+                    ], 
+                    "id": "34001100", 
+                    "level": 5, 
+                    "name": "ＢＢ・ＳＢＢの「味方のＢＢゲージを増加」効果を強化", 
+                    "series": "34001000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "36003000", 
+                "skill": {
+                    "bp": 50, 
+                    "desc": "ＢＢ及びＳＢＢの「アイテム出現率をアップ」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "item drop rate% buff (11)": 2, 
+                                "proc id": "6"
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "item drop rate% buff (11)": 2, 
+                                "proc id": "6"
+                            }
+                        }
+                    ], 
+                    "id": "36003000", 
+                    "level": 3, 
+                    "name": "ＢＢ・ＳＢＢの「アイテム出現率をアップ」効果を強化", 
+                    "series": "36000000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "21001000", 
+                "skill": {
+                    "bp": 100, 
+                    "desc": "リーダースキルの「獲得経験値をアップ」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to passive": {
+                                "passive id": "97", 
+                                "xp gained increase%": 5
+                            }
+                        }
+                    ], 
+                    "id": "21001000", 
+                    "level": 10, 
+                    "name": "リーダースキル「獲得経験値をアップ」効果を強化", 
+                    "series": "21010000"
+                }
+            }
+        ]
+    }, 
     "30787": {
         "category": {
             "1": {
@@ -5208,6 +5425,269 @@
                     "level": 6, 
                     "name": "ＵＢＢの「アップ効果継続ターン数」が４ターンになる", 
                     "series": "40000200"
+                }
+            }
+        ]
+    }, 
+    "40577": {
+        "category": {
+            "1": {
+                "name": "ステアップ系"
+            }, 
+            "11": {
+                "name": "特殊"
+            }, 
+            "2": {
+                "name": "スパーク系"
+            }, 
+            "3": {
+                "name": "クリティカル系"
+            }
+        }, 
+        "skills": [
+            {
+                "category": "1", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "420001", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "最大ＨＰを３０％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "hp% buff": 30, 
+                                "passive id": "1"
+                            }
+                        }
+                    ], 
+                    "id": "420001", 
+                    "level": 1, 
+                    "name": "最大ＨＰ＋３０％", 
+                    "series": "400000"
+                }
+            }, 
+            {
+                "category": "1", 
+                "dependency": "1@420001", 
+                "dependency comment": "「最大ＨＰ＋３０％」習得", 
+                "id": "400500", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "最大ＨＰ＋３０％を５０％にグレードアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "hp% buff": 50, 
+                                "passive id": "1"
+                            }
+                        }
+                    ], 
+                    "id": "400500", 
+                    "level": 3, 
+                    "name": "最大ＨＰ＋３０％→５０％", 
+                    "series": "400000"
+                }
+            }, 
+            {
+                "category": "2", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "1020001", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "スパークダメージを５０％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "damage% for spark": 50, 
+                                "passive id": "31"
+                            }
+                        }
+                    ], 
+                    "id": "1020001", 
+                    "level": 3, 
+                    "name": "スパークダメージ５０％アップ", 
+                    "series": "1000000"
+                }
+            }, 
+            {
+                "category": "2", 
+                "dependency": "1@1020001", 
+                "dependency comment": "「スパークダメージ５０％アップ」習得", 
+                "id": "1000300", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "スパークダメージを５０％アップを７０％にグレードアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "damage% for spark": 70, 
+                                "passive id": "31"
+                            }
+                        }
+                    ], 
+                    "id": "1000300", 
+                    "level": 4, 
+                    "name": "スパークダメージ５０％→７０％", 
+                    "series": "1000000"
+                }
+            }, 
+            {
+                "category": "2", 
+                "dependency": "1@1000300", 
+                "dependency comment": "「スパークダメージ５０％→７０％」習得", 
+                "id": "1000400", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "スパークダメージを７０％アップを１００％にグレードアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "damage% for spark": 100, 
+                                "passive id": "31"
+                            }
+                        }
+                    ], 
+                    "id": "1000400", 
+                    "level": 5, 
+                    "name": "スパークダメージ７０％→１００％", 
+                    "series": "1000000"
+                }
+            }, 
+            {
+                "category": "3", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "2110002", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "クリティカルダメージをアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "crit multiplier%": 50.0, 
+                                "passive id": "34"
+                            }
+                        }
+                    ], 
+                    "id": "2110002", 
+                    "level": 2, 
+                    "name": "クリティカルダメージアップ", 
+                    "series": "2100000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "10100200", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "ターン毎のＨＰ回復効果をターンの初めに発動する（アリーナ、コロシアムでは、１ターン目のみ効果が発動しない）", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "unknown passive id": "72", 
+                                "unknown passive params": "1,0"
+                            }
+                        }
+                    ], 
+                    "id": "10100200", 
+                    "level": 1, 
+                    "name": "ターン終了時効果をターンの初めに発動", 
+                    "series": "10100000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "20001000", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "リーダースキルの「最大ＨＰを４０％アップ」を５０％にグレードアップ", 
+                    "effects": [
+                        {
+                            "add to passive": {
+                                "hp% buff": 10, 
+                                "passive id": "1"
+                            }
+                        }
+                    ], 
+                    "id": "20001000", 
+                    "level": 6, 
+                    "name": "リーダースキル「最大ＨＰを４０％アップ」効果を強化", 
+                    "series": "20001000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "55004000", 
+                "skill": {
+                    "bp": 30, 
+                    "desc": "ＳＢＢに「味方全体に３ターン、ターン毎にＨＰを大回復」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "gradual heal high": 4000, 
+                                        "gradual heal low": 3500, 
+                                        "gradual heal turns (8)": 3, 
+                                        "proc id": "3", 
+                                        "rec added% (from target)": 10.0, 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "55004000", 
+                    "level": 3, 
+                    "name": "ＳＢＢに「毎ターンＨＰを大回復」追加", 
+                    "series": "55004000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "1@55004000", 
+                "dependency comment": "「ＳＢＢに毎ターンＨＰを大回復」習得", 
+                "id": "55004010", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "ＢＢ・ＳＢＢの「味方全体に３ターン、ターン毎にＨＰを大回復」効果量を増加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "gradual heal high": 5000, 
+                                        "gradual heal low": 4500, 
+                                        "gradual heal turns (8)": 3, 
+                                        "proc id": "3", 
+                                        "rec added% (from target)": 10.0, 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "55004010", 
+                    "level": 4, 
+                    "name": "ＢＢ・ＳＢＢの「毎ターンＨＰ回復」効果を強化", 
+                    "series": "55004000"
                 }
             }
         ]
