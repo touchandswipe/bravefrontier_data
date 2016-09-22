@@ -11373,6 +11373,49 @@
         "name": "Unholy Awakening", 
         "target": "self"
     }, 
+    "840367": {
+        "desc": "Negates all status ailments", 
+        "effects": [
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "name": "Enduring Immunity", 
+        "target": "self"
+    }, 
+    "840368": {
+        "desc": "Negates all status ailments & boosts Atk when BB gauge is over 50%", 
+        "effects": [
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "atk% buff": 70, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "passive id": "30", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Aegis Bombardment", 
+        "target": "self"
+    }, 
     "8500": {
         "desc": "Probable slight HP recovery when attacked & absorbs HP when attacking", 
         "effects": [
@@ -11532,7 +11575,7 @@
                         "elemental barrier absorb dmg%": 100, 
                         "elemental barrier def": 0, 
                         "elemental barrier element": "light", 
-                        "elemental barrier hp": 2000, 
+                        "elemental barrier hp": 2500, 
                         "proc id": "62", 
                         "target area": "aoe", 
                         "target type": "party"
@@ -11762,6 +11805,58 @@
             }
         ], 
         "name": "Heretical Dogma", 
+        "target": "self"
+    }, 
+    "850367": {
+        "desc": "20% boost to all parameters when Atk Boosting sphere is equipped", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "conditions": [
+                    {
+                        "sphere category required": "Atk Boosting", 
+                        "sphere category required (raw)": "13"
+                    }
+                ], 
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "passive target": "self", 
+                "rec% buff": 20
+            }
+        ], 
+        "name": "Stubborn Defiance", 
+        "target": "self"
+    }, 
+    "850368": {
+        "desc": "30% boost to all parameters when Atk Boosting sphere is equipped & 25% boost to Atk, Def, Rec each turn (3 turns max, capping at 75%)", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "conditions": [
+                    {
+                        "sphere category required": "Atk Boosting", 
+                        "sphere category required (raw)": "13"
+                    }
+                ], 
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "passive target": "self", 
+                "rec% buff": 30
+            }, 
+            {
+                "atk% max buff": 75, 
+                "conditions": [], 
+                "def% max buff": 75, 
+                "increase from min to max": 1, 
+                "passive id": "105", 
+                "passive target": "self", 
+                "rec% max buff": 75, 
+                "turn count": 3
+            }
+        ], 
+        "name": "Invulnerable Courage", 
         "target": "self"
     }, 
     "8600": {
@@ -12120,6 +12215,42 @@
             }
         ], 
         "name": "Kitty of the Shadows", 
+        "target": "self"
+    }, 
+    "860367": {
+        "desc": "Greatly reflects damage when attacked", 
+        "effects": [
+            {
+                "conditions": [], 
+                "dmg% reflect chance%": 100, 
+                "dmg% reflect high": 50, 
+                "dmg% reflect low": 50, 
+                "passive id": "26", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Immortality Negation", 
+        "target": "self"
+    }, 
+    "860368": {
+        "desc": "Greatly reflects damage when attacked & probable damage reduction to 1", 
+        "effects": [
+            {
+                "conditions": [], 
+                "dmg% reflect chance%": 100, 
+                "dmg% reflect high": 50, 
+                "dmg% reflect low": 50, 
+                "passive id": "26", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "43", 
+                "passive target": "self", 
+                "take 1 dmg%": 20
+            }
+        ], 
+        "name": "Deaths Herald", 
         "target": "self"
     }, 
     "8700": {

@@ -14923,6 +14923,162 @@
         ], 
         "name": "Pure Protection"
     }, 
+    "810000": {
+        "desc": "150% boost to Atk and 50% boost to max HP of Thunder types, 10% damage reduction from Earth types, considerably boosts BB Atk & negates Def ignoring effect", 
+        "effects": [
+            {
+                "atk% buff": 150, 
+                "elements buffed": [
+                    "thunder"
+                ], 
+                "hp% buff": 50, 
+                "passive id": "2"
+            }, 
+            {
+                "earth resist%": 10, 
+                "passive id": "5"
+            }, 
+            {
+                "bb atk% buff": 200, 
+                "passive id": "64", 
+                "sbb atk% buff": 200, 
+                "ubb atk% buff": 200
+            }, 
+            {
+                "ignore def resist chance%": 100, 
+                "passive id": "92"
+            }
+        ], 
+        "name": "A Moment of Unity"
+    }, 
+    "810001": {
+        "desc": "200% boost to Atk and 60% boost to max HP of Thunder types, 15% damage reduction from Earth types, greatly boosts BB Atk & negates Def ignoring effect", 
+        "effects": [
+            {
+                "atk% buff": 200, 
+                "elements buffed": [
+                    "thunder"
+                ], 
+                "hp% buff": 60, 
+                "passive id": "2"
+            }, 
+            {
+                "earth resist%": 15, 
+                "passive id": "5"
+            }, 
+            {
+                "bb atk% buff": 250, 
+                "passive id": "64", 
+                "sbb atk% buff": 250, 
+                "ubb atk% buff": 250
+            }, 
+            {
+                "ignore def resist chance%": 100, 
+                "passive id": "92"
+            }
+        ], 
+        "name": "Paradoxical Friendship"
+    }, 
+    "810002": {
+        "desc": "150% boost to Atk and 50% boost to max HP of Light types, 10% damage reduction from Dark types & probable normal attack on all foes", 
+        "effects": [
+            {
+                "atk% buff": 150, 
+                "elements buffed": [
+                    "light"
+                ], 
+                "hp% buff": 50, 
+                "passive id": "2"
+            }, 
+            {
+                "dark resist%": 10, 
+                "passive id": "5"
+            }, 
+            {
+                "aoe atk inc%": -50, 
+                "chance to aoe": 25, 
+                "passive id": "96"
+            }
+        ], 
+        "name": "A Moment of Triumph"
+    }, 
+    "810003": {
+        "desc": "200% boost to Atk and 60% boost to max HP of Light types, 15% damage reduction from Dark types, probable normal attack on all foes & normal attack boosts BB gauge", 
+        "effects": [
+            {
+                "atk% buff": 200, 
+                "elements buffed": [
+                    "light"
+                ], 
+                "hp% buff": 60, 
+                "passive id": "2"
+            }, 
+            {
+                "dark resist%": 15, 
+                "passive id": "5"
+            }, 
+            {
+                "aoe atk inc%": -50, 
+                "chance to aoe": 35, 
+                "passive id": "96"
+            }, 
+            {
+                "bc fill when attacking high": 10, 
+                "bc fill when attacking low": 10, 
+                "bc fill when attacking%": 100, 
+                "passive id": "35"
+            }
+        ], 
+        "name": "Paradoxical Courage"
+    }, 
+    "810004": {
+        "desc": "150% boost to Atk and 50% boost to max HP of Dark types, 10% damage reduction from Light types & boosts Spark damage", 
+        "effects": [
+            {
+                "atk% buff": 150, 
+                "elements buffed": [
+                    "dark"
+                ], 
+                "hp% buff": 50, 
+                "passive id": "2"
+            }, 
+            {
+                "light resist%": 10, 
+                "passive id": "5"
+            }, 
+            {
+                "damage% for spark": 80, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "A Moment to Die"
+    }, 
+    "810005": {
+        "desc": "200% boost to Atk and 60% boost to max HP of Dark types, 15% damage reduction from Light types, boosts Spark damage & boosts OD gauge fill rate", 
+        "effects": [
+            {
+                "atk% buff": 200, 
+                "elements buffed": [
+                    "dark"
+                ], 
+                "hp% buff": 60, 
+                "passive id": "2"
+            }, 
+            {
+                "light resist%": 15, 
+                "passive id": "5"
+            }, 
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }, 
+            {
+                "od fill rate%": 25, 
+                "passive id": "70"
+            }
+        ], 
+        "name": "Paradoxical Demise"
+    }, 
     "8101": {
         "desc": "15% boost to Def for all Units", 
         "effects": [
