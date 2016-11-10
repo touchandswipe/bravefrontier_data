@@ -2871,10 +2871,10 @@
         "type": "material"
     }, 
     "11046": {
-        "desc": "\u7570\u754c\u30f4\u30a3\u30e9\u30f3\u30b7\u30eb\u306e\u6c38\u4e45\u51cd\u571f\u5c64\u306e\u8abf\u67fb\u6642\u306b\u767a\u898b\u3055\u308c\u305f\u9271\u77f3", 
+        "desc": "An icy ore from the permafrost layer of the world of Vilanciel. ", 
         "id": 11046, 
         "max_stack": 99, 
-        "name": "\u6c37\u96f6\u77f3", 
+        "name": "Frost Stone ", 
         "raid": false, 
         "rarity": 0, 
         "sell_price": 10, 
@@ -18327,7 +18327,7 @@
         "type": "sphere"
     }, 
     "48800": {
-        "desc": "\u6b8b\u308a\uff28\uff30\u304c\u591a\u3044\u307b\u3069\u3001\u653b\u6483\u529b\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7\uff06\u6b8b\u308a\uff28\uff30\u304c\u5c11\u306a\u3044\u307b\u3069\u3001\u653b\u6483\u529b\u3092\u30c0\u30a6\u30f3", 
+        "desc": "Hugely boosts Atk relative to how high remaining HP is & reduces own Atk relative to how low remaining HP is", 
         "effect": [
             {
                 "atk% base buff": -50, 
@@ -18338,7 +18338,7 @@
         ], 
         "id": 48800, 
         "max_stack": 1, 
-        "name": "\u30a2\u30eb\u30c6\u30de\u30a6\u30a7\u30dd\u30f3", 
+        "name": "Ultima Weapon", 
         "raid": false, 
         "rarity": 4, 
         "sell_price": 30000, 
