@@ -560,6 +560,17 @@
         "thumbnail": "item_thum_401.png", 
         "type": "material"
     }, 
+    "10313": {
+        "desc": "Water found in regions of the world of Vilanciel where the aurora is visible.", 
+        "id": 10313, 
+        "max_stack": 99, 
+        "name": "Northstar Water", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10, 
+        "thumbnail": "item_thum_405.png", 
+        "type": "material"
+    }, 
     "10400": {
         "desc": "The green fossil of a great beast's claw obtainable anywhere.", 
         "id": 10400, 
@@ -813,6 +824,17 @@
         "thumbnail": "item_thum_500.png", 
         "type": "material"
     }, 
+    "10423": {
+        "desc": "The claw of an automaton found on Bectas.", 
+        "id": 10423, 
+        "max_stack": 99, 
+        "name": "Sharp Claw", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10, 
+        "thumbnail": "item_thum_502.png", 
+        "type": "material"
+    }, 
     "10500": {
         "desc": "The easily obtainable green fossil of a great beast's fang.", 
         "id": 10500, 
@@ -1020,6 +1042,17 @@
         "rarity": 0, 
         "sell_price": 50, 
         "thumbnail": "item_thum_604.png", 
+        "type": "material"
+    }, 
+    "10519": {
+        "desc": "A fang from the Mystical Wolf that rules the world of Vilanciel.", 
+        "id": 10519, 
+        "max_stack": 99, 
+        "name": "Frozen Fang", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10, 
+        "thumbnail": "item_thum_601.png", 
         "type": "material"
     }, 
     "10600": {
@@ -1781,6 +1814,17 @@
         "thumbnail": "item_thum_802.png", 
         "type": "material"
     }, 
+    "10736": {
+        "desc": "The armor of an automaton found on Bectas.", 
+        "id": 10736, 
+        "max_stack": 99, 
+        "name": "Metal Armor", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10, 
+        "thumbnail": "item_thum_802.png", 
+        "type": "material"
+    }, 
     "10800": {
         "desc": "A giant green beast bone.", 
         "id": 10800, 
@@ -1990,6 +2034,17 @@
         "thumbnail": "item_thum_900.png", 
         "type": "material"
     }, 
+    "10821": {
+        "desc": "The endoskeleton of an automaton found on Bectas.", 
+        "id": 10821, 
+        "max_stack": 99, 
+        "name": "Molten Bones", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10, 
+        "thumbnail": "item_thum_902.png", 
+        "type": "material"
+    }, 
     "10900": {
         "desc": "A small green ladybug.", 
         "id": 10900, 
@@ -2098,6 +2153,39 @@
         "rarity": 0, 
         "sell_price": 50, 
         "thumbnail": "item_thum_1005.png", 
+        "type": "material"
+    }, 
+    "10910": {
+        "desc": "An insectoid automaton native to Bectas.", 
+        "id": 10910, 
+        "max_stack": 99, 
+        "name": "Allurifly", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10, 
+        "thumbnail": "item_thum_1002.png", 
+        "type": "material"
+    }, 
+    "10911": {
+        "desc": "Small, carnivorous insects native to the world of Vilanciel.", 
+        "id": 10911, 
+        "max_stack": 99, 
+        "name": "Iceblade Bug", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10, 
+        "thumbnail": "item_thum_1001.png", 
+        "type": "material"
+    }, 
+    "10912": {
+        "desc": "Demonic insects that swarm when the sun doesn't set on the world of Vilanciel.", 
+        "id": 10912, 
+        "max_stack": 99, 
+        "name": "Midnight Bug", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10, 
+        "thumbnail": "item_thum_1004.png", 
         "type": "material"
     }, 
     "11000": {
@@ -2352,6 +2440,17 @@
         "sell_price": 50, 
         "thumbnail": "item_thum_1105.png", 
         "type": "material"
+    }, 
+    "110080": {
+        "desc": "A rare crystal used to evolve the mock Unit based on Reda", 
+        "id": 110080, 
+        "max_stack": 1, 
+        "name": "Memory Spinel", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10000, 
+        "thumbnail": "item_thum_110080.png", 
+        "type": "evomat"
     }, 
     "11009": {
         "desc": "The most valuable stone in existence, found in the Sacred Mt. Craylia.", 
@@ -2771,6 +2870,17 @@
         "thumbnail": "item_thum_1105.png", 
         "type": "material"
     }, 
+    "11046": {
+        "desc": "An icy ore from the permafrost layer of the world of Vilanciel. ", 
+        "id": 11046, 
+        "max_stack": 99, 
+        "name": "Frost Stone ", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10, 
+        "thumbnail": "item_thum_1101.png", 
+        "type": "material"
+    }, 
     "120000": {
         "desc": "Multiplies experience by 1.5 after Quest is cleared", 
         "id": 120000, 
@@ -2805,14 +2915,36 @@
         "type": null
     }, 
     "120011": {
-        "desc": "Multiplies Item drop rate by 2 after Raid Quest is cleared when activated from map", 
+        "desc": "Multiplies Item drop rate by 2 after Raid Quest is cleared when activated from map ", 
         "id": 120011, 
         "max_stack": 99, 
         "name": "Fortune Coffer", 
         "raid": true, 
-        "rarity": 3, 
+        "rarity": 0, 
         "sell_price": 1000, 
         "thumbnail": "item_thum_91100.png", 
+        "type": null
+    }, 
+    "130000": {
+        "desc": "Multiplies Summoner EXP, weapon EXP, and SP by 1.5 whenever a Quest is cleared for 30min", 
+        "id": 130000, 
+        "max_stack": 99, 
+        "name": "Experience Water", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 500, 
+        "thumbnail": "item_thum_92000.png", 
+        "type": null
+    }, 
+    "130001": {
+        "desc": "Multiplies Summoner EXP, weapon EXP, and SP by 2 whenever a Quest is cleared for 30min", 
+        "id": 130001, 
+        "max_stack": 99, 
+        "name": "Experience Tonic", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 1000, 
+        "thumbnail": "item_thum_92100.png", 
         "type": null
     }, 
     "20000": {
@@ -4541,6 +4673,358 @@
         "sell_price": 100, 
         "thumbnail": "item_thum_22500.png", 
         "type": "consumable"
+    }, 
+    "230003": {
+        "desc": "20% boost Rec and max HP", 
+        "id": 230003, 
+        "max_stack": 1, 
+        "name": "Shining Stone", 
+        "raid": false, 
+        "rarity": 2, 
+        "recipe": {
+            "karma": "100000", 
+            "materials": [
+                {
+                    "count": 2, 
+                    "id": 30203
+                }, 
+                {
+                    "count": 2, 
+                    "id": 30303
+                }, 
+                {
+                    "count": 2, 
+                    "id": 10736
+                }, 
+                {
+                    "count": 2, 
+                    "id": 10423
+                }
+            ]
+        }, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_7_2.png", 
+        "type": null
+    }, 
+    "230004": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u56de\u5fa9\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff12\uff15\uff05\u30a2\u30c3\u30d7\uff06\u78ba\u7387\u3067\uff28\uff30\u3092\u5c11\u3057\u5438\u53ce", 
+        "id": 230004, 
+        "max_stack": 1, 
+        "name": "\u5c0a\u8840\u7389\u30c7\u30a3\u30e1\u30fc\u30c6", 
+        "raid": false, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 230003
+                }, 
+                {
+                    "count": 1, 
+                    "id": 35600
+                }, 
+                {
+                    "count": 10, 
+                    "id": 10912
+                }, 
+                {
+                    "count": 10, 
+                    "id": 10313
+                }
+            ]
+        }, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_7_1.png", 
+        "type": null
+    }, 
+    "230103": {
+        "desc": "20% boost to Atk & boosts BB gauge each turn", 
+        "id": 230103, 
+        "max_stack": 1, 
+        "name": "Sacred Flag", 
+        "raid": false, 
+        "rarity": 2, 
+        "recipe": {
+            "karma": "100000", 
+            "materials": [
+                {
+                    "count": 2, 
+                    "id": 30003
+                }, 
+                {
+                    "count": 1, 
+                    "id": 38000
+                }, 
+                {
+                    "count": 2, 
+                    "id": 10736
+                }, 
+                {
+                    "count": 2, 
+                    "id": 10423
+                }
+            ]
+        }, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_9_2.png", 
+        "type": null
+    }, 
+    "230104": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u3092\uff12\uff15\uff05\u30a2\u30c3\u30d7\uff06\u30bf\u30fc\u30f3\u6bce\u306b\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5897\u52a0\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7", 
+        "id": 230104, 
+        "max_stack": 1, 
+        "name": "\u529b\u738b\u5e2f\u30d0\u30eb\u30ae\u30eb\u30a2", 
+        "raid": false, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 230103
+                }, 
+                {
+                    "count": 2, 
+                    "id": 34805
+                }, 
+                {
+                    "count": 10, 
+                    "id": 11046
+                }, 
+                {
+                    "count": 10, 
+                    "id": 10911
+                }
+            ]
+        }, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_9_5.png", 
+        "type": null
+    }, 
+    "230203": {
+        "desc": "20% boost to Def & deters status ailments", 
+        "id": 230203, 
+        "max_stack": 1, 
+        "name": "Guarding Light", 
+        "raid": false, 
+        "rarity": 2, 
+        "recipe": {
+            "karma": "100000", 
+            "materials": [
+                {
+                    "count": 2, 
+                    "id": 30103
+                }, 
+                {
+                    "count": 1, 
+                    "id": 37700
+                }, 
+                {
+                    "count": 2, 
+                    "id": 10910
+                }, 
+                {
+                    "count": 2, 
+                    "id": 10821
+                }
+            ]
+        }, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_6_2.png", 
+        "type": null
+    }, 
+    "230204": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u9632\u5fa1\u529b\u3092\uff12\uff15\uff05\u30a2\u30c3\u30d7\uff06\u5168\u72b6\u614b\u7570\u5e38\u306b\u304b\u304b\u308a\u306b\u304f\u304f\u306a\u308b\uff06\u5f31\u70b9\u5c5e\u6027\u30c0\u30e1\u30fc\u30b8\u3092\u5c11\u3057\u8efd\u6e1b", 
+        "id": 230204, 
+        "max_stack": 1, 
+        "name": "\u767d\u9b3c\u7532\u30de\u30af\u30fb\u30de\u30a6", 
+        "raid": false, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 230203
+                }, 
+                {
+                    "count": 2, 
+                    "id": 32200
+                }, 
+                {
+                    "count": 10, 
+                    "id": 11046
+                }, 
+                {
+                    "count": 10, 
+                    "id": 10911
+                }
+            ]
+        }, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_6_5.png", 
+        "type": null
+    }, 
+    "230303": {
+        "desc": "Restores HP each turn & damage taken may restore HP", 
+        "id": 230303, 
+        "max_stack": 1, 
+        "name": "General's Gem", 
+        "raid": false, 
+        "rarity": 2, 
+        "recipe": {
+            "karma": "100000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 34300
+                }, 
+                {
+                    "count": 1, 
+                    "id": 34808
+                }, 
+                {
+                    "count": 2, 
+                    "id": 10910
+                }, 
+                {
+                    "count": 2, 
+                    "id": 10821
+                }
+            ]
+        }, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_8_2.png", 
+        "type": null
+    }, 
+    "230304": {
+        "desc": "\u30bf\u30fc\u30f3\u6bce\u306b\uff28\uff30\u3092\u56de\u5fa9\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\u78ba\u7387\u3067\uff28\uff30\u3092\u5c11\u3057\u56de\u5fa9\uff06\uff22\uff23\u30fb\uff28\uff23\u51fa\u73fe\u7387\u3092\u30a2\u30c3\u30d7", 
+        "id": 230304, 
+        "max_stack": 1, 
+        "name": "\u6804\u6148\u7b26\u30dd\u30ea\u30a2\u30d5", 
+        "raid": false, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 230303
+                }, 
+                {
+                    "count": 1, 
+                    "id": 34803
+                }, 
+                {
+                    "count": 1, 
+                    "id": 34804
+                }, 
+                {
+                    "count": 10, 
+                    "id": 10912
+                }, 
+                {
+                    "count": 10, 
+                    "id": 10313
+                }
+            ]
+        }, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_8_8.png", 
+        "type": null
+    }, 
+    "234000": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\u78ba\u7387\u3067\u5168\u72b6\u614b\u7570\u5e38\u3092\u30e9\u30f3\u30c0\u30e0\u306b\u767a\u751f", 
+        "id": 234000, 
+        "max_stack": 1, 
+        "name": "\u8056\u51f6\u5178\u30ec\u30cd\u30a4\u30a8", 
+        "raid": false, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 2, 
+                    "id": 30005
+                }, 
+                {
+                    "count": 1, 
+                    "id": 38100
+                }, 
+                {
+                    "count": 1, 
+                    "id": 38200
+                }, 
+                {
+                    "count": 10, 
+                    "id": 10912
+                }, 
+                {
+                    "count": 10, 
+                    "id": 10313
+                }
+            ]
+        }, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_5_6.png", 
+        "type": null
+    }, 
+    "235000": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u30fb\u56de\u5fa9\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff12\uff15\uff05\u30a2\u30c3\u30d7\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\u78ba\u7387\u3067\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5c11\u3057\u5897\u52a0\uff06\u901a\u5e38\u653b\u6483\u6642\u3001\u78ba\u7387\u3067\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5897\u52a0", 
+        "id": 235000, 
+        "max_stack": 1, 
+        "name": "\u5929\u72fc\u5957\u30bc\u30d5\u30a3\u30fc\u30ed", 
+        "raid": false, 
+        "rarity": 4, 
+        "recipe": {
+            "karma": "200000", 
+            "materials": [
+                {
+                    "count": 2, 
+                    "id": 30004
+                }, 
+                {
+                    "count": 2, 
+                    "id": 30104
+                }, 
+                {
+                    "count": 2, 
+                    "id": 30204
+                }, 
+                {
+                    "count": 2, 
+                    "id": 30304
+                }, 
+                {
+                    "count": 1, 
+                    "id": 10519
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_8_4.png", 
+        "type": null
     }, 
     "30000": {
         "desc": "Boosts Atk by 5%", 
@@ -13718,8 +14202,8 @@
         "raid": false, 
         "rarity": 7, 
         "sell_price": 15000, 
-        "sphere type": 1, 
-        "sphere type text": "Status Boost", 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
         "thumbnail": "sphere_thum_1_5.png", 
         "type": "sphere"
     }, 
@@ -14763,6 +15247,40 @@
         "thumbnail": "sphere_thum_3_3.png", 
         "type": "sphere"
     }, 
+    "45202": {
+        "desc": "Negates all status ailments & restores HP and boosts BB gauge each turn", 
+        "effect": [
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 1000, 
+                "turn heal low": 800
+            }, 
+            {
+                "bc fill per turn": 3, 
+                "passive id": "9"
+            }
+        ], 
+        "id": 45202, 
+        "max_stack": 1, 
+        "name": "Lovely Earrings", 
+        "raid": false, 
+        "rarity": 5, 
+        "sell_price": 10000, 
+        "sphere type": 5, 
+        "sphere type text": "Status Ailments Resistant", 
+        "thumbnail": "sphere_thum_5_5.png", 
+        "type": "sphere"
+    }, 
     "45300": {
         "desc": "30% boost to Def, Rec and max HP & massively boosts Def when HP is below 50%", 
         "effect": [
@@ -15281,7 +15799,7 @@
         "type": "sphere"
     }, 
     "46400": {
-        "desc": "30% boost to max HP & Def, slightly boosts BB gauge when attacked, boosts BB gauge when guarding", 
+        "desc": "30% boost to max HP and Def, slightly boosts BB gauge when attacked & boosts BB gauge when guarding and when guarding against attacks", 
         "effect": [
             {
                 "def% buff": 30, 
@@ -15832,6 +16350,91 @@
         "id": 47210, 
         "max_stack": 1, 
         "name": "Dandemagus", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_1_1.png", 
+        "type": "sphere"
+    }, 
+    "47211": {
+        "desc": "40% boost to max HP, BC collected hugely boosts Atk for 3 turns, HC collected hugely boosts Def for 3 turns & hugely boosts BC, HC, Zel, Karma, Item drop rates", 
+        "effect": [
+            {
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "bc drop rate% buff": 15, 
+                "hc drop rate% buff": 15, 
+                "item drop rate% buff": 3, 
+                "karma drop rate% buff": 10, 
+                "passive id": "19", 
+                "zel drop rate% buff": 15
+            }, 
+            {
+                "bc receive count buff activation": 30, 
+                "buff": {
+                    "atk% buff (1)": 150, 
+                    "buff turns (1)": "3"
+                }, 
+                "passive id": "82"
+            }, 
+            {
+                "buff": {
+                    "buff turns (3)": "3", 
+                    "def% buff (3)": 150
+                }, 
+                "hc receive count buff activation": 15, 
+                "passive id": "84"
+            }
+        ], 
+        "id": 47211, 
+        "max_stack": 1, 
+        "name": "Thief's Jewel", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_1_1.png", 
+        "type": "sphere"
+    }, 
+    "47212": {
+        "desc": "40% boost to Def, max HP, hugely boosts Atk, Def relative to how high HP is & negates all status ailments and elemental damage ", 
+        "effect": [
+            {
+                "def% buff": 40, 
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 100, 
+                "buff proportional to hp": "remaining", 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 100, 
+                "passive id": "46"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "id": 47212, 
+        "max_stack": 1, 
+        "name": "Antithesis Gem", 
         "raid": false, 
         "rarity": 6, 
         "sell_price": 10000, 
@@ -17249,6 +17852,135 @@
         "thumbnail": "sphere_thum_5_2.png", 
         "type": "sphere"
     }, 
+    "48218": {
+        "desc": "Boosts critical damage, damage reduction for 1 turn when damage taken has exceeded certain amount & 30% boost to Atk and max HP", 
+        "effect": [
+            {
+                "crit multiplier%": 50.0, 
+                "passive id": "34"
+            }, 
+            {
+                "buff": {
+                    "buff turns (36)": "1", 
+                    "dmg reduction% buff": 25
+                }, 
+                "damage dealt threshold buff activation": 100000, 
+                "passive id": "80"
+            }, 
+            {
+                "atk% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 48218, 
+        "max_stack": 1, 
+        "name": "Versatile Device", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 2, 
+        "sphere type text": "Critical", 
+        "thumbnail": "sphere_thum_5_2.png", 
+        "type": "sphere"
+    }, 
+    "48219": {
+        "desc": "Slightly absorbs HP, damage taken may restore HP & 30% boost to Def and max HP", 
+        "effect": [
+            {
+                "hp drain chance%": 100, 
+                "hp drain% high": 10, 
+                "hp drain% low": 5, 
+                "passive id": "17"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }, 
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 48219, 
+        "max_stack": 1, 
+        "name": "Vitality Device", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 7, 
+        "sphere type text": "HP Recovery", 
+        "thumbnail": "sphere_thum_5_2.png", 
+        "type": "sphere"
+    }, 
+    "48220": {
+        "desc": "Negates Def ignoring effect, 50% Spark damage reduction, low probability of enormous damage reduction & 30% boost to Def, max HP", 
+        "effect": [
+            {
+                "ignore def resist chance%": 100, 
+                "passive id": "92"
+            }, 
+            {
+                "base spark dmg% resist": 50, 
+                "buff spark dmg% resist": 50, 
+                "passive id": "77"
+            }, 
+            {
+                "passive id": "43", 
+                "take 1 dmg%": 10
+            }, 
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 48220, 
+        "max_stack": 1, 
+        "name": "Resistive Device", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_5_2.png", 
+        "type": "sphere"
+    }, 
+    "48221": {
+        "desc": "Adds probable Def ignoring effect, 30% boost to Atk, max HP, 100% boost to Spark damage & probable Spark critical", 
+        "effect": [
+            {
+                "ignore def%": 50, 
+                "passive id": "29"
+            }, 
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }, 
+            {
+                "unknown passive id": "100", 
+                "unknown passive params": "20,30"
+            }, 
+            {
+                "atk% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 48221, 
+        "max_stack": 1, 
+        "name": "Offensive Device", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 12, 
+        "sphere type text": "Defense Penetrating", 
+        "thumbnail": "sphere_thum_5_2.png", 
+        "type": "sphere"
+    }, 
     "48300": {
         "desc": "Hugely boosts attack's BC, HC drop rate, boosts BC, HC efficacy & recovers BB gauge, HP each turn", 
         "effect": [
@@ -17733,7 +18465,7 @@
         "type": "sphere"
     }, 
     "48800": {
-        "desc": "\u6b8b\u308a\uff28\uff30\u304c\u591a\u3044\u307b\u3069\u3001\u653b\u6483\u529b\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7\uff06\u6b8b\u308a\uff28\uff30\u304c\u5c11\u306a\u3044\u307b\u3069\u3001\u653b\u6483\u529b\u3092\u30c0\u30a6\u30f3", 
+        "desc": "Hugely boosts Atk relative to how high remaining HP is & reduces own Atk relative to how low remaining HP is", 
         "effect": [
             {
                 "atk% base buff": -50, 
@@ -17744,7 +18476,7 @@
         ], 
         "id": 48800, 
         "max_stack": 1, 
-        "name": "\u30a2\u30eb\u30c6\u30de\u30a6\u30a7\u30dd\u30f3", 
+        "name": "Ultima Weapon", 
         "raid": false, 
         "rarity": 4, 
         "sell_price": 30000, 
@@ -18375,6 +19107,35 @@
         "thumbnail": "sphere_thum_1_7.png", 
         "type": "sphere"
     }, 
+    "49960": {
+        "desc": "Probable 1 turn Atk reduction when damage dealt has exceeded certain amount & 20% boost to Atk and max HP", 
+        "effect": [
+            {
+                "atk% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1"
+            }, 
+            {
+                "buff": {
+                    "buff turns (74)": "2", 
+                    "unknown buff id": "74", 
+                    "unknown buff params": "-25&40&1"
+                }, 
+                "damage dealt threshold buff activation": 50000, 
+                "passive id": "80"
+            }
+        ], 
+        "id": 49960, 
+        "max_stack": 1, 
+        "name": "Samurai Gauntlet", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 10000, 
+        "sphere type": 4, 
+        "sphere type text": "Status Ailment", 
+        "thumbnail": "sphere_thum_1_7.png", 
+        "type": "sphere"
+    }, 
     "49970": {
         "desc": "\u78ba\u7387\u3067\u9632\u5fa1\u8cab\u901a\u52b9\u679c\u3092\u4ed8\u4e0e\uff06\u653b\u6483\u529b\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\u78ba\u7387\u3067\u602a\u6211\u72b6\u614b\u306b\u3059\u308b", 
         "effect": [
@@ -18400,6 +19161,62 @@
         "sphere type": 12, 
         "sphere type text": "Defense Penetrating", 
         "thumbnail": "sphere_thum_1_2.png", 
+        "type": "sphere"
+    }, 
+    "49980": {
+        "desc": "Slaying foes slightly restores HP and decreases chances of being targeted", 
+        "effect": [
+            {
+                "hit increase/hit": 1, 
+                "passive id": "37"
+            }, 
+            {
+                "bc drop rate% buff": 15, 
+                "hc drop rate% buff": 15, 
+                "item drop rate% buff": 3, 
+                "karma drop rate% buff": 10, 
+                "passive id": "19", 
+                "zel drop rate% buff": 15
+            }
+        ], 
+        "id": 49980, 
+        "max_stack": 1, 
+        "name": "Cloak of Lies", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 10000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_4_6.png", 
+        "type": "sphere"
+    }, 
+    "49990": {
+        "desc": "\u653b\u6483\uff22\uff22\u306e\u5a01\u529b\u3092\u304b\u306a\u308a\u30a2\u30c3\u30d7\uff06\u653b\u6483\u529b\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7", 
+        "effect": [
+            {
+                "bb atk% buff": 100, 
+                "passive id": "64", 
+                "sbb atk% buff": 100, 
+                "ubb atk% buff": 100
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }, 
+            {
+                "atk% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 49990, 
+        "max_stack": 1, 
+        "name": "\u30af\u30ea\u30b9\u30bf\u30eb\u30fb\u30b3\u30a2", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 10000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_1_5.png", 
         "type": "sphere"
     }, 
     "50000": {
@@ -19373,6 +20190,177 @@
         "thumbnail": "sphere_thum_5_5.png", 
         "type": "sphere"
     }, 
+    "60500": {
+        "desc": "120% boost to Spark damage, hugely boosts Atk when BB gauge is over 50% & probable Spark vulnerability for 1 turn", 
+        "effect": [
+            {
+                "damage% for spark": 120, 
+                "passive id": "31"
+            }, 
+            {
+                "atk% buff": 100, 
+                "bb gauge above % buff requirement": 50, 
+                "passive id": "30"
+            }, 
+            {
+                "passive id": "75", 
+                "spark debuff chance%": 25, 
+                "spark debuff turns": 0, 
+                "spark debuff%": 25
+            }
+        ], 
+        "id": 60500, 
+        "max_stack": 1, 
+        "name": "Death Chakram", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 11, 
+        "sphere type text": "Spark", 
+        "thumbnail": "sphere_thum_1_6.png", 
+        "type": "sphere"
+    }, 
+    "60510": {
+        "desc": "45% boost to Atk, Def, Rec, max HP & negates critical and elemental based damage", 
+        "effect": [
+            {
+                "atk% buff": 45, 
+                "def% buff": 45, 
+                "hp% buff": 45, 
+                "passive id": "1", 
+                "rec% buff": 45
+            }, 
+            {
+                "crit chance base resist%": 100, 
+                "crit chance buffed resist%": 100, 
+                "crit dmg base damage resist%": 100, 
+                "crit dmg buffed damage resist%": 100, 
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }
+        ], 
+        "id": 60510, 
+        "max_stack": 1, 
+        "name": "Admonition Crown", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_2_3.png", 
+        "type": "sphere"
+    }, 
+    "61000": {
+        "desc": "Enormously boosts Atk BB, hugely boosts elemental damage & considerably boosts critical damage", 
+        "effect": [
+            {
+                "bb atk% buff": 200, 
+                "passive id": "64", 
+                "sbb atk% buff": 200, 
+                "ubb atk% buff": 200
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 100.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "crit multiplier%": 100.0, 
+                "passive id": "34"
+            }
+        ], 
+        "id": 61000, 
+        "max_stack": 1, 
+        "name": "Mournful Pike", 
+        "raid": false, 
+        "rarity": 7, 
+        "sell_price": 30000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_4_4.png", 
+        "type": "sphere"
+    }, 
+    "61010": {
+        "desc": "150% boost to Spark damage, enormously boosts Atk, Def relative to how high HP is & negates Def ignoring effects and elemental damage", 
+        "effect": [
+            {
+                "damage% for spark": 150, 
+                "passive id": "31"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 200, 
+                "buff proportional to hp": "remaining", 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 200, 
+                "passive id": "46"
+            }, 
+            {
+                "ignore def resist chance%": 100, 
+                "passive id": "92"
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }
+        ], 
+        "id": 61010, 
+        "max_stack": 1, 
+        "name": "Magrahja's Helm", 
+        "raid": false, 
+        "rarity": 7, 
+        "sell_price": 30000, 
+        "sphere type": 11, 
+        "sphere type text": "Spark", 
+        "thumbnail": "sphere_thum_5_6.png", 
+        "type": "sphere"
+    }, 
+    "61020": {
+        "desc": "50% boost to Def and max HP, greatly restores HP each turn, damage taken may greatly restore HP & adds high probability of resistance against 1 KO attack", 
+        "effect": [
+            {
+                "def% buff": 50, 
+                "hp% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 2000, 
+                "turn heal low": 1500
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 30, 
+                "dmg% to hp% when attacked low": 30, 
+                "passive id": "24"
+            }, 
+            {
+                "angel idol chance% condition": 0, 
+                "angel idol recover chance% high": 80, 
+                "angel idol recover chance% low": 80, 
+                "angel idol recover counts": 1, 
+                "passive id": "69"
+            }
+        ], 
+        "id": 61020, 
+        "max_stack": 1, 
+        "name": "Survival Charm", 
+        "raid": false, 
+        "rarity": 7, 
+        "sell_price": 30000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_2_6.png", 
+        "type": "sphere"
+    }, 
     "62000": {
         "desc": "30% boost to all parameters, Spark damage and damage taken may considerably boost BB gauge & 50% boost to Spark damage", 
         "effect": [
@@ -19604,6 +20592,814 @@
         "sphere type": 6, 
         "sphere type text": "BB Gauge", 
         "thumbnail": "sphere_thum_5_4.png", 
+        "type": "sphere"
+    }, 
+    "62040": {
+        "desc": "Enormously boosts BC efficacy, considerably boosts BB gauge each turn, boosts Atk, Def, Rec when BB gauge is over 50% & considerably boosts BC drop rate", 
+        "effect": [
+            {
+                "bb gauge fill rate%": 75, 
+                "passive id": "32"
+            }, 
+            {
+                "bc drop rate% buff": 15, 
+                "passive id": "19"
+            }, 
+            {
+                "bc fill per turn": 5, 
+                "passive id": "9"
+            }, 
+            {
+                "atk% buff": 50, 
+                "bb gauge above % buff requirement": 50, 
+                "def% buff": 50, 
+                "passive id": "30", 
+                "rec% buff": 50
+            }
+        ], 
+        "id": 62040, 
+        "max_stack": 1, 
+        "name": "Demonbone Gem", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 46300
+                }, 
+                {
+                    "count": 1, 
+                    "id": 40000
+                }, 
+                {
+                    "count": 1, 
+                    "id": 35002
+                }, 
+                {
+                    "count": 1, 
+                    "id": 40200
+                }, 
+                {
+                    "count": 1, 
+                    "id": 35000
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 6, 
+        "sphere type text": "BB Gauge", 
+        "thumbnail": "sphere_thum_5_5.png", 
+        "type": "sphere"
+    }, 
+    "62050": {
+        "desc": "Probable 50% damage reduction, damage taken may: trigger status ailment counter, boost BB gauge and may restore HP & probable 20% counter of damage received", 
+        "effect": [
+            {
+                "dmg reduction chance%": 30, 
+                "dmg reduction%": 50, 
+                "passive id": "14"
+            }, 
+            {
+                "dmg% reflect chance%": 40, 
+                "dmg% reflect high": 20, 
+                "dmg% reflect low": 20, 
+                "passive id": "26"
+            }, 
+            {
+                "counter inflict curse%": 12, 
+                "counter inflict injury%": 15, 
+                "counter inflict paralysis%": 12, 
+                "counter inflict poison%": 12, 
+                "counter inflict sick%": 15, 
+                "counter inflict weaken%": 15, 
+                "passive id": "71"
+            }, 
+            {
+                "bc fill when attacked high": 2, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 30, 
+                "dmg% to hp% when attacked high": 30, 
+                "dmg% to hp% when attacked low": 30, 
+                "passive id": "24"
+            }
+        ], 
+        "id": 62050, 
+        "max_stack": 1, 
+        "name": "Demontech Mail", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 46800
+                }, 
+                {
+                    "count": 1, 
+                    "id": 60300
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_3_6.png", 
+        "type": "sphere"
+    }, 
+    "62060": {
+        "desc": "Reduces BB gauge required for BB, considerably boosts BB gauge each turn, 15% boost to all parameters & negates all status ailments", 
+        "effect": [
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 20
+            }, 
+            {
+                "bc fill per turn": 4, 
+                "passive id": "9"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "atk% buff": 15, 
+                "def% buff": 15, 
+                "hp% buff": 15, 
+                "passive id": "1", 
+                "rec% buff": 15
+            }
+        ], 
+        "id": 62060, 
+        "max_stack": 1, 
+        "name": "Health Codex", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 42600
+                }, 
+                {
+                    "count": 1, 
+                    "id": 41200
+                }, 
+                {
+                    "count": 1, 
+                    "id": 35202
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 6, 
+        "sphere type text": "BB Gauge", 
+        "thumbnail": "sphere_thum_5_6.png", 
+        "type": "sphere"
+    }, 
+    "62070": {
+        "desc": "100% boost to Atk, Def for first 4 turns, probable random status infliction & probable 20% damage reduction", 
+        "effect": [
+            {
+                "first x turns": 4, 
+                "first x turns atk% (1)": 100, 
+                "first x turns def% (3)": 100, 
+                "passive id": "21"
+            }, 
+            {
+                "dmg reduction chance%": 30, 
+                "dmg reduction%": 20, 
+                "passive id": "14"
+            }, 
+            {
+                "curse%": 12, 
+                "passive id": "20", 
+                "poison%": 12, 
+                "sick%": 15
+            }, 
+            {
+                "injury%": 15, 
+                "paralysis%": 12, 
+                "passive id": "20", 
+                "weaken%": 15
+            }
+        ], 
+        "id": 62070, 
+        "max_stack": 1, 
+        "name": "Variable Arsenal", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 42800
+                }, 
+                {
+                    "count": 1, 
+                    "id": 32200
+                }, 
+                {
+                    "count": 1, 
+                    "id": 39002
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_1_6.png", 
+        "type": "sphere"
+    }, 
+    "62080": {
+        "desc": "\u4f55\u304b\u3057\u3089\u306e\u80fd\u529b\u304c\uff16\u4e0a\u6607", 
+        "effect": [
+            {
+                "atk% buff": 6, 
+                "crit% buff": 6, 
+                "def% buff": 6, 
+                "hp% buff": 6, 
+                "passive id": "1", 
+                "rec% buff": 6
+            }, 
+            {
+                "bb atk% buff": 6, 
+                "passive id": "64", 
+                "sbb atk% buff": 6, 
+                "ubb atk% buff": 6
+            }, 
+            {
+                "od fill rate%": 6, 
+                "passive id": "70"
+            }, 
+            {
+                "ignore def%": 6, 
+                "passive id": "29"
+            }, 
+            {
+                "damage% for spark": 6, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 62080, 
+        "max_stack": 1, 
+        "name": "\u7d42\u5929\u507d\u300e\u30ed\u30af\u30e9\u30a4\u30b6\u30fc\u300f", 
+        "raid": false, 
+        "rarity": 1, 
+        "sell_price": 666666, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_5_2.png", 
+        "type": "sphere"
+    }, 
+    "62090": {
+        "desc": "Hugely boosts damage reduction while guarding, low probability of enormous damage reduction, 30% boost to Def, max HP, damage taken may slightly boost BB gauge, enormous BB gauge boost when guarding & boosts BB gauge when guarding against attacks", 
+        "effect": [
+            {
+                "guard increase mitigation%": 20, 
+                "passive id": "58"
+            }, 
+            {
+                "passive id": "43", 
+                "take 1 dmg%": 12
+            }, 
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "bc filled on guard": 10, 
+                "passive id": "61"
+            }, 
+            {
+                "bc filled when attacked while guarded": 2, 
+                "passive id": "59"
+            }, 
+            {
+                "bc fill when attacked high": 1, 
+                "bc fill when attacked low": 1, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }
+        ], 
+        "id": 62090, 
+        "max_stack": 1, 
+        "name": "Soul Armor", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 46400
+                }, 
+                {
+                    "count": 1, 
+                    "id": 44501
+                }, 
+                {
+                    "count": 1, 
+                    "id": 45600
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_4_7.png", 
+        "type": "sphere"
+    }, 
+    "62100": {
+        "desc": "Enormously boosts BC, HC, Zel, Karma, Items drop rates, slightly boosts BC and considerably boosts HC efficacy, Spark damage boosts BC, HC drop rate & 100% boost Spark damage", 
+        "effect": [
+            {
+                "bc drop rate% buff": 20, 
+                "hc drop rate% buff": 20, 
+                "item drop rate% buff": 5, 
+                "karma drop rate% buff": 15, 
+                "passive id": "19", 
+                "zel drop rate% buff": 20
+            }, 
+            {
+                "bb gauge fill rate%": 15, 
+                "passive id": "32"
+            }, 
+            {
+                "hc effectiveness%": 50, 
+                "passive id": "10"
+            }, 
+            {
+                "bc drop% for spark": 50, 
+                "damage% for spark": 100, 
+                "hc drop% for spark": 35, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 62100, 
+        "max_stack": 1, 
+        "name": "Regent Diadem", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 46100
+                }, 
+                {
+                    "count": 1, 
+                    "id": 45500
+                }, 
+                {
+                    "count": 1, 
+                    "id": 40300
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 3, 
+        "sphere type text": "Drop", 
+        "thumbnail": "sphere_thum_5_8.png", 
+        "type": "sphere"
+    }, 
+    "62110": {
+        "desc": "Probable 20% counter of damage taken, 60% boost to max HP, 75% boost to Def for first 3 turns, probable random status ailment counter, damage taken may restore HP & negates all status ailments", 
+        "effect": [
+            {
+                "dmg% reflect chance%": 40, 
+                "dmg% reflect high": 20, 
+                "dmg% reflect low": 20, 
+                "passive id": "26"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }, 
+            {
+                "hp% buff": 60, 
+                "passive id": "1"
+            }, 
+            {
+                "first x turns": 3, 
+                "first x turns def% (3)": 75, 
+                "passive id": "21"
+            }, 
+            {
+                "counter inflict curse%": 7, 
+                "counter inflict injury%": 10, 
+                "counter inflict paralysis%": 7, 
+                "counter inflict poison%": 7, 
+                "counter inflict sick%": 10, 
+                "counter inflict weaken%": 10, 
+                "passive id": "71"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "id": 62110, 
+        "max_stack": 1, 
+        "name": "Barrier Mirror", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 46700
+                }, 
+                {
+                    "count": 1, 
+                    "id": 37200
+                }, 
+                {
+                    "count": 1, 
+                    "id": 30307
+                }, 
+                {
+                    "count": 1, 
+                    "id": 31101
+                }, 
+                {
+                    "count": 1, 
+                    "id": 39000
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 9, 
+        "sphere type text": "Damage Reflecting", 
+        "thumbnail": "sphere_thum_5_5.png", 
+        "type": "sphere"
+    }, 
+    "62120": {
+        "desc": "Hugely boosts BC efficacy, damage taken considerably boosts BB gauge, probable 30% damage reduction & negates elemental damage", 
+        "effect": [
+            {
+                "bb gauge fill rate%": 60, 
+                "passive id": "32"
+            }, 
+            {
+                "bc fill when attacked high": 4, 
+                "bc fill when attacked low": 3, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "dmg reduction chance%": 30, 
+                "dmg reduction%": 30, 
+                "passive id": "14"
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }
+        ], 
+        "id": 62120, 
+        "max_stack": 1, 
+        "name": "Blessed Charm", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 42100
+                }, 
+                {
+                    "count": 1, 
+                    "id": 42700
+                }, 
+                {
+                    "count": 1, 
+                    "id": 36100
+                }, 
+                {
+                    "count": 1, 
+                    "id": 47904
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 6, 
+        "sphere type text": "BB Gauge", 
+        "thumbnail": "sphere_thum_5_4.png", 
+        "type": "sphere"
+    }, 
+    "62130": {
+        "desc": "150% boost to Spark damage, probable Spark critical, considerably boosts BB Atk & probability of considerable HP absorption", 
+        "effect": [
+            {
+                "damage% for spark": 150, 
+                "passive id": "31"
+            }, 
+            {
+                "unknown passive id": "100", 
+                "unknown passive params": "40,50"
+            }, 
+            {
+                "bb atk% buff": 130, 
+                "passive id": "64", 
+                "sbb atk% buff": 130, 
+                "ubb atk% buff": 130
+            }, 
+            {
+                "hp drain chance%": 20, 
+                "hp drain% high": 60, 
+                "hp drain% low": 30, 
+                "passive id": "17"
+            }
+        ], 
+        "id": 62130, 
+        "max_stack": 1, 
+        "name": "Scarlet Eventide", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 46000
+                }, 
+                {
+                    "count": 1, 
+                    "id": 35600
+                }, 
+                {
+                    "count": 3, 
+                    "id": 11042
+                }, 
+                {
+                    "count": 3, 
+                    "id": 11045
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 11, 
+        "sphere type text": "Spark", 
+        "thumbnail": "sphere_thum_2_1.png", 
+        "type": "sphere"
+    }, 
+    "62140": {
+        "desc": "Boosts elemental damage, 200% boost to Atk, Def in first 2 turns, slightly restores HP and considerably boosts BB gauge when slaying foes & adds probable Def ignoring effect to attack", 
+        "effect": [
+            {
+                "first x turns": 2, 
+                "first x turns atk% (1)": 200, 
+                "first x turns def% (3)": 200, 
+                "passive id": "21"
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 50.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "bc fill on enemy defeat high": 5, 
+                "bc fill on enemy defeat low": 5, 
+                "bc fill on enemy defeat%": 100, 
+                "passive id": "13"
+            }, 
+            {
+                "hp% recover on enemy defeat high": 15, 
+                "hp% recover on enemy defeat low": 15, 
+                "passive id": "15"
+            }, 
+            {
+                "ignore def%": 25, 
+                "passive id": "29"
+            }
+        ], 
+        "id": 62140, 
+        "max_stack": 1, 
+        "name": "Demolishing Plate", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 46500
+                }, 
+                {
+                    "count": 1, 
+                    "id": 44600
+                }, 
+                {
+                    "count": 1, 
+                    "id": 41600
+                }, 
+                {
+                    "count": 1, 
+                    "id": 33501
+                }, 
+                {
+                    "count": 1, 
+                    "id": 34900
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_1_4.png", 
+        "type": "sphere"
+    }, 
+    "62150": {
+        "desc": "Probable 40% damage reduction, 50% boost to Def, negates all status ailments and critical damage & considerably restores HP each turn", 
+        "effect": [
+            {
+                "dmg reduction chance%": 30, 
+                "dmg reduction%": 40, 
+                "passive id": "14"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 1500, 
+                "turn heal low": 1000
+            }, 
+            {
+                "crit chance base resist%": 100, 
+                "crit chance buffed resist%": 100, 
+                "crit dmg base damage resist%": 100, 
+                "crit dmg buffed damage resist%": 100, 
+                "passive id": "53"
+            }, 
+            {
+                "def% buff": 50, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 62150, 
+        "max_stack": 1, 
+        "name": "Daybreak Moon", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 42200
+                }, 
+                {
+                    "count": 1, 
+                    "id": 42000
+                }, 
+                {
+                    "count": 1, 
+                    "id": 47903
+                }, 
+                {
+                    "count": 1, 
+                    "id": 30105
+                }, 
+                {
+                    "count": 1, 
+                    "id": 30103
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_3_4.png", 
+        "type": "sphere"
+    }, 
+    "62160": {
+        "desc": "Hugely boosts Atk, Def, Rec when HP is full, enormously boosts critical hit rate & enormously boosts Atk, Def, Rec when HP is low", 
+        "effect": [
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 200, 
+                "buff proportional to hp": "lost", 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 200, 
+                "passive id": "46", 
+                "rec% base buff": 0, 
+                "rec% extra buff based on hp": 200
+            }, 
+            {
+                "atk% buff": 100, 
+                "crit% buff": 50, 
+                "def% buff": 100, 
+                "hp above % buff requirement": 100, 
+                "passive id": "11", 
+                "rec% buff": 100
+            }
+        ], 
+        "id": 62160, 
+        "max_stack": 1, 
+        "name": "Skull General", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "150000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 41300
+                }, 
+                {
+                    "count": 1, 
+                    "id": 36200
+                }, 
+                {
+                    "count": 1, 
+                    "id": 31300
+                }, 
+                {
+                    "count": 1, 
+                    "id": 31500
+                }
+            ]
+        }, 
+        "sell_price": 25000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_1_5.png", 
+        "type": "sphere"
+    }, 
+    "63000": {
+        "desc": "Considerably boosts critical hit rate, hugely boosts critical damage, 30% boost to all parameters & boosts elemental damage", 
+        "effect": [
+            {
+                "crit multiplier%": 150.0, 
+                "passive id": "34"
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 50.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "atk% buff": 30, 
+                "crit% buff": 30, 
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }
+        ], 
+        "id": 63000, 
+        "max_stack": 1, 
+        "name": "Unyielding Device", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 2, 
+        "sphere type text": "Critical", 
+        "thumbnail": "sphere_thum_3_8.png", 
         "type": "sphere"
     }, 
     "70000": {
@@ -20188,6 +21984,53 @@
         "thumbnail": "item_thum_800103.png", 
         "type": "consumable"
     }, 
+    "800104": {
+        "desc": "A strange piece of glowing crystal that holds a rare power.", 
+        "effect": {
+            "effect": [
+                {
+                    "unknown proc id": "0", 
+                    "unknown proc param": ""
+                }
+            ], 
+            "target_area": "single", 
+            "target_type": "party"
+        }, 
+        "id": 800104, 
+        "max equipped": 0, 
+        "max_stack": 1, 
+        "name": "Memory Fragment", 
+        "raid": false, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "0", 
+            "materials": [
+                {
+                    "count": 20, 
+                    "id": 800501
+                }, 
+                {
+                    "count": 10, 
+                    "id": 800502
+                }, 
+                {
+                    "count": 10, 
+                    "id": 800503
+                }, 
+                {
+                    "count": 5, 
+                    "id": 800504
+                }, 
+                {
+                    "count": 5, 
+                    "id": 800505
+                }
+            ]
+        }, 
+        "sell_price": 500, 
+        "thumbnail": "item_thum_800104.png", 
+        "type": "consumable"
+    }, 
     "800200": {
         "desc": "A pretty snow flake, cool to the touch. Unique event crafting material.", 
         "id": 800200, 
@@ -20533,6 +22376,200 @@
         "thumbnail": "item_thum_800404.png", 
         "type": "consumable"
     }, 
+    "800501": {
+        "desc": "A hardy stone that protects its bearer.", 
+        "id": 800501, 
+        "max_stack": 99, 
+        "name": "Litrock", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 500, 
+        "thumbnail": "item_thum_800501.png", 
+        "type": "material"
+    }, 
+    "800502": {
+        "desc": "The ashes of burnt spiritwood trees.", 
+        "id": 800502, 
+        "max_stack": 99, 
+        "name": "Heaven's Ash", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 500, 
+        "thumbnail": "item_thum_800502.png", 
+        "type": "material"
+    }, 
+    "800503": {
+        "desc": "A large crystal fueled by esper energy.", 
+        "id": 800503, 
+        "max_stack": 99, 
+        "name": "Sacred Crystal", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 500, 
+        "thumbnail": "item_thum_800503.png", 
+        "type": "material"
+    }, 
+    "800504": {
+        "desc": "A mysterious powder left by spirits in their wake.", 
+        "id": 800504, 
+        "max_stack": 99, 
+        "name": "Spiritsand", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 500, 
+        "thumbnail": "item_thum_800504.png", 
+        "type": "material"
+    }, 
+    "800505": {
+        "desc": "A heavy crystal fueled by esper energy.", 
+        "id": 800505, 
+        "max_stack": 99, 
+        "name": "Holy Crystal", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 500, 
+        "thumbnail": "item_thum_800505.png", 
+        "type": "material"
+    }, 
+    "800506": {
+        "desc": "A strangely glowing crystal that holds a memory of courage.", 
+        "id": 800506, 
+        "max_stack": 99, 
+        "name": "Courage Fragment", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 1500, 
+        "thumbnail": "item_thum_800506.png", 
+        "type": "material"
+    }, 
+    "800507": {
+        "desc": "Boosts drop rate of materials for 3 turns.", 
+        "effect": {
+            "effect": [
+                {
+                    "drop rate buff turns": 3, 
+                    "item drop rate% buff (11)": 8, 
+                    "proc id": "6"
+                }
+            ], 
+            "target_area": "aoe", 
+            "target_type": "party"
+        }, 
+        "id": 800507, 
+        "max equipped": 5, 
+        "max_stack": 99, 
+        "name": "Lucky Potion", 
+        "raid": false, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "0", 
+            "materials": [
+                {
+                    "count": 5, 
+                    "id": 10308
+                }, 
+                {
+                    "count": 5, 
+                    "id": 800506
+                }
+            ]
+        }, 
+        "sell_price": 200, 
+        "thumbnail": "item_thum_20210.png", 
+        "type": "consumable"
+    }, 
+    "800508": {
+        "desc": "Activates Dark Barrier for 1 ally.", 
+        "effect": {
+            "effect": [
+                {
+                    "elemental barrier absorb dmg%": 100, 
+                    "elemental barrier def": 0, 
+                    "elemental barrier element": "dark", 
+                    "elemental barrier hp": 2000, 
+                    "proc id": "62"
+                }
+            ], 
+            "target_area": "single", 
+            "target_type": "party"
+        }, 
+        "id": 800508, 
+        "max equipped": 5, 
+        "max_stack": 99, 
+        "name": "Dark Flask", 
+        "raid": false, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "0", 
+            "materials": [
+                {
+                    "count": 5, 
+                    "id": 800506
+                }, 
+                {
+                    "count": 5, 
+                    "id": 800501
+                }, 
+                {
+                    "count": 5, 
+                    "id": 800502
+                }, 
+                {
+                    "count": 5, 
+                    "id": 800503
+                }
+            ]
+        }, 
+        "sell_price": 500, 
+        "thumbnail": "item_thum_21000.png", 
+        "type": "consumable"
+    }, 
+    "800509": {
+        "desc": "Activates Dark Barrier for all allies.", 
+        "effect": {
+            "effect": [
+                {
+                    "elemental barrier absorb dmg%": 100, 
+                    "elemental barrier def": 0, 
+                    "elemental barrier element": "dark", 
+                    "elemental barrier hp": 2000, 
+                    "proc id": "62"
+                }
+            ], 
+            "target_area": "aoe", 
+            "target_type": "party"
+        }, 
+        "id": 800509, 
+        "max equipped": 3, 
+        "max_stack": 99, 
+        "name": "Dark Vial", 
+        "raid": false, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "0", 
+            "materials": [
+                {
+                    "count": 5, 
+                    "id": 800508
+                }, 
+                {
+                    "count": 10, 
+                    "id": 800501
+                }, 
+                {
+                    "count": 10, 
+                    "id": 800502
+                }, 
+                {
+                    "count": 10, 
+                    "id": 800503
+                }
+            ]
+        }, 
+        "sell_price": 1000, 
+        "thumbnail": "item_thum_21001.png", 
+        "type": "consumable"
+    }, 
     "801001": {
         "desc": "Recovers HP each turn & slightly reduces BB gauge used during BB", 
         "effect": [
@@ -20809,6 +22846,172 @@
         "sphere type": 6, 
         "sphere type text": "BB Gauge", 
         "thumbnail": "sphere_thum_818892.png", 
+        "type": "sphere"
+    }, 
+    "818895": {
+        "desc": "Greatly boosts BC drop rate when attacking, raises normal hit amount & 30% boost to Atk and Def", 
+        "effect": [
+            {
+                "extra hits dmg%": -50, 
+                "hit increase/hit": 1, 
+                "passive id": "37"
+            }, 
+            {
+                "bc drop rate% buff": 25, 
+                "passive id": "19"
+            }, 
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 818895, 
+        "max_stack": 1, 
+        "name": "Demonic Skull", 
+        "raid": false, 
+        "rarity": 4, 
+        "recipe": {
+            "karma": "100000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818890
+                }, 
+                {
+                    "count": 70, 
+                    "id": 880223
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 50, 
+                    "id": 800100
+                }
+            ]
+        }, 
+        "sell_price": 30000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818890.png", 
+        "type": "sphere"
+    }, 
+    "818896": {
+        "desc": "Damage dealt boosts BB gauge, raises normal hit amount & boosts critical damage", 
+        "effect": [
+            {
+                "bc fill when attacking high": 8, 
+                "bc fill when attacking low": 7, 
+                "bc fill when attacking%": 100, 
+                "passive id": "35"
+            }, 
+            {
+                "hit increase/hit": 1, 
+                "passive id": "37"
+            }, 
+            {
+                "crit multiplier%": 50.0, 
+                "passive id": "34"
+            }
+        ], 
+        "id": 818896, 
+        "max_stack": 1, 
+        "name": "Ominous Orb", 
+        "raid": false, 
+        "rarity": 4, 
+        "recipe": {
+            "karma": "100000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818891
+                }, 
+                {
+                    "count": 80, 
+                    "id": 880223
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 40, 
+                    "id": 800100
+                }
+            ]
+        }, 
+        "sell_price": 30000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818891.png", 
+        "type": "sphere"
+    }, 
+    "818897": {
+        "desc": "20% boost to Def, max HP, 5% damage reduction & negates status ailments", 
+        "effect": [
+            {
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1"
+            }, 
+            {
+                "dmg% mitigation": 5, 
+                "passive id": "8"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "id": 818897, 
+        "max_stack": 1, 
+        "name": "Patriot", 
+        "raid": false, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "100000", 
+            "materials": [
+                {
+                    "count": 99, 
+                    "id": 800506
+                }
+            ]
+        }, 
+        "sell_price": 50000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_818897.png", 
+        "type": "sphere"
+    }, 
+    "818898": {
+        "desc": "Damage dealt enormously boosts Karma, Item drop rates & boosts BB gauge each turn ", 
+        "effect": [
+            {
+                "item drop rate% buff": 4, 
+                "karma drop rate% buff": 40, 
+                "passive id": "19"
+            }, 
+            {
+                "bc fill per turn": 4, 
+                "passive id": "9"
+            }
+        ], 
+        "id": 818898, 
+        "max_stack": 1, 
+        "name": "Humble Egg Goo", 
+        "raid": false, 
+        "rarity": 5, 
+        "sell_price": 10000, 
+        "sphere type": 3, 
+        "sphere type text": "Drop", 
+        "thumbnail": "sphere_thum_818987.png", 
         "type": "sphere"
     }, 
     "818900": {
@@ -22230,6 +24433,2228 @@
         "thumbnail": "sphere_thum_818944.png", 
         "type": "sphere"
     }, 
+    "818945": {
+        "desc": "15% boost to Atk, Def, boosts critical hit rate and critical damage, 30% boost to Spark damage & boosts Spark BC, HC drop rate", 
+        "effect": [
+            {
+                "crit multiplier%": 50.0, 
+                "passive id": "34"
+            }, 
+            {
+                "atk% buff": 15, 
+                "crit% buff": 25, 
+                "def% buff": 15, 
+                "passive id": "1"
+            }, 
+            {
+                "bc drop% for spark": 15, 
+                "damage% for spark": 30, 
+                "hc drop% for spark": 15, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 818945, 
+        "max_stack": 1, 
+        "name": "Gray Gauntlet", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 5000, 
+        "sphere type": 2, 
+        "sphere type text": "Critical", 
+        "thumbnail": "sphere_thum_1_5.png", 
+        "type": "sphere"
+    }, 
+    "818947": {
+        "desc": "Normal attacks may hit all foes & adds all elements to attack<br>*Activates Guild Raid skill", 
+        "effect": [
+            {
+                "aoe atk inc%": 0, 
+                "chance to aoe": 25, 
+                "passive id": "96"
+            }, 
+            {
+                "elements added": [
+                    "fire", 
+                    "water", 
+                    "earth", 
+                    "thunder", 
+                    "light", 
+                    "dark"
+                ], 
+                "passive id": "102"
+            }
+        ], 
+        "id": 818947, 
+        "max_stack": 1, 
+        "name": "Ka-rzn's Coils", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 5000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818947.png", 
+        "type": "sphere"
+    }, 
+    "818948": {
+        "desc": "Normal attacks may hit all foes, adds all elements to attack & hugely boosts elemental damage<br>*Activates Guild Raid skill", 
+        "effect": [
+            {
+                "aoe atk inc%": 0, 
+                "chance to aoe": 50, 
+                "passive id": "96"
+            }, 
+            {
+                "elements added": [
+                    "fire", 
+                    "water", 
+                    "earth", 
+                    "thunder", 
+                    "light", 
+                    "dark"
+                ], 
+                "passive id": "102"
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 150.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }
+        ], 
+        "id": 818948, 
+        "max_stack": 1, 
+        "name": "Ka-rzn's Coilwhip", 
+        "raid": true, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "85000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818947
+                }, 
+                {
+                    "count": 14, 
+                    "id": 880227
+                }, 
+                {
+                    "count": 9, 
+                    "id": 880226
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10506
+                }
+            ]
+        }, 
+        "sell_price": 7500, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818948.png", 
+        "type": "sphere"
+    }, 
+    "818949": {
+        "desc": "Normal attacks may hit all foes, adds all elements to attack & enormously boosts elemental damage<br>*Activates Guild Raid skill", 
+        "effect": [
+            {
+                "aoe atk inc%": 0, 
+                "chance to aoe": 75, 
+                "passive id": "96"
+            }, 
+            {
+                "elements added": [
+                    "fire", 
+                    "water", 
+                    "earth", 
+                    "thunder", 
+                    "light", 
+                    "dark"
+                ], 
+                "passive id": "102"
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 250.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }
+        ], 
+        "id": 818949, 
+        "max_stack": 1, 
+        "name": "Ka-rzn's Excruciation", 
+        "raid": true, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "100000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818948
+                }, 
+                {
+                    "count": 17, 
+                    "id": 880227
+                }, 
+                {
+                    "count": 12, 
+                    "id": 880226
+                }, 
+                {
+                    "count": 10, 
+                    "id": 880224
+                }, 
+                {
+                    "count": 30, 
+                    "id": 10506
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818949.png", 
+        "type": "sphere"
+    }, 
+    "818951": {
+        "desc": "Boosts BB Atk & boosts BB gauge each turn<br>*Activates Guild Raid skill", 
+        "effect": [
+            {
+                "bb atk% buff": 150, 
+                "passive id": "64", 
+                "sbb atk% buff": 150, 
+                "ubb atk% buff": 150
+            }, 
+            {
+                "bc fill per turn": 3, 
+                "passive id": "9"
+            }
+        ], 
+        "id": 818951, 
+        "max_stack": 1, 
+        "name": "Jeu'vrr's Breath", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 5000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818951.png", 
+        "type": "sphere"
+    }, 
+    "818952": {
+        "desc": "Greatly boosts BB Atk, greatly boosts BB gauge each turn & adds additional attack at turn's end for 3 turns effect to BB/SBB<br>*Activates Guild Raid skill", 
+        "effect": [
+            {
+                "bb atk% buff": 200, 
+                "passive id": "64", 
+                "sbb atk% buff": 200, 
+                "ubb atk% buff": 200
+            }, 
+            {
+                "bc fill per turn": 5, 
+                "passive id": "9"
+            }, 
+            {
+                "passive id": "66", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "dot atk%": 600, 
+                        "dot element affected": true, 
+                        "dot flat atk": 100, 
+                        "dot turns (71)": 3, 
+                        "dot unit index": 1, 
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "proc id": "44", 
+                        "target area": "aoe", 
+                        "target type": "enemy"
+                    }
+                ]
+            }
+        ], 
+        "id": 818952, 
+        "max_stack": 1, 
+        "name": "Jeu'vrr's Oration", 
+        "raid": true, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "85000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818951
+                }, 
+                {
+                    "count": 14, 
+                    "id": 880225
+                }, 
+                {
+                    "count": 9, 
+                    "id": 880224
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10405
+                }
+            ]
+        }, 
+        "sell_price": 7500, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818952.png", 
+        "type": "sphere"
+    }, 
+    "818953": {
+        "desc": "Hugely Boosts BB Atk, greatly boosts BB gauge each turn & adds additional massive attack at turn's end for 3 turns effect to BB/SBB<br>*Activates Guild Raid skill", 
+        "effect": [
+            {
+                "bb atk% buff": 250, 
+                "passive id": "64", 
+                "sbb atk% buff": 250, 
+                "ubb atk% buff": 250
+            }, 
+            {
+                "bc fill per turn": 5, 
+                "passive id": "9"
+            }, 
+            {
+                "passive id": "66", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "dot atk%": 1000, 
+                        "dot element affected": true, 
+                        "dot flat atk": 100, 
+                        "dot turns (71)": 3, 
+                        "dot unit index": 1, 
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "proc id": "44", 
+                        "target area": "aoe", 
+                        "target type": "enemy"
+                    }
+                ]
+            }
+        ], 
+        "id": 818953, 
+        "max_stack": 1, 
+        "name": "Jeu'vrr's Warcry", 
+        "raid": true, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "100000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818952
+                }, 
+                {
+                    "count": 17, 
+                    "id": 880225
+                }, 
+                {
+                    "count": 12, 
+                    "id": 880224
+                }, 
+                {
+                    "count": 10, 
+                    "id": 880226
+                }, 
+                {
+                    "count": 30, 
+                    "id": 10405
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818953.png", 
+        "type": "sphere"
+    }, 
+    "818954": {
+        "desc": "70% boost to Atk & lowers Def by 30%", 
+        "effect": [
+            {
+                "atk% buff": 70, 
+                "def% buff": -30, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 818954, 
+        "max_stack": 1, 
+        "name": "Blight's Core", 
+        "raid": true, 
+        "rarity": 2, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 10, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 10, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 20, 
+                    "id": 880303
+                }, 
+                {
+                    "count": 1, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 1000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818955.png", 
+        "type": "sphere"
+    }, 
+    "818955": {
+        "desc": "100% boost to Atk, 50% boost to Spark damage & lowers Def by 30%", 
+        "effect": [
+            {
+                "atk% buff": 100, 
+                "def% buff": -30, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 818955, 
+        "max_stack": 1, 
+        "name": "Blight's Affliction", 
+        "raid": true, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818954
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 30, 
+                    "id": 880303
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 3000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818955.png", 
+        "type": "sphere"
+    }, 
+    "818956": {
+        "desc": "100% boost to Atk, slightly boosts critical hit damage & lowers Def by 30%", 
+        "effect": [
+            {
+                "atk% buff": 100, 
+                "def% buff": -30, 
+                "passive id": "1"
+            }, 
+            {
+                "crit multiplier%": 50.0, 
+                "passive id": "34"
+            }
+        ], 
+        "id": 818956, 
+        "max_stack": 1, 
+        "name": "Blight's Ire", 
+        "raid": true, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818954
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 30, 
+                    "id": 880303
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 3000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818955.png", 
+        "type": "sphere"
+    }, 
+    "818957": {
+        "desc": "100% boost to Atk, boosts BB Atk & lowers Def by 30%", 
+        "effect": [
+            {
+                "atk% buff": 100, 
+                "def% buff": -30, 
+                "passive id": "1"
+            }, 
+            {
+                "bb atk% buff": 75, 
+                "passive id": "64", 
+                "sbb atk% buff": 75, 
+                "ubb atk% buff": 75
+            }
+        ], 
+        "id": 818957, 
+        "max_stack": 1, 
+        "name": "Blight's Curse", 
+        "raid": true, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818954
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 30, 
+                    "id": 880303
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 3000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818955.png", 
+        "type": "sphere"
+    }, 
+    "818958": {
+        "desc": "120% boost to Atk, 70% boost to Spark damage, boosts BB Atk & lowers Def by 40%", 
+        "effect": [
+            {
+                "atk% buff": 120, 
+                "def% buff": -40, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 70, 
+                "passive id": "31"
+            }, 
+            {
+                "bb atk% buff": 75, 
+                "passive id": "64", 
+                "sbb atk% buff": 75, 
+                "ubb atk% buff": 75
+            }
+        ], 
+        "id": 818958, 
+        "max_stack": 1, 
+        "name": "Blight's Oppression", 
+        "raid": true, 
+        "rarity": 4, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818955
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818956.png", 
+        "type": "sphere"
+    }, 
+    "818959": {
+        "desc": "120% boost to Atk, boosts critical hit damage, 50% boost to Spark damage & lowers Def by 40%", 
+        "effect": [
+            {
+                "atk% buff": 120, 
+                "def% buff": -40, 
+                "passive id": "1"
+            }, 
+            {
+                "crit multiplier%": 70.0, 
+                "passive id": "34"
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 818959, 
+        "max_stack": 1, 
+        "name": "Blight's Rage", 
+        "raid": true, 
+        "rarity": 4, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818956
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818956.png", 
+        "type": "sphere"
+    }, 
+    "818960": {
+        "desc": "120% boost to Atk, considerably boosts BB Atk, slightly boosts critical hit damage & lowers Def by 40%", 
+        "effect": [
+            {
+                "atk% buff": 120, 
+                "def% buff": -40, 
+                "passive id": "1"
+            }, 
+            {
+                "bb atk% buff": 100, 
+                "passive id": "64", 
+                "sbb atk% buff": 100, 
+                "ubb atk% buff": 100
+            }, 
+            {
+                "crit multiplier%": 50.0, 
+                "passive id": "34"
+            }
+        ], 
+        "id": 818960, 
+        "max_stack": 1, 
+        "name": "Blight's Scourge", 
+        "raid": true, 
+        "rarity": 4, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818957
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818956.png", 
+        "type": "sphere"
+    }, 
+    "818961": {
+        "desc": "150% boost to Atk, 100% boost to Spark damage, considerably boosts BB Atk & lowers Def by 50%", 
+        "effect": [
+            {
+                "atk% buff": 150, 
+                "def% buff": -50, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }, 
+            {
+                "bb atk% buff": 100, 
+                "passive id": "64", 
+                "sbb atk% buff": 100, 
+                "ubb atk% buff": 100
+            }
+        ], 
+        "id": 818961, 
+        "max_stack": 1, 
+        "name": "Blight's Torment", 
+        "raid": true, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818958
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 4, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 20000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818956.png", 
+        "type": "sphere"
+    }, 
+    "818962": {
+        "desc": "150% boost to Atk, considerably boosts critical hit damage, 70% boost to Spark damage & lowers Def by 50%", 
+        "effect": [
+            {
+                "atk% buff": 150, 
+                "def% buff": -50, 
+                "passive id": "1"
+            }, 
+            {
+                "crit multiplier%": 100.0, 
+                "passive id": "34"
+            }, 
+            {
+                "damage% for spark": 70, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 818962, 
+        "max_stack": 1, 
+        "name": "Blight's Wrath", 
+        "raid": true, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818959
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 4, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 20000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818956.png", 
+        "type": "sphere"
+    }, 
+    "818963": {
+        "desc": "150% boost to Atk, greatly boosts BB Atk, boosts critical hit damage & lowers Def by 50%", 
+        "effect": [
+            {
+                "atk% buff": 150, 
+                "def% buff": -50, 
+                "passive id": "1"
+            }, 
+            {
+                "bb atk% buff": 150, 
+                "passive id": "64", 
+                "sbb atk% buff": 150, 
+                "ubb atk% buff": 150
+            }, 
+            {
+                "crit multiplier%": 70.0, 
+                "passive id": "34"
+            }
+        ], 
+        "id": 818963, 
+        "max_stack": 1, 
+        "name": "Blight's Misfortune", 
+        "raid": true, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818960
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 4, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 20000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_818956.png", 
+        "type": "sphere"
+    }, 
+    "818964": {
+        "desc": "70% boost to Def & lowers Atk by 30%", 
+        "effect": [
+            {
+                "atk% buff": -30, 
+                "def% buff": 70, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 818964, 
+        "max_stack": 1, 
+        "name": "Weaver's Core", 
+        "raid": true, 
+        "rarity": 2, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 10, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 10, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 20, 
+                    "id": 880303
+                }, 
+                {
+                    "count": 1, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 1000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_818957.png", 
+        "type": "sphere"
+    }, 
+    "818965": {
+        "desc": "100% boost to Def, slightly boosts BC efficacy & lowers Atk by 30%", 
+        "effect": [
+            {
+                "atk% buff": -30, 
+                "def% buff": 100, 
+                "passive id": "1"
+            }, 
+            {
+                "bb gauge fill rate%": 20, 
+                "passive id": "32"
+            }
+        ], 
+        "id": 818965, 
+        "max_stack": 1, 
+        "name": "Weaver's Poise", 
+        "raid": true, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818964
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 30, 
+                    "id": 880303
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 3000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_818957.png", 
+        "type": "sphere"
+    }, 
+    "818966": {
+        "desc": "100% boost to Def, slight chance of reducing damage taken to 1 & lowers Atk by 30%", 
+        "effect": [
+            {
+                "atk% buff": -30, 
+                "def% buff": 100, 
+                "passive id": "1"
+            }, 
+            {
+                "passive id": "43", 
+                "take 1 dmg%": 5
+            }
+        ], 
+        "id": 818966, 
+        "max_stack": 1, 
+        "name": "Weaver's Deceit", 
+        "raid": true, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818964
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 30, 
+                    "id": 880303
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 3000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_818957.png", 
+        "type": "sphere"
+    }, 
+    "818967": {
+        "desc": "100% boost to Def, slightly boosts damage reduced while guarding & lowers Atk by 30%", 
+        "effect": [
+            {
+                "atk% buff": -30, 
+                "def% buff": 100, 
+                "passive id": "1"
+            }, 
+            {
+                "guard increase mitigation%": 5, 
+                "passive id": "58"
+            }
+        ], 
+        "id": 818967, 
+        "max_stack": 1, 
+        "name": "Weaver's Pride", 
+        "raid": true, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818964
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 30, 
+                    "id": 880303
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 3000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_818957.png", 
+        "type": "sphere"
+    }, 
+    "818968": {
+        "desc": "120% boost to Def, boosts BC efficacy, slightly boosts damage reduced while guarding & lowers Atk by 40%", 
+        "effect": [
+            {
+                "atk% buff": -40, 
+                "def% buff": 120, 
+                "passive id": "1"
+            }, 
+            {
+                "bb gauge fill rate%": 30, 
+                "passive id": "32"
+            }, 
+            {
+                "guard increase mitigation%": 5, 
+                "passive id": "58"
+            }
+        ], 
+        "id": 818968, 
+        "max_stack": 1, 
+        "name": "Weaver's Wisdom", 
+        "raid": true, 
+        "rarity": 4, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818965
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_818958.png", 
+        "type": "sphere"
+    }, 
+    "818969": {
+        "desc": "120% boost to Def, slight probability of reducing damage taken to 1, slightly boosts BC efficacy & lowers Atk by 40%", 
+        "effect": [
+            {
+                "atk% buff": -40, 
+                "def% buff": 120, 
+                "passive id": "1"
+            }, 
+            {
+                "passive id": "43", 
+                "take 1 dmg%": 7
+            }, 
+            {
+                "bb gauge fill rate%": 20, 
+                "passive id": "32"
+            }
+        ], 
+        "id": 818969, 
+        "max_stack": 1, 
+        "name": "Weaver's Guile", 
+        "raid": true, 
+        "rarity": 4, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818966
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_818958.png", 
+        "type": "sphere"
+    }, 
+    "818970": {
+        "desc": "120% boost to Def, boosts damage reduced while guarding, slight chance of reducing damage taken to 1 & lowers Atk by 40%", 
+        "effect": [
+            {
+                "atk% buff": -40, 
+                "def% buff": 120, 
+                "passive id": "1"
+            }, 
+            {
+                "guard increase mitigation%": 7, 
+                "passive id": "58"
+            }, 
+            {
+                "passive id": "43", 
+                "take 1 dmg%": 5
+            }
+        ], 
+        "id": 818970, 
+        "max_stack": 1, 
+        "name": "Weaver's Conceit", 
+        "raid": true, 
+        "rarity": 4, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818967
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_818958.png", 
+        "type": "sphere"
+    }, 
+    "818971": {
+        "desc": "150% boost to Def, considerably boosts BC efficacy, boosts damage reduced while guarding & lowers Atk by 50%", 
+        "effect": [
+            {
+                "atk% buff": -50, 
+                "def% buff": 150, 
+                "passive id": "1"
+            }, 
+            {
+                "bb gauge fill rate%": 40, 
+                "passive id": "32"
+            }, 
+            {
+                "guard increase mitigation%": 7, 
+                "passive id": "58"
+            }
+        ], 
+        "id": 818971, 
+        "max_stack": 1, 
+        "name": "Weaver's Acumen", 
+        "raid": true, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818968
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 4, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 20000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_818958.png", 
+        "type": "sphere"
+    }, 
+    "818972": {
+        "desc": "150% boost to Def, slight probability of reducing damage taken to 1, boosts BC efficacy & lowers Atk by 50%", 
+        "effect": [
+            {
+                "atk% buff": -50, 
+                "def% buff": 150, 
+                "passive id": "1"
+            }, 
+            {
+                "passive id": "43", 
+                "take 1 dmg%": 10
+            }, 
+            {
+                "bb gauge fill rate%": 30, 
+                "passive id": "32"
+            }
+        ], 
+        "id": 818972, 
+        "max_stack": 1, 
+        "name": "Weaver's Artifice", 
+        "raid": true, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818969
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 4, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 20000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_818958.png", 
+        "type": "sphere"
+    }, 
+    "818973": {
+        "desc": "150% boost to Def, considerably boosts damage reduced while guarding, slight probability of reducing damage taken to 1 & lowers Atk by 50%", 
+        "effect": [
+            {
+                "atk% buff": -50, 
+                "def% buff": 150, 
+                "passive id": "1"
+            }, 
+            {
+                "guard increase mitigation%": 10, 
+                "passive id": "58"
+            }, 
+            {
+                "passive id": "43", 
+                "take 1 dmg%": 7
+            }
+        ], 
+        "id": 818973, 
+        "max_stack": 1, 
+        "name": "Weaver's Audacity", 
+        "raid": true, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818970
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10806
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 4, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 20000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_818958.png", 
+        "type": "sphere"
+    }, 
+    "818974": {
+        "desc": "Boosts Atk and Def by 30% & lowers max HP by 20%", 
+        "effect": [
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "hp% buff": -20, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 818974, 
+        "max_stack": 1, 
+        "name": "Harbinger's Core", 
+        "raid": true, 
+        "rarity": 2, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 10, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 10, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 20, 
+                    "id": 880303
+                }, 
+                {
+                    "count": 1, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 1000, 
+        "sphere type": 14, 
+        "sphere type text": "Special", 
+        "thumbnail": "sphere_thum_818959.png", 
+        "type": "sphere"
+    }, 
+    "818975": {
+        "desc": "Boosts Atk and Def by 50%, slightly boosts OD gauge fill rate & lowers max HP by 20%", 
+        "effect": [
+            {
+                "atk% buff": 50, 
+                "def% buff": 50, 
+                "hp% buff": -20, 
+                "passive id": "1"
+            }, 
+            {
+                "od fill rate%": 20, 
+                "passive id": "70"
+            }
+        ], 
+        "id": 818975, 
+        "max_stack": 1, 
+        "name": "Harbinger's Thirst", 
+        "raid": true, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818974
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 30, 
+                    "id": 880303
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 3000, 
+        "sphere type": 14, 
+        "sphere type text": "Special", 
+        "thumbnail": "sphere_thum_818959.png", 
+        "type": "sphere"
+    }, 
+    "818976": {
+        "desc": "Boosts Atk and Def by 50%, probable slight damage reduction & lowers max HP by 20%", 
+        "effect": [
+            {
+                "atk% buff": 50, 
+                "def% buff": 50, 
+                "hp% buff": -20, 
+                "passive id": "1"
+            }, 
+            {
+                "dmg reduction chance%": 25, 
+                "dmg reduction%": 10, 
+                "passive id": "14"
+            }
+        ], 
+        "id": 818976, 
+        "max_stack": 1, 
+        "name": "Harbinger's Spite", 
+        "raid": true, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818974
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 30, 
+                    "id": 880303
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 3000, 
+        "sphere type": 14, 
+        "sphere type text": "Special", 
+        "thumbnail": "sphere_thum_818959.png", 
+        "type": "sphere"
+    }, 
+    "818977": {
+        "desc": "Boosts Atk and Def by 50%, boosts Atk and Def by 30% relative to max HP & lowers max HP by 20%", 
+        "effect": [
+            {
+                "atk% buff": 50, 
+                "def% buff": 50, 
+                "hp% buff": -20, 
+                "passive id": "1"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 30, 
+                "buff proportional to hp": "remaining", 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 30, 
+                "passive id": "46"
+            }
+        ], 
+        "id": 818977, 
+        "max_stack": 1, 
+        "name": "Harbinger's Ardor", 
+        "raid": true, 
+        "rarity": 3, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818974
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 15, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 30, 
+                    "id": 880303
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 3000, 
+        "sphere type": 14, 
+        "sphere type text": "Special", 
+        "thumbnail": "sphere_thum_818959.png", 
+        "type": "sphere"
+    }, 
+    "818978": {
+        "desc": "Boosts Atk and Def by 70%, boosts OD gauge fill rate, boosts Atk and Def by 30% relative to max HP & lowers max HP by 30%", 
+        "effect": [
+            {
+                "atk% buff": 70, 
+                "def% buff": 70, 
+                "hp% buff": -30, 
+                "passive id": "1"
+            }, 
+            {
+                "od fill rate%": 30, 
+                "passive id": "70"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 30, 
+                "buff proportional to hp": "remaining", 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 30, 
+                "passive id": "46"
+            }
+        ], 
+        "id": 818978, 
+        "max_stack": 1, 
+        "name": "Harbinger's Greed", 
+        "raid": true, 
+        "rarity": 4, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818975
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 14, 
+        "sphere type text": "Special", 
+        "thumbnail": "sphere_thum_818960.png", 
+        "type": "sphere"
+    }, 
+    "818979": {
+        "desc": "Boosts Atk and Def by 70%, probable damage reduction, slightly boosts OD gauge fill rate & lowers max HP by 30%", 
+        "effect": [
+            {
+                "atk% buff": 70, 
+                "def% buff": 70, 
+                "hp% buff": -30, 
+                "passive id": "1"
+            }, 
+            {
+                "dmg reduction chance%": 25, 
+                "dmg reduction%": 15, 
+                "passive id": "14"
+            }, 
+            {
+                "od fill rate%": 20, 
+                "passive id": "70"
+            }
+        ], 
+        "id": 818979, 
+        "max_stack": 1, 
+        "name": "Harbinger's Cruelty", 
+        "raid": true, 
+        "rarity": 4, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818976
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 14, 
+        "sphere type text": "Special", 
+        "thumbnail": "sphere_thum_818960.png", 
+        "type": "sphere"
+    }, 
+    "818980": {
+        "desc": "Boosts Atk and Def by 70%, boosts Atk and Def by 40% relative to max HP, probable slight damage reduction & lowers max HP by 30%", 
+        "effect": [
+            {
+                "atk% buff": 70, 
+                "def% buff": 70, 
+                "hp% buff": -30, 
+                "passive id": "1"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 40, 
+                "buff proportional to hp": "remaining", 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 40, 
+                "passive id": "46"
+            }, 
+            {
+                "dmg reduction chance%": 25, 
+                "dmg reduction%": 10, 
+                "passive id": "14"
+            }
+        ], 
+        "id": 818980, 
+        "max_stack": 1, 
+        "name": "Harbinger's Desire", 
+        "raid": true, 
+        "rarity": 4, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818977
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 2, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 14, 
+        "sphere type text": "Special", 
+        "thumbnail": "sphere_thum_818960.png", 
+        "type": "sphere"
+    }, 
+    "818981": {
+        "desc": "Boosts Atk and Def by 100%, considerably boosts OD gauge fill rate, boosts Atk and Def by 40% relative to max HP & lowers max HP by 40%", 
+        "effect": [
+            {
+                "atk% buff": 100, 
+                "def% buff": 100, 
+                "hp% buff": -40, 
+                "passive id": "1"
+            }, 
+            {
+                "od fill rate%": 40, 
+                "passive id": "70"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 40, 
+                "buff proportional to hp": "remaining", 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 40, 
+                "passive id": "46"
+            }
+        ], 
+        "id": 818981, 
+        "max_stack": 1, 
+        "name": "Harbinger's Avarice", 
+        "raid": true, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818978
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 4, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 20000, 
+        "sphere type": 14, 
+        "sphere type text": "Special", 
+        "thumbnail": "sphere_thum_818960.png", 
+        "type": "sphere"
+    }, 
+    "818982": {
+        "desc": "Boosts Atk and Def by 100%, probable slight damage reduction, boosts OD gauge fill rate & lowers max HP by 40%", 
+        "effect": [
+            {
+                "atk% buff": 100, 
+                "def% buff": 100, 
+                "hp% buff": -40, 
+                "passive id": "1"
+            }, 
+            {
+                "dmg reduction chance%": 25, 
+                "dmg reduction%": 20, 
+                "passive id": "14"
+            }, 
+            {
+                "od fill rate%": 30, 
+                "passive id": "70"
+            }
+        ], 
+        "id": 818982, 
+        "max_stack": 1, 
+        "name": "Harbinger's Malice", 
+        "raid": true, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818979
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 4, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 20000, 
+        "sphere type": 14, 
+        "sphere type text": "Special", 
+        "thumbnail": "sphere_thum_818960.png", 
+        "type": "sphere"
+    }, 
+    "818983": {
+        "desc": "Boosts Atk and Def by 100%, boosts Atk and Def by 50% relative to max HP, probable damage reduction & lowers max HP by 40%", 
+        "effect": [
+            {
+                "atk% buff": 100, 
+                "def% buff": 100, 
+                "hp% buff": -40, 
+                "passive id": "1"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 50, 
+                "buff proportional to hp": "remaining", 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 50, 
+                "passive id": "46"
+            }, 
+            {
+                "dmg reduction chance%": 25, 
+                "dmg reduction%": 15, 
+                "passive id": "14"
+            }
+        ], 
+        "id": 818983, 
+        "max_stack": 1, 
+        "name": "Harbinger's Lust", 
+        "raid": true, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "25000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818980
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10707
+                }, 
+                {
+                    "count": 25, 
+                    "id": 10506
+                }, 
+                {
+                    "count": 3, 
+                    "id": 880301
+                }, 
+                {
+                    "count": 4, 
+                    "id": 880302
+                }
+            ]
+        }, 
+        "sell_price": 20000, 
+        "sphere type": 14, 
+        "sphere type text": "Special", 
+        "thumbnail": "sphere_thum_818960.png", 
+        "type": "sphere"
+    }, 
+    "818984": {
+        "desc": "Probable 15% damage reduction & damage taken may restore HP. *Activates Guild Raid skill", 
+        "effect": [
+            {
+                "dmg reduction chance%": 20, 
+                "dmg reduction%": 15, 
+                "passive id": "14"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 20, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }
+        ], 
+        "id": 818984, 
+        "max_stack": 1, 
+        "name": "Nhe'hed's Blessing", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 5000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_818984.png", 
+        "type": "sphere"
+    }, 
+    "818985": {
+        "desc": "Probable 20% damage reduction, damage taken may restore HP & boosts Atk, Def relative to remaining HP. *Activates Guild Raid skill", 
+        "effect": [
+            {
+                "dmg reduction chance%": 25, 
+                "dmg reduction%": 20, 
+                "passive id": "14"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 25, 
+                "passive id": "24"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 75, 
+                "buff proportional to hp": "remaining", 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 75, 
+                "passive id": "46"
+            }
+        ], 
+        "id": 818985, 
+        "max_stack": 1, 
+        "name": "Nhe'hed's Wish", 
+        "raid": true, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "85000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818984
+                }, 
+                {
+                    "count": 14, 
+                    "id": 880235
+                }, 
+                {
+                    "count": 9, 
+                    "id": 880237
+                }, 
+                {
+                    "count": 20, 
+                    "id": 10707
+                }
+            ]
+        }, 
+        "sell_price": 7500, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_818985.png", 
+        "type": "sphere"
+    }, 
+    "818986": {
+        "desc": "Probable 25% damage reduction, damage taken may restore HP & boosts Atk, Def relative to remaining HP. *Activates Guild Raid skill", 
+        "effect": [
+            {
+                "dmg reduction chance%": 30, 
+                "dmg reduction%": 25, 
+                "passive id": "14"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 30, 
+                "dmg% to hp% when attacked high": 30, 
+                "dmg% to hp% when attacked low": 30, 
+                "passive id": "24"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 125, 
+                "buff proportional to hp": "remaining", 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 125, 
+                "passive id": "46"
+            }
+        ], 
+        "id": 818986, 
+        "max_stack": 1, 
+        "name": "Nhe'hed's Will", 
+        "raid": true, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "100000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818985
+                }, 
+                {
+                    "count": 17, 
+                    "id": 880235
+                }, 
+                {
+                    "count": 12, 
+                    "id": 880237
+                }, 
+                {
+                    "count": 10, 
+                    "id": 880236
+                }, 
+                {
+                    "count": 30, 
+                    "id": 10707
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_818986.png", 
+        "type": "sphere"
+    }, 
+    "818988": {
+        "desc": "15% boost to Def, Rec, boosts damage reduction when guarding  & restores HP each turn", 
+        "effect": [
+            {
+                "def% buff": 15, 
+                "passive id": "1", 
+                "rec% buff": 15
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 1500, 
+                "turn heal low": 1000
+            }, 
+            {
+                "guard increase mitigation%": 10, 
+                "passive id": "58"
+            }
+        ], 
+        "id": 818988, 
+        "max_stack": 1, 
+        "name": "Courage Buckler", 
+        "raid": false, 
+        "rarity": 4, 
+        "recipe": {
+            "karma": "10000", 
+            "materials": [
+                {
+                    "count": 40, 
+                    "id": 800506
+                }, 
+                {
+                    "count": 30, 
+                    "id": 800501
+                }, 
+                {
+                    "count": 30, 
+                    "id": 800502
+                }, 
+                {
+                    "count": 30, 
+                    "id": 800503
+                }
+            ]
+        }, 
+        "sell_price": 10000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_2_7.png", 
+        "type": "sphere"
+    }, 
+    "818989": {
+        "desc": "20% boost to Def, Rec, max HP, probable 20% damage reduction, boosts damage reduction when guarding & restores HP each turn", 
+        "effect": [
+            {
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "rec% buff": 20
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 2000, 
+                "turn heal low": 1500
+            }, 
+            {
+                "guard increase mitigation%": 15, 
+                "passive id": "58"
+            }, 
+            {
+                "dmg reduction chance%": 20, 
+                "dmg reduction%": 20, 
+                "passive id": "14"
+            }
+        ], 
+        "id": 818989, 
+        "max_stack": 1, 
+        "name": "Courage Shield", 
+        "raid": false, 
+        "rarity": 5, 
+        "recipe": {
+            "karma": "20000", 
+            "materials": [
+                {
+                    "count": 1, 
+                    "id": 818988
+                }, 
+                {
+                    "count": 80, 
+                    "id": 800506
+                }, 
+                {
+                    "count": 70, 
+                    "id": 800502
+                }, 
+                {
+                    "count": 50, 
+                    "id": 800503
+                }
+            ]
+        }, 
+        "sell_price": 20000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_2_4.png", 
+        "type": "sphere"
+    }, 
+    "818990": {
+        "desc": "25% boost to Atk, Def, Rec, max HP, probable 30% damage reduction, boosts damage reduction when guarding, restores HP each turn & damage taken slightly boosts BB gauge", 
+        "effect": [
+            {
+                "atk% buff": 25, 
+                "def% buff": 25, 
+                "hp% buff": 25, 
+                "passive id": "1", 
+                "rec% buff": 25
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 20.0, 
+                "turn heal high": 2500, 
+                "turn heal low": 2000
+            }, 
+            {
+                "guard increase mitigation%": 20, 
+                "passive id": "58"
+            }, 
+            {
+                "bc fill when attacked high": 2, 
+                "bc fill when attacked low": 1, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "dmg reduction chance%": 40, 
+                "dmg reduction%": 30, 
+                "passive id": "14"
+            }
+        ], 
+        "id": 818990, 
+        "max_stack": 1, 
+        "name": "Courage Aegis", 
+        "raid": false, 
+        "rarity": 6, 
+        "recipe": {
+            "karma": "50000", 
+            "materials": [
+                {
+                    "count": 2, 
+                    "id": 818989
+                }, 
+                {
+                    "count": 120, 
+                    "id": 800506
+                }, 
+                {
+                    "count": 90, 
+                    "id": 800505
+                }, 
+                {
+                    "count": 90, 
+                    "id": 800504
+                }
+            ]
+        }, 
+        "sell_price": 50000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_2_1.png", 
+        "type": "sphere"
+    }, 
     "819901": {
         "desc": "Boosts Max HP and Def by 5% & boosts Atk for Fire types by 20%", 
         "effect": [
@@ -23455,6 +27880,138 @@
         "thumbnail": "item_thum_880222.png", 
         "type": "material"
     }, 
+    "880223": {
+        "desc": "An eerie glowing bone. Unique event crafting material.", 
+        "id": 880223, 
+        "max_stack": 99, 
+        "name": "Eerie Bone", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 1500, 
+        "thumbnail": "item_thum_906.png", 
+        "type": "material"
+    }, 
+    "880224": {
+        "desc": "A sticky piece of the shambler plant, freshly cut.", 
+        "id": 880224, 
+        "max_stack": 99, 
+        "name": "Shambler Cuttings", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 1500, 
+        "thumbnail": "item_thum_880224.png", 
+        "type": "material"
+    }, 
+    "880225": {
+        "desc": "A tough, barbed stinger from phrun shuttlebugs.", 
+        "id": 880225, 
+        "max_stack": 99, 
+        "name": "Phrun Stingers", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 1500, 
+        "thumbnail": "item_thum_880225.png", 
+        "type": "material"
+    }, 
+    "880226": {
+        "desc": "A piece of wood obtained from the burbur tree.", 
+        "id": 880226, 
+        "max_stack": 99, 
+        "name": "Burbur Branch", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 1500, 
+        "thumbnail": "item_thum_880226.png", 
+        "type": "material"
+    }, 
+    "880227": {
+        "desc": "A pair of fangs extracted from the centipedes found near burbur trees.", 
+        "id": 880227, 
+        "max_stack": 99, 
+        "name": "Centipede Fang", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 1500, 
+        "thumbnail": "item_thum_880227.png", 
+        "type": "material"
+    }, 
+    "880235": {
+        "desc": "A soft tail taken from the dhlerp, tough and sinewy.", 
+        "id": 880235, 
+        "max_stack": 99, 
+        "name": "Dhlerp Tail", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 1500, 
+        "thumbnail": "item_thum_880235.png", 
+        "type": "material"
+    }, 
+    "880236": {
+        "desc": "Sand infused with the essence of time, it glitters in odd circumstances.", 
+        "id": 880236, 
+        "max_stack": 99, 
+        "name": "Chronal Sand", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 1500, 
+        "thumbnail": "item_thum_880236.png", 
+        "type": "material"
+    }, 
+    "880237": {
+        "desc": "An organic crystal grown from special farms deep underwater.", 
+        "id": 880237, 
+        "max_stack": 99, 
+        "name": "Sea-star Crystal", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 1500, 
+        "thumbnail": "item_thum_880237.png", 
+        "type": "material"
+    }, 
+    "880238": {
+        "desc": "Chains forged from volcanic lava that resist and dispel any magic.", 
+        "id": 880238, 
+        "max_stack": 99, 
+        "name": "Cthnos Chain", 
+        "raid": false, 
+        "rarity": 3, 
+        "sell_price": 1500, 
+        "thumbnail": "item_thum_880238.png", 
+        "type": "material"
+    }, 
+    "880301": {
+        "desc": "MST_ITEMS_MATERIAL_880301_SHORTDESCRIPTION", 
+        "id": 880301, 
+        "max_stack": 99, 
+        "name": "Old Locket", 
+        "raid": true, 
+        "rarity": 3, 
+        "sell_price": 50, 
+        "thumbnail": "item_thum_880301.png", 
+        "type": "material"
+    }, 
+    "880302": {
+        "desc": "MST_ITEMS_MATERIAL_880302_SHORTDESCRIPTION", 
+        "id": 880302, 
+        "max_stack": 99, 
+        "name": "Weathered Bell", 
+        "raid": true, 
+        "rarity": 3, 
+        "sell_price": 1000, 
+        "thumbnail": "item_thum_880302.png", 
+        "type": "material"
+    }, 
+    "880303": {
+        "desc": "MST_ITEMS_MATERIAL_880303_SHORTDESCRIPTION", 
+        "id": 880303, 
+        "max_stack": 99, 
+        "name": "Ghostly Herbs", 
+        "raid": true, 
+        "rarity": 3, 
+        "sell_price": 2000, 
+        "thumbnail": "item_thum_880303.png", 
+        "type": "material"
+    }, 
     "899998": {
         "desc": "Boosts Atk & Def by -75% & boosts HP, Rec, critical hit rate by 25%", 
         "effect": [
@@ -23472,23 +28029,6 @@
         "name": "Most Bravest Blade", 
         "raid": false, 
         "rarity": 3, 
-        "recipe": {
-            "karma": "99999", 
-            "materials": [
-                {
-                    "count": 1, 
-                    "id": 899999
-                }, 
-                {
-                    "count": 999, 
-                    "id": 800308
-                }, 
-                {
-                    "count": 99, 
-                    "id": 10308
-                }
-            ]
-        }, 
         "sell_price": 30000, 
         "sphere type": 13, 
         "sphere type text": "Atk Boosting", 
@@ -23512,15 +28052,6 @@
         "name": "Bravest Blade", 
         "raid": false, 
         "rarity": 1, 
-        "recipe": {
-            "karma": "99999", 
-            "materials": [
-                {
-                    "count": 999, 
-                    "id": 800308
-                }
-            ]
-        }, 
         "sell_price": 3000, 
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
@@ -23528,7 +28059,7 @@
         "type": "sphere"
     }, 
     "90001": {
-        "desc": "Adds 10% to Def, 10% to Rec and 30% to Max HP. Immunity from Curse, Paralyze and Weakness. BB Gauge fill rate is increased.", 
+        "desc": "10% boost to Def and Rec, 30% boost to max HP, negates Curse, Paralysis, Weak effects & boosts BB gauge fill rate", 
         "effect": [
             {
                 "curse resist%": 100, 
@@ -23556,6 +28087,62 @@
         "sphere type": 5, 
         "sphere type text": "Status Ailments Resistant", 
         "thumbnail": "sphere_thum_5_6.png", 
+        "type": "sphere"
+    }, 
+    "90101": {
+        "desc": "50% boost to Atk, 100% boost to Spark damage, Spark damage slightly boosts BB gauge & negates Curse, Paralysis, Injury effects", 
+        "effect": [
+            {
+                "atk% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }, 
+            {
+                "bc fill on spark high": 1, 
+                "bc fill on spark low": 1, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4"
+            }
+        ], 
+        "id": 90101, 
+        "max_stack": 1, 
+        "name": "Mem Cache", 
+        "raid": false, 
+        "rarity": 5, 
+        "sell_price": 10000, 
+        "sphere type": 11, 
+        "sphere type text": "Spark", 
+        "thumbnail": "sphere_thum_5_6.png", 
+        "type": "sphere"
+    }, 
+    "90102": {
+        "desc": "Greatly boosts Spark damage and drop rate of BC and HC", 
+        "effect": [
+            {
+                "bc drop% for spark": 75, 
+                "damage% for spark": 125, 
+                "hc drop% for spark": 60, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 90102, 
+        "max_stack": 1, 
+        "name": "Buccaneer Banner", 
+        "raid": false, 
+        "rarity": 5, 
+        "sell_price": 20000, 
+        "sphere type": 11, 
+        "sphere type text": "Spark", 
+        "thumbnail": "sphere_thum_5_1.png", 
         "type": "sphere"
     }
 }
