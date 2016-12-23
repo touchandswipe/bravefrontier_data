@@ -13293,6 +13293,54 @@
         "name": "Bonnie Rabbit Pride", 
         "target": "self"
     }, 
+    "840127": {
+        "desc": "30% boost to Spark damage & adds resistance against 1 KO attack when HP is below 20%", 
+        "effects": [
+            {
+                "buff": {
+                    "angel idol buff (12)": true, 
+                    "angel idol recover hp%": 100, 
+                    "buff turns (12)": "-1"
+                }, 
+                "conditions": [], 
+                "hp below % buff activation": 20, 
+                "passive id": "55", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 30, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Untiring Huntress", 
+        "target": "self"
+    }, 
+    "840128": {
+        "desc": "50% boost to Spark damage & adds resistance against 1 KO attack when HP is below 20%", 
+        "effects": [
+            {
+                "buff": {
+                    "angel idol buff (12)": true, 
+                    "angel idol recover hp%": 100, 
+                    "buff turns (12)": "-1"
+                }, 
+                "conditions": [], 
+                "hp below % buff activation": 20, 
+                "passive id": "55", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Unyielding Huntress", 
+        "target": "self"
+    }, 
     "840147": {
         "desc": "20% boost to all parameters & adds critical hit rate boost to BB/SBB for 3 turns when Spear of Zedus is equipped", 
         "effects": [
@@ -14298,6 +14346,19 @@
             }
         ], 
         "name": "Pumpkin Extraordinaire", 
+        "target": "self"
+    }, 
+    "860127": {
+        "desc": "Hugely boosts BB gauge each turn", 
+        "effects": [
+            {
+                "bc fill per turn": 3, 
+                "conditions": [], 
+                "passive id": "9", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Silent Soliloquy", 
         "target": "self"
     }, 
     "860147": {
