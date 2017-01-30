@@ -4697,7 +4697,7 @@
         "max_stack": 1, 
         "name": "光浄石ルピテクト", 
         "raid": false, 
-        "rarity": 2, 
+        "rarity": 1, 
         "recipe": {
             "karma": "100000", 
             "materials": [
@@ -4731,7 +4731,7 @@
         "max_stack": 1, 
         "name": "尊血玉ディメーテ", 
         "raid": false, 
-        "rarity": 3, 
+        "rarity": 2, 
         "recipe": {
             "karma": "150000", 
             "materials": [
@@ -4803,7 +4803,7 @@
         "max_stack": 1, 
         "name": "聖光旗シェーステン", 
         "raid": false, 
-        "rarity": 2, 
+        "rarity": 1, 
         "recipe": {
             "karma": "100000", 
             "materials": [
@@ -4837,7 +4837,7 @@
         "max_stack": 1, 
         "name": "力王帯バルギルア", 
         "raid": false, 
-        "rarity": 3, 
+        "rarity": 2, 
         "recipe": {
             "karma": "150000", 
             "materials": [
@@ -4909,7 +4909,7 @@
         "max_stack": 1, 
         "name": "護界灯ネス・タリア", 
         "raid": false, 
-        "rarity": 2, 
+        "rarity": 1, 
         "recipe": {
             "karma": "100000", 
             "materials": [
@@ -4943,7 +4943,7 @@
         "max_stack": 1, 
         "name": "白鬼甲マク・マウ", 
         "raid": false, 
-        "rarity": 3, 
+        "rarity": 2, 
         "recipe": {
             "karma": "150000", 
             "materials": [
@@ -5015,7 +5015,7 @@
         "max_stack": 1, 
         "name": "義将宝ヴァドム", 
         "raid": false, 
-        "rarity": 2, 
+        "rarity": 1, 
         "recipe": {
             "karma": "100000", 
             "materials": [
@@ -5049,7 +5049,7 @@
         "max_stack": 1, 
         "name": "栄慈符ポリアフ", 
         "raid": false, 
-        "rarity": 3, 
+        "rarity": 2, 
         "recipe": {
             "karma": "150000", 
             "materials": [
@@ -5087,7 +5087,7 @@
         "max_stack": 1, 
         "name": "聖凶典レネイエ", 
         "raid": false, 
-        "rarity": 3, 
+        "rarity": 2, 
         "recipe": {
             "karma": "150000", 
             "materials": [
@@ -5125,7 +5125,7 @@
         "max_stack": 1, 
         "name": "天狼套ゼフィーロ", 
         "raid": false, 
-        "rarity": 4, 
+        "rarity": 3, 
         "recipe": {
             "karma": "200000", 
             "materials": [
@@ -16684,6 +16684,46 @@
         "thumbnail": "sphere_thum_1_1.png", 
         "type": "sphere"
     }, 
+    "47213": {
+        "desc": "ターン毎のＨＰ回復、ＢＢゲージ上昇効果をターンの始めに発動＆攻撃力・最大ＨＰを３０％アップ＆攻撃ＢＢの威力を大幅にアップ＆ＨＰ半分以上の時、攻撃ＢＢの威力をかなりアップ＆被ダメージ時、確率でＨＰを回復", 
+        "effect": [
+            {
+                "unknown passive id": "72", 
+                "unknown passive params": "1,1"
+            }, 
+            {
+                "atk% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }, 
+            {
+                "bb atk% buff": 150, 
+                "passive id": "64", 
+                "sbb atk% buff": 150, 
+                "ubb atk% buff": 150
+            }, 
+            {
+                "unknown passive id": "103", 
+                "unknown passive params": "100,100,100,50,1"
+            }
+        ], 
+        "id": 47213, 
+        "max_stack": 1, 
+        "name": "導聖帝剣エステリグ", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 14, 
+        "sphere type text": "Special", 
+        "thumbnail": "sphere_thum_1_1.png", 
+        "type": "sphere"
+    }, 
     "47300": {
         "desc": "回復力・最大ＨＰを１０％アップ＆クリティカルダメージを少しアップ", 
         "effect": [
@@ -18300,6 +18340,46 @@
         "sell_price": 10000, 
         "sphere type": 4, 
         "sphere type text": "Status Ailment", 
+        "thumbnail": "sphere_thum_5_2.png", 
+        "type": "sphere"
+    }, 
+    "48224": {
+        "desc": "ターン毎にＨＰを大回復＆被ダメージ時、確率でＨＰを回復＆攻撃力・防御力・最大ＨＰを２５％アップ＆確率で１回まで戦闘不能を耐える", 
+        "effect": [
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 2000, 
+                "turn heal low": 1500
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }, 
+            {
+                "angel idol chance% condition": 0, 
+                "angel idol recover chance% high": 20, 
+                "angel idol recover chance% low": 20, 
+                "angel idol recover counts": 1, 
+                "passive id": "69"
+            }, 
+            {
+                "atk% buff": 25, 
+                "def% buff": 25, 
+                "hp% buff": 25, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 48224, 
+        "max_stack": 1, 
+        "name": "幻導機・フィラシーダ", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 7, 
+        "sphere type text": "HP Recovery", 
         "thumbnail": "sphere_thum_5_2.png", 
         "type": "sphere"
     }, 
@@ -21716,6 +21796,146 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "sphere_thum_1_5.png", 
+        "type": "sphere"
+    }, 
+    "62170": {
+        "desc": "弱点属性ダメージ・防御貫通効果を無効＆被ダメージを１０％軽減＆残りＨＰが少ないほど、防御力を大幅にアップ", 
+        "effect": [
+            {
+                "buff proportional to hp": "lost", 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 100, 
+                "passive id": "46"
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }, 
+            {
+                "ignore def resist chance%": 100, 
+                "passive id": "92"
+            }, 
+            {
+                "dmg% mitigation": 10, 
+                "passive id": "8"
+            }
+        ], 
+        "id": 62170, 
+        "max_stack": 1, 
+        "name": "不退盾パラドキシア", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_3_4.png", 
+        "type": "sphere"
+    }, 
+    "62180": {
+        "desc": "攻撃力・防御力・回復力・最大ＨＰを５０％アップ＆ＢＢ発動に必要なＢＢゲージ量を少し軽減＆被ダメージ時、ＢＢゲージを増加＆ターン毎にＢＢゲージを増加", 
+        "effect": [
+            {
+                "atk% buff": 50, 
+                "def% buff": 50, 
+                "hp% buff": 50, 
+                "passive id": "1", 
+                "rec% buff": 50
+            }, 
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "bc fill per turn": 3, 
+                "passive id": "9"
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 10
+            }
+        ], 
+        "id": 62180, 
+        "max_stack": 1, 
+        "name": "ヴァーガルナ異本", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_5_6.png", 
+        "type": "sphere"
+    }, 
+    "62190": {
+        "desc": "ＢＢ及びＳＢＢの発動率をアップ＆攻撃力を１００％アップ＆攻撃ＢＢの威力をアップ＆被ダメージ時、ＢＢゲージを増加", 
+        "effect": [
+            {
+                "atk% buff": 100, 
+                "passive id": "1"
+            }, 
+            {
+                "unknown passive id": "111", 
+                "unknown passive params": "10"
+            }, 
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "bb atk% buff": 50, 
+                "passive id": "64", 
+                "sbb atk% buff": 50, 
+                "ubb atk% buff": 50
+            }
+        ], 
+        "id": 62190, 
+        "max_stack": 1, 
+        "name": "真闢慧剣クフェリア", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 14, 
+        "sphere type text": "Special", 
+        "thumbnail": "sphere_thum_2_1.png", 
+        "type": "sphere"
+    }, 
+    "62200": {
+        "desc": "防御力・最大ＨＰを４０％アップ＆ＢＢゲージが半分以上の時、攻撃力・防御力・回復力をかなりアップ＆ターン毎のＢＢゲージ上昇効果をターンの始めに発動する＆ＢＢ発動に必要なＢＢゲージ量を軽減", 
+        "effect": [
+            {
+                "def% buff": 40, 
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "unknown passive id": "72", 
+                "unknown passive params": "0,1"
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 20
+            }, 
+            {
+                "atk% buff": 75, 
+                "bb gauge above % buff requirement": 50, 
+                "def% buff": 75, 
+                "passive id": "30", 
+                "rec% buff": 75
+            }
+        ], 
+        "id": 62200, 
+        "max_stack": 1, 
+        "name": "皇宝オドルワンス", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_3_6.png", 
         "type": "sphere"
     }, 
     "63000": {

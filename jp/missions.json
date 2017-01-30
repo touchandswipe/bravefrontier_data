@@ -2776,6 +2776,77 @@
         "xp": 0, 
         "zel": 0
     }, 
+    "1000380": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの入口付近。<br>奥に比べ弱い魔物が多いとはいえ油断は禁物だ。", 
+        "difficulty": 1, 
+        "dungeon": "1000317", 
+        "energy_use": 0, 
+        "id": "1000380", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・序地", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000381": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの中部付近。<br>未開拓な領域となるこの地で待ち受けるものとは……。", 
+        "difficulty": 1, 
+        "dungeon": "1000317", 
+        "energy_use": 0, 
+        "id": "1000381", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・中部", 
+        "requires": "1000380", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000382": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの奥地。<br>そこには中部を遙かに越える凶悪な魔物が待ち受けていた。", 
+        "difficulty": 1, 
+        "dungeon": "1000317", 
+        "energy_use": 0, 
+        "id": "1000382", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・奥地", 
+        "requires": "1000381", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000383": {
+        "area": "フロンティアハンター", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリア奥地のさらに先。<br>大気を震わすほどの壮絶な圧力が召喚師に襲いかかる。", 
+        "difficulty": 1, 
+        "dungeon": "1000317", 
+        "energy_use": 0, 
+        "id": "1000383", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・極地", 
+        "requires": "1000382", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "10004": {
         "area": "セルグラード", 
         "battle_count": 9, 
@@ -24040,6 +24111,92 @@
         "xp": 5100, 
         "zel": 5200
     }, 
+    "151400": {
+        "area": "グランガイア戦記", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "zel": "500000"
+            }, 
+            {
+                "karma": "100000"
+            }
+        ], 
+        "continue": true, 
+        "desc": "【新時代の英雄たち編 vol.1】人類の新たな生存の場所となったエルガイア。だがそこにも人々を脅かす魔獣の姿があった……！", 
+        "difficulty": 1, 
+        "dungeon": "150014", 
+        "energy_use": 30, 
+        "id": "151400", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "集う仲間たち", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
+    "151401": {
+        "area": "グランガイア戦記", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "zel": "500000"
+            }, 
+            {
+                "karma": "100000"
+            }, 
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "【新時代の英雄たち編 vol.2】ついに結成されたランドールガード。だが、メンバーは一癖も二癖もある者ばかりで……。", 
+        "difficulty": 1, 
+        "dungeon": "150014", 
+        "energy_use": 30, 
+        "id": "151401", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "ランドールガード結成", 
+        "requires": "151400", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
+    "151402": {
+        "area": "グランガイア戦記", 
+        "battle_count": 2, 
+        "clear_bonus": [
+            {
+                "zel": "1000000"
+            }, 
+            {
+                "karma": "200000"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "47213"
+                }
+            }, 
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": true, 
+        "desc": "【新時代の英雄たち編 vol.3】突如街中に現れた魔神に立ち向かうランドールガード。今、彼らの英雄としての真価が問われる！", 
+        "difficulty": 1, 
+        "dungeon": "150014", 
+        "energy_use": 50, 
+        "id": "151402", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "英雄に至る試練", 
+        "requires": "151401", 
+        "xp": 10000, 
+        "zel": 0
+    }, 
     "1520": {
         "area": "バリウラ", 
         "battle_count": 8, 
@@ -30692,6 +30849,57 @@
         "xp": 0, 
         "zel": 0
     }, 
+    "3000330": {
+        "area": "新フロンティアゲート", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "水・樹属性ユニットのみで、力尽きるまで戦う修練プログラム。<br>限られたユニットを駆使し、どこまでも突き進め！", 
+        "difficulty": 1, 
+        "dungeon": "3000025", 
+        "energy_use": 0, 
+        "id": "3000330", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "水樹の回廊", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000331": {
+        "area": "新フロンティアゲート", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "水・樹属性ユニットのみで、力尽きるまで戦う修練プログラム。<br>限られたユニットを駆使し、どこまでも突き進め！", 
+        "difficulty": 1, 
+        "dungeon": "3000025", 
+        "energy_use": 0, 
+        "id": "3000331", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "水樹の回廊", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000332": {
+        "area": "新フロンティアゲート", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "水・樹属性ユニットのみで、力尽きるまで戦う修練プログラム。<br>限られたユニットを駆使し、どこまでも突き進め！", 
+        "difficulty": 1, 
+        "dungeon": "3000025", 
+        "energy_use": 0, 
+        "id": "3000332", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "水樹の回廊", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "301": {
         "area": "セントラミア", 
         "battle_count": 8, 
@@ -32951,6 +33159,24 @@
         "xp": 8000, 
         "zel": 30000
     }, 
+    "5000016": {
+        "area": "グランドクエスト2", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "神と人間の大戦末期、バリウラ帝国は大勢の<br>神軍に囲まれ、帝都陥落が目前に迫る状況に<br>なっていた。そんな過酷な状況下、シリウス<br>は第一皇女セルヴィアに呼び出され、帝国存<br>続のために１つの決断を迫られる。それは、<br>国家としての在り方が問われる重大な決断で<br>あり、シリウスは皇族としてそれに従うべき<br>であるのか、未だ決断を下せずにいた……。", 
+        "difficulty": 4, 
+        "dungeon": "5000016", 
+        "energy_use": 50, 
+        "id": "5000016", 
+        "karma": 5000, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "帝国最後の日", 
+        "requires": "3", 
+        "xp": 8000, 
+        "zel": 30000
+    }, 
     "500020": {
         "area": "500000", 
         "battle_count": 3, 
@@ -34166,6 +34392,28 @@
         "land": "狭間", 
         "mimic_info": {}, 
         "name": "召喚術演習場", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "600010": {
+        "area": "600000", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "これまでの召喚師のことを見守ってきた召喚老との戦い。今回は召喚師自身がどれだけ力をつけたのか、試してくれるようだ。", 
+        "difficulty": 1, 
+        "dungeon": "600000", 
+        "energy_use": 50, 
+        "id": "600010", 
+        "karma": 0, 
+        "land": "999", 
+        "mimic_info": {}, 
+        "name": "第二の戦域", 
+        "requires": "600000", 
         "xp": 0, 
         "zel": 0
     }, 
