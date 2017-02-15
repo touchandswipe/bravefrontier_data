@@ -13412,6 +13412,58 @@
         "name": "Daemones Malleus Infinitium", 
         "target": "self"
     }, 
+    "810507": {
+        "desc": "Damage taken may restore HP & adds resistance against 1 KO attack when HP is below 20%", 
+        "effects": [
+            {
+                "conditions": [], 
+                "dmg% to hp% when attacked chance%": 20, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24", 
+                "passive target": "self"
+            }, 
+            {
+                "buff": {
+                    "angel idol buff (12)": true, 
+                    "angel idol recover hp%": 100, 
+                    "buff turns (12)": "-1"
+                }, 
+                "conditions": [], 
+                "hp below % buff activation": 20, 
+                "passive id": "55", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Fervent Spirit", 
+        "target": "self"
+    }, 
+    "810508": {
+        "desc": "Damage taken may restore HP & adds resistance against 1 KO attack when HP is below 20%", 
+        "effects": [
+            {
+                "conditions": [], 
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24", 
+                "passive target": "self"
+            }, 
+            {
+                "buff": {
+                    "angel idol buff (12)": true, 
+                    "angel idol recover hp%": 100, 
+                    "buff turns (12)": "-1"
+                }, 
+                "conditions": [], 
+                "hp below % buff activation": 20, 
+                "passive id": "55", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Enkindling Soul", 
+        "target": "self"
+    }, 
     "810527": {
         "desc": "Great boost in damage dealt to weaker elements", 
         "effects": [
