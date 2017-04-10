@@ -8691,6 +8691,195 @@
         "name": "刹神の威志", 
         "target": "self"
     }, 
+    "1023000": {
+        "desc": "確率で全状態異常をランダムに発生＆被ダメージ時、確率で全状態異常をランダムに発生＆状態異常の敵へのダメージを大幅にアップ", 
+        "effects": [
+            {
+                "conditions": [], 
+                "curse%": 7, 
+                "passive id": "20", 
+                "passive target": "self", 
+                "poison%": 7, 
+                "sick%": 10
+            }, 
+            {
+                "conditions": [], 
+                "injury%": 10, 
+                "paralysis%": 7, 
+                "passive id": "20", 
+                "passive target": "self", 
+                "weaken%": 10
+            }, 
+            {
+                "atk% buff when enemy has ailment": 100, 
+                "atk% buff when enemy has curse": true, 
+                "atk% buff when enemy has injury": true, 
+                "atk% buff when enemy has paralysis": true, 
+                "atk% buff when enemy has poison": true, 
+                "atk% buff when enemy has sick": true, 
+                "atk% buff when enemy has weaken": true, 
+                "conditions": [], 
+                "passive id": "74", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "counter inflict curse%": 7, 
+                "counter inflict injury%": 10, 
+                "counter inflict paralysis%": 7, 
+                "counter inflict poison%": 7, 
+                "counter inflict sick%": 10, 
+                "counter inflict weaken%": 10, 
+                "passive id": "71", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "疫神の惨禍", 
+        "target": "self"
+    }, 
+    "1024000": {
+        "desc": "ＯＤゲージの増加量を大幅にアップ＆通常攻撃ＨＩＴ数を増加", 
+        "effects": [
+            {
+                "conditions": [], 
+                "od fill rate%": 30, 
+                "passive id": "70", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "extra hits dmg%": 20, 
+                "hit increase/hit": 1, 
+                "passive id": "37", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "絆の撃武", 
+        "target": "self"
+    }, 
+    "1025000": {
+        "desc": "最大ＨＰを２５％アップ＆クリティカル・防御貫通効果を無効", 
+        "effects": [
+            {
+                "conditions": [], 
+                "ignore def resist chance%": 100, 
+                "passive id": "92", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "crit chance base resist%": 100, 
+                "crit chance buffed resist%": 100, 
+                "crit dmg base damage resist%": 100, 
+                "crit dmg buffed damage resist%": 100, 
+                "passive id": "53", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "hp% buff": 25, 
+                "passive id": "1", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "命守の幸盾", 
+        "target": "self"
+    }, 
+    "1026000": {
+        "desc": "攻撃力・防御力を３０％アップ＆ＢＣ・ＨＣ出現率を大幅にアップ＆ＢＣ獲得時の増加量を少しアップ", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "conditions": [], 
+                "def% buff": 30, 
+                "passive id": "1", 
+                "passive target": "self"
+            }, 
+            {
+                "bc drop rate% buff": 20, 
+                "conditions": [], 
+                "hc drop rate% buff": 20, 
+                "passive id": "19", 
+                "passive target": "self"
+            }, 
+            {
+                "bb gauge fill rate%": 20, 
+                "conditions": [], 
+                "passive id": "32", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "闘栄の宝威", 
+        "target": "self"
+    }, 
+    "1027000": {
+        "desc": "クリティカル率をアップ＆クリティカル時、ダメージをアップ・次ターン、確率で攻撃力・防御力を１ターン低下する効果を付与", 
+        "effects": [
+            {
+                "conditions": [], 
+                "crit% buff": 25, 
+                "passive id": "1", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "crit multiplier%": 50.0, 
+                "passive id": "34", 
+                "passive target": "self"
+            }, 
+            {
+                "buff": {
+                    "buff turns (74)": "2", 
+                    "unknown buff id": "74", 
+                    "unknown buff params": "-20&30&1"
+                }, 
+                "conditions": [], 
+                "on crit activation chance%": 100, 
+                "passive id": "89", 
+                "passive target": "self"
+            }, 
+            {
+                "buff": {
+                    "buff turns (75)": "2", 
+                    "unknown buff id": "75", 
+                    "unknown buff params": "-20&30&1"
+                }, 
+                "conditions": [], 
+                "on crit activation chance%": 100, 
+                "passive id": "89", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "閃覇の光刃", 
+        "target": "self"
+    }, 
+    "1028000": {
+        "desc": "最大ＨＰを５０％アップ＆ターン毎にＨＰを回復・ＢＢゲージを大幅に増加", 
+        "effects": [
+            {
+                "conditions": [], 
+                "hp% buff": 50, 
+                "passive id": "1", 
+                "passive target": "self"
+            }, 
+            {
+                "bc fill per turn": 6, 
+                "conditions": [], 
+                "passive id": "9", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "33", 
+                "passive target": "self", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 1500, 
+                "turn heal low": 800
+            }
+        ], 
+        "name": "天命神の凱癒", 
+        "target": "self"
+    }, 
     "10300": {
         "desc": "全状態異常を無効＆ＢＢ及びＳＢＢに「味方全体の全状態異常を回復」を追加", 
         "effects": [
@@ -15324,6 +15513,136 @@
         "name": "美しき世界の理", 
         "target": "self"
     }, 
+    "32600": {
+        "desc": "ＢＢ及びＳＢＢに「味方全体に光属性のバリアを付与」を追加＆残りＨＰが多いほど、回復力をかなりアップ", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "elemental barrier absorb dmg%": 100, 
+                        "elemental barrier def": 0, 
+                        "elemental barrier element": "light", 
+                        "elemental barrier hp": 2000, 
+                        "proc id": "62", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }, 
+            {
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self", 
+                "rec% base buff": 0, 
+                "rec% extra buff based on hp": 80
+            }
+        ], 
+        "name": "耐えない夜明け", 
+        "target": "self"
+    }, 
+    "32700": {
+        "desc": "ＢＢ及びＳＢＢに「味方全体に光属性のバリアを付与」を追加＆残りＨＰが多いほど、回復力を大幅にアップ", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "elemental barrier absorb dmg%": 100, 
+                        "elemental barrier def": 0, 
+                        "elemental barrier element": "light", 
+                        "elemental barrier hp": 2500, 
+                        "proc id": "62", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }, 
+            {
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self", 
+                "rec% base buff": 0, 
+                "rec% extra buff based on hp": 100
+            }
+        ], 
+        "name": "永久の聖域", 
+        "target": "self"
+    }, 
+    "32800": {
+        "desc": "ＨＰが満タン時、攻撃力をアップ＆ＢＢ及びＳＢＢに「味方全体に３ターン、状態異常の敵へのダメージを大幅にアップ」を追加", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "atk% buff turns (110)": 3, 
+                        "atk% buff when enemy has ailment": 160, 
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "proc id": "65", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }, 
+            {
+                "atk% buff": 60, 
+                "conditions": [], 
+                "hp above % buff requirement": 100, 
+                "passive id": "11", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "終わりなき無", 
+        "target": "self"
+    }, 
+    "32900": {
+        "desc": "ＨＰが満タン時、攻撃力をかなりアップ＆ＢＢ及びＳＢＢに「味方全体に３ターン、状態異常の敵へのダメージを大幅にアップ」を追加", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "atk% buff turns (110)": 3, 
+                        "atk% buff when enemy has ailment": 180, 
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "proc id": "65", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }, 
+            {
+                "atk% buff": 80, 
+                "conditions": [], 
+                "hp above % buff requirement": 100, 
+                "passive id": "11", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "鏡合わせのアンチテーゼ", 
+        "target": "self"
+    }, 
     "3300": {
         "desc": "クリティカルダメージをかなりアップ", 
         "effects": [
@@ -15335,6 +15654,269 @@
             }
         ], 
         "name": "騒嵐疾駆", 
+        "target": "self"
+    }, 
+    "33000": {
+        "desc": "弱点属性ダメージをアップ＆クリティカルダメージをアップ＆ＨＰが２０％以下の時、一度だけ戦闘不能を耐える＆攻撃力の上限値（９９９９９）を１３００００まで解放する", 
+        "effects": [
+            {
+                "conditions": [], 
+                "elemental weakness multiplier%": 50.0, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "crit multiplier%": 50.0, 
+                "passive id": "34", 
+                "passive target": "self"
+            }, 
+            {
+                "buff": {
+                    "angel idol buff (12)": true, 
+                    "angel idol recover hp%": 100, 
+                    "buff turns (12)": "-1"
+                }, 
+                "conditions": [], 
+                "hp below % buff activation": 20, 
+                "passive id": "55", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive target": "self", 
+                "unknown passive id": "143", 
+                "unknown passive params": "130000"
+            }
+        ], 
+        "name": "創造される螺旋", 
+        "target": "self"
+    }, 
+    "33100": {
+        "desc": "弱点属性ダメージを少しアップ＆ＢＢ発動に必要なＢＢゲージ量を軽減", 
+        "effects": [
+            {
+                "conditions": [], 
+                "elemental weakness multiplier%": 30.0, 
+                "passive id": "50", 
+                "passive target": "self", 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "48", 
+                "passive target": "self", 
+                "reduced bb bc cost%": 15
+            }
+        ], 
+        "name": "悠久たる刻印", 
+        "target": "self"
+    }, 
+    "33200": {
+        "desc": "弱点属性ダメージをアップ＆ＢＢ発動に必要なＢＢゲージ量を軽減", 
+        "effects": [
+            {
+                "conditions": [], 
+                "elemental weakness multiplier%": 50.0, 
+                "passive id": "50", 
+                "passive target": "self", 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "48", 
+                "passive target": "self", 
+                "reduced bb bc cost%": 20
+            }
+        ], 
+        "name": "境界を越える力", 
+        "target": "self"
+    }, 
+    "33300": {
+        "desc": "ターン毎に攻撃力・防御力・回復力をアップ（５ターン目まで上昇量が増加する）＆確率で１回まで戦闘不能を耐える", 
+        "effects": [
+            {
+                "atk% max buff": 30, 
+                "conditions": [], 
+                "def% max buff": 30, 
+                "increase from min to max": 1, 
+                "passive id": "105", 
+                "passive target": "self", 
+                "rec% max buff": 30, 
+                "turn count": 5
+            }, 
+            {
+                "angel idol chance% condition": 0, 
+                "angel idol recover chance% high": 40, 
+                "angel idol recover chance% low": 40, 
+                "angel idol recover counts": 1, 
+                "conditions": [], 
+                "passive id": "69", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "自動強化機能", 
+        "target": "self"
+    }, 
+    "33400": {
+        "desc": "ターン毎に攻撃力・防御力・回復力をアップ（５ターン目まで上昇量が増加する）＆確率で２回まで戦闘不能を耐える", 
+        "effects": [
+            {
+                "atk% max buff": 50, 
+                "conditions": [], 
+                "def% max buff": 50, 
+                "increase from min to max": 1, 
+                "passive id": "105", 
+                "passive target": "self", 
+                "rec% max buff": 50, 
+                "turn count": 5
+            }, 
+            {
+                "angel idol chance% condition": 0, 
+                "angel idol recover chance% high": 40, 
+                "angel idol recover chance% low": 40, 
+                "angel idol recover counts": 2, 
+                "conditions": [], 
+                "passive id": "69", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "超進化モード", 
+        "target": "self"
+    }, 
+    "33500": {
+        "desc": "ＢＢゲージが半分以上の時、攻撃力・防御力を少しアップ＆スパークダメージを３０％アップ", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "def% buff": 30, 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 30, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "策謀の光源", 
+        "target": "self"
+    }, 
+    "33600": {
+        "desc": "ＢＢゲージが半分以上の時、攻撃力・防御力をアップ＆スパークダメージを５０％アップ", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "def% buff": 50, 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "理想を統べる遠謀", 
+        "target": "self"
+    }, 
+    "33700": {
+        "desc": "ＢＢ及びＳＢＢに「味方全体に３ターン、クリティカル率を超絶アップ」を追加＆クリティカル時、ＢＢゲージを超絶増加・ダメージをアップ", 
+        "effects": [
+            {
+                "bc fill on crit max": 8, 
+                "bc fill on crit min": 8, 
+                "bc fill on crit%": 100.0, 
+                "conditions": [], 
+                "passive id": "65", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "buff turns": 3, 
+                        "crit% buff (7)": 60, 
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "element buffed": "all", 
+                        "proc id": "5", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }, 
+            {
+                "conditions": [], 
+                "crit multiplier%": 50.0, 
+                "passive id": "34", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "豪将の導き", 
+        "target": "self"
+    }, 
+    "33800": {
+        "desc": "ＢＢゲージが半分以上の時、攻撃力・防御力をアップ＆通常攻撃ＨＩＴ数を増加", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "def% buff": 50, 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "hit increase/hit": 1, 
+                "passive id": "37", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "変わった心と不変の思い", 
+        "target": "self"
+    }, 
+    "33900": {
+        "desc": "炎属性ユニットの攻撃力・防御力・回復力・最大ＨＰを１０％アップ＆ＢＢゲージが半分以上の時、攻撃力をアップ＆スパークダメージを３０％アップ", 
+        "effects": [
+            {
+                "atk% buff": 10, 
+                "conditions": [], 
+                "def% buff": 10, 
+                "elements buffed": [
+                    "fire"
+                ], 
+                "hp% buff": 10, 
+                "passive id": "2", 
+                "passive target": "party", 
+                "rec% buff": 10
+            }, 
+            {
+                "atk% buff": 60, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 30, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "竜章鳳姿", 
         "target": "self"
     }, 
     "3400": {
@@ -15355,6 +15937,99 @@
             }
         ], 
         "name": "過ぎし日の情景", 
+        "target": "self"
+    }, 
+    "34000": {
+        "desc": "炎属性ユニットの攻撃力・防御力・回復力・最大ＨＰを１０％アップ＆ＢＢゲージが半分以上の時、攻撃力をかなりアップ＆スパークダメージを５０％アップ", 
+        "effects": [
+            {
+                "atk% buff": 10, 
+                "conditions": [], 
+                "def% buff": 10, 
+                "elements buffed": [
+                    "fire"
+                ], 
+                "hp% buff": 10, 
+                "passive id": "2", 
+                "passive target": "party", 
+                "rec% buff": 10
+            }, 
+            {
+                "atk% buff": 80, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "覇王たる資格", 
+        "target": "self"
+    }, 
+    "34100": {
+        "desc": "全状態異常を無効＆被ダメージ時、ＢＢゲージを少し増加", 
+        "effects": [
+            {
+                "bc fill when attacked high": 2, 
+                "bc fill when attacked low": 1, 
+                "bc fill when attacked%": 100, 
+                "conditions": [], 
+                "passive id": "25", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "name": "叡智を喰らう魔樹", 
+        "target": "self"
+    }, 
+    "34200": {
+        "desc": "全状態異常・クリティカルを無効＆被ダメージ時、ＢＢゲージを増加", 
+        "effects": [
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "conditions": [], 
+                "passive id": "25", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "crit chance base resist%": 100, 
+                "crit chance buffed resist%": 100, 
+                "crit dmg base damage resist%": 100, 
+                "crit dmg buffed damage resist%": 100, 
+                "passive id": "53", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "浄生の芽吹き", 
         "target": "self"
     }, 
     "3500": {

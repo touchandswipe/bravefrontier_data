@@ -2956,6 +2956,27 @@
         "name": "Heroic Doctrine Lv. 4", 
         "target": "self"
     }, 
+    "1007100": {
+        "desc": "\u30bf\u30fc\u30f3\u6bce\u306b\uff22\uff22\u30b2\u30fc\u30b8\u3092\u304b\u306a\u308a\u5897\u52a0\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\u78ba\u7387\u3067\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5897\u52a0", 
+        "effects": [
+            {
+                "bc fill per turn": 4, 
+                "conditions": [], 
+                "passive id": "9", 
+                "passive target": "self"
+            }, 
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 50, 
+                "conditions": [], 
+                "passive id": "25", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u5973\u5e1d\u306e\u51f1\u6b4c", 
+        "target": "self"
+    }, 
     "1007500": {
         "desc": "Slightly recovers HP each turn", 
         "effects": [
@@ -5395,6 +5416,36 @@
         "name": "\u7114\u51a5\u306e\u9b42\u9332", 
         "target": "self"
     }, 
+    "1015840": {
+        "desc": "\u9632\u5fa1\u529b\u3092\uff12\uff10\uff05\u30a2\u30c3\u30d7\uff06\u5f31\u70b9\u5c5e\u6027\u30c0\u30e1\u30fc\u30b8\u3092\u7121\u52b9\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u304c\u4e00\u5b9a\u6570\u3092\u8d85\u3048\u308b\u5ea6\u306b\uff12\u30bf\u30fc\u30f3\u3001\u88ab\u30c0\u30e1\u30fc\u30b8\u3092\u8efd\u6e1b", 
+        "effects": [
+            {
+                "conditions": [], 
+                "def% buff": 20, 
+                "passive id": "1", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "53", 
+                "passive target": "self", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }, 
+            {
+                "buff": {
+                    "buff turns (36)": "1", 
+                    "dmg reduction% buff": 25
+                }, 
+                "conditions": [], 
+                "damage threshold buff activation": 10000, 
+                "passive id": "78", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u78a7\u6d41\u306e\u9b42\u9332", 
+        "target": "self"
+    }, 
     "1015900": {
         "desc": "\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u3092\u7121\u52b9", 
         "effects": [
@@ -5438,6 +5489,86 @@
         "name": "\u899a\u9192\u306e\u7834\u5b88", 
         "target": "self"
     }, 
+    "1017000": {
+        "desc": "\uff28\uff30\u304c\u6e80\u30bf\u30f3\u6642\u3001\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u30fb\u56de\u5fa9\u529b\u3092\u30a2\u30c3\u30d7\uff06\u30bf\u30fc\u30f3\u6bce\u306b\uff28\uff30\u3092\u8d85\u7d76\u56de\u5fa9", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "conditions": [], 
+                "def% buff": 50, 
+                "hp above % buff requirement": 100, 
+                "passive id": "11", 
+                "passive target": "self", 
+                "rec% buff": 50
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "33", 
+                "passive target": "self", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 10200, 
+                "turn heal low": 9800
+            }
+        ], 
+        "name": "\u8056\u7652\u306e\u9b42\u976d", 
+        "target": "self"
+    }, 
+    "1018000": {
+        "desc": "\u5168\u72b6\u614b\u7570\u5e38\u30fb\u9632\u5fa1\u8cab\u901a\u52b9\u679c\u3092\u7121\u52b9\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u304c\u4e00\u5b9a\u6570\u3092\u8d85\u3048\u308b\u5ea6\u306b\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5897\u52a0", 
+        "effects": [
+            {
+                "conditions": [], 
+                "damage threshold activation": 5000, 
+                "increase bb gauge": 5, 
+                "passive id": "79", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "ignore def resist chance%": 100, 
+                "passive id": "92", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "name": "\u8056\u5973\u795e\u306e\u82f1\u76fe", 
+        "target": "self"
+    }, 
+    "1019000": {
+        "desc": "\u653b\u6483\u529b\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7\uff06\u653b\u6483\u529b\u306e\u4e0a\u9650\u5024\uff08\uff19\uff19\uff19\uff19\uff19\uff09\u3092\uff11\uff13\uff10\uff10\uff10\uff10\u307e\u3067\u89e3\u653e\u3059\u308b", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive target": "self", 
+                "unknown passive id": "143", 
+                "unknown passive params": "130000"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% buff": 50, 
+                "conditions": [], 
+                "passive id": "1", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u91cd\u58ca\u306e\u8d85\u5df1", 
+        "target": "self"
+    }, 
     "10200": {
         "desc": "\uff22\uff23\u7372\u5f97\u6642\u306e\uff22\uff22\u30b2\u30fc\u30b8\u4e0a\u6607\u91cf\u304c\u5c11\u3057\u5897\u52a0\uff06\uff28\uff23\u7372\u5f97\u6642\u306e\uff28\uff30\u56de\u5fa9\u91cf\u304c\u5c11\u3057\u5897\u52a0", 
         "effects": [
@@ -5455,6 +5586,80 @@
             }
         ], 
         "name": "\u7a2e\u65cf\u3092\u8d8a\u3048\u305f\u4fe1\u983c", 
+        "target": "self"
+    }, 
+    "1020000": {
+        "desc": "\u653b\u6483\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "conditions": [], 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u30ec\u30b3\u30fc\u30c9\u30aa\u30d6\u30b9\u30d4\u30fc\u30c9", 
+        "target": "self"
+    }, 
+    "1021000": {
+        "desc": "\u653b\u6483\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30c0\u30e1\u30fc\u30b8\u3092\u30a2\u30c3\u30d7\uff06\u5f31\u70b9\u5c5e\u6027\u30c0\u30e1\u30fc\u30b8\u3092\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "conditions": [], 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "crit multiplier%": 50.0, 
+                "passive id": "34", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 50.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "passive target": "self", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }
+        ], 
+        "name": "\u30ec\u30b3\u30fc\u30c9\u30aa\u30d6\u30b9\u30de\u30c3\u30b7\u30e5", 
+        "target": "self"
+    }, 
+    "1021100": {
+        "desc": "\u6226\u95d8\u958b\u59cb\u304b\u3089\uff12\u30bf\u30fc\u30f3\u3001\u653b\u6483\u529b\u3092\uff17\uff15\uff05\u30a2\u30c3\u30d7\uff06\u6b8b\u308a\uff28\uff30\u304c\u591a\u3044\u307b\u3069\u653b\u6483\u529b\u3092\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "conditions": [], 
+                "first x turns": 2, 
+                "first x turns atk% (1)": 75, 
+                "passive id": "21", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 50, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u5239\u795e\u306e\u5a01\u5fd7", 
         "target": "self"
     }, 
     "10300": {
@@ -11060,6 +11265,120 @@
         "name": "\u7406\u60f3\u4e16\u754c\u306e\u5922", 
         "target": "self"
     }, 
+    "29500": {
+        "desc": "\uff28\uff30\u304c\u6e80\u30bf\u30f3\u6642\u3001\u9632\u5fa1\u529b\u3092\u30a2\u30c3\u30d7\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u304c\u4e00\u5b9a\u6570\u3092\u8d85\u3048\u308b\u5ea6\u306b\uff12\u30bf\u30fc\u30f3\u3001\u88ab\u30c0\u30e1\u30fc\u30b8\u3092\u5c11\u3057\u8efd\u6e1b", 
+        "effects": [
+            {
+                "conditions": [], 
+                "def% buff": 50, 
+                "hp above % buff requirement": 100, 
+                "passive id": "11", 
+                "passive target": "self"
+            }, 
+            {
+                "buff": {
+                    "buff turns (36)": "1", 
+                    "dmg reduction% buff": 10
+                }, 
+                "conditions": [], 
+                "damage threshold buff activation": 5000, 
+                "passive id": "78", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u4e0d\u6493\u305f\u308b\u8ffd\u8a0e", 
+        "target": "self"
+    }, 
+    "29600": {
+        "desc": "\uff28\uff30\u304c\u6e80\u30bf\u30f3\u6642\u3001\u9632\u5fa1\u529b\u3092\u304b\u306a\u308a\u30a2\u30c3\u30d7\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u304c\u4e00\u5b9a\u6570\u3092\u8d85\u3048\u308b\u5ea6\u306b\uff12\u30bf\u30fc\u30f3\u3001\u88ab\u30c0\u30e1\u30fc\u30b8\u3092\u5c11\u3057\u8efd\u6e1b", 
+        "effects": [
+            {
+                "conditions": [], 
+                "def% buff": 80, 
+                "hp above % buff requirement": 100, 
+                "passive id": "11", 
+                "passive target": "self"
+            }, 
+            {
+                "buff": {
+                    "buff turns (36)": "1", 
+                    "dmg reduction% buff": 20
+                }, 
+                "conditions": [], 
+                "damage threshold buff activation": 5000, 
+                "passive id": "78", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u8b77\u56fd\u306e\u708e\u6483", 
+        "target": "self"
+    }, 
+    "29700": {
+        "desc": "\uff28\uff30\u304c\u534a\u5206\u4ee5\u4e0a\u306e\u6642\u3001\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u3092\u5c11\u3057\u30a2\u30c3\u30d7\uff06\u4f4e\u78ba\u7387\u3067\u88ab\u30c0\u30e1\u30fc\u30b8\u3092\u8d85\u7d76\u8efd\u6e1b", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "conditions": [], 
+                "def% buff": 30, 
+                "hp above % buff requirement": 50, 
+                "passive id": "11", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "43", 
+                "passive target": "self", 
+                "take 1 dmg%": 5
+            }
+        ], 
+        "name": "\u90aa\u3092\u6255\u3046\u9b54\u5263", 
+        "target": "self"
+    }, 
+    "29800": {
+        "desc": "\uff28\uff30\u304c\u534a\u5206\u4ee5\u4e0a\u306e\u6642\u3001\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u3092\u30a2\u30c3\u30d7\uff06\u4f4e\u78ba\u7387\u3067\u88ab\u30c0\u30e1\u30fc\u30b8\u3092\u8d85\u7d76\u8efd\u6e1b", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "conditions": [], 
+                "def% buff": 50, 
+                "hp above % buff requirement": 50, 
+                "passive id": "11", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "43", 
+                "passive target": "self", 
+                "take 1 dmg%": 10
+            }
+        ], 
+        "name": "\u6b21\u4ee3\u3092\u62c5\u3046\u5149\u8f1d", 
+        "target": "self"
+    }, 
+    "29900": {
+        "desc": "\u78ba\u7387\u3067\uff11\u56de\u307e\u3067\u6226\u95d8\u4e0d\u80fd\u3092\u8010\u3048\u308b\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\u78ba\u7387\u3067\uff28\uff30\u3092\u56de\u5fa9", 
+        "effects": [
+            {
+                "conditions": [], 
+                "dmg% to hp% when attacked chance%": 20, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24", 
+                "passive target": "self"
+            }, 
+            {
+                "angel idol chance% condition": 0, 
+                "angel idol recover chance% high": 40, 
+                "angel idol recover chance% low": 40, 
+                "angel idol recover counts": 1, 
+                "conditions": [], 
+                "passive id": "69", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u5438\u9b42\u306e\u707d\u5384", 
+        "target": "self"
+    }, 
     "3": {
         "desc": "MST_EXTRAPASSIVESKILL_3_DESCRIPTION", 
         "effects": [
@@ -11164,6 +11483,265 @@
         "name": "Armored Volition", 
         "target": "self"
     }, 
+    "30000": {
+        "desc": "\u78ba\u7387\u3067\uff12\u56de\u307e\u3067\u6226\u95d8\u4e0d\u80fd\u3092\u8010\u3048\u308b\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\u78ba\u7387\u3067\uff28\uff30\u3092\u56de\u5fa9", 
+        "effects": [
+            {
+                "conditions": [], 
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24", 
+                "passive target": "self"
+            }, 
+            {
+                "angel idol chance% condition": 0, 
+                "angel idol recover chance% high": 40, 
+                "angel idol recover chance% low": 40, 
+                "angel idol recover counts": 2, 
+                "conditions": [], 
+                "passive id": "69", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u3059\u3079\u3066\u3092\u6ec5\u3059\u308b\u529b", 
+        "target": "self"
+    }, 
+    "30100": {
+        "desc": "\u5f31\u70b9\u5c5e\u6027\u30c0\u30e1\u30fc\u30b8\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30c0\u30e1\u30fc\u30b8\u3092\u304b\u306a\u308a\u30a2\u30c3\u30d7\uff06\u78ba\u7387\u3067\u88ab\u30c0\u30e1\u30fc\u30b8\u306e\uff11\uff15\uff05\u3092\u76f8\u624b\u306b\u53cd\u5c04\u3059\u308b", 
+        "effects": [
+            {
+                "conditions": [], 
+                "elemental weakness multiplier%": 125.0, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "crit multiplier%": 100.0, 
+                "passive id": "34", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "dmg% reflect chance%": 25, 
+                "dmg% reflect high": 15, 
+                "dmg% reflect low": 15, 
+                "passive id": "26", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u8987\u95d8\u306e\u6697\u7ffc", 
+        "target": "self"
+    }, 
+    "30200": {
+        "desc": "\u300c\u53db\u795e\u306e\u7f6a\u904e\u300d\u3092\u88c5\u5099\u6642\u3001\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u30fb\u56de\u5fa9\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\uff28\uff30\u3092\u5c11\u3057\u5438\u53ce\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\u78ba\u7387\u3067\uff28\uff30\u3092\u56de\u5fa9", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "conditions": [
+                    {
+                        "item required": [
+                            "47207"
+                        ]
+                    }
+                ], 
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "passive target": "self", 
+                "rec% buff": 30
+            }, 
+            {
+                "conditions": [], 
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "hp drain chance%": 100, 
+                "hp drain% high": 8, 
+                "hp drain% low": 5, 
+                "passive id": "17", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u8b77\u754c\u306e\u92ed\u5fc3", 
+        "target": "self"
+    }, 
+    "30300": {
+        "desc": "\uff22\uff22\u30b2\u30fc\u30b8\u304c\u534a\u5206\u4ee5\u4e0a\u306e\u6642\u3001\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u3092\u5c11\u3057\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "def% buff": 30, 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 30, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u79e9\u5e8f\u3092\u65ad\u3064\u5203", 
+        "target": "self"
+    }, 
+    "30400": {
+        "desc": "\uff22\uff22\u30b2\u30fc\u30b8\u304c\u534a\u5206\u4ee5\u4e0a\u306e\u6642\u3001\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u3092\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "def% buff": 50, 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u60aa\u5922\u3092\u65ad\u3064\u529b", 
+        "target": "self"
+    }, 
+    "30500": {
+        "desc": "\uff28\uff30\u304c\u534a\u5206\u4ee5\u4e0a\u306e\u6642\u3001\u653b\u6483\uff22\uff22\u306e\u5a01\u529b\u3092\u304b\u306a\u308a\u30a2\u30c3\u30d7\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\u78ba\u7387\u3067\uff28\uff30\u3092\u56de\u5fa9", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive target": "self", 
+                "unknown passive id": "103", 
+                "unknown passive params": "100,100,100,50,1"
+            }, 
+            {
+                "conditions": [], 
+                "dmg% to hp% when attacked chance%": 20, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u865a\u9b42\u306b\u5bbf\u308b\u7363", 
+        "target": "self"
+    }, 
+    "30600": {
+        "desc": "\uff28\uff30\u304c\u534a\u5206\u4ee5\u4e0a\u306e\u6642\u3001\u653b\u6483\uff22\uff22\u306e\u5a01\u529b\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\u78ba\u7387\u3067\uff28\uff30\u3092\u56de\u5fa9", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive target": "self", 
+                "unknown passive id": "103", 
+                "unknown passive params": "150,150,150,50,1"
+            }, 
+            {
+                "conditions": [], 
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u7363\u3092\u5fa1\u3059\u9b54\u9b42", 
+        "target": "self"
+    }, 
+    "30700": {
+        "desc": "\u72b6\u614b\u7570\u5e38\u306e\u6575\u3078\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7\uff06\u5168\u72b6\u614b\u7570\u5e38\u3092\u7121\u52b9", 
+        "effects": [
+            {
+                "atk% buff when enemy has ailment": 100, 
+                "atk% buff when enemy has curse": true, 
+                "atk% buff when enemy has injury": true, 
+                "atk% buff when enemy has paralysis": true, 
+                "atk% buff when enemy has poison": true, 
+                "atk% buff when enemy has sick": true, 
+                "atk% buff when enemy has weaken": true, 
+                "conditions": [], 
+                "passive id": "74", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "name": "\u900f\u5fc3\u773c", 
+        "target": "self"
+    }, 
+    "30800": {
+        "desc": "\u72b6\u614b\u7570\u5e38\u306e\u6575\u3078\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u8d85\u7d76\u30a2\u30c3\u30d7\uff06\u5168\u72b6\u614b\u7570\u5e38\u3092\u7121\u52b9", 
+        "effects": [
+            {
+                "atk% buff when enemy has ailment": 150, 
+                "atk% buff when enemy has curse": true, 
+                "atk% buff when enemy has injury": true, 
+                "atk% buff when enemy has paralysis": true, 
+                "atk% buff when enemy has poison": true, 
+                "atk% buff when enemy has sick": true, 
+                "atk% buff when enemy has weaken": true, 
+                "conditions": [], 
+                "passive id": "74", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "name": "\u95c7\u754c\u306b\u5149\u308b\u7570\u80fd", 
+        "target": "self"
+    }, 
+    "30900": {
+        "desc": "\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30c0\u30e1\u30fc\u30b8\u3092\u5c11\u3057\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "conditions": [], 
+                "damage% for spark": 30, 
+                "passive id": "31", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "crit multiplier%": 30.0, 
+                "passive id": "34", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u5c3d\u5a01\u306e\u7114\u5d50", 
+        "target": "self"
+    }, 
     "310": {
         "desc": "\u300c\u9b54\u69cd\u30c9\u30ec\u30f4\u30a1\u30b9\u300d\u3092\u88c5\u5099\u6642\u3001\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u30fb\u56de\u5fa9\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7\u30fb\u78ba\u7387\u3067\u88ab\u30c0\u30e1\u30fc\u30b8\u3092\uff12\uff10\uff05\u8efd\u6e1b\u30fb\u88ab\u30c0\u30e1\u30fc\u30b8\u304c\u4e00\u5b9a\u6570\u3092\u8d85\u3048\u308b\u5ea6\u306b\uff12\u30bf\u30fc\u30f3\u3001\u88ab\u30c0\u30e1\u30fc\u30b8\u3092\u8efd\u6e1b", 
         "effects": [
@@ -11243,6 +11821,279 @@
         "name": "Arrow of Hope", 
         "target": "self"
     }, 
+    "31000": {
+        "desc": "\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7\uff06\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30c0\u30e1\u30fc\u30b8\u3092\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "crit multiplier%": 50.0, 
+                "passive id": "34", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u71be\u76db\u305f\u308b\u7344\u708e", 
+        "target": "self"
+    }, 
+    "31100": {
+        "desc": "\u5168\u72b6\u614b\u7570\u5e38\u3092\u7121\u52b9\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\u8efd\u6e1b", 
+        "effects": [
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "base spark dmg% resist": 25, 
+                "buff spark dmg% resist": 25, 
+                "conditions": [], 
+                "passive id": "77", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u61a7\u61ac\u304c\u751f\u3080\u529b", 
+        "target": "self"
+    }, 
+    "31200": {
+        "desc": "\u5168\u72b6\u614b\u7570\u5e38\u3092\u7121\u52b9\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\u534a\u6e1b", 
+        "effects": [
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "base spark dmg% resist": 50, 
+                "buff spark dmg% resist": 50, 
+                "conditions": [], 
+                "passive id": "77", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u901a\u3058\u5408\u3046\u60f3\u5263", 
+        "target": "self"
+    }, 
+    "31300": {
+        "desc": "\u5168\u72b6\u614b\u7570\u5e38\u3092\u7121\u52b9\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5c11\u3057\u5897\u52a0", 
+        "effects": [
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "bc fill when attacked high": 2, 
+                "bc fill when attacked low": 1, 
+                "bc fill when attacked%": 100, 
+                "conditions": [], 
+                "passive id": "25", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u8a0e\u9b54\u306e\u82f1\u4fca", 
+        "target": "self"
+    }, 
+    "31400": {
+        "desc": "\u5168\u72b6\u614b\u7570\u5e38\u3092\u7121\u52b9\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5897\u52a0\uff06\u30bf\u30fc\u30f3\u6bce\u306b\uff28\uff30\u3092\u56de\u5fa9", 
+        "effects": [
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "conditions": [], 
+                "passive id": "25", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "33", 
+                "passive target": "self", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 1000, 
+                "turn heal low": 800
+            }
+        ], 
+        "name": "\u89e3\u653e\u3055\u308c\u3057\u624d\u5668", 
+        "target": "self"
+    }, 
+    "31500": {
+        "desc": "\uff22\uff22\u53ca\u3073\uff33\uff22\uff22\u306b\u300c\u5473\u65b9\u5168\u4f53\u306b\uff12\u30bf\u30fc\u30f3\u3001\u9632\u5fa1\u8cab\u901a\u52b9\u679c\u3092\u4ed8\u4e0e\u300d\u3092\u8ffd\u52a0\uff06\uff28\uff30\u3092\u5c11\u3057\u5438\u53ce", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "defense% ignore": 100, 
+                        "defense% ignore turns (39)": 2, 
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "proc id": "22", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }, 
+            {
+                "conditions": [], 
+                "hp drain chance%": 100, 
+                "hp drain% high": 10, 
+                "hp drain% low": 5, 
+                "passive id": "17", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u68ee\u306e\u8d64\u304d\u5b88\u8b77\u8005", 
+        "target": "self"
+    }, 
+    "31600": {
+        "desc": "\uff22\uff22\u53ca\u3073\uff33\uff22\uff22\u306b\u300c\u5473\u65b9\u5168\u4f53\u306e\u5168\u72b6\u614b\u7570\u5e38\u3092\u56de\u5fa9\u300d\u3092\u8ffd\u52a0\uff06\u72b6\u614b\u7570\u5e38\u306e\u6575\u3078\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "ailments cured": [
+                            "poison", 
+                            "weaken", 
+                            "sick", 
+                            "injury", 
+                            "curse", 
+                            "paralysis", 
+                            "atk down", 
+                            "def down", 
+                            "rec down"
+                        ], 
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "proc id": "38", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }, 
+            {
+                "atk% buff when enemy has ailment": 100, 
+                "atk% buff when enemy has curse": true, 
+                "atk% buff when enemy has injury": true, 
+                "atk% buff when enemy has paralysis": true, 
+                "atk% buff when enemy has poison": true, 
+                "atk% buff when enemy has sick": true, 
+                "atk% buff when enemy has weaken": true, 
+                "conditions": [], 
+                "passive id": "74", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u95c7\u8d6b\u306e\u30d1\u30f3\u30d7\u30ad\u30f3", 
+        "target": "self"
+    }, 
+    "31700": {
+        "desc": "\uff22\uff22\u767a\u52d5\u306b\u5fc5\u8981\u306a\uff22\uff22\u30b2\u30fc\u30b8\u91cf\u3092\u8efd\u6e1b\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5897\u52a0", 
+        "effects": [
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "conditions": [], 
+                "passive id": "25", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "48", 
+                "passive target": "self", 
+                "reduced bb bc cost%": 20
+            }
+        ], 
+        "name": "\u6b6a\u3080\u5927\u7fa9", 
+        "target": "self"
+    }, 
+    "31800": {
+        "desc": "\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7\uff06\u653b\u6483\uff22\uff22\u306e\u5a01\u529b\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }, 
+            {
+                "bb atk% buff": 150, 
+                "conditions": [], 
+                "passive id": "64", 
+                "passive target": "self", 
+                "sbb atk% buff": 150, 
+                "ubb atk% buff": 150
+            }
+        ], 
+        "name": "\u672a\u6765\u3078\u306e\u7a2e", 
+        "target": "self"
+    }, 
+    "31900": {
+        "desc": "\u30bf\u30fc\u30f3\u6bce\u306b\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u30fb\u56de\u5fa9\u529b\u3092\u30a2\u30c3\u30d7\uff08\uff15\u30bf\u30fc\u30f3\u76ee\u307e\u3067\u4e0a\u6607\u91cf\u304c\u5897\u52a0\u3059\u308b\uff09\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5c11\u3057\u5897\u52a0", 
+        "effects": [
+            {
+                "atk% max buff": 30, 
+                "conditions": [], 
+                "def% max buff": 30, 
+                "increase from min to max": 1, 
+                "passive id": "105", 
+                "passive target": "self", 
+                "rec% max buff": 30, 
+                "turn count": 5
+            }, 
+            {
+                "bc fill when attacked high": 2, 
+                "bc fill when attacked low": 1, 
+                "bc fill when attacked%": 100, 
+                "conditions": [], 
+                "passive id": "25", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u898b\u901a\u3059\u9b54\u773c", 
+        "target": "self"
+    }, 
     "3200": {
         "desc": "Absorbs HP when attacking & hugely boosts BB gauge when attacking normally", 
         "effects": [
@@ -11266,6 +12117,314 @@
         "name": "Heart Piercing Light", 
         "target": "self"
     }, 
+    "32000": {
+        "desc": "\u30bf\u30fc\u30f3\u6bce\u306b\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u30fb\u56de\u5fa9\u529b\u3092\u30a2\u30c3\u30d7\uff08\uff15\u30bf\u30fc\u30f3\u76ee\u307e\u3067\u4e0a\u6607\u91cf\u304c\u5897\u52a0\u3059\u308b\uff09\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5897\u52a0", 
+        "effects": [
+            {
+                "atk% max buff": 50, 
+                "conditions": [], 
+                "def% max buff": 50, 
+                "increase from min to max": 1, 
+                "passive id": "105", 
+                "passive target": "self", 
+                "rec% max buff": 50, 
+                "turn count": 5
+            }, 
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "conditions": [], 
+                "passive id": "25", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u6a5f\u5148\u3092\u5236\u3059\u9054\u773c", 
+        "target": "self"
+    }, 
+    "32100": {
+        "desc": "\uff22\uff22\u30b2\u30fc\u30b8\u304c\u534a\u5206\u4ee5\u4e0a\u306e\u6642\u3001\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u3092\u30a2\u30c3\u30d7\uff06\uff28\uff30\u304c\u534a\u5206\u4ee5\u4e0a\u306e\u6642\u3001\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 60, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "def% buff": 60, 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "hp above % buff requirement": 50, 
+                "passive id": "104", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u30de\u30c3\u30c9\u30a2\u30eb\u30b1\u30df\u30fc", 
+        "target": "self"
+    }, 
+    "32200": {
+        "desc": "\uff22\uff22\u30b2\u30fc\u30b8\u304c\u534a\u5206\u4ee5\u4e0a\u306e\u6642\u3001\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u3092\u304b\u306a\u308a\u30a2\u30c3\u30d7\uff06\uff28\uff30\u304c\u534a\u5206\u4ee5\u4e0a\u306e\u6642\u3001\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "def% buff": 80, 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 80, 
+                "hp above % buff requirement": 50, 
+                "passive id": "104", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u30af\u30ec\u30a4\u30b8\u30fc\u30b5\u30a4\u30a8\u30f3\u30b9", 
+        "target": "self"
+    }, 
+    "32300": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u30fb\u56de\u5fa9\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff11\uff10\uff05\u30a2\u30c3\u30d7\uff06\u6b8b\u308a\uff28\uff30\u304c\u591a\u3044\u307b\u3069\u3001\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u30fb\u56de\u5fa9\u529b\u3092\u5c11\u3057\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 10, 
+                "conditions": [], 
+                "def% buff": 10, 
+                "hp% buff": 10, 
+                "passive id": "1", 
+                "passive target": "party", 
+                "rec% buff": 10
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 30, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 30, 
+                "passive id": "46", 
+                "passive target": "self", 
+                "rec% base buff": 0, 
+                "rec% extra buff based on hp": 30
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u6109\u60a6\u306e\u9ed2\u5203", 
+        "target": "self"
+    }, 
+    "32400": {
+        "desc": "\u5168\u3066\u306e\u30e6\u30cb\u30c3\u30c8\u306e\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u30fb\u56de\u5fa9\u529b\u30fb\u6700\u5927\uff28\uff30\u3092\uff11\uff10\uff05\u30a2\u30c3\u30d7\uff06\u6b8b\u308a\uff28\uff30\u304c\u591a\u3044\u307b\u3069\u3001\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u30fb\u56de\u5fa9\u529b\u3092\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 10, 
+                "conditions": [], 
+                "def% buff": 10, 
+                "hp% buff": 10, 
+                "passive id": "1", 
+                "passive target": "party", 
+                "rec% buff": 10
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 50, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 50, 
+                "passive id": "46", 
+                "passive target": "self", 
+                "rec% base buff": 0, 
+                "rec% extra buff based on hp": 50
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u60a6\u697d\u306e\u5fcc\u5203", 
+        "target": "self"
+    }, 
+    "32500": {
+        "desc": "\uff22\uff22\u53ca\u3073\uff33\uff22\uff22\u306b\u300c\u5473\u65b9\u5168\u4f53\u306b\u95c7\u5c5e\u6027\u306e\u30d0\u30ea\u30a2\u3092\u4ed8\u4e0e\u300d\u3092\u8ffd\u52a0\uff06\u78ba\u7387\u3067\u88ab\u30c0\u30e1\u30fc\u30b8\u3092\uff12\uff10\uff05\u8efd\u6e1b\uff06\u88ab\u30c0\u30e1\u30fc\u30b8\u6642\u3001\u78ba\u7387\u3067\uff28\uff30\u3092\u56de\u5fa9", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "elemental barrier absorb dmg%": 100, 
+                        "elemental barrier def": 0, 
+                        "elemental barrier element": "dark", 
+                        "elemental barrier hp": 3000, 
+                        "proc id": "62", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }, 
+            {
+                "conditions": [], 
+                "dmg reduction chance%": 20, 
+                "dmg reduction%": 20, 
+                "passive id": "14", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u7f8e\u3057\u304d\u4e16\u754c\u306e\u7406", 
+        "target": "self"
+    }, 
+    "32600": {
+        "desc": "\uff22\uff22\u53ca\u3073\uff33\uff22\uff22\u306b\u300c\u5473\u65b9\u5168\u4f53\u306b\u5149\u5c5e\u6027\u306e\u30d0\u30ea\u30a2\u3092\u4ed8\u4e0e\u300d\u3092\u8ffd\u52a0\uff06\u6b8b\u308a\uff28\uff30\u304c\u591a\u3044\u307b\u3069\u3001\u56de\u5fa9\u529b\u3092\u304b\u306a\u308a\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "elemental barrier absorb dmg%": 100, 
+                        "elemental barrier def": 0, 
+                        "elemental barrier element": "light", 
+                        "elemental barrier hp": 2000, 
+                        "proc id": "62", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }, 
+            {
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self", 
+                "rec% base buff": 0, 
+                "rec% extra buff based on hp": 80
+            }
+        ], 
+        "name": "\u8010\u3048\u306a\u3044\u591c\u660e\u3051", 
+        "target": "self"
+    }, 
+    "32700": {
+        "desc": "\uff22\uff22\u53ca\u3073\uff33\uff22\uff22\u306b\u300c\u5473\u65b9\u5168\u4f53\u306b\u5149\u5c5e\u6027\u306e\u30d0\u30ea\u30a2\u3092\u4ed8\u4e0e\u300d\u3092\u8ffd\u52a0\uff06\u6b8b\u308a\uff28\uff30\u304c\u591a\u3044\u307b\u3069\u3001\u56de\u5fa9\u529b\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "elemental barrier absorb dmg%": 100, 
+                        "elemental barrier def": 0, 
+                        "elemental barrier element": "light", 
+                        "elemental barrier hp": 2500, 
+                        "proc id": "62", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }, 
+            {
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self", 
+                "rec% base buff": 0, 
+                "rec% extra buff based on hp": 100
+            }
+        ], 
+        "name": "\u6c38\u4e45\u306e\u8056\u57df", 
+        "target": "self"
+    }, 
+    "32800": {
+        "desc": "\uff28\uff30\u304c\u6e80\u30bf\u30f3\u6642\u3001\u653b\u6483\u529b\u3092\u30a2\u30c3\u30d7\uff06\uff22\uff22\u53ca\u3073\uff33\uff22\uff22\u306b\u300c\u5473\u65b9\u5168\u4f53\u306b\uff13\u30bf\u30fc\u30f3\u3001\u72b6\u614b\u7570\u5e38\u306e\u6575\u3078\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7\u300d\u3092\u8ffd\u52a0", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "atk% buff turns (110)": 3, 
+                        "atk% buff when enemy has ailment": 160, 
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "proc id": "65", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }, 
+            {
+                "atk% buff": 60, 
+                "conditions": [], 
+                "hp above % buff requirement": 100, 
+                "passive id": "11", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u7d42\u308f\u308a\u306a\u304d\u7121", 
+        "target": "self"
+    }, 
+    "32900": {
+        "desc": "\uff28\uff30\u304c\u6e80\u30bf\u30f3\u6642\u3001\u653b\u6483\u529b\u3092\u304b\u306a\u308a\u30a2\u30c3\u30d7\uff06\uff22\uff22\u53ca\u3073\uff33\uff22\uff22\u306b\u300c\u5473\u65b9\u5168\u4f53\u306b\uff13\u30bf\u30fc\u30f3\u3001\u72b6\u614b\u7570\u5e38\u306e\u6575\u3078\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u5927\u5e45\u306b\u30a2\u30c3\u30d7\u300d\u3092\u8ffd\u52a0", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "atk% buff turns (110)": 3, 
+                        "atk% buff when enemy has ailment": 180, 
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "proc id": "65", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }, 
+            {
+                "atk% buff": 80, 
+                "conditions": [], 
+                "hp above % buff requirement": 100, 
+                "passive id": "11", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u93e1\u5408\u308f\u305b\u306e\u30a2\u30f3\u30c1\u30c6\u30fc\u30bc", 
+        "target": "self"
+    }, 
     "3300": {
         "desc": "Boosts critical hit damage", 
         "effects": [
@@ -11277,6 +12436,177 @@
             }
         ], 
         "name": "Galloping Tempest", 
+        "target": "self"
+    }, 
+    "33000": {
+        "desc": "\u5f31\u70b9\u5c5e\u6027\u30c0\u30e1\u30fc\u30b8\u3092\u30a2\u30c3\u30d7\uff06\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30c0\u30e1\u30fc\u30b8\u3092\u30a2\u30c3\u30d7\uff06\uff28\uff30\u304c\uff12\uff10\uff05\u4ee5\u4e0b\u306e\u6642\u3001\u4e00\u5ea6\u3060\u3051\u6226\u95d8\u4e0d\u80fd\u3092\u8010\u3048\u308b\uff06\u653b\u6483\u529b\u306e\u4e0a\u9650\u5024\uff08\uff19\uff19\uff19\uff19\uff19\uff09\u3092\uff11\uff13\uff10\uff10\uff10\uff10\u307e\u3067\u89e3\u653e\u3059\u308b", 
+        "effects": [
+            {
+                "conditions": [], 
+                "elemental weakness multiplier%": 50.0, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "crit multiplier%": 50.0, 
+                "passive id": "34", 
+                "passive target": "self"
+            }, 
+            {
+                "buff": {
+                    "angel idol buff (12)": true, 
+                    "angel idol recover hp%": 100, 
+                    "buff turns (12)": "-1"
+                }, 
+                "conditions": [], 
+                "hp below % buff activation": 20, 
+                "passive id": "55", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive target": "self", 
+                "unknown passive id": "143", 
+                "unknown passive params": "130000"
+            }
+        ], 
+        "name": "\u5275\u9020\u3055\u308c\u308b\u87ba\u65cb", 
+        "target": "self"
+    }, 
+    "33100": {
+        "desc": "\u5f31\u70b9\u5c5e\u6027\u30c0\u30e1\u30fc\u30b8\u3092\u5c11\u3057\u30a2\u30c3\u30d7\uff06\uff22\uff22\u767a\u52d5\u306b\u5fc5\u8981\u306a\uff22\uff22\u30b2\u30fc\u30b8\u91cf\u3092\u8efd\u6e1b", 
+        "effects": [
+            {
+                "conditions": [], 
+                "elemental weakness multiplier%": 30.0, 
+                "passive id": "50", 
+                "passive target": "self", 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "48", 
+                "passive target": "self", 
+                "reduced bb bc cost%": 15
+            }
+        ], 
+        "name": "\u60a0\u4e45\u305f\u308b\u523b\u5370", 
+        "target": "self"
+    }, 
+    "33200": {
+        "desc": "\u5f31\u70b9\u5c5e\u6027\u30c0\u30e1\u30fc\u30b8\u3092\u30a2\u30c3\u30d7\uff06\uff22\uff22\u767a\u52d5\u306b\u5fc5\u8981\u306a\uff22\uff22\u30b2\u30fc\u30b8\u91cf\u3092\u8efd\u6e1b", 
+        "effects": [
+            {
+                "conditions": [], 
+                "elemental weakness multiplier%": 50.0, 
+                "passive id": "50", 
+                "passive target": "self", 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "48", 
+                "passive target": "self", 
+                "reduced bb bc cost%": 20
+            }
+        ], 
+        "name": "\u5883\u754c\u3092\u8d8a\u3048\u308b\u529b", 
+        "target": "self"
+    }, 
+    "33300": {
+        "desc": "\u30bf\u30fc\u30f3\u6bce\u306b\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u30fb\u56de\u5fa9\u529b\u3092\u30a2\u30c3\u30d7\uff08\uff15\u30bf\u30fc\u30f3\u76ee\u307e\u3067\u4e0a\u6607\u91cf\u304c\u5897\u52a0\u3059\u308b\uff09\uff06\u78ba\u7387\u3067\uff11\u56de\u307e\u3067\u6226\u95d8\u4e0d\u80fd\u3092\u8010\u3048\u308b", 
+        "effects": [
+            {
+                "atk% max buff": 30, 
+                "conditions": [], 
+                "def% max buff": 30, 
+                "increase from min to max": 1, 
+                "passive id": "105", 
+                "passive target": "self", 
+                "rec% max buff": 30, 
+                "turn count": 5
+            }, 
+            {
+                "angel idol chance% condition": 0, 
+                "angel idol recover chance% high": 40, 
+                "angel idol recover chance% low": 40, 
+                "angel idol recover counts": 1, 
+                "conditions": [], 
+                "passive id": "69", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u81ea\u52d5\u5f37\u5316\u6a5f\u80fd", 
+        "target": "self"
+    }, 
+    "33400": {
+        "desc": "\u30bf\u30fc\u30f3\u6bce\u306b\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u30fb\u56de\u5fa9\u529b\u3092\u30a2\u30c3\u30d7\uff08\uff15\u30bf\u30fc\u30f3\u76ee\u307e\u3067\u4e0a\u6607\u91cf\u304c\u5897\u52a0\u3059\u308b\uff09\uff06\u78ba\u7387\u3067\uff12\u56de\u307e\u3067\u6226\u95d8\u4e0d\u80fd\u3092\u8010\u3048\u308b", 
+        "effects": [
+            {
+                "atk% max buff": 50, 
+                "conditions": [], 
+                "def% max buff": 50, 
+                "increase from min to max": 1, 
+                "passive id": "105", 
+                "passive target": "self", 
+                "rec% max buff": 50, 
+                "turn count": 5
+            }, 
+            {
+                "angel idol chance% condition": 0, 
+                "angel idol recover chance% high": 40, 
+                "angel idol recover chance% low": 40, 
+                "angel idol recover counts": 2, 
+                "conditions": [], 
+                "passive id": "69", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u8d85\u9032\u5316\u30e2\u30fc\u30c9", 
+        "target": "self"
+    }, 
+    "33500": {
+        "desc": "\uff22\uff22\u30b2\u30fc\u30b8\u304c\u534a\u5206\u4ee5\u4e0a\u306e\u6642\u3001\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u3092\u5c11\u3057\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff13\uff10\uff05\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "def% buff": 30, 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 30, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u7b56\u8b00\u306e\u5149\u6e90", 
+        "target": "self"
+    }, 
+    "33600": {
+        "desc": "\uff22\uff22\u30b2\u30fc\u30b8\u304c\u534a\u5206\u4ee5\u4e0a\u306e\u6642\u3001\u653b\u6483\u529b\u30fb\u9632\u5fa1\u529b\u3092\u30a2\u30c3\u30d7\uff06\u30b9\u30d1\u30fc\u30af\u30c0\u30e1\u30fc\u30b8\u3092\uff15\uff10\uff05\u30a2\u30c3\u30d7", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "def% buff": 50, 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "\u7406\u60f3\u3092\u7d71\u3079\u308b\u9060\u8b00", 
         "target": "self"
     }, 
     "3400": {
@@ -12925,6 +14255,625 @@
         "name": "Brave Ferocity", 
         "target": "self"
     }, 
+    "8000011": {
+        "desc": "80% boost to Atk and 15% boost to critical hit rate of Dark types, hugely boosts critical damage, boosts Dark elemental damage & negate elemental damage", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "conditions": [], 
+                "crit% buff": 15, 
+                "elements buffed": [
+                    "dark"
+                ], 
+                "passive id": "2", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "crit multiplier%": 100.0, 
+                "passive id": "34", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "dark units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 50.0, 
+                "passive id": "50", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "53", 
+                "passive target": "self", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }
+        ], 
+        "name": "Brave Shadow", 
+        "target": "self"
+    }, 
+    "8000012": {
+        "desc": "80% boost to Atk and 15% boost to critical hit rate of Fire types, hugely boosts Spark damage & boosts Fire elemental damage", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "conditions": [], 
+                "crit% buff": 15, 
+                "elements buffed": [
+                    "fire"
+                ], 
+                "passive id": "2", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 60, 
+                "passive id": "31", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "elemental weakness multiplier%": 50.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Brave Combustion", 
+        "target": "self"
+    }, 
+    "8000101": {
+        "desc": "20% boost to all parameters of Fire types, negates all status ailments, 5% damage reduction from Fire, Earth types & greatly boosts Atk relative to remaining HP", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "conditions": [], 
+                "def% buff": 20, 
+                "elements buffed": [
+                    "fire"
+                ], 
+                "hp% buff": 20, 
+                "passive id": "2", 
+                "passive target": "self", 
+                "rec% buff": 20
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 5.0, 
+                "mitigate earth attacks": true, 
+                "mitigate fire attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 50, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Ignis Aeterno Lv. 1", 
+        "target": "self"
+    }, 
+    "8000102": {
+        "desc": "20% boost to all parameters of Water types, negates all status ailments, 5% damage reduction from Fire, Water types & greatly boosts Atk relative to remaining HP", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "conditions": [], 
+                "def% buff": 20, 
+                "elements buffed": [
+                    "water"
+                ], 
+                "hp% buff": 20, 
+                "passive id": "2", 
+                "passive target": "self", 
+                "rec% buff": 20
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 5.0, 
+                "mitigate fire attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 50, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Algor Aeterno Lv. 1", 
+        "target": "self"
+    }, 
+    "8000103": {
+        "desc": "20% boost to all parameters of Earth types, negates all status ailments, 5% damage reduction from Earth, Thunder types & greatly boosts Atk relative to remaining HP", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "conditions": [], 
+                "def% buff": 20, 
+                "elements buffed": [
+                    "earth"
+                ], 
+                "hp% buff": 20, 
+                "passive id": "2", 
+                "passive target": "self", 
+                "rec% buff": 20
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 5.0, 
+                "mitigate earth attacks": true, 
+                "mitigate thunder attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 50, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Terra Aeterno Lv. 1", 
+        "target": "self"
+    }, 
+    "8000104": {
+        "desc": "20% boost to all parameters of Thunder types, negates all status ailments, 5% damage reduction from Water, Thunder types & greatly boosts Atk relative to remaining HP", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "conditions": [], 
+                "def% buff": 20, 
+                "elements buffed": [
+                    "thunder"
+                ], 
+                "hp% buff": 20, 
+                "passive id": "2", 
+                "passive target": "self", 
+                "rec% buff": 20
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 5.0, 
+                "mitigate thunder attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 50, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Fulgur Aeterno Lv. 1", 
+        "target": "self"
+    }, 
+    "8000105": {
+        "desc": "20% boost to all parameters of Light types, negates all status ailments, 5% damage reduction from Light, Dark types & greatly boosts Atk relative to remaining HP", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "conditions": [], 
+                "def% buff": 20, 
+                "elements buffed": [
+                    "light"
+                ], 
+                "hp% buff": 20, 
+                "passive id": "2", 
+                "passive target": "self", 
+                "rec% buff": 20
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 5.0, 
+                "mitigate dark attacks": true, 
+                "mitigate light attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 50, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Lux Aeterno Lv. 1", 
+        "target": "self"
+    }, 
+    "8000106": {
+        "desc": "20% boost to all parameters of Dark types, negates all status ailments, 5% damage reduction from Light, Dark types & greatly boosts Atk relative to remaining HP", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "conditions": [], 
+                "def% buff": 20, 
+                "elements buffed": [
+                    "dark"
+                ], 
+                "hp% buff": 20, 
+                "passive id": "2", 
+                "passive target": "self", 
+                "rec% buff": 20
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 5.0, 
+                "mitigate dark attacks": true, 
+                "mitigate light attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 50, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Umbra Aeterno Lv. 1", 
+        "target": "self"
+    }, 
+    "8000201": {
+        "desc": "30% boost to all parameters of Fire types, negates all status ailments, 5% damage reduction from Fire, Earth types & hugely boosts Atk relative to remaining HP", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "conditions": [], 
+                "def% buff": 30, 
+                "elements buffed": [
+                    "fire"
+                ], 
+                "hp% buff": 30, 
+                "passive id": "2", 
+                "passive target": "self", 
+                "rec% buff": 30
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 5.0, 
+                "mitigate earth attacks": true, 
+                "mitigate fire attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% base buff": 20, 
+                "atk% extra buff based on hp": 60, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Ignis Aeterno Lv. 2", 
+        "target": "self"
+    }, 
+    "8000202": {
+        "desc": "30% boost to all parameters of Water types, negates all status ailments, 5% damage reduction from Fire, Water types & hugely boosts Atk relative to remaining HP", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "conditions": [], 
+                "def% buff": 30, 
+                "elements buffed": [
+                    "water"
+                ], 
+                "hp% buff": 30, 
+                "passive id": "2", 
+                "passive target": "self", 
+                "rec% buff": 30
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 5.0, 
+                "mitigate fire attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% base buff": 20, 
+                "atk% extra buff based on hp": 60, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Algor Aeterno Lv. 2", 
+        "target": "self"
+    }, 
+    "8000203": {
+        "desc": "30% boost to all parameters of Earth types, negates all status ailments, 5% damage reduction from Earth, Thunder types & hugely boosts Atk relative to remaining HP", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "conditions": [], 
+                "def% buff": 30, 
+                "elements buffed": [
+                    "earth"
+                ], 
+                "hp% buff": 30, 
+                "passive id": "2", 
+                "passive target": "self", 
+                "rec% buff": 30
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 5.0, 
+                "mitigate earth attacks": true, 
+                "mitigate thunder attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% base buff": 20, 
+                "atk% extra buff based on hp": 60, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Terra Aeterno Lv. 2", 
+        "target": "self"
+    }, 
+    "8000204": {
+        "desc": "30% boost to all parameters of Thunder types, negates all status ailments, 5% damage reduction from Water, Thunder types & hugely boosts Atk relative to remaining HP", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "conditions": [], 
+                "def% buff": 30, 
+                "elements buffed": [
+                    "thunder"
+                ], 
+                "hp% buff": 30, 
+                "passive id": "2", 
+                "passive target": "self", 
+                "rec% buff": 30
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 5.0, 
+                "mitigate thunder attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% base buff": 20, 
+                "atk% extra buff based on hp": 60, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Fulgur Aeterno Lv. 2", 
+        "target": "self"
+    }, 
+    "8000205": {
+        "desc": "30% boost to all parameters of Light types, negates all status ailments, 5% damage reduction from Light, Dark types & hugely boosts Atk relative to remaining HP", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "conditions": [], 
+                "def% buff": 30, 
+                "elements buffed": [
+                    "light"
+                ], 
+                "hp% buff": 30, 
+                "passive id": "2", 
+                "passive target": "self", 
+                "rec% buff": 30
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 5.0, 
+                "mitigate dark attacks": true, 
+                "mitigate light attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% base buff": 20, 
+                "atk% extra buff based on hp": 60, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Lux Aeterno Lv. 2", 
+        "target": "self"
+    }, 
+    "8000206": {
+        "desc": "30% boost to all parameters of Dark types, negates all status ailments, 5% damage reduction from Light, Dark types & hugely boosts Atk relative to remaining HP", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "conditions": [], 
+                "def% buff": 30, 
+                "elements buffed": [
+                    "dark"
+                ], 
+                "hp% buff": 30, 
+                "passive id": "2", 
+                "passive target": "self", 
+                "rec% buff": 30
+            }, 
+            {
+                "conditions": [], 
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 5.0, 
+                "mitigate dark attacks": true, 
+                "mitigate light attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% base buff": 20, 
+                "atk% extra buff based on hp": 60, 
+                "buff proportional to hp": "remaining", 
+                "conditions": [], 
+                "passive id": "46", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Umbra Aeterno Lv. 2", 
+        "target": "self"
+    }, 
     "8100": {
         "desc": "Boosts OD gauge fill rate", 
         "effects": [
@@ -13087,6 +15036,46 @@
         "name": "Fervent Ardor", 
         "target": "self"
     }, 
+    "810178": {
+        "desc": "Critical damage boosts BB gauge, probable damage reduction to 1 & adds Fire element to BB/SBB for 3 turns", 
+        "effects": [
+            {
+                "bc fill on crit max": 10, 
+                "bc fill on crit min": 10, 
+                "bc fill on crit%": 100.0, 
+                "conditions": [], 
+                "passive id": "65", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "43", 
+                "passive target": "self", 
+                "take 1 dmg%": 20
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "elements added": [
+                            "fire"
+                        ], 
+                        "elements added turns": 3, 
+                        "proc id": "30", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }
+        ], 
+        "name": "Faraway Heart", 
+        "target": "self"
+    }, 
     "810187": {
         "desc": "15% reduction in damage from Dark Types, adds Fire, Light elements to BB/SBB for 3 turns & considerably boosts BB Atk for next turn when Spark damage has exceeded certain amount", 
         "effects": [
@@ -13132,6 +15121,60 @@
             }
         ], 
         "name": "Scion of the Flame", 
+        "target": "self"
+    }, 
+    "810277": {
+        "desc": "Considerably boosts Atk when BB gauge is full & damage taken greatly boosts BB gauge", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "bb gauge above % buff requirement": 100, 
+                "conditions": [], 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "conditions": [], 
+                "passive id": "25", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Majestic Solar Empowerment", 
+        "target": "self"
+    }, 
+    "810278": {
+        "desc": "Greatly boosts Atk when BB gauge is full, damage taken greatly boosts BB gauge & 100% boost to Spark damage for 2 turns when Sparks exceed certain amount", 
+        "effects": [
+            {
+                "atk% buff": 100, 
+                "bb gauge above % buff requirement": 100, 
+                "conditions": [], 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "conditions": [], 
+                "passive id": "25", 
+                "passive target": "self"
+            }, 
+            {
+                "buff": {
+                    "buff turns (40)": "2", 
+                    "spark dmg% buff": 100
+                }, 
+                "conditions": [], 
+                "passive id": "86", 
+                "passive target": "self", 
+                "spark count buff activation": 15
+            }
+        ], 
+        "name": "All-Consuming Ember Crown", 
         "target": "self"
     }, 
     "810317": {
@@ -13597,6 +15640,48 @@
             }
         ], 
         "name": "Frigid Territory", 
+        "target": "self"
+    }, 
+    "820178": {
+        "desc": "Reduces damage taken for 2 turns when damage taken has exceeded certain amount, reduces BB gauge required for BB & adds Water element to BB/SBB for 3 turns", 
+        "effects": [
+            {
+                "buff": {
+                    "buff turns (36)": "1", 
+                    "dmg reduction% buff": 25
+                }, 
+                "conditions": [], 
+                "damage threshold buff activation": 10000, 
+                "passive id": "78", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "48", 
+                "passive target": "self", 
+                "reduced bb bc cost%": 20
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "elements added": [
+                            "water"
+                        ], 
+                        "elements added turns": 3, 
+                        "proc id": "30", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }
+        ], 
+        "name": "Diamond Freeze", 
         "target": "self"
     }, 
     "820317": {
@@ -14919,6 +17004,56 @@
         "name": "Death From Above", 
         "target": "self"
     }, 
+    "840507": {
+        "desc": "5% damage reduction, boosts critical damage & 30% boost to Spark damage", 
+        "effects": [
+            {
+                "conditions": [], 
+                "dmg% mitigation": 5, 
+                "passive id": "8", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 30, 
+                "passive id": "31", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "crit multiplier%": 30.0, 
+                "passive id": "34", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Rejoice in Existence Taolu", 
+        "target": "self"
+    }, 
+    "840508": {
+        "desc": "10% damage reduction, boosts critical damage & 50% boost to Spark damage", 
+        "effects": [
+            {
+                "conditions": [], 
+                "dmg% mitigation": 10, 
+                "passive id": "8", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "crit multiplier%": 50.0, 
+                "passive id": "34", 
+                "passive target": "self"
+            }
+        ], 
+        "name": "Three Worlds King Taolu", 
+        "target": "self"
+    }, 
     "8500": {
         "desc": "Probable slight HP recovery when attacked & absorbs HP when attacking", 
         "effects": [
@@ -15686,6 +17821,39 @@
         "name": "Soul of the Immortal", 
         "target": "self"
     }, 
+    "860158": {
+        "desc": "Hugely boosts damage against status afflicted foes, negates all status ailments & negates Atk, Def, Rec reduction effects ", 
+        "effects": [
+            {
+                "atk% buff when enemy has ailment": 100, 
+                "atk% buff when enemy has curse": true, 
+                "atk% buff when enemy has injury": true, 
+                "atk% buff when enemy has paralysis": true, 
+                "atk% buff when enemy has poison": true, 
+                "atk% buff when enemy has sick": true, 
+                "atk% buff when enemy has weaken": true, 
+                "conditions": [], 
+                "passive id": "74", 
+                "passive target": "self"
+            }, 
+            {
+                "atk down resist%": 100, 
+                "conditions": [], 
+                "curse resist%": 100, 
+                "def down resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "73", 
+                "passive target": "self", 
+                "poison resist%": 100, 
+                "rec down resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "name": "Black Hell-Poison Mistress", 
+        "target": "self"
+    }, 
     "860166": {
         "desc": "Adds huge damage boost against status afflicted foes for 3 turns effect to BB/SBB & greatly boosts Atk when HP is full", 
         "effects": [
@@ -15937,6 +18105,52 @@
         "name": "Crossing Dimensions", 
         "target": "self"
     }, 
+    "860277": {
+        "desc": "Boosts critical damage & probable damage reduction to 1", 
+        "effects": [
+            {
+                "conditions": [], 
+                "crit multiplier%": 50.0, 
+                "passive id": "34", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "43", 
+                "passive target": "self", 
+                "take 1 dmg%": 20
+            }
+        ], 
+        "name": "Scarlet Haze Technique", 
+        "target": "self"
+    }, 
+    "860278": {
+        "desc": "Considerably boosts critical damage, probable damage reduction to 1 & restores HP each turn", 
+        "effects": [
+            {
+                "conditions": [], 
+                "crit multiplier%": 100.0, 
+                "passive id": "34", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "43", 
+                "passive target": "self", 
+                "take 1 dmg%": 20
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "33", 
+                "passive target": "self", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 3000, 
+                "turn heal low": 2500
+            }
+        ], 
+        "name": "Scarlet Grass-Cutting Style", 
+        "target": "self"
+    }, 
     "860317": {
         "desc": "Probable damage reduction to 1 &hugely boosts Spark damage when Sparks have exceeded certain amount for next turn when Nyami's Bells is equipped", 
         "effects": [
@@ -15964,6 +18178,62 @@
             }
         ], 
         "name": "Kitty of the Shadows", 
+        "target": "self"
+    }, 
+    "860356": {
+        "desc": "5% boost to all parameters of Dark types & boosts Atk, Rec each turn for up to 5 turns", 
+        "effects": [
+            {
+                "atk% buff": 5, 
+                "conditions": [], 
+                "def% buff": 5, 
+                "elements buffed": [
+                    "dark"
+                ], 
+                "hp% buff": 5, 
+                "passive id": "2", 
+                "passive target": "party", 
+                "rec% buff": 5
+            }, 
+            {
+                "atk% max buff": 50, 
+                "conditions": [], 
+                "increase from min to max": 1, 
+                "passive id": "105", 
+                "passive target": "self", 
+                "rec% max buff": 50, 
+                "turn count": 5
+            }
+        ], 
+        "name": "Wedjat's Eternal Mercy", 
+        "target": "self"
+    }, 
+    "860357": {
+        "desc": "10% boost to all parameters of Dark types & boosts Atk, Rec each turn for up to 5 turns", 
+        "effects": [
+            {
+                "atk% buff": 10, 
+                "conditions": [], 
+                "def% buff": 10, 
+                "elements buffed": [
+                    "dark"
+                ], 
+                "hp% buff": 10, 
+                "passive id": "2", 
+                "passive target": "party", 
+                "rec% buff": 10
+            }, 
+            {
+                "atk% max buff": 150, 
+                "conditions": [], 
+                "increase from min to max": 1, 
+                "passive id": "105", 
+                "passive target": "self", 
+                "rec% max buff": 150, 
+                "turn count": 5
+            }
+        ], 
+        "name": "Wedjat's Unyielding Gaze", 
         "target": "self"
     }, 
     "860367": {

@@ -1056,6 +1056,126 @@
         ], 
         "name": "令綺彩神の珠彰"
     }, 
+    "10139": {
+        "desc": "全てのユニットの全能力を４５％アップ＆全属性の弱点属性ダメージを大幅にアップ＆クリティカルを無効", 
+        "effects": [
+            {
+                "atk% buff": 45, 
+                "def% buff": 45, 
+                "hp% buff": 45, 
+                "passive id": "1", 
+                "rec% buff": 45
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 100.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "crit chance base resist%": 100, 
+                "crit chance buffed resist%": 100, 
+                "crit dmg base damage resist%": 100, 
+                "crit dmg buffed damage resist%": 100, 
+                "passive id": "53"
+            }
+        ], 
+        "name": "蒼宙神の変異"
+    }, 
+    "10140": {
+        "desc": "全てのユニットの全能力を５０％アップ＆全属性の弱点属性ダメージを大幅にアップ＆クリティカルを無効＆ＢＣ獲得時の増加量をかなりアップ", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "def% buff": 50, 
+                "hp% buff": 50, 
+                "passive id": "1", 
+                "rec% buff": 50
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 125.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "crit chance base resist%": 100, 
+                "crit chance buffed resist%": 100, 
+                "crit dmg base damage resist%": 100, 
+                "crit dmg buffed damage resist%": 100, 
+                "passive id": "53"
+            }, 
+            {
+                "bb gauge fill rate%": 50, 
+                "passive id": "32"
+            }
+        ], 
+        "name": "蒼劾神の深界"
+    }, 
+    "10141": {
+        "desc": "全てのユニットの全能力を４５％アップ＆スパークダメージを少し軽減＆被ダメージ時、確率でＨＰを回復", 
+        "effects": [
+            {
+                "atk% buff": 45, 
+                "def% buff": 45, 
+                "hp% buff": 45, 
+                "passive id": "1", 
+                "rec% buff": 45
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }, 
+            {
+                "base spark dmg% resist": 20, 
+                "buff spark dmg% resist": 20, 
+                "passive id": "77"
+            }
+        ], 
+        "name": "轟雷機神の殲領"
+    }, 
+    "10142": {
+        "desc": "全てのユニットの全能力を５０％アップ＆スパークダメージを軽減＆被ダメージ時、確率でＨＰを回復＆与ダメージが一定数を超える度に１ターン、被ダメージを少し軽減", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "def% buff": 50, 
+                "hp% buff": 50, 
+                "passive id": "1", 
+                "rec% buff": 50
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 25, 
+                "passive id": "24"
+            }, 
+            {
+                "base spark dmg% resist": 25, 
+                "buff spark dmg% resist": 25, 
+                "passive id": "77"
+            }, 
+            {
+                "buff": {
+                    "buff turns (36)": "1", 
+                    "dmg reduction% buff": 20
+                }, 
+                "damage dealt threshold buff activation": 10000, 
+                "passive id": "80"
+            }
+        ], 
+        "name": "轟鐡機神の殲圏"
+    }, 
     "102": {
         "desc": "炎属性ユニットの攻撃力を５０％アップ・最大ＨＰを１０％アップ", 
         "effects": [
@@ -2717,6 +2837,165 @@
             }
         ], 
         "name": "湧潔華神の煌擁"
+    }, 
+    "12504": {
+        "desc": "残りＨＰが多いほど、攻撃力を少しアップ", 
+        "effects": [
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 30, 
+                "buff proportional to hp": "remaining", 
+                "passive id": "46"
+            }
+        ], 
+        "name": "機兵の力"
+    }, 
+    "12505": {
+        "desc": "残りＨＰが多いほど、攻撃力をアップ＆防御貫通効果を無効", 
+        "effects": [
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 50, 
+                "buff proportional to hp": "remaining", 
+                "passive id": "46"
+            }, 
+            {
+                "ignore def resist chance%": 100, 
+                "passive id": "92"
+            }
+        ], 
+        "name": "鋼機兵の核力"
+    }, 
+    "12506": {
+        "desc": "全てのユニットの回復力・最大ＨＰを３０％アップ＆被ダメージ時、ＢＢゲージを増加", 
+        "effects": [
+            {
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }, 
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }
+        ], 
+        "name": "輝く神気"
+    }, 
+    "12507": {
+        "desc": "全てのユニットの回復力・最大ＨＰを４０％アップ＆確率で１回まで戦闘不能を耐える＆被ダメージ時、ＢＢゲージをかなり増加", 
+        "effects": [
+            {
+                "hp% buff": 40, 
+                "passive id": "1", 
+                "rec% buff": 40
+            }, 
+            {
+                "bc fill when attacked high": 5, 
+                "bc fill when attacked low": 3, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "angel idol chance% condition": 0, 
+                "angel idol recover chance% high": 15, 
+                "angel idol recover chance% low": 15, 
+                "angel idol recover counts": 1, 
+                "passive id": "69"
+            }
+        ], 
+        "name": "悠輝の神域"
+    }, 
+    "12508": {
+        "desc": "全てのユニットの回復力・最大ＨＰを５０％アップ＆確率で１回まで戦闘不能を耐える＆確率で防御貫通効果を付与＆被ダメージ時、ＢＢゲージを大幅に増加", 
+        "effects": [
+            {
+                "hp% buff": 50, 
+                "passive id": "1", 
+                "rec% buff": 50
+            }, 
+            {
+                "bc fill when attacked high": 7, 
+                "bc fill when attacked low": 4, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "angel idol chance% condition": 0, 
+                "angel idol recover chance% high": 20, 
+                "angel idol recover chance% low": 20, 
+                "angel idol recover counts": 1, 
+                "passive id": "69"
+            }, 
+            {
+                "ignore def%": 20, 
+                "passive id": "29"
+            }
+        ], 
+        "name": "全知なる輝神域"
+    }, 
+    "12509": {
+        "desc": "全てのユニットの最大ＨＰを３０％アップ＆残りＨＰが多いほど、攻撃力をかなりアップ", 
+        "effects": [
+            {
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 80, 
+                "buff proportional to hp": "remaining", 
+                "passive id": "46"
+            }
+        ], 
+        "name": "冥闇の特異点"
+    }, 
+    "12510": {
+        "desc": "全てのユニットの最大ＨＰを４０％アップ＆残りＨＰが多いほど、攻撃力を大幅にアップ＆スパークダメージを８０％アップ", 
+        "effects": [
+            {
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 100, 
+                "buff proportional to hp": "remaining", 
+                "passive id": "46"
+            }, 
+            {
+                "damage% for spark": 80, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "冥女神の誘惑"
+    }, 
+    "12511": {
+        "desc": "全てのユニットの最大ＨＰを５０％アップ＆残りＨＰが多いほど、攻撃力を大幅にアップ＆スパークダメージを１００％アップ＆攻撃ＢＢの威力を超絶アップ", 
+        "effects": [
+            {
+                "hp% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 120, 
+                "buff proportional to hp": "remaining", 
+                "passive id": "46"
+            }, 
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }, 
+            {
+                "bb atk% buff": 200, 
+                "passive id": "64", 
+                "sbb atk% buff": 200, 
+                "ubb atk% buff": 200
+            }
+        ], 
+        "name": "虚女神の魅惑"
     }, 
     "126": {
         "desc": "樹属性ユニットの攻撃力を１００％アップ・最大ＨＰを３０％アップ", 
@@ -10042,6 +10321,30 @@
         ], 
         "name": "冥覇神天の君臨"
     }, 
+    "4370": {
+        "desc": "全てのユニットの防御力・最大ＨＰを５０％アップ＆ガード時のダメージ軽減率をアップ＆確率で被ダメージを２０％軽減＆ガード成立時、ＢＢゲージを大幅に増加", 
+        "effects": [
+            {
+                "def% buff": 50, 
+                "hp% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "guard increase mitigation%": 10, 
+                "passive id": "58"
+            }, 
+            {
+                "bc filled when attacked while guarded": 6, 
+                "passive id": "59"
+            }, 
+            {
+                "dmg reduction chance%": 20, 
+                "dmg reduction%": 20, 
+                "passive id": "14"
+            }
+        ], 
+        "name": "凍憐神の影聖壁"
+    }, 
     "4400": {
         "desc": "ターン毎にＢＢゲージを少し増加＆全ての状態異常にかなりかかりにくくなる", 
         "effects": [
@@ -15176,6 +15479,112 @@
             }
         ], 
         "name": "黒魁の神戯"
+    }, 
+    "7505": {
+        "desc": "全てのユニットの攻撃力・最大ＨＰを６０％アップ＆クリティカルダメージを大幅にアップ＆全属性の弱点属性ダメージを大幅にアップ＆攻撃ＢＢの威力を超絶アップ", 
+        "effects": [
+            {
+                "atk% buff": 60, 
+                "hp% buff": 60, 
+                "passive id": "1"
+            }, 
+            {
+                "crit multiplier%": 150.0, 
+                "passive id": "34"
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 150.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "bb atk% buff": 250, 
+                "passive id": "64", 
+                "sbb atk% buff": 250, 
+                "ubb atk% buff": 250
+            }
+        ], 
+        "name": "創叡神天の命巡"
+    }, 
+    "7506": {
+        "desc": "全てのユニットの攻撃力・最大ＨＰを５０％アップ＆スパーク時、ＢＢゲージを少し増加・ダメージを１１０％アップ", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "hp% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 110, 
+                "passive id": "31"
+            }, 
+            {
+                "bc fill on spark high": 2, 
+                "bc fill on spark low": 1, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }
+        ], 
+        "name": "神艶妃の隠惑"
+    }, 
+    "7507": {
+        "desc": "全てのユニットの攻撃力・最大ＨＰを６０％アップ＆スパーク時、ＢＢゲージを増加・ダメージを１３０％アップ＆確率でスパーククリティカルが発生", 
+        "effects": [
+            {
+                "atk% buff": 60, 
+                "hp% buff": 60, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 130, 
+                "passive id": "31"
+            }, 
+            {
+                "bc fill on spark high": 3, 
+                "bc fill on spark low": 2, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }, 
+            {
+                "unknown passive id": "100", 
+                "unknown passive params": "10,50"
+            }
+        ], 
+        "name": "神艶聖妃の想願"
+    }, 
+    "7508": {
+        "desc": "全てのユニットの攻撃力・最大ＨＰを５０％アップ＆クリティカル時、ＢＢゲージを超絶増加・ダメージを大幅にアップ・２ターン、攻撃力をアップ", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "hp% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "crit multiplier%": 150.0, 
+                "passive id": "34"
+            }, 
+            {
+                "bc fill on crit max": 10, 
+                "bc fill on crit min": 8, 
+                "bc fill on crit%": 100.0, 
+                "passive id": "65"
+            }, 
+            {
+                "buff": {
+                    "atk% buff (1)": 80, 
+                    "buff turns (1)": "3"
+                }, 
+                "on crit activation chance%": 100, 
+                "passive id": "89"
+            }
+        ], 
+        "name": "揮翔の極覇刃"
     }, 
     "7600": {
         "desc": "水・光属性ユニットの攻撃力を５０％アップ", 

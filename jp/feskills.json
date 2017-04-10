@@ -797,6 +797,294 @@
             }
         ]
     }, 
+    "10677": {
+        "category": {
+            "1": {
+                "name": "ステアップ系"
+            }, 
+            "10": {
+                "name": "ダメージ軽減系"
+            }, 
+            "11": {
+                "name": "特殊"
+            }, 
+            "2": {
+                "name": "スパーク系"
+            }, 
+            "3": {
+                "name": "クリティカル系"
+            }
+        }, 
+        "skills": [
+            {
+                "category": "1", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "550101", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "攻撃力・最大ＨＰを３０％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "atk% buff": 30, 
+                                "hp% buff": 30, 
+                                "passive id": "1"
+                            }
+                        }
+                    ], 
+                    "id": "550101", 
+                    "level": 2, 
+                    "name": "攻撃力・最大ＨＰ＋３０％", 
+                    "series": "500000"
+                }
+            }, 
+            {
+                "category": "2", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "1040003", 
+                "skill": {
+                    "bp": 15, 
+                    "desc": "スパークダメージを１００％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "damage% for spark": 100, 
+                                "passive id": "31"
+                            }
+                        }
+                    ], 
+                    "id": "1040003", 
+                    "level": 5, 
+                    "name": "スパークダメージ１００％アップ", 
+                    "series": "1000000"
+                }
+            }, 
+            {
+                "category": "3", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "2100001", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "クリティカルダメージを少しアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "crit multiplier%": 40.0, 
+                                "passive id": "34"
+                            }
+                        }
+                    ], 
+                    "id": "2100001", 
+                    "level": 1, 
+                    "name": "クリティカルダメージ少しアップ", 
+                    "series": "2100000"
+                }
+            }, 
+            {
+                "category": "3", 
+                "dependency": "1@2100001", 
+                "dependency comment": "「クリティカルダメージ少しアップ」習得", 
+                "id": "2100300", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "クリティカルダメージアップ効果をグレードアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "crit multiplier%": 75.0, 
+                                "passive id": "34"
+                            }
+                        }
+                    ], 
+                    "id": "2100300", 
+                    "level": 3, 
+                    "name": "クリティカルダメージアップ", 
+                    "series": "2100000"
+                }
+            }, 
+            {
+                "category": "10", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "9300001", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "弱点属性ダメージを無効", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "53", 
+                                "strong base element damage resist%": 100, 
+                                "strong buffed element damage resist%": 100
+                            }
+                        }
+                    ], 
+                    "id": "9300001", 
+                    "level": 4, 
+                    "name": "弱点属性攻撃を無効", 
+                    "series": "9300000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "10800000", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "攻撃力の上限値（９９９９９）を１３００００まで解放する", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "unknown passive id": "143", 
+                                "unknown passive params": "130000"
+                            }
+                        }
+                    ], 
+                    "id": "10800000", 
+                    "level": 4, 
+                    "name": "攻撃力上限突破", 
+                    "series": "10800000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "32000003", 
+                "skill": {
+                    "bp": 25, 
+                    "desc": "ＢＢ及びＳＢＢの「クリティカルダメージをアップ」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "buff turns (84)": 0, 
+                                "crit multiplier%": 25.0, 
+                                "proc id": "54"
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "buff turns (84)": 0, 
+                                "crit multiplier%": 25.0, 
+                                "proc id": "54"
+                            }
+                        }
+                    ], 
+                    "id": "32000003", 
+                    "level": 4, 
+                    "name": "ＢＢ・ＳＢＢの「クリティカルダメージをアップ」効果を強化", 
+                    "series": "32000000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "33002004", 
+                "skill": {
+                    "bp": 25, 
+                    "desc": "ＢＢ及びＳＢＢの「攻撃ＢＢの威力を大幅にアップ」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "bb atk% buff": 100, 
+                                "buff turns (72)": 0, 
+                                "proc id": "45", 
+                                "sbb atk% buff": 100, 
+                                "ubb atk% buff": 100
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "bb atk% buff": 100, 
+                                "buff turns (72)": 0, 
+                                "proc id": "45", 
+                                "sbb atk% buff": 100, 
+                                "ubb atk% buff": 100
+                            }
+                        }
+                    ], 
+                    "id": "33002004", 
+                    "level": 4, 
+                    "name": "ＢＢ・ＳＢＢの「攻撃ＢＢの威力をアップ」効果を強化", 
+                    "series": "33002000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "53014000", 
+                "skill": {
+                    "bp": 30, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体に３ターン、炎・水属性の弱点属性ダメージを大幅にアップ」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "elemental weakness buff turns": 3, 
+                                        "elemental weakness multiplier%": 125.0, 
+                                        "fire units do extra elemental weakness dmg": true, 
+                                        "proc id": "55", 
+                                        "target area": "aoe", 
+                                        "target type": "party", 
+                                        "water units do extra elemental weakness dmg": true
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "53014000", 
+                    "level": 5, 
+                    "name": "ＢＢ・ＳＢＢに「炎・水属性の弱点属性ダメージを大幅にアップ」追加", 
+                    "series": "53014000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "51004006", 
+                "skill": {
+                    "bp": 40, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体に３ターン、確率でスパーククリティカルが発生」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "83", 
+                                        "spark dmg inc buff turns (131)": 3, 
+                                        "spark dmg inc chance%": 30, 
+                                        "spark dmg inc% buff": 50, 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "51004006", 
+                    "level": 4, 
+                    "name": "ＢＢ・ＳＢＢに「確率でスパーククリティカルが発生」追加", 
+                    "series": "51004000"
+                }
+            }
+        ]
+    }, 
     "10717": {
         "category": {
             "1": {
@@ -5150,11 +5438,13 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "crit dmg base damage resist% (143)": 100, 
+                                        "crit dmg buffed damage resist% (143)": 100, 
+                                        "dmg resist turns": 1, 
                                         "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "93", 
-                                        "unknown proc param": "100,100,0,0,0,0,1,0"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -5182,11 +5472,13 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "dmg resist turns": 1, 
                                         "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
+                                        "strong base element damage resist% (144)": 100, 
+                                        "strong buffed element damage resist% (144)": 100, 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "93", 
-                                        "unknown proc param": "0,0,100,100,0,0,1,0"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -5750,6 +6042,303 @@
                     "level": 5, 
                     "name": "ＢＢ・ＳＢＢの「全属性の弱点属性ダメージをアップ」効果を強化", 
                     "series": "53011100"
+                }
+            }
+        ]
+    }, 
+    "20637": {
+        "category": {
+            "1": {
+                "name": "ステアップ系"
+            }, 
+            "10": {
+                "name": "ダメージ軽減系"
+            }, 
+            "11": {
+                "name": "特殊"
+            }, 
+            "4": {
+                "name": "攻撃強化系"
+            }, 
+            "5": {
+                "name": "ＢＢゲージ系"
+            }
+        }, 
+        "skills": [
+            {
+                "category": "1", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "610000", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "防御力・最大ＨＰを２０％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "def% buff": 20, 
+                                "hp% buff": 20, 
+                                "passive id": "1"
+                            }
+                        }
+                    ], 
+                    "id": "610000", 
+                    "level": 1, 
+                    "name": "防御力・最大ＨＰ＋２０％", 
+                    "series": "600000"
+                }
+            }, 
+            {
+                "category": "1", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "261000", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "ＨＰが半分以上の時、攻撃力・防御力をアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "atk% buff": 50, 
+                                "def% buff": 50, 
+                                "hp above % buff requirement": 50, 
+                                "passive id": "11"
+                            }
+                        }
+                    ], 
+                    "id": "261000", 
+                    "level": 1, 
+                    "name": "ＨＰが半分以上の時、攻撃力・防御力をアップ", 
+                    "series": "200000"
+                }
+            }, 
+            {
+                "category": "4", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "3310002", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "弱点属性ダメージをアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "dark units do extra elemental weakness dmg": true, 
+                                "earth units do extra elemental weakness dmg": true, 
+                                "elemental weakness multiplier%": 50.0, 
+                                "fire units do extra elemental weakness dmg": true, 
+                                "light units do extra elemental weakness dmg": true, 
+                                "passive id": "50", 
+                                "thunder units do extra elemental weakness dmg": true, 
+                                "water units do extra elemental weakness dmg": true
+                            }
+                        }
+                    ], 
+                    "id": "3310002", 
+                    "level": 4, 
+                    "name": "弱点属性に与えるダメージをアップ", 
+                    "series": "3300000"
+                }
+            }, 
+            {
+                "category": "5", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "4110002", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "被ダメージ時、ＢＢゲージを増加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "bc fill when attacked high": 3, 
+                                "bc fill when attacked low": 2, 
+                                "bc fill when attacked%": 100, 
+                                "passive id": "25"
+                            }
+                        }
+                    ], 
+                    "id": "4110002", 
+                    "level": 2, 
+                    "name": "被ダメージ時、ＢＢゲージを増加", 
+                    "series": "4100000"
+                }
+            }, 
+            {
+                "category": "10", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "9300001", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "弱点属性ダメージを無効", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "53", 
+                                "strong base element damage resist%": 100, 
+                                "strong buffed element damage resist%": 100
+                            }
+                        }
+                    ], 
+                    "id": "9300001", 
+                    "level": 4, 
+                    "name": "弱点属性攻撃を無効", 
+                    "series": "9300000"
+                }
+            }, 
+            {
+                "category": "10", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "9200002", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "クリティカルを無効", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "crit chance base resist%": 100, 
+                                "crit chance buffed resist%": 100, 
+                                "crit dmg base damage resist%": 100, 
+                                "crit dmg buffed damage resist%": 100, 
+                                "passive id": "53"
+                            }
+                        }
+                    ], 
+                    "id": "9200002", 
+                    "level": 4, 
+                    "name": "クリティカルダメージ無効", 
+                    "series": "9200000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "55002002", 
+                "skill": {
+                    "bp": 40, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体に３ターン、被ダメージ時、確率でＨＰを少し回復」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "hp recover from dmg buff turns (133)": 3, 
+                                        "hp recover from dmg chance": 25, 
+                                        "hp recover from dmg% high": 25, 
+                                        "hp recover from dmg% low": 20, 
+                                        "proc id": "85", 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "55002002", 
+                    "level": 6, 
+                    "name": "ＢＢ・ＳＢＢに「被ダメージ時、確率でＨＰを少し回復」追加", 
+                    "series": "55002000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "57008003", 
+                "skill": {
+                    "bp": 30, 
+                    "desc": "ＢＢ及びＳＢＢに「敵全体に確率で攻撃力・防御力を１ターン大幅に低下」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "buff #1": {
+                                            "atk% buff (2)": -50, 
+                                            "proc chance%": 30.0
+                                        }, 
+                                        "buff #2": {
+                                            "def% buff (4)": -50, 
+                                            "proc chance%": 30.0
+                                        }, 
+                                        "buff turns": 1, 
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "element buffed": "all", 
+                                        "proc id": "9", 
+                                        "target area": "aoe", 
+                                        "target type": "enemy"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "57008003", 
+                    "level": 4, 
+                    "name": "ＢＢ・ＳＢＢに「確率で攻撃力・防御力を大幅に低下」追加", 
+                    "series": "57008000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "39005000", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "ＢＢ及びＳＢＢの「炎・樹属性ユニットからの被ダメージを少し軽減」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "dmg% mitigation for elemental attacks": 5, 
+                                "dmg% mitigation for elemental attacks buff turns": 0, 
+                                "proc id": "39"
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "dmg% mitigation for elemental attacks": 5, 
+                                "dmg% mitigation for elemental attacks buff turns": 0, 
+                                "proc id": "39"
+                            }
+                        }
+                    ], 
+                    "id": "39005000", 
+                    "level": 5, 
+                    "name": "ＢＢ・ＳＢＢの「炎・樹属性ユニットからの被ダメージ軽減」効果強化", 
+                    "series": "39005000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "33001400", 
+                "skill": {
+                    "bp": 30, 
+                    "desc": "ＳＢＢの「炎・水属性の弱点属性ダメージを大幅にアップ」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to sbb": {
+                                "elemental weakness buff turns": 0, 
+                                "elemental weakness multiplier%": 25.0, 
+                                "proc id": "55"
+                            }
+                        }
+                    ], 
+                    "id": "33001400", 
+                    "level": 5, 
+                    "name": "ＳＢＢの「炎・水属性の弱点属性ダメージをアップ」効果を強化", 
+                    "series": "33001400"
                 }
             }
         ]
@@ -7995,11 +8584,13 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "crit dmg base damage resist% (143)": 100, 
+                                        "crit dmg buffed damage resist% (143)": 100, 
+                                        "dmg resist turns": 1, 
                                         "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "93", 
-                                        "unknown proc param": "100,100,0,0,0,0,1,0"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -9394,11 +9985,13 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "dmg resist turns": 1, 
                                         "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
+                                        "spark dmg base resist% (145)": 25, 
+                                        "spark dmg buffed resist% (145)": 25, 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "93", 
-                                        "unknown proc param": "0,0,0,0,25,25,1,0"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -9408,6 +10001,312 @@
                     "level": 5, 
                     "name": "ＢＢ・ＳＢＢに「スパークダメージを軽減」追加", 
                     "series": "59005000"
+                }
+            }
+        ]
+    }, 
+    "20987": {
+        "category": {
+            "1": {
+                "name": "ステアップ系"
+            }, 
+            "10": {
+                "name": "ダメージ軽減系"
+            }, 
+            "11": {
+                "name": "特殊"
+            }, 
+            "2": {
+                "name": "スパーク系"
+            }
+        }, 
+        "skills": [
+            {
+                "category": "1", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "720001", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "攻撃力・防御力・回復力・最大ＨＰを３０％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "atk% buff": 30, 
+                                "def% buff": 30, 
+                                "hp% buff": 30, 
+                                "passive id": "1", 
+                                "rec% buff": 30
+                            }
+                        }
+                    ], 
+                    "id": "720001", 
+                    "level": 1, 
+                    "name": "全能力＋３０％", 
+                    "series": "700000"
+                }
+            }, 
+            {
+                "category": "1", 
+                "dependency": "1@720001", 
+                "dependency comment": "「全能力＋３０％」習得", 
+                "id": "740102", 
+                "skill": {
+                    "bp": 15, 
+                    "desc": "攻撃力・防御力・回復力・最大ＨＰを３０％アップを５０％にグレードアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "atk% buff": 50, 
+                                "def% buff": 50, 
+                                "hp% buff": 50, 
+                                "passive id": "1", 
+                                "rec% buff": 50
+                            }
+                        }
+                    ], 
+                    "id": "740102", 
+                    "level": 4, 
+                    "name": "全能力＋３０％→５０％", 
+                    "series": "700000"
+                }
+            }, 
+            {
+                "category": "2", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "1040002", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "スパークダメージを１００％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "damage% for spark": 100, 
+                                "passive id": "31"
+                            }
+                        }
+                    ], 
+                    "id": "1040002", 
+                    "level": 5, 
+                    "name": "スパークダメージ１００％アップ", 
+                    "series": "1000000"
+                }
+            }, 
+            {
+                "category": "10", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "9300001", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "弱点属性ダメージを無効", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "53", 
+                                "strong base element damage resist%": 100, 
+                                "strong buffed element damage resist%": 100
+                            }
+                        }
+                    ], 
+                    "id": "9300001", 
+                    "level": 4, 
+                    "name": "弱点属性攻撃を無効", 
+                    "series": "9300000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "10800000", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "攻撃力の上限値（９９９９９）を１３００００まで解放する", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "unknown passive id": "143", 
+                                "unknown passive params": "130000"
+                            }
+                        }
+                    ], 
+                    "id": "10800000", 
+                    "level": 4, 
+                    "name": "攻撃力上限突破", 
+                    "series": "10800000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "33001004", 
+                "skill": {
+                    "bp": 30, 
+                    "desc": "ＢＢ及びＳＢＢの「全属性の弱点属性ダメージを大幅にアップ」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "elemental weakness buff turns": 0, 
+                                "elemental weakness multiplier%": 25.0, 
+                                "proc id": "55"
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "elemental weakness buff turns": 0, 
+                                "elemental weakness multiplier%": 25.0, 
+                                "proc id": "55"
+                            }
+                        }
+                    ], 
+                    "id": "33001004", 
+                    "level": 5, 
+                    "name": "ＢＢ・ＳＢＢの「全属性の弱点属性ダメージをアップ」効果を強化", 
+                    "series": "33001000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "59001100", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "ＢＢに「味方全体に１ターン、クリティカルダメージを無効」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "triggered effect": [
+                                    {
+                                        "crit dmg base damage resist% (143)": 100, 
+                                        "crit dmg buffed damage resist% (143)": 100, 
+                                        "dmg resist turns": 1, 
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "59001100", 
+                    "level": 5, 
+                    "name": "ＢＢに「クリティカルダメージを無効」追加", 
+                    "series": "59001100"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "59007000", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "ＢＢに「味方全体に１ターン、追加ダメージを少し軽減」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "triggered effect": [
+                                    {
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "target area": "aoe", 
+                                        "target type": "party", 
+                                        "unknown proc id": "126", 
+                                        "unknown proc param": "10,1,0"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "59007000", 
+                    "level": 4, 
+                    "name": "ＢＢに「追加ダメージを少し軽減」追加", 
+                    "series": "59007000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "54005001", 
+                "skill": {
+                    "bp": 35, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体に３ターン、被ダメージ時、ＢＢゲージをかなり増加」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "bc fill when attacked high": 7, 
+                                        "bc fill when attacked low": 4, 
+                                        "bc fill when attacked turns (38)": 3, 
+                                        "bc fill when attacked%": 100, 
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "20", 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "54005001", 
+                    "level": 5, 
+                    "name": "ＢＢ・ＳＢＢに「被ダメージ時、ＢＢゲージをかなり増加」追加", 
+                    "series": "54005000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "57000008", 
+                "skill": {
+                    "bp": 35, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体の全状態異常を回復」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "ailments cured": [
+                                            "poison", 
+                                            "weaken", 
+                                            "sick", 
+                                            "injury", 
+                                            "curse", 
+                                            "paralysis", 
+                                            "atk down", 
+                                            "def down", 
+                                            "rec down"
+                                        ], 
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "38", 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "57000008", 
+                    "level": 6, 
+                    "name": "ＢＢ・ＳＢＢに「全状態異常を回復」追加", 
+                    "series": "57000000"
                 }
             }
         ]
@@ -13619,11 +14518,13 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "dmg resist turns": 2, 
                                         "effect delay time(ms)/frame": "16.7/1", 
+                                        "proc id": "93", 
+                                        "spark dmg base resist% (145)": 25, 
+                                        "spark dmg buffed resist% (145)": 25, 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "93", 
-                                        "unknown proc param": "0,0,0,0,25,25,2,0"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -14060,11 +14961,13 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "dmg resist turns": 1, 
                                         "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
+                                        "spark dmg base resist% (145)": 25, 
+                                        "spark dmg buffed resist% (145)": 25, 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "93", 
-                                        "unknown proc param": "0,0,0,0,25,25,1,0"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -14379,11 +15282,13 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "dmg resist turns": 1, 
                                         "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
+                                        "strong base element damage resist% (144)": 100, 
+                                        "strong buffed element damage resist% (144)": 100, 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "93", 
-                                        "unknown proc param": "0,0,100,100,0,0,1,0"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -17249,6 +18154,319 @@
             }
         ]
     }, 
+    "40907": {
+        "category": {
+            "1": {
+                "name": "ステアップ系"
+            }, 
+            "10": {
+                "name": "ダメージ軽減系"
+            }, 
+            "11": {
+                "name": "特殊"
+            }
+        }, 
+        "skills": [
+            {
+                "category": "1", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "730002", 
+                "skill": {
+                    "bp": 25, 
+                    "desc": "攻撃力・防御力・回復力・最大ＨＰを４０％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "atk% buff": 40, 
+                                "def% buff": 40, 
+                                "hp% buff": 40, 
+                                "passive id": "1", 
+                                "rec% buff": 40
+                            }
+                        }
+                    ], 
+                    "id": "730002", 
+                    "level": 1, 
+                    "name": "全能力＋４０％", 
+                    "series": "700000"
+                }
+            }, 
+            {
+                "category": "1", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "802001", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "ターン毎に攻撃力・防御力・回復力をアップ（５ターン目まで上昇量が増加する）", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "atk% max buff": 50, 
+                                "def% max buff": 50, 
+                                "increase from min to max": 1, 
+                                "passive id": "105", 
+                                "rec% max buff": 50, 
+                                "turn count": 5
+                            }
+                        }
+                    ], 
+                    "id": "802001", 
+                    "level": 2, 
+                    "name": "ターン毎に攻撃力・防御力・回復力をアップ", 
+                    "series": "802000"
+                }
+            }, 
+            {
+                "category": "10", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "9100003", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "防御貫通効果を無効", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "ignore def resist chance%": 100, 
+                                "passive id": "92"
+                            }
+                        }
+                    ], 
+                    "id": "9100003", 
+                    "level": 2, 
+                    "name": "防御貫通攻撃を無効", 
+                    "series": "9100000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "10800000", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "攻撃力の上限値（９９９９９）を１３００００まで解放する", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "unknown passive id": "143", 
+                                "unknown passive params": "130000"
+                            }
+                        }
+                    ], 
+                    "id": "10800000", 
+                    "level": 4, 
+                    "name": "攻撃力上限突破", 
+                    "series": "10800000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "50002100", 
+                "skill": {
+                    "bp": 30, 
+                    "desc": "ＳＢＢに「味方全体に３ターン、攻撃力に応じて防御力を大幅にアップ」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "% converted turns": 3, 
+                                        "converted attribute": "attack", 
+                                        "def% buff (47)": 70, 
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "24", 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "50002100", 
+                    "level": 3, 
+                    "name": "ＳＢＢに「攻撃力に応じて防御力を大幅にアップ」追加", 
+                    "series": "50002100"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "1@50002100", 
+                "dependency comment": "「ＳＢＢに「攻撃力に応じて防御力を大幅にアップ」追加」習得", 
+                "id": "50002200", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "ＢＢ及びＳＢＢの「味方全体に３ターン、攻撃力に応じて防御力を大幅にアップ」を強化", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "% converted turns": 3, 
+                                        "converted attribute": "attack", 
+                                        "def% buff (47)": 80, 
+                                        "effect delay time(ms)/frame": "16.7/1", 
+                                        "proc id": "24", 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "50002200", 
+                    "level": 3, 
+                    "name": "ＢＢ・ＳＢＢの「攻撃力に応じて防御力を大幅にアップ」効果を強化", 
+                    "series": "50002200"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "30014000", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "ＢＢ及びＳＢＢの「攻撃力・防御力を大幅にアップ」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "atk% buff (1)": 10, 
+                                "buff turns": 0, 
+                                "def% buff (3)": 10, 
+                                "element buffed": "all", 
+                                "proc id": "5"
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "atk% buff (1)": 10, 
+                                "buff turns": 0, 
+                                "def% buff (3)": 10, 
+                                "element buffed": "all", 
+                                "proc id": "5"
+                            }
+                        }
+                    ], 
+                    "id": "30014000", 
+                    "level": 5, 
+                    "name": "ＢＢ・ＳＢＢの「攻撃力・防御力をアップ」効果を強化", 
+                    "series": "30014000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "35002100", 
+                "skill": {
+                    "bp": 30, 
+                    "desc": "ＢＢ及びＳＢＢの「被ダメージ時、確率でＨＰを少し回復」効果量・発動率を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "hp recover from dmg buff turns (133)": 0, 
+                                "hp recover from dmg chance": 10, 
+                                "hp recover from dmg% high": 5, 
+                                "hp recover from dmg% low": 5, 
+                                "proc id": "85"
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "hp recover from dmg buff turns (133)": 0, 
+                                "hp recover from dmg chance": 10, 
+                                "hp recover from dmg% high": 5, 
+                                "hp recover from dmg% low": 5, 
+                                "proc id": "85"
+                            }
+                        }
+                    ], 
+                    "id": "35002100", 
+                    "level": 4, 
+                    "name": "ＢＢ・ＳＢＢの「被ダメージ時、確率ＨＰ回復」の効果量・発動率強化", 
+                    "series": "35002100"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "60050000", 
+                "skill": {
+                    "bp": 35, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体に確率で一度だけ戦闘不能を耐える効果を付与」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "angel idol buff turns (91)": 999, 
+                                        "angel idol recover chance%": 10, 
+                                        "angel idol recover hp%": 1, 
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "56", 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "60050000", 
+                    "level": 6, 
+                    "name": "ＢＢ・ＳＢＢに「確率で一度だけ戦闘不能を耐える効果を付与」追加", 
+                    "series": "60050000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "59005100", 
+                "skill": {
+                    "bp": 35, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体に１ターン、スパークダメージを軽減」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "dmg resist turns": 1, 
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
+                                        "spark dmg base resist% (145)": 25, 
+                                        "spark dmg buffed resist% (145)": 25, 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "59005100", 
+                    "level": 5, 
+                    "name": "ＢＢ・ＳＢＢに「スパークダメージを軽減」追加", 
+                    "series": "59005000"
+                }
+            }
+        ]
+    }, 
     "50017": {
         "category": {
             "11": {
@@ -17713,11 +18931,13 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "crit dmg base damage resist% (143)": 100, 
+                                        "crit dmg buffed damage resist% (143)": 100, 
+                                        "dmg resist turns": 1, 
                                         "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "93", 
-                                        "unknown proc param": "100,100,0,0,0,0,1,0"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -17745,11 +18965,13 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "dmg resist turns": 1, 
                                         "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
+                                        "strong base element damage resist% (144)": 100, 
+                                        "strong buffed element damage resist% (144)": 100, 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "93", 
-                                        "unknown proc param": "0,0,100,100,0,0,1,0"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -21425,11 +22647,13 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "dmg resist turns": 1, 
                                         "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
+                                        "strong base element damage resist% (144)": 100, 
+                                        "strong buffed element damage resist% (144)": 100, 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "93", 
-                                        "unknown proc param": "0,0,100,100,0,0,1,0"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -21797,6 +23021,819 @@
                     "level": 5, 
                     "name": "ＢＢ・ＳＢＢに「スパークダメージを超絶アップ」追加", 
                     "series": "51000000"
+                }
+            }
+        ]
+    }, 
+    "51147": {
+        "category": {
+            "1": {
+                "name": "ステアップ系"
+            }, 
+            "10": {
+                "name": "ダメージ軽減系"
+            }, 
+            "11": {
+                "name": "特殊"
+            }, 
+            "2": {
+                "name": "スパーク系"
+            }
+        }, 
+        "skills": [
+            {
+                "category": "1", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "720001", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "攻撃力・防御力・回復力・最大ＨＰを３０％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "atk% buff": 30, 
+                                "def% buff": 30, 
+                                "hp% buff": 30, 
+                                "passive id": "1", 
+                                "rec% buff": 30
+                            }
+                        }
+                    ], 
+                    "id": "720001", 
+                    "level": 1, 
+                    "name": "全能力＋３０％", 
+                    "series": "700000"
+                }
+            }, 
+            {
+                "category": "2", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "1040004", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "スパークダメージを１００％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "damage% for spark": 100, 
+                                "passive id": "31"
+                            }
+                        }
+                    ], 
+                    "id": "1040004", 
+                    "level": 5, 
+                    "name": "スパークダメージ１００％アップ", 
+                    "series": "1000000"
+                }
+            }, 
+            {
+                "category": "10", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "9300001", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "弱点属性ダメージを無効", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "53", 
+                                "strong base element damage resist%": 100, 
+                                "strong buffed element damage resist%": 100
+                            }
+                        }
+                    ], 
+                    "id": "9300001", 
+                    "level": 4, 
+                    "name": "弱点属性攻撃を無効", 
+                    "series": "9300000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "32000003", 
+                "skill": {
+                    "bp": 25, 
+                    "desc": "ＢＢ及びＳＢＢの「クリティカルダメージをアップ」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "buff turns (84)": 0, 
+                                "crit multiplier%": 25.0, 
+                                "proc id": "54"
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "buff turns (84)": 0, 
+                                "crit multiplier%": 25.0, 
+                                "proc id": "54"
+                            }
+                        }
+                    ], 
+                    "id": "32000003", 
+                    "level": 4, 
+                    "name": "ＢＢ・ＳＢＢの「クリティカルダメージをアップ」効果を強化", 
+                    "series": "32000000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "33001003", 
+                "skill": {
+                    "bp": 25, 
+                    "desc": "ＢＢ及びＳＢＢの「全属性の弱点属性ダメージを大幅にアップ」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "elemental weakness buff turns": 0, 
+                                "elemental weakness multiplier%": 25.0, 
+                                "proc id": "55"
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "elemental weakness buff turns": 0, 
+                                "elemental weakness multiplier%": 25.0, 
+                                "proc id": "55"
+                            }
+                        }
+                    ], 
+                    "id": "33001003", 
+                    "level": 5, 
+                    "name": "ＢＢ・ＳＢＢの「全属性の弱点属性ダメージをアップ」効果を強化", 
+                    "series": "33001000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "51001005", 
+                "skill": {
+                    "bp": 35, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体に３ターン、スパーク時、ＢＢゲージを増加」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "bc fill on spark buff turns (111)": 3, 
+                                        "bc fill on spark high": 3, 
+                                        "bc fill on spark low": 2, 
+                                        "bc fill on spark%": 100, 
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "67", 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "51001005", 
+                    "level": 4, 
+                    "name": "ＢＢ・ＳＢＢに「スパーク時、ＢＢゲージを増加」追加", 
+                    "series": "51001000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "51002001", 
+                "skill": {
+                    "bp": 30, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体に３ターン、スパーク時、ＨＰをかなり回復」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "87", 
+                                        "spark recover hp buff turns (135)": 3, 
+                                        "spark recover hp chance%": 100, 
+                                        "spark recover hp high": 500, 
+                                        "spark recover hp low": 400, 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "51002001", 
+                    "level": 6, 
+                    "name": "ＢＢ・ＳＢＢに「スパーク時、ＨＰをかなり回復」追加", 
+                    "series": "51000000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "51000006", 
+                "skill": {
+                    "bp": 60, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体に３ターン、スパークダメージを超絶アップ」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "buff turns": 3, 
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "23", 
+                                        "spark dmg% buff (40)": 150, 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "51000006", 
+                    "level": 5, 
+                    "name": "ＢＢ・ＳＢＢに「スパークダメージを超絶アップ」追加", 
+                    "series": "51000000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "90001001", 
+                "skill": {
+                    "bp": 30, 
+                    "desc": "ＵＢＢに「味方全体に高確率で一度だけ戦闘不能を耐える効果を付与」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on ubb": true, 
+                                "triggered effect": [
+                                    {
+                                        "angel idol buff turns (91)": 999, 
+                                        "angel idol recover chance%": 80, 
+                                        "angel idol recover hp%": 100, 
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "56", 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "90001001", 
+                    "level": 6, 
+                    "name": "ＵＢＢに「高確率で一度だけ戦闘不能を耐える効果を付与」追加", 
+                    "series": "90001000"
+                }
+            }
+        ]
+    }, 
+    "51157": {
+        "category": {
+            "1": {
+                "name": "ステアップ系"
+            }, 
+            "11": {
+                "name": "特殊"
+            }, 
+            "5": {
+                "name": "ＢＢゲージ系"
+            }
+        }, 
+        "skills": [
+            {
+                "category": "1", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "280001", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "残りＨＰが多いほど、防御力をかなりアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "buff proportional to hp": "remaining", 
+                                "def% base buff": 0, 
+                                "def% extra buff based on hp": 80, 
+                                "passive id": "46"
+                            }
+                        }
+                    ], 
+                    "id": "280001", 
+                    "level": 1, 
+                    "name": "残りＨＰが多いほど、防御力をアップ", 
+                    "series": "280000"
+                }
+            }, 
+            {
+                "category": "5", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "4310001", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "ＢＢ発動に必要なＢＢゲージ量を少し軽減", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "48", 
+                                "reduced bb bc cost%": 10
+                            }
+                        }
+                    ], 
+                    "id": "4310001", 
+                    "level": 3, 
+                    "name": "ＢＢ発動に必要なＢＢゲージ量を少し軽減", 
+                    "series": "4300000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "20005000", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "リーダースキルの「回復力・最大ＨＰを５０％アップ」を６０％にグレードアップ", 
+                    "effects": [
+                        {
+                            "add to passive": {
+                                "hp% buff": 10, 
+                                "passive id": "1", 
+                                "rec% buff": 10
+                            }
+                        }
+                    ], 
+                    "id": "20005000", 
+                    "level": 1, 
+                    "name": "リーダースキル「回復力・最大ＨＰを５０％アップ」効果を強化", 
+                    "series": "20005000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "39001003", 
+                "skill": {
+                    "bp": 40, 
+                    "desc": "ＢＢ及びＳＢＢの「被ダメージを半分に軽減」の効果継続ターン数が２ターンになる", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "dmg% reduction": 0, 
+                                "dmg% reduction turns (36)": 1, 
+                                "proc id": "18"
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "dmg% reduction": 0, 
+                                "dmg% reduction turns (36)": 1, 
+                                "proc id": "18"
+                            }
+                        }
+                    ], 
+                    "id": "39001003", 
+                    "level": 6, 
+                    "name": "ＢＢ・ＳＢＢの「被ダメージを半減」効果継続ターンが２ターンになる", 
+                    "series": "39001000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "35000201", 
+                "skill": {
+                    "bp": 40, 
+                    "desc": "ＢＢ及びＳＢＢの「ターン毎にＨＰを大回復」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "gradual heal high": 1000, 
+                                "gradual heal low": 1000, 
+                                "gradual heal turns (8)": 0, 
+                                "proc id": "3", 
+                                "rec added% (from target)": 10.0
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "gradual heal high": 1000, 
+                                "gradual heal low": 1000, 
+                                "gradual heal turns (8)": 0, 
+                                "proc id": "3", 
+                                "rec added% (from target)": 10.0
+                            }
+                        }
+                    ], 
+                    "id": "35000201", 
+                    "level": 4, 
+                    "name": "ＢＢ・ＳＢＢの「ターン毎にＨＰを回復」効果を強化", 
+                    "series": "35000000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "57004002", 
+                "skill": {
+                    "bp": 50, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体に３ターン、全状態異常を無効」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "17", 
+                                        "resist curse% (34)": 100.0, 
+                                        "resist injury% (33)": 100.0, 
+                                        "resist paralysis% (35)": 100.0, 
+                                        "resist poison% (30)": 100.0, 
+                                        "resist sick% (32)": 100.0, 
+                                        "resist status ails turns": 3, 
+                                        "resist weaken% (31)": 100.0, 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "57004002", 
+                    "level": 4, 
+                    "name": "ＢＢ・ＳＢＢに「全状態異常を無効」追加", 
+                    "series": "57004000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "50004001", 
+                "skill": {
+                    "bp": 30, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体に３ターン、回復力に応じて防御力をかなりアップ」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "% converted turns": 3, 
+                                        "converted attribute": "recovery", 
+                                        "def% buff (47)": 60, 
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "24", 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "50004001", 
+                    "level": 6, 
+                    "name": "ＢＢ・ＳＢＢに「回復力に応じて防御力をかなりアップ」追加", 
+                    "series": "50004000"
+                }
+            }
+        ]
+    }, 
+    "51167": {
+        "category": {
+            "1": {
+                "name": "ステアップ系"
+            }, 
+            "10": {
+                "name": "ダメージ軽減系"
+            }, 
+            "11": {
+                "name": "特殊"
+            }, 
+            "2": {
+                "name": "スパーク系"
+            }
+        }, 
+        "skills": [
+            {
+                "category": "1", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "550101", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "攻撃力・最大ＨＰを３０％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "atk% buff": 30, 
+                                "hp% buff": 30, 
+                                "passive id": "1"
+                            }
+                        }
+                    ], 
+                    "id": "550101", 
+                    "level": 2, 
+                    "name": "攻撃力・最大ＨＰ＋３０％", 
+                    "series": "500000"
+                }
+            }, 
+            {
+                "category": "1", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "270100", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "ＢＢゲージが半分以上の時、攻撃力・防御力をアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "atk% buff": 50, 
+                                "bb gauge above % buff requirement": 50, 
+                                "def% buff": 50, 
+                                "passive id": "30"
+                            }
+                        }
+                    ], 
+                    "id": "270100", 
+                    "level": 4, 
+                    "name": "ＢＢゲージが半分以上の時、攻撃力・防御力をアップ", 
+                    "series": "270000"
+                }
+            }, 
+            {
+                "category": "2", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "1040004", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "スパークダメージを１００％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "damage% for spark": 100, 
+                                "passive id": "31"
+                            }
+                        }
+                    ], 
+                    "id": "1040004", 
+                    "level": 5, 
+                    "name": "スパークダメージ１００％アップ", 
+                    "series": "1000000"
+                }
+            }, 
+            {
+                "category": "2", 
+                "dependency": "1@1040004", 
+                "dependency comment": "「スパークダメージ１００％アップ」習得", 
+                "id": "1000502", 
+                "skill": {
+                    "bp": 15, 
+                    "desc": "スパークダメージを１００％アップを１２０％にグレードアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "damage% for spark": 120, 
+                                "passive id": "31"
+                            }
+                        }
+                    ], 
+                    "id": "1000502", 
+                    "level": 6, 
+                    "name": "スパークダメージ１００％→１２０％", 
+                    "series": "1000000"
+                }
+            }, 
+            {
+                "category": "10", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "9200002", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "クリティカルを無効", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "crit chance base resist%": 100, 
+                                "crit chance buffed resist%": 100, 
+                                "crit dmg base damage resist%": 100, 
+                                "crit dmg buffed damage resist%": 100, 
+                                "passive id": "53"
+                            }
+                        }
+                    ], 
+                    "id": "9200002", 
+                    "level": 4, 
+                    "name": "クリティカルダメージ無効", 
+                    "series": "9200000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "10800000", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "攻撃力の上限値（９９９９９）を１３００００まで解放する", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "unknown passive id": "143", 
+                                "unknown passive params": "130000"
+                            }
+                        }
+                    ], 
+                    "id": "10800000", 
+                    "level": 4, 
+                    "name": "攻撃力上限突破", 
+                    "series": "10800000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "35000300", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "ＢＢの「ターン毎にＨＰを大回復」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "gradual heal high": 1000, 
+                                "gradual heal low": 1000, 
+                                "gradual heal turns (8)": 0, 
+                                "proc id": "3", 
+                                "rec added% (from target)": 10.0
+                            }
+                        }
+                    ], 
+                    "id": "35000300", 
+                    "level": 4, 
+                    "name": "ＢＢの「ターン毎にＨＰを回復」効果を強化", 
+                    "series": "35000100"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "1@35000300", 
+                "dependency comment": "「ＢＢの「ターン毎にＨＰを回復」効果を強化」習得", 
+                "id": "34002101", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "ＢＢの「ターン毎にＢＢゲージを大幅に増加」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "increase bb gauge gradual": 2, 
+                                "increase bb gauge gradual turns (37)": 0, 
+                                "proc id": "19"
+                            }
+                        }
+                    ], 
+                    "id": "34002101", 
+                    "level": 1, 
+                    "name": "ＢＢの「ターン毎にＢＢゲージを増加」効果を強化", 
+                    "series": "34002000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "31000103", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "ＢＢ及びＳＢＢの「スパークダメージを超絶アップ」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to bb": {
+                                "buff turns": 0, 
+                                "proc id": "23", 
+                                "spark dmg% buff (40)": 20
+                            }
+                        }, 
+                        {
+                            "add to sbb": {
+                                "buff turns": 0, 
+                                "proc id": "23", 
+                                "spark dmg% buff (40)": 20
+                            }
+                        }
+                    ], 
+                    "id": "31000103", 
+                    "level": 5, 
+                    "name": "ＢＢ・ＳＢＢの「スパークダメージをアップ」効果を強化", 
+                    "series": "31000100"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "57008002", 
+                "skill": {
+                    "bp": 35, 
+                    "desc": "ＢＢ及びＳＢＢに「敵全体に確率で攻撃力・防御力を１ターン大幅に低下」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "buff #1": {
+                                            "atk% buff (2)": -50, 
+                                            "proc chance%": 30.0
+                                        }, 
+                                        "buff #2": {
+                                            "def% buff (4)": -50, 
+                                            "proc chance%": 30.0
+                                        }, 
+                                        "buff turns": 1, 
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "element buffed": "all", 
+                                        "proc id": "9", 
+                                        "target area": "aoe", 
+                                        "target type": "enemy"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "57008002", 
+                    "level": 4, 
+                    "name": "ＢＢ・ＳＢＢに「確率で攻撃力・防御力を大幅に低下」追加", 
+                    "series": "57008000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "51004005", 
+                "skill": {
+                    "bp": 35, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体に３ターン、確率でスパーククリティカルが発生」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "83", 
+                                        "spark dmg inc buff turns (131)": 3, 
+                                        "spark dmg inc chance%": 30, 
+                                        "spark dmg inc% buff": 50, 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "51004005", 
+                    "level": 4, 
+                    "name": "ＢＢ・ＳＢＢに「確率でスパーククリティカルが発生」追加", 
+                    "series": "51004000"
                 }
             }
         ]
@@ -23569,11 +25606,12 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "aoe atk inc%": 0, 
+                                        "chance to aoe": 100, 
                                         "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "94", 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "94", 
-                                        "unknown proc param": "0,100,3"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -25642,11 +27680,13 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "dmg resist turns": 1, 
                                         "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
+                                        "strong base element damage resist% (144)": 100, 
+                                        "strong buffed element damage resist% (144)": 100, 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "93", 
-                                        "unknown proc param": "0,0,100,100,0,0,1,0"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -25674,11 +27714,13 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "crit dmg base damage resist% (143)": 100, 
+                                        "crit dmg buffed damage resist% (143)": 100, 
+                                        "dmg resist turns": 1, 
                                         "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "93", 
-                                        "unknown proc param": "100,100,0,0,0,0,1,0"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -25756,11 +27798,13 @@
                                 "trigger on sbb": true, 
                                 "triggered effect": [
                                     {
+                                        "dmg resist turns": 1, 
                                         "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "93", 
+                                        "spark dmg base resist% (145)": 25, 
+                                        "spark dmg buffed resist% (145)": 25, 
                                         "target area": "aoe", 
-                                        "target type": "party", 
-                                        "unknown proc id": "93", 
-                                        "unknown proc param": "0,0,0,0,25,25,1,0"
+                                        "target type": "party"
                                     }
                                 ]
                             }
@@ -25804,6 +27848,195 @@
                     "level": 5, 
                     "name": "ＢＢ・ＳＢＢに「攻撃力に応じて防御力を大幅にアップ」追加", 
                     "series": "50002000"
+                }
+            }
+        ]
+    }, 
+    "61117": {
+        "category": {
+            "1": {
+                "name": "ステアップ系"
+            }, 
+            "11": {
+                "name": "特殊"
+            }, 
+            "2": {
+                "name": "スパーク系"
+            }
+        }, 
+        "skills": [
+            {
+                "category": "1", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "800000", 
+                "skill": {
+                    "bp": 10, 
+                    "desc": "ＢＢゲージが満タン時、攻撃力・防御力・回復力をアップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "atk% buff": 50, 
+                                "bb gauge above % buff requirement": 100, 
+                                "def% buff": 50, 
+                                "passive id": "30", 
+                                "rec% buff": 50
+                            }
+                        }
+                    ], 
+                    "id": "800000", 
+                    "level": 1, 
+                    "name": "ＢＢゲージが満タン時、攻撃力・防御力・回復力アップ", 
+                    "series": "800000"
+                }
+            }, 
+            {
+                "category": "2", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "1030000", 
+                "skill": {
+                    "bp": 40, 
+                    "desc": "スパークダメージを７０％アップ", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "damage% for spark": 70, 
+                                "passive id": "31"
+                            }
+                        }
+                    ], 
+                    "id": "1030000", 
+                    "level": 4, 
+                    "name": "スパークダメージ７０％アップ", 
+                    "series": "1000000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "20001100", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "リーダースキルの「最大ＨＰを５０％アップ」を６０％にグレードアップ", 
+                    "effects": [
+                        {
+                            "add to passive": {
+                                "hp% buff": 10, 
+                                "passive id": "1"
+                            }
+                        }
+                    ], 
+                    "id": "20001100", 
+                    "level": 6, 
+                    "name": "リーダースキル「最大ＨＰを５０％アップ」効果を強化", 
+                    "series": "20001000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "20230100", 
+                "skill": {
+                    "bp": 20, 
+                    "desc": "リーダースキルの「スパークダメージを１００％アップ」を１２０％にグレードアップ", 
+                    "effects": [
+                        {
+                            "add to passive": {
+                                "damage% for spark": 20, 
+                                "passive id": "31"
+                            }
+                        }
+                    ], 
+                    "id": "20230100", 
+                    "level": 4, 
+                    "name": "リーダースキル「スパークダメージを１００％アップ」効果を強化", 
+                    "series": "20200000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "31000200", 
+                "skill": {
+                    "bp": 40, 
+                    "desc": "ＳＢＢの「スパークダメージを超絶アップ」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to sbb": {
+                                "buff turns": 0, 
+                                "proc id": "23", 
+                                "spark dmg% buff (40)": 30
+                            }
+                        }
+                    ], 
+                    "id": "31000200", 
+                    "level": 5, 
+                    "name": "ＳＢＢの「スパークダメージをアップ」効果を強化", 
+                    "series": "31000100"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "33002100", 
+                "skill": {
+                    "bp": 40, 
+                    "desc": "ＳＢＢの「攻撃ＢＢの威力を大幅にアップ」効果量を増加", 
+                    "effects": [
+                        {
+                            "add to sbb": {
+                                "bb atk% buff": 100, 
+                                "buff turns (72)": 0, 
+                                "proc id": "45", 
+                                "sbb atk% buff": 100, 
+                                "ubb atk% buff": 100
+                            }
+                        }
+                    ], 
+                    "id": "33002100", 
+                    "level": 4, 
+                    "name": "ＳＢＢの「攻撃ＢＢの威力をアップ」効果を強化", 
+                    "series": "33002000"
+                }
+            }, 
+            {
+                "category": "11", 
+                "dependency": "", 
+                "dependency comment": "", 
+                "id": "51001004", 
+                "skill": {
+                    "bp": 50, 
+                    "desc": "ＢＢ及びＳＢＢに「味方全体に３ターン、スパーク時、ＢＢゲージを増加」を追加", 
+                    "effects": [
+                        {
+                            "passive": {
+                                "passive id": "66", 
+                                "trigger on bb": true, 
+                                "trigger on sbb": true, 
+                                "triggered effect": [
+                                    {
+                                        "bc fill on spark buff turns (111)": 3, 
+                                        "bc fill on spark high": 3, 
+                                        "bc fill on spark low": 2, 
+                                        "bc fill on spark%": 100, 
+                                        "effect delay time(ms)/frame": "0.0/0", 
+                                        "proc id": "67", 
+                                        "target area": "aoe", 
+                                        "target type": "party"
+                                    }
+                                ]
+                            }
+                        }
+                    ], 
+                    "id": "51001004", 
+                    "level": 4, 
+                    "name": "ＢＢ・ＳＢＢに「スパーク時、ＢＢゲージを増加」追加", 
+                    "series": "51001000"
                 }
             }
         ]
