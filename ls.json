@@ -15233,6 +15233,62 @@
         ], 
         "name": "Imperial Authority"
     }, 
+    "760226": {
+        "desc": "50% boost to max HP, 100% boost to Spark damage & boosts Atk, Def, Rec relative to remaining HP", 
+        "effects": [
+            {
+                "hp% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "atk% base buff": 20, 
+                "atk% extra buff based on hp": 30, 
+                "buff proportional to hp": "remaining", 
+                "def% base buff": 20, 
+                "def% extra buff based on hp": 30, 
+                "passive id": "46", 
+                "rec% base buff": 20, 
+                "rec% extra buff based on hp": 30
+            }, 
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }
+        ], 
+        "name": "Ironclad Defense"
+    }, 
+    "760227": {
+        "desc": "60% boost to max HP, 130% boost to Spark damage, boosts Atk, Def, Rec relative to remaining HP & slightly reduces damage taken for 2 turns when Sparks exceed certain amount", 
+        "effects": [
+            {
+                "hp% buff": 60, 
+                "passive id": "1"
+            }, 
+            {
+                "atk% base buff": 20, 
+                "atk% extra buff based on hp": 40, 
+                "buff proportional to hp": "remaining", 
+                "def% base buff": 20, 
+                "def% extra buff based on hp": 40, 
+                "passive id": "46", 
+                "rec% base buff": 20, 
+                "rec% extra buff based on hp": 40
+            }, 
+            {
+                "damage% for spark": 130, 
+                "passive id": "31"
+            }, 
+            {
+                "buff": {
+                    "buff turns (36)": "1", 
+                    "dmg reduction% buff": 20
+                }, 
+                "passive id": "86", 
+                "spark count buff activation": 15
+            }
+        ], 
+        "name": "Impregnable Defense"
+    }, 
     "7900": {
         "desc": "\u6b8b\u308a\uff28\uff30\u304c\u591a\u3044\u307b\u3069\u3001\u653b\u6483\u529b\u3092\u304b\u306a\u308a\u30a2\u30c3\u30d7\uff06\u30bf\u30fc\u30f3\u6bce\u306b\uff22\uff22\u30b2\u30fc\u30b8\u3092\u5897\u52a0", 
         "effects": [
