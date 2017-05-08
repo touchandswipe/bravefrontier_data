@@ -4320,6 +4320,58 @@
         "name": "Mighty Blaze Griff", 
         "rarity": 6
     }, 
+    "10676": {
+        "amount": 3000000, 
+        "evo": {
+            "id": 10677, 
+            "name": "Furious General Griff", 
+            "rarity": 8
+        }, 
+        "mats": [
+            {
+                "id": "10354", 
+                "name": "Fire Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "10354", 
+                "name": "Fire Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "10133", 
+                "name": "Fire Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "10191", 
+                "name": "Fire Pot", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "110100", 
+                "name": "Legend Stone", 
+                "type": "item"
+            }
+        ], 
+        "name": "Indomitable Flare Griff", 
+        "rarity": 7
+    }, 
     "10684": {
         "amount": 500000, 
         "evo": {
@@ -10084,6 +10136,58 @@
         "name": "Azure Queen Iris", 
         "rarity": 6
     }, 
+    "20636": {
+        "amount": 3000000, 
+        "evo": {
+            "id": 20637, 
+            "name": "Oceanic Mirror Iris", 
+            "rarity": 8
+        }, 
+        "mats": [
+            {
+                "id": "20344", 
+                "name": "Water Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "20344", 
+                "name": "Water Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "20133", 
+                "name": "Water Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "20191", 
+                "name": "Water Pot", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "110100", 
+                "name": "Legend Stone", 
+                "type": "item"
+            }
+        ], 
+        "name": "Indigo Soul Iris", 
+        "rarity": 7
+    }, 
     "20644": {
         "amount": 500000, 
         "evo": {
@@ -11716,7 +11820,7 @@
         "amount": 3000000, 
         "evo": {
             "id": 20987, 
-            "name": "\u661f\u523b\u795e\u30a2\u30e0\uff1d\u30e6\u30ce\u30b9", 
+            "name": "Cosmic Being Amu Yunos", 
             "rarity": 8
         }, 
         "mats": [
@@ -11761,7 +11865,7 @@
                 "type": "unit"
             }
         ], 
-        "name": "\u798d\u9b54\u523b\u795e\u30a2\u30e0\uff1d\u30e6\u30ce\u30b9", 
+        "name": "Calamity Demon Amu Yunos", 
         "rarity": 7
     }, 
     "30011": {
@@ -22925,7 +23029,7 @@
         "amount": 3000000, 
         "evo": {
             "id": 40907, 
-            "name": "\u5929\u6975\u696d\u93a7\u30d9\u30a4\u30aa\u30eb\u30b0", 
+            "name": "Celestial Plate Beiorg", 
             "rarity": 8
         }, 
         "mats": [
@@ -22970,7 +23074,7 @@
                 "type": "unit"
             }
         ], 
-        "name": "\u696d\u6ec5\u96f7\u93a7\u30d9\u30a4\u30aa\u30eb\u30b0", 
+        "name": "Tech Armor Beiorg", 
         "rarity": 7
     }, 
     "50011": {
@@ -28983,7 +29087,7 @@
         "amount": 3000000, 
         "evo": {
             "id": 51167, 
-            "name": "\u7114\u6d0c\u306e\u6804\u8f1d\u795e\u30e2\u30fc\u30e9", 
+            "name": "Glorious Shine Mora", 
             "rarity": 8
         }, 
         "mats": [
@@ -29028,7 +29132,7 @@
                 "type": "unit"
             }
         ], 
-        "name": "\u95c7\u9b54\u4ed9\u795e\u30e2\u30fc\u30e9", 
+        "name": "Guile Demon Mora", 
         "rarity": 7
     }, 
     "60011": {
@@ -35056,6 +35160,58 @@
         "name": "Pioneering Leader Shion", 
         "rarity": 7
     }, 
+    "750166": {
+        "amount": 3000000, 
+        "evo": {
+            "id": 750167, 
+            "name": "Dark Path Arthur", 
+            "rarity": 8
+        }, 
+        "mats": [
+            {
+                "id": "50394", 
+                "name": "Light Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50394", 
+                "name": "Light Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "850034", 
+                "name": "Light Bulb", 
+                "type": "unit"
+            }, 
+            {
+                "id": "850034", 
+                "name": "Light Bulb", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "110100", 
+                "name": "Legend Stone", 
+                "type": "item"
+            }
+        ], 
+        "name": "Avalon Arthur", 
+        "rarity": 7
+    }, 
     "760226": {
         "amount": 3000000, 
         "evo": {
@@ -37085,6 +37241,58 @@
         ], 
         "name": "Sonata Kaito", 
         "rarity": 5
+    }, 
+    "820277": {
+        "amount": 3000000, 
+        "evo": {
+            "id": 820278, 
+            "name": "Tidal Stormsurge Galea", 
+            "rarity": 8
+        }, 
+        "mats": [
+            {
+                "id": "20344", 
+                "name": "Water Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "20344", 
+                "name": "Water Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "20133", 
+                "name": "Water Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "20133", 
+                "name": "Water Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "20133", 
+                "name": "Water Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "110100", 
+                "name": "Legend Stone", 
+                "type": "item"
+            }
+        ], 
+        "name": "Storm Shatterer Galea", 
+        "rarity": 7
     }, 
     "820315": {
         "amount": 500000, 
