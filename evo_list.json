@@ -5948,6 +5948,58 @@
         "name": "Purifying Flame Rugahr", 
         "rarity": 7
     }, 
+    "11056": {
+        "amount": 3000000, 
+        "evo": {
+            "id": 11057, 
+            "name": "Draconic Emperor Barion", 
+            "rarity": 8
+        }, 
+        "mats": [
+            {
+                "id": "10354", 
+                "name": "Fire Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "10354", 
+                "name": "Fire Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "10133", 
+                "name": "Fire Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Dragon Demon Barion", 
+        "rarity": 7
+    }, 
     "20011": {
         "amount": 2500, 
         "evo": {
@@ -11137,7 +11189,7 @@
         "amount": 3000000, 
         "evo": {
             "id": 20817, 
-            "name": "\u795e\u5239\u306e\u6d41\u8fc5\u9a0e\u30d5\u30a3\u30fc\u30c0", 
+            "name": "神刹の流迅騎フィーダ", 
             "rarity": 8
         }, 
         "mats": [
@@ -11182,7 +11234,7 @@
                 "type": "unit"
             }
         ], 
-        "name": "\u6c34\u5239\u306e\u65ac\u7f85\u795e\u30d5\u30a3\u30fc\u30c0", 
+        "name": "水刹の斬羅神フィーダ", 
         "rarity": 7
     }, 
     "20826": {
@@ -11679,7 +11731,7 @@
         "amount": 1500000, 
         "evo": {
             "id": 20956, 
-            "name": "\u30af\u30ed\u30fc\u30c7\u30a3\u30a2", 
+            "name": "クローディア", 
             "rarity": 7
         }, 
         "mats": [
@@ -11709,7 +11761,7 @@
                 "type": "unit"
             }
         ], 
-        "name": "\u30af\u30ed\u30fc\u30c7\u30a3\u30a2", 
+        "name": "クローディア", 
         "rarity": 6
     }, 
     "20966": {
@@ -17563,6 +17615,58 @@
             }
         ], 
         "name": "Watchful Eyes Baro", 
+        "rarity": 7
+    }, 
+    "30946": {
+        "amount": 3000000, 
+        "evo": {
+            "id": 30947, 
+            "name": "Sacred Flora Mordlim", 
+            "rarity": 8
+        }, 
+        "mats": [
+            {
+                "id": "30334", 
+                "name": "Earth Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "30334", 
+                "name": "Earth Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "30133", 
+                "name": "Earth Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60144", 
+                "name": "Dragon Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }
+        ], 
+        "name": "Nature Demon Mordlim", 
         "rarity": 7
     }, 
     "40011": {
@@ -35379,7 +35483,7 @@
         "amount": 200000, 
         "evo": {
             "id": 810045, 
-            "name": "Titan Wing\u00a0Blaze", 
+            "name": "Titan Wing Blaze", 
             "rarity": 5
         }, 
         "mats": [
@@ -38324,6 +38428,58 @@
         "name": "Black Enforcer Nyala", 
         "rarity": 6
     }, 
+    "830377": {
+        "amount": 3000000, 
+        "evo": {
+            "id": 830378, 
+            "name": "Dizzy", 
+            "rarity": 8
+        }, 
+        "mats": [
+            {
+                "id": "30334", 
+                "name": "Earth Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "30334", 
+                "name": "Earth Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "30133", 
+                "name": "Earth Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "30133", 
+                "name": "Earth Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "110100", 
+                "name": "Legend Stone", 
+                "type": "item"
+            }
+        ], 
+        "name": "Dizzy", 
+        "rarity": 7
+    }, 
     "830417": {
         "amount": 3000000, 
         "evo": {
@@ -39561,6 +39717,58 @@
         "name": "Hallelujah", 
         "rarity": 7
     }, 
+    "840377": {
+        "amount": 3000000, 
+        "evo": {
+            "id": 840378, 
+            "name": "Millia", 
+            "rarity": 8
+        }, 
+        "mats": [
+            {
+                "id": "40334", 
+                "name": "Thunder Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "40334", 
+                "name": "Thunder Mecha God", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "50354", 
+                "name": "Miracle Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "40133", 
+                "name": "Thunder Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "40133", 
+                "name": "Thunder Totem", 
+                "type": "unit"
+            }, 
+            {
+                "id": "60224", 
+                "name": "Metal Mimic", 
+                "type": "unit"
+            }, 
+            {
+                "id": "110100", 
+                "name": "Legend Stone", 
+                "type": "item"
+            }
+        ], 
+        "name": "Millia", 
+        "rarity": 7
+    }, 
     "840397": {
         "amount": 7133700, 
         "evo": {
@@ -40669,7 +40877,7 @@
         "amount": 3000000, 
         "evo": {
             "id": 850278, 
-            "name": "Omni Mechamagoi Ceulfan", 
+            "name": "Grandmagos Ceulfan", 
             "rarity": 8
         }, 
         "mats": [
