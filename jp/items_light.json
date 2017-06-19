@@ -87,6 +87,17 @@
         "thumbnail": "item_thum_105.png", 
         "type": "material"
     }, 
+    "10008": {
+        "desc": "異界ロッカザルムに群生する魔力を含んだ霊草", 
+        "id": 10008, 
+        "max_stack": 99, 
+        "name": "永世の霊草", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 50, 
+        "thumbnail": "item_thum_104.png", 
+        "type": "material"
+    }, 
     "10100": {
         "desc": "様々な地域を旅するテオという渡り鳥の羽が自然に抜け落ちたもの", 
         "id": 10100, 
@@ -415,6 +426,17 @@
         "rarity": 0, 
         "sell_price": 10, 
         "thumbnail": "item_thum_305.png", 
+        "type": "material"
+    }, 
+    "10211": {
+        "desc": "ロッカザルムで自生が確認されている木の実", 
+        "id": 10211, 
+        "max_stack": 99, 
+        "name": "泡錯の実", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10, 
+        "thumbnail": "item_thum_303.png", 
         "type": "material"
     }, 
     "10300": {
@@ -824,6 +846,17 @@
         "thumbnail": "item_thum_505.png", 
         "type": "material"
     }, 
+    "10425": {
+        "desc": "竜の爪よりも強靭な亜竜鳥の蹴爪", 
+        "id": 10425, 
+        "max_stack": 99, 
+        "name": "亜竜鳥の爪", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10, 
+        "thumbnail": "item_thum_500.png", 
+        "type": "material"
+    }, 
     "10500": {
         "desc": "各地で入手可能な緑色をした巨獣の牙の化石", 
         "id": 10500, 
@@ -1009,6 +1042,17 @@
         "rarity": 0, 
         "sell_price": 10, 
         "thumbnail": "item_thum_601.png", 
+        "type": "material"
+    }, 
+    "10520": {
+        "desc": "竜気が実体化した牙のごとく鋭い一対の結晶体", 
+        "id": 10520, 
+        "max_stack": 99, 
+        "name": "竜牙双晶", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10, 
+        "thumbnail": "item_thum_606.png", 
         "type": "material"
     }, 
     "10600": {
@@ -1396,6 +1440,17 @@
         "thumbnail": "item_thum_705.png", 
         "type": "material"
     }, 
+    "10635": {
+        "desc": "ヴァルドロアで稀に見つかる神秘的な宝玉", 
+        "id": 10635, 
+        "max_stack": 99, 
+        "name": "瞳中幻竜", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 50, 
+        "thumbnail": "item_thum_704.png", 
+        "type": "material"
+    }, 
     "10700": {
         "desc": "薄い緑色をしたありふれた獣の皮", 
         "id": 10700, 
@@ -1781,6 +1836,28 @@
         "thumbnail": "item_thum_802.png", 
         "type": "material"
     }, 
+    "10737": {
+        "desc": "ロッカザルムにある巨大洞窟の内壁の一部", 
+        "id": 10737, 
+        "max_stack": 99, 
+        "name": "巨窟の壮壁", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 50, 
+        "thumbnail": "item_thum_806.png", 
+        "type": "material"
+    }, 
+    "10738": {
+        "desc": "究極龍ビシャモンの巨大な翼", 
+        "id": 10738, 
+        "max_stack": 99, 
+        "name": "深淵の翼", 
+        "raid": true, 
+        "rarity": 0, 
+        "sell_price": 50, 
+        "thumbnail": "item_thum_205.png", 
+        "type": "material"
+    }, 
     "10800": {
         "desc": "緑色をした巨獣の骨", 
         "id": 10800, 
@@ -2023,6 +2100,17 @@
         "thumbnail": "item_thum_904.png", 
         "type": "material"
     }, 
+    "10824": {
+        "desc": "歳月を経ても劣化することのない竜の骨", 
+        "id": 10824, 
+        "max_stack": 99, 
+        "name": "永劫竜骨", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 50, 
+        "thumbnail": "item_thum_906.png", 
+        "type": "material"
+    }, 
     "10900": {
         "desc": "小型で緑色の瓢虫", 
         "id": 10900, 
@@ -2164,6 +2252,17 @@
         "rarity": 0, 
         "sell_price": 10, 
         "thumbnail": "item_thum_1004.png", 
+        "type": "material"
+    }, 
+    "10913": {
+        "desc": "ロッカザルムに生息する特殊な体液を持つ虫", 
+        "id": 10913, 
+        "max_stack": 99, 
+        "name": "蒼仄零虫", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 50, 
+        "thumbnail": "item_thum_1001.png", 
         "type": "material"
     }, 
     "11000": {
@@ -2881,71 +2980,203 @@
         "thumbnail": "item_thum_1104.png", 
         "type": "material"
     }, 
+    "11049": {
+        "desc": "魔動人形の残骸の中よりごく稀に発見される結晶", 
+        "id": 11049, 
+        "max_stack": 99, 
+        "name": "鎧鳴の結晶", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 50, 
+        "thumbnail": "item_thum_1102.png", 
+        "type": "material"
+    }, 
+    "11050": {
+        "desc": "二柱の神が纏っていた装身具の破片", 
+        "id": 11050, 
+        "max_stack": 99, 
+        "name": "神飾の聖片", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 10, 
+        "thumbnail": "item_thum_1105.png", 
+        "type": "material"
+    }, 
     "120000": {
-        "desc": "クエストクリア時の獲得経験値が１．５倍になる", 
+        "desc": "クエストクリア時の獲得経験値が１.５倍になる", 
+        "effect": {
+            "effect": [
+                {
+                    "unknown proc id": "79", 
+                    "unknown proc param": "50"
+                }
+            ], 
+            "target_area": "aoe", 
+            "target_type": "party"
+        }, 
         "id": 120000, 
+        "max equipped": 1, 
         "max_stack": 99, 
         "name": "経験の証", 
         "raid": false, 
         "rarity": 0, 
         "sell_price": 500, 
         "thumbnail": "item_thum_90000.png", 
-        "type": null
+        "type": "summoner_consumable"
     }, 
     "120001": {
         "desc": "クエストクリア時の獲得経験値が２倍になる", 
+        "effect": {
+            "effect": [
+                {
+                    "unknown proc id": "79", 
+                    "unknown proc param": "100"
+                }
+            ], 
+            "target_area": "aoe", 
+            "target_type": "party"
+        }, 
         "id": 120001, 
+        "max equipped": 1, 
         "max_stack": 99, 
         "name": "経験輝証", 
         "raid": false, 
         "rarity": 0, 
         "sell_price": 1000, 
         "thumbnail": "item_thum_90100.png", 
-        "type": null
+        "type": "summoner_consumable"
     }, 
     "120010": {
-        "desc": "マップ上で使用するとレイドバトルクリア時の素材ドロップ率が１．５倍になる", 
+        "desc": "マップ上で使用するとレイドバトルクリア時の素材ドロップ率が１.５倍になる", 
+        "effect": {
+            "effect": [
+                {
+                    "unknown proc id": "908", 
+                    "unknown proc param": "50"
+                }
+            ], 
+            "target_area": "aoe", 
+            "target_type": "party"
+        }, 
         "id": 120010, 
+        "max equipped": 1, 
         "max_stack": 99, 
         "name": "幸運の証", 
         "raid": true, 
         "rarity": 0, 
         "sell_price": 500, 
         "thumbnail": "item_thum_91000.png", 
-        "type": null
+        "type": "summoner_consumable"
     }, 
     "120011": {
         "desc": "マップ上で使用するとレイドバトルクリア時の素材ドロップ率が２倍になる", 
+        "effect": {
+            "effect": [
+                {
+                    "unknown proc id": "908", 
+                    "unknown proc param": "100"
+                }
+            ], 
+            "target_area": "aoe", 
+            "target_type": "party"
+        }, 
         "id": 120011, 
+        "max equipped": 1, 
         "max_stack": 99, 
         "name": "幸運輝証", 
         "raid": true, 
         "rarity": 0, 
         "sell_price": 1000, 
         "thumbnail": "item_thum_91100.png", 
-        "type": null
+        "type": "summoner_consumable"
     }, 
     "130000": {
-        "desc": "使用後３０分間、クエストクリア時の獲得経験値が１．５倍になる", 
+        "desc": "使用後３０分間、クエストクリア時の獲得経験値が１.５倍になる", 
+        "effect": {
+            "effect": [
+                {
+                    "unknown proc id": "79", 
+                    "unknown proc param": "50,30"
+                }
+            ], 
+            "target_area": "aoe", 
+            "target_type": "party"
+        }, 
         "id": 130000, 
+        "max equipped": 1, 
         "max_stack": 99, 
         "name": "経験の水", 
         "raid": false, 
         "rarity": 0, 
         "sell_price": 500, 
         "thumbnail": "item_thum_92000.png", 
-        "type": null
+        "type": "summoner_consumable"
     }, 
     "130001": {
         "desc": "使用後３０分間、クエストクリア時の獲得経験値が２倍になる", 
+        "effect": {
+            "effect": [
+                {
+                    "unknown proc id": "79", 
+                    "unknown proc param": "100,30"
+                }
+            ], 
+            "target_area": "aoe", 
+            "target_type": "party"
+        }, 
         "id": 130001, 
+        "max equipped": 1, 
         "max_stack": 99, 
         "name": "経験秘水", 
         "raid": false, 
         "rarity": 0, 
         "sell_price": 1000, 
         "thumbnail": "item_thum_92100.png", 
-        "type": null
+        "type": "summoner_consumable"
+    }, 
+    "130010": {
+        "desc": "クエストクリア時の獲得経験値が１.５倍になる", 
+        "effect": {
+            "effect": [
+                {
+                    "unknown proc id": "79", 
+                    "unknown proc param": "50"
+                }
+            ], 
+            "target_area": "aoe", 
+            "target_type": "party"
+        }, 
+        "id": 130010, 
+        "max equipped": 1, 
+        "max_stack": 99, 
+        "name": "経験の丸薬", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 500, 
+        "thumbnail": "item_thum_92200.png", 
+        "type": "summoner_consumable"
+    }, 
+    "130011": {
+        "desc": "クエストクリア時の獲得経験値が２倍になる", 
+        "effect": {
+            "effect": [
+                {
+                    "unknown proc id": "79", 
+                    "unknown proc param": "100"
+                }
+            ], 
+            "target_area": "aoe", 
+            "target_type": "party"
+        }, 
+        "id": 130011, 
+        "max equipped": 1, 
+        "max_stack": 99, 
+        "name": "経験霊薬", 
+        "raid": false, 
+        "rarity": 0, 
+        "sell_price": 1000, 
+        "thumbnail": "item_thum_92300.png", 
+        "type": "summoner_consumable"
     }, 
     "20000": {
         "desc": "味方単体のＨＰを少し回復する", 
@@ -4016,6 +4247,13 @@
     }, 
     "230003": {
         "desc": "全てのユニットの回復力・最大ＨＰを２０％アップ", 
+        "effect": [
+            {
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "rec% buff": 20
+            }
+        ], 
         "id": 230003, 
         "max_stack": 1, 
         "name": "光浄石ルピテクト", 
@@ -4025,10 +4263,23 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_7_2.png", 
-        "type": null
+        "type": "ls_sphere"
     }, 
     "230004": {
         "desc": "全てのユニットの回復力・最大ＨＰを２５％アップ＆確率でＨＰを少し吸収", 
+        "effect": [
+            {
+                "hp% buff": 25, 
+                "passive id": "1", 
+                "rec% buff": 25
+            }, 
+            {
+                "hp drain chance%": 25, 
+                "hp drain% high": 10, 
+                "hp drain% low": 5, 
+                "passive id": "17"
+            }
+        ], 
         "id": 230004, 
         "max_stack": 1, 
         "name": "尊血玉ディメーテ", 
@@ -4038,10 +4289,29 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_7_1.png", 
-        "type": null
+        "type": "ls_sphere"
     }, 
     "230005": {
         "desc": "全てのユニットの回復力・最大ＨＰを３０％アップ＆ターン毎にＨＰを回復＆被ダメージ時、確率でＨＰを少し回復", 
+        "effect": [
+            {
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 700, 
+                "turn heal low": 700
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 15, 
+                "dmg% to hp% when attacked low": 15, 
+                "passive id": "24"
+            }
+        ], 
         "id": 230005, 
         "max_stack": 1, 
         "name": "讃崇符ドラシオン", 
@@ -4051,10 +4321,107 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_7_8.png", 
-        "type": null
+        "type": "ls_sphere"
+    }, 
+    "230006": {
+        "desc": "全てのユニットの回復力・最大ＨＰを４０％アップ＆ターン毎にＨＰをかなり回復＆被ダメージ時、確率でＨＰを少し回復＆ＨＰが半分以下の時、回復力をアップ", 
+        "effect": [
+            {
+                "hp% buff": 40, 
+                "passive id": "1", 
+                "rec% buff": 40
+            }, 
+            {
+                "hp below % buff requirement": 50, 
+                "passive id": "11", 
+                "rec% buff": 60
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 1000, 
+                "turn heal low": 1000
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 15, 
+                "dmg% to hp% when attacked low": 15, 
+                "passive id": "24"
+            }
+        ], 
+        "id": 230006, 
+        "max_stack": 1, 
+        "name": "霊祀環セル・ナリア", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_7_5.png", 
+        "type": "ls_sphere"
+    }, 
+    "230007": {
+        "desc": "全ユニットの回復力・最大ＨＰ５０％アップ＆ターン毎にＨＰ大回復＆被ダメージ時、確率でＨＰ少し回復＆ＨＰ半分以下時、回復力アップ＆ＢＣ・ＨＣ出現率を大幅アップ＆ＢＣ獲得時の増加量アップ＆ＨＣ獲得時の回復量アップ", 
+        "effect": [
+            {
+                "hp% buff": 50, 
+                "passive id": "1", 
+                "rec% buff": 50
+            }, 
+            {
+                "hp below % buff requirement": 50, 
+                "passive id": "11", 
+                "rec% buff": 70
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 1500, 
+                "turn heal low": 1500
+            }, 
+            {
+                "bc drop rate% buff": 20, 
+                "hc drop rate% buff": 20, 
+                "passive id": "19"
+            }, 
+            {
+                "bb gauge fill rate%": 30, 
+                "passive id": "32"
+            }, 
+            {
+                "hc effectiveness%": 30, 
+                "passive id": "10"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 15, 
+                "passive id": "24"
+            }
+        ], 
+        "id": 230007, 
+        "max_stack": 1, 
+        "name": "護魂死祓の指輪", 
+        "raid": false, 
+        "rarity": 5, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_7_6.png", 
+        "type": "ls_sphere"
     }, 
     "230103": {
         "desc": "全てのユニットの攻撃力を２０％アップ＆ターン毎にＢＢゲージを増加", 
+        "effect": [
+            {
+                "atk% buff": 20, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill per turn": 3, 
+                "passive id": "9"
+            }
+        ], 
         "id": 230103, 
         "max_stack": 1, 
         "name": "聖光旗シェーステン", 
@@ -4064,10 +4431,24 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_9_2.png", 
-        "type": null
+        "type": "ls_sphere"
     }, 
     "230104": {
         "desc": "全てのユニットの攻撃力を２５％アップ＆ターン毎にＢＢゲージを増加＆スパークダメージを５０％アップ", 
+        "effect": [
+            {
+                "atk% buff": 25, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill per turn": 3, 
+                "passive id": "9"
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }
+        ], 
         "id": 230104, 
         "max_stack": 1, 
         "name": "力王帯バルギルア", 
@@ -4077,10 +4458,24 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_9_5.png", 
-        "type": null
+        "type": "ls_sphere"
     }, 
     "230105": {
         "desc": "全てのユニットの攻撃力を３０％アップ＆ターン毎にＢＢゲージをかなり増加＆スパークダメージを７５％アップ", 
+        "effect": [
+            {
+                "atk% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill per turn": 4, 
+                "passive id": "9"
+            }, 
+            {
+                "damage% for spark": 75, 
+                "passive id": "31"
+            }
+        ], 
         "id": 230105, 
         "max_stack": 1, 
         "name": "禁闘剣サフォルス", 
@@ -4090,10 +4485,99 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_9_3.png", 
-        "type": null
+        "type": "ls_sphere"
+    }, 
+    "230106": {
+        "desc": "全てのユニットの攻撃力・防御力を４０％アップ＆ターン毎にＢＢゲージをかなり増加＆スパークダメージを１００％アップ＆クリティカル率を少しアップ", 
+        "effect": [
+            {
+                "atk% buff": 40, 
+                "crit% buff": 15, 
+                "def% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill per turn": 4, 
+                "passive id": "9"
+            }, 
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 230106, 
+        "max_stack": 1, 
+        "name": "邪罰針ドンデュール", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_9_1.png", 
+        "type": "ls_sphere"
+    }, 
+    "230107": {
+        "desc": "全ユニットの攻撃力・防御力５０％アップ＆ターン毎にＢＢゲージかなり増加＆スパークダメージ１００％アップ＆クリティカル率アップ＆確率でスパークダメージ耐性２ターン低下＆スパーク一定毎に１ターン攻撃ＢＢ威力アップ", 
+        "effect": [
+            {
+                "atk% buff": 50, 
+                "crit% buff": 20, 
+                "def% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill per turn": 5, 
+                "passive id": "9"
+            }, 
+            {
+                "passive id": "75", 
+                "spark debuff chance%": 25, 
+                "spark debuff turns": 1, 
+                "spark debuff%": 25
+            }, 
+            {
+                "buff": {
+                    "bb atk% buff": 130, 
+                    "buff turns (72)": "2", 
+                    "sbb atk% buff": 130, 
+                    "ubb atk% buff": 130
+                }, 
+                "passive id": "86", 
+                "spark count buff activation": 25
+            }, 
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 230107, 
+        "max_stack": 1, 
+        "name": "散華のセリデリク", 
+        "raid": false, 
+        "rarity": 5, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_9_4.png", 
+        "type": "ls_sphere"
     }, 
     "230203": {
         "desc": "全てのユニットの防御力を２０％アップ＆全状態異常にかかりにくくなる", 
+        "effect": [
+            {
+                "def% buff": 20, 
+                "passive id": "1"
+            }, 
+            {
+                "curse resist%": 50, 
+                "injury resist%": 50, 
+                "paralysis resist%": 50, 
+                "passive id": "4", 
+                "poison resist%": 50, 
+                "sick resist%": 50, 
+                "weaken resist%": 50
+            }
+        ], 
         "id": 230203, 
         "max_stack": 1, 
         "name": "護界灯ネス・タリア", 
@@ -4103,10 +4587,30 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_6_2.png", 
-        "type": null
+        "type": "ls_sphere"
     }, 
     "230204": {
         "desc": "全てのユニットの防御力を２５％アップ＆全状態異常にかかりにくくなる＆弱点属性ダメージを少し軽減", 
+        "effect": [
+            {
+                "def% buff": 25, 
+                "passive id": "1"
+            }, 
+            {
+                "curse resist%": 50, 
+                "injury resist%": 50, 
+                "paralysis resist%": 50, 
+                "passive id": "4", 
+                "poison resist%": 50, 
+                "sick resist%": 50, 
+                "weaken resist%": 50
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 20, 
+                "strong buffed element damage resist%": 20
+            }
+        ], 
         "id": 230204, 
         "max_stack": 1, 
         "name": "白鬼甲マク・マウ", 
@@ -4116,10 +4620,30 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_6_5.png", 
-        "type": null
+        "type": "ls_sphere"
     }, 
     "230205": {
         "desc": "全てのユニットの防御力を３０％アップ＆全状態異常を無効＆弱点属性ダメージを軽減", 
+        "effect": [
+            {
+                "def% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 30, 
+                "strong buffed element damage resist%": 30
+            }
+        ], 
         "id": 230205, 
         "max_stack": 1, 
         "name": "黒妖兜ヘル・クル", 
@@ -4129,10 +4653,109 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_6_6.png", 
-        "type": null
+        "type": "ls_sphere"
+    }, 
+    "230206": {
+        "desc": "全てのユニットの防御力を４０％アップ＆全状態異常を無効＆弱点属性ダメージを軽減＆確率で被ダメージを少し軽減", 
+        "effect": [
+            {
+                "def% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 30, 
+                "strong buffed element damage resist%": 30
+            }, 
+            {
+                "dmg reduction chance%": 25, 
+                "dmg reduction%": 20, 
+                "passive id": "14"
+            }
+        ], 
+        "id": 230206, 
+        "max_stack": 1, 
+        "name": "神護杖ラグファリータ", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_6_3.png", 
+        "type": "ls_sphere"
+    }, 
+    "230207": {
+        "desc": "全てのユニットの防御力・最大ＨＰを５０％アップ＆全状態異常を無効＆弱点属性ダメージを軽減＆確率で被ダメージを２０％軽減＆ガード時、ＢＢゲージをかなり増加・ダメージ軽減率をアップ", 
+        "effect": [
+            {
+                "def% buff": 50, 
+                "hp% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 30, 
+                "strong buffed element damage resist%": 30
+            }, 
+            {
+                "dmg reduction chance%": 25, 
+                "dmg reduction%": 20, 
+                "passive id": "14"
+            }, 
+            {
+                "guard increase mitigation%": 10, 
+                "passive id": "58"
+            }, 
+            {
+                "bc filled on guard": 4, 
+                "passive id": "61"
+            }
+        ], 
+        "id": 230207, 
+        "max_stack": 1, 
+        "name": "聖盾将冠アクブテカ", 
+        "raid": false, 
+        "rarity": 5, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_6_8.png", 
+        "type": "ls_sphere"
     }, 
     "230303": {
         "desc": "ターン毎にＨＰを回復＆被ダメージ時、確率でＨＰを回復", 
+        "effect": [
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 500, 
+                "turn heal low": 500
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 15, 
+                "dmg% to hp% when attacked low": 15, 
+                "passive id": "24"
+            }
+        ], 
         "id": 230303, 
         "max_stack": 1, 
         "name": "義将宝ヴァドム", 
@@ -4142,10 +4765,29 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_8_2.png", 
-        "type": null
+        "type": "ls_sphere"
     }, 
     "230304": {
         "desc": "ターン毎にＨＰを回復＆被ダメージ時、確率でＨＰを少し回復＆ＢＣ・ＨＣ出現率をアップ", 
+        "effect": [
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 500, 
+                "turn heal low": 500
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 15, 
+                "dmg% to hp% when attacked low": 15, 
+                "passive id": "24"
+            }, 
+            {
+                "bc drop rate% buff": 10, 
+                "hc drop rate% buff": 10, 
+                "passive id": "19"
+            }
+        ], 
         "id": 230304, 
         "max_stack": 1, 
         "name": "栄慈符ポリアフ", 
@@ -4155,10 +4797,28 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_8_8.png", 
-        "type": null
+        "type": "ls_sphere"
     }, 
     "234000": {
         "desc": "全てのユニットの攻撃力を３０％アップ＆確率で全状態異常をランダムに発生", 
+        "effect": [
+            {
+                "atk% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "curse%": 5, 
+                "passive id": "20", 
+                "poison%": 5, 
+                "sick%": 7
+            }, 
+            {
+                "injury%": 7, 
+                "paralysis%": 5, 
+                "passive id": "20", 
+                "weaken%": 7
+            }
+        ], 
         "id": 234000, 
         "max_stack": 1, 
         "name": "聖凶典レネイエ", 
@@ -4168,10 +4828,31 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_5_6.png", 
-        "type": null
+        "type": "ls_sphere"
     }, 
     "235000": {
         "desc": "全てのユニットの攻撃力・防御力・回復力・最大ＨＰを２５％アップ＆被ダメージ時、確率でＢＢゲージを少し増加＆通常攻撃時、確率でＢＢゲージを増加", 
+        "effect": [
+            {
+                "atk% buff": 25, 
+                "def% buff": 25, 
+                "hp% buff": 25, 
+                "passive id": "1", 
+                "rec% buff": 25
+            }, 
+            {
+                "bc fill when attacked high": 2, 
+                "bc fill when attacked low": 1, 
+                "bc fill when attacked%": 50, 
+                "passive id": "25"
+            }, 
+            {
+                "bc fill when attacking high": 3, 
+                "bc fill when attacking low": 2, 
+                "bc fill when attacking%": 50, 
+                "passive id": "35"
+            }
+        ], 
         "id": 235000, 
         "max_stack": 1, 
         "name": "天狼套ゼフィーロ", 
@@ -4181,10 +4862,27 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_8_4.png", 
-        "type": null
+        "type": "ls_sphere"
     }, 
     "235001": {
         "desc": "全てのユニットの攻撃力・防御力・回復力・最大ＨＰを３５％アップ＆クリティカルダメージを大幅にアップ＆ＢＢ発動に必要なＢＢゲージ量を軽減", 
+        "effect": [
+            {
+                "atk% buff": 35, 
+                "def% buff": 35, 
+                "hp% buff": 35, 
+                "passive id": "1", 
+                "rec% buff": 35
+            }, 
+            {
+                "crit multiplier%": 150.0, 
+                "passive id": "34"
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 15
+            }
+        ], 
         "id": 235001, 
         "max_stack": 1, 
         "name": "機兵石『イザヨイ』", 
@@ -4194,10 +4892,106 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_5_1.png", 
-        "type": null
+        "type": "ls_sphere"
+    }, 
+    "235002": {
+        "desc": "全てのユニットの攻撃力・防御力・回復力・最大ＨＰを４５％アップ＆スパーク時、ＨＰを少し回復＆被ダメージが一定数を超える度にＢＢゲージを少し増加", 
+        "effect": [
+            {
+                "atk% buff": 45, 
+                "def% buff": 45, 
+                "hp% buff": 45, 
+                "passive id": "1", 
+                "rec% buff": 45
+            }, 
+            {
+                "heal on spark high": 100, 
+                "heal on spark low": 100, 
+                "heal on spark%": 100, 
+                "passive id": "101"
+            }, 
+            {
+                "damage threshold activation": 2500, 
+                "increase bb gauge": 3, 
+                "passive id": "79"
+            }
+        ], 
+        "id": 235002, 
+        "max_stack": 1, 
+        "name": "魂震鎧ガルヴァス", 
+        "raid": false, 
+        "rarity": 5, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_4_8.png", 
+        "type": "ls_sphere"
+    }, 
+    "235003": {
+        "desc": "全てのユニットの攻撃力・防御力・回復力・最大ＨＰを６０％アップ＆残りＨＰが多いほど、攻撃力をアップ＆残りＨＰが少ないほど、防御力・回復力をアップ＆全属性の弱点属性ダメージを大幅にアップ", 
+        "effect": [
+            {
+                "atk% buff": 60, 
+                "def% buff": 60, 
+                "hp% buff": 60, 
+                "passive id": "1", 
+                "rec% buff": 60
+            }, 
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 50, 
+                "buff proportional to hp": "remaining", 
+                "passive id": "46"
+            }, 
+            {
+                "buff proportional to hp": "lost", 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 50, 
+                "passive id": "46", 
+                "rec% base buff": 0, 
+                "rec% extra buff based on hp": 50
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 100.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }
+        ], 
+        "id": 235003, 
+        "max_stack": 1, 
+        "name": "奉神具トゥライエ", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_8_3.png", 
+        "type": "ls_sphere"
     }, 
     "236000": {
         "desc": "全てのユニットの攻撃力・防御力を３０％アップ＆スパーク時、ＢＣ出現率をかなりアップ＆スパーク時、ＢＢゲージを少し増加", 
+        "effect": [
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "bc drop% for spark": 50, 
+                "passive id": "31"
+            }, 
+            {
+                "bc fill on spark high": 1, 
+                "bc fill on spark low": 1, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }
+        ], 
         "id": 236000, 
         "max_stack": 1, 
         "name": "栄神の御光酒", 
@@ -4207,10 +5001,64 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_9_8.png", 
-        "type": null
+        "type": "ls_sphere"
+    }, 
+    "236001": {
+        "desc": "全てのユニットの攻撃力・防御力・最大ＨＰを５０％アップ＆スパーク時、ＢＣ出現率をかなりアップ・ＢＢゲージを増加＆与ダメージが一定数を超える度にＢＢゲージをかなり増加＆ＯＤゲージ上昇量をかなりアップ", 
+        "effect": [
+            {
+                "atk% buff": 50, 
+                "def% buff": 50, 
+                "hp% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "od fill rate%": 20, 
+                "passive id": "70"
+            }, 
+            {
+                "damage dealt threshold activation": 10000, 
+                "increase bb gauge": 6, 
+                "passive id": "81"
+            }, 
+            {
+                "bc drop% for spark": 50, 
+                "passive id": "31"
+            }, 
+            {
+                "bc fill on spark high": 3, 
+                "bc fill on spark low": 2, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }
+        ], 
+        "id": 236001, 
+        "max_stack": 1, 
+        "name": "託閃煌鏡フォリフォリ", 
+        "raid": false, 
+        "rarity": 5, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_9_1.png", 
+        "type": "ls_sphere"
     }, 
     "237000": {
         "desc": "全てのユニットの最大ＨＰを２５％アップ＆炎・水・樹・雷属性ユニットからの被ダメージを１０％軽減", 
+        "effect": [
+            {
+                "hp% buff": 25, 
+                "passive id": "1"
+            }, 
+            {
+                "dmg% mitigation for elemental attacks": 10.0, 
+                "mitigate earth attacks": true, 
+                "mitigate fire attacks": true, 
+                "mitigate thunder attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62"
+            }
+        ], 
         "id": 237000, 
         "max_stack": 1, 
         "name": "聖神霊の柴灯", 
@@ -4220,7 +5068,115 @@
         "sphere type": 1, 
         "sphere type text": "Status Boost", 
         "thumbnail": "ls_sphere_thum_6_1.png", 
-        "type": null
+        "type": "ls_sphere"
+    }, 
+    "238000": {
+        "desc": "ＨＰが半分以上の時、攻撃力・防御力・回復力をアップ＆光・闇属性からの被ダメージを１０％軽減＆ＨＣ獲得時の回復量アップ", 
+        "effect": [
+            {
+                "atk% buff": 70, 
+                "def% buff": 70, 
+                "hp above % buff requirement": 50, 
+                "passive id": "11", 
+                "rec% buff": 70
+            }, 
+            {
+                "hc effectiveness%": 25, 
+                "passive id": "10"
+            }, 
+            {
+                "dmg% mitigation for elemental attacks": 10.0, 
+                "mitigate dark attacks": true, 
+                "mitigate light attacks": true, 
+                "passive id": "62"
+            }
+        ], 
+        "id": 238000, 
+        "max_stack": 1, 
+        "name": "虹翼の祷霊装", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_6_4.png", 
+        "type": "ls_sphere"
+    }, 
+    "238001": {
+        "desc": "全てのユニットの最大ＨＰを５０％アップ＆ＨＰが半分以上の時、攻撃力・防御力・回復力をかなりアップ＆全属性ユニットからの被ダメージを１０％軽減＆ＨＰが半分以下になる度に、３ターン、ターン毎にＨＰをかなり回復", 
+        "effect": [
+            {
+                "atk% buff": 80, 
+                "def% buff": 80, 
+                "hp above % buff requirement": 50, 
+                "passive id": "11", 
+                "rec% buff": 80
+            }, 
+            {
+                "dmg% mitigation for elemental attacks": 10.0, 
+                "mitigate dark attacks": true, 
+                "mitigate earth attacks": true, 
+                "mitigate fire attacks": true, 
+                "mitigate light attacks": true, 
+                "mitigate thunder attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62"
+            }, 
+            {
+                "hp% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "buff": {
+                    "buff turns (8)": "3", 
+                    "gradual heal high": 2000, 
+                    "gradual heal low": 1500
+                }, 
+                "hp below % buff activation": 50, 
+                "passive id": "55"
+            }
+        ], 
+        "id": 238001, 
+        "max_stack": 1, 
+        "name": "誉望神杯ルファーレ", 
+        "raid": false, 
+        "rarity": 5, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_6_5.png", 
+        "type": "ls_sphere"
+    }, 
+    "239000": {
+        "desc": "戦闘開始から３ターン、攻撃力・防御力を１００％アップ＆ＢＣ獲得時の増加量アップ＆敵撃破時、ＢＢゲージを増加", 
+        "effect": [
+            {
+                "first x turns": 3, 
+                "first x turns atk% (1)": 100, 
+                "first x turns def% (3)": 100, 
+                "passive id": "21"
+            }, 
+            {
+                "bc fill on enemy defeat high": 5, 
+                "bc fill on enemy defeat low": 3, 
+                "bc fill on enemy defeat%": 100, 
+                "passive id": "13"
+            }, 
+            {
+                "bb gauge fill rate%": 30, 
+                "passive id": "32"
+            }
+        ], 
+        "id": 239000, 
+        "max_stack": 1, 
+        "name": "陽幻刃ルーグフレア", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 5000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "ls_sphere_thum_9_6.png", 
+        "type": "ls_sphere"
     }, 
     "30000": {
         "desc": "攻撃力を５％アップ", 
@@ -12006,6 +12962,52 @@
         "thumbnail": "sphere_thum_1_1.png", 
         "type": "sphere"
     }, 
+    "47214": {
+        "desc": "ＨＰが半分以下になる度に、１ターン、被ダメージを軽減・被ダメージ時、ＨＰを少し回復・確率で攻撃力を２ターンかなり低下する効果を付与＆防御力・最大ＨＰを３０％アップ", 
+        "effect": [
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "buff": {
+                    "buff turns (36)": "0", 
+                    "dmg reduction% buff": 25
+                }, 
+                "hp below % buff activation": 50, 
+                "passive id": "55"
+            }, 
+            {
+                "buff": {
+                    "buff turns (133)": "0", 
+                    "unknown buff id": "133", 
+                    "unknown buff params": "10&20&100"
+                }, 
+                "hp below % buff activation": 50, 
+                "passive id": "55"
+            }, 
+            {
+                "buff": {
+                    "buff turns (153)": "0", 
+                    "unknown buff id": "153", 
+                    "unknown buff params": "-30&50&2"
+                }, 
+                "hp below % buff activation": 50, 
+                "passive id": "55"
+            }
+        ], 
+        "id": 47214, 
+        "max_stack": 1, 
+        "name": "竜母神の水鏡晶", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_1_1.png", 
+        "type": "sphere"
+    }, 
     "47300": {
         "desc": "回復力・最大ＨＰを１０％アップ＆クリティカルダメージを少しアップ", 
         "effect": [
@@ -13365,6 +14367,53 @@
         "thumbnail": "sphere_thum_5_2.png", 
         "type": "sphere"
     }, 
+    "48225": {
+        "desc": "スパークダメージを１００％アップ＆ＨＰが満タン時、スパークダメージを２０％アップ＆攻撃力・最大ＨＰを３０％アップ＆スパークが一定数を超える度に３ターン、攻撃力をアップ・攻撃ＢＢの威力をアップ", 
+        "effect": [
+            {
+                "atk% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "buff": {
+                    "atk% buff (1)": 50, 
+                    "buff turns (1)": "3"
+                }, 
+                "passive id": "86", 
+                "spark count buff activation": 50
+            }, 
+            {
+                "buff": {
+                    "bb atk% buff": 100, 
+                    "buff turns (72)": "3", 
+                    "sbb atk% buff": 100, 
+                    "ubb atk% buff": 100
+                }, 
+                "passive id": "86", 
+                "spark count buff activation": 50
+            }, 
+            {
+                "damage% for spark": 20, 
+                "hp above % buff requirement": 100, 
+                "passive id": "104"
+            }, 
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }
+        ], 
+        "id": 48225, 
+        "max_stack": 1, 
+        "name": "幻導機・ディノセーゼ", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 10000, 
+        "sphere type": 11, 
+        "sphere type text": "Spark", 
+        "thumbnail": "sphere_thum_5_2.png", 
+        "type": "sphere"
+    }, 
     "48300": {
         "desc": "ターン毎にＢＢゲージを増加・ＨＰを回復＆ＢＣ・ＨＣ出現率をかなりアップ＆ＢＣ・ＨＣ獲得時の増加量・回復量をアップ", 
         "effect": [
@@ -13758,6 +14807,44 @@
         "sphere type": 6, 
         "sphere type text": "BB Gauge", 
         "thumbnail": "sphere_thum_5_5.png", 
+        "type": "sphere"
+    }, 
+    "48603": {
+        "desc": "ターン毎にＨＰを大回復＆被ダメージ時、確率でＨＰを回復＆スパーク時、ＨＰを少し回復＆攻撃力・防御力を３０％アップ", 
+        "effect": [
+            {
+                "dmg% to hp% when attacked chance%": 30, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }, 
+            {
+                "heal on spark high": 200, 
+                "heal on spark low": 100, 
+                "heal on spark%": 100, 
+                "passive id": "101"
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 2000, 
+                "turn heal low": 1500
+            }, 
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 48603, 
+        "max_stack": 1, 
+        "name": "煉導器・カリエント", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 7, 
+        "sphere type text": "HP Recovery", 
+        "thumbnail": "sphere_thum_3_5.png", 
         "type": "sphere"
     }, 
     "48700": {
@@ -16416,6 +17503,622 @@
         "thumbnail": "sphere_thum_3_6.png", 
         "type": "sphere"
     }, 
+    "62210": {
+        "desc": "弱点属性ダメージを無効＆攻撃力・防御力・回復力を低下する効果を無効＆最大ＨＰを４０％アップ＆ＢＢゲージが半分以上の時、攻撃力・防御力・回復力をかなりアップ", 
+        "effect": [
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }, 
+            {
+                "atk down resist%": 100, 
+                "def down resist%": 100, 
+                "passive id": "73", 
+                "rec down resist%": 100
+            }, 
+            {
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "atk% buff": 75, 
+                "bb gauge above % buff requirement": 50, 
+                "def% buff": 75, 
+                "passive id": "30", 
+                "rec% buff": 75
+            }
+        ], 
+        "id": 62210, 
+        "max_stack": 1, 
+        "name": "魔朧鎧アネスジア", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_5_5.png", 
+        "type": "sphere"
+    }, 
+    "62220": {
+        "desc": "攻撃力・防御力・回復力・最大ＨＰを４５％アップ＆攻撃ＢＢの威力を超絶アップ＆与ダメージが一定数を超える度にＢＢゲージを満タンにする", 
+        "effect": [
+            {
+                "atk% buff": 45, 
+                "def% buff": 45, 
+                "hp% buff": 45, 
+                "passive id": "1", 
+                "rec% buff": 45
+            }, 
+            {
+                "damage dealt threshold activation": 200000, 
+                "increase bb gauge": 0, 
+                "passive id": "81"
+            }, 
+            {
+                "bb atk% buff": 200, 
+                "passive id": "64", 
+                "sbb atk% buff": 200, 
+                "ubb atk% buff": 200
+            }
+        ], 
+        "id": 62220, 
+        "max_stack": 1, 
+        "name": "聖謳書ホースクリー", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_4_1.png", 
+        "type": "sphere"
+    }, 
+    "62230": {
+        "desc": "攻撃ＢＢの威力をかなりアップ＆弱点属性ダメージを大幅にアップ＆攻撃力を５０％アップ＆与ダメージが一定数を超える度にＢＢゲージを増加", 
+        "effect": [
+            {
+                "bb atk% buff": 100, 
+                "passive id": "64", 
+                "sbb atk% buff": 100, 
+                "ubb atk% buff": 100
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 100.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "atk% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "damage dealt threshold activation": 10000, 
+                "increase bb gauge": 5, 
+                "passive id": "81"
+            }
+        ], 
+        "id": 62230, 
+        "max_stack": 1, 
+        "name": "械狂の忌環砲", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_5_4.png", 
+        "type": "sphere"
+    }, 
+    "62240": {
+        "desc": "スパーク時、ＢＢゲージを増加・ダメージを１５０％アップ＆スパークが一定数を超える度に３ターン、攻撃に炎・水・樹・雷属性を付与＆確率で被ダメージを２０％軽減", 
+        "effect": [
+            {
+                "damage% for spark": 150, 
+                "passive id": "31"
+            }, 
+            {
+                "bc fill on spark high": 3, 
+                "bc fill on spark low": 2, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }, 
+            {
+                "dmg reduction chance%": 30, 
+                "dmg reduction%": 20, 
+                "passive id": "14"
+            }, 
+            {
+                "buff": {
+                    "buff turns (51)": "3", 
+                    "unknown buff id": "51", 
+                    "unknown buff params": "0"
+                }, 
+                "passive id": "86", 
+                "spark count buff activation": 20
+            }, 
+            {
+                "buff": {
+                    "buff turns (52)": "3", 
+                    "unknown buff id": "52", 
+                    "unknown buff params": "0"
+                }, 
+                "passive id": "86", 
+                "spark count buff activation": 20
+            }, 
+            {
+                "buff": {
+                    "buff turns (53)": "3", 
+                    "unknown buff id": "53", 
+                    "unknown buff params": "0"
+                }, 
+                "passive id": "86", 
+                "spark count buff activation": 20
+            }, 
+            {
+                "buff": {
+                    "buff turns (54)": "3", 
+                    "unknown buff id": "54", 
+                    "unknown buff params": "0"
+                }, 
+                "passive id": "86", 
+                "spark count buff activation": 20
+            }
+        ], 
+        "id": 62240, 
+        "max_stack": 1, 
+        "name": "壊劫弓デーヴァルンガ", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 11, 
+        "sphere type text": "Spark", 
+        "thumbnail": "sphere_thum_4_8.png", 
+        "type": "sphere"
+    }, 
+    "62250": {
+        "desc": "ＢＢ発動に必要なＢＢゲージ量を軽減＆防御力を５０％アップ＆全状態異常を無効＆被ダメージ時、確率でＨＰを回復", 
+        "effect": [
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "73", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 20
+            }, 
+            {
+                "def% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }
+        ], 
+        "id": 62250, 
+        "max_stack": 1, 
+        "name": "秘天衣アヌーグル", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 6, 
+        "sphere type text": "BB Gauge", 
+        "thumbnail": "sphere_thum_3_5.png", 
+        "type": "sphere"
+    }, 
+    "62260": {
+        "desc": "被ダメージを１０％軽減＆ＢＢゲージが多いほど、防御力・回復力をアップ＆被ダメージ時、ＢＢゲージをかなり増加", 
+        "effect": [
+            {
+                "dmg% mitigation": 10, 
+                "passive id": "8"
+            }, 
+            {
+                "bc fill when attacked high": 4, 
+                "bc fill when attacked low": 3, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "bb gauge above % buff requirement": 20, 
+                "def% buff": 10, 
+                "passive id": "30", 
+                "rec% buff": 10
+            }, 
+            {
+                "bb gauge above % buff requirement": 40, 
+                "def% buff": 10, 
+                "passive id": "30", 
+                "rec% buff": 10
+            }, 
+            {
+                "bb gauge above % buff requirement": 60, 
+                "def% buff": 10, 
+                "passive id": "30", 
+                "rec% buff": 10
+            }, 
+            {
+                "bb gauge above % buff requirement": 80, 
+                "def% buff": 10, 
+                "passive id": "30", 
+                "rec% buff": 10
+            }, 
+            {
+                "bb gauge above % buff requirement": 100, 
+                "def% buff": 10, 
+                "passive id": "30", 
+                "rec% buff": 10
+            }
+        ], 
+        "id": 62260, 
+        "max_stack": 1, 
+        "name": "護破晶片アンブロシウス", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 10, 
+        "sphere type text": "Damage Reducing", 
+        "thumbnail": "sphere_thum_3_8.png", 
+        "type": "sphere"
+    }, 
+    "62270": {
+        "desc": "攻撃力・防御力・回復力・最大ＨＰを５０％アップ＆ガード時、ダメージ軽減率をアップ・３ターン、攻撃力・防御力・回復力をアップ＆弱点属性ダメージを無効＆ＨＰを少し吸収＆被ダメージ時、確率でＨＰをかなり回復", 
+        "effect": [
+            {
+                "atk% buff": 50, 
+                "def% buff": 50, 
+                "hp% buff": 50, 
+                "passive id": "1", 
+                "rec% buff": 50
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 35, 
+                "dmg% to hp% when attacked low": 35, 
+                "passive id": "24"
+            }, 
+            {
+                "hp drain chance%": 100, 
+                "hp drain% high": 5, 
+                "hp drain% low": 5, 
+                "passive id": "17"
+            }, 
+            {
+                "guard increase mitigation%": 10, 
+                "passive id": "58"
+            }, 
+            {
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }, 
+            {
+                "buff": {
+                    "atk% buff (1)": 50, 
+                    "buff turns (1)": "3"
+                }, 
+                "on guard activation chance%": 100, 
+                "passive id": "88"
+            }, 
+            {
+                "buff": {
+                    "buff turns (3)": "3", 
+                    "def% buff (3)": 50
+                }, 
+                "on guard activation chance%": 100, 
+                "passive id": "88"
+            }, 
+            {
+                "buff": {
+                    "buff turns (5)": "3", 
+                    "rec% buff (5)": 50
+                }, 
+                "on guard activation chance%": 100, 
+                "passive id": "88"
+            }
+        ], 
+        "id": 62270, 
+        "max_stack": 1, 
+        "name": "冥獄鎧ディカロス", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_2_8.png", 
+        "type": "sphere"
+    }, 
+    "62280": {
+        "desc": "被ダメージ時、確率でＨＰをかなり回復＆ＢＣ獲得数が一定数を超える度に１ターン、ターン毎にＨＰを全回復＆残りＨＰが多いほど、攻撃力・防御力・回復力をかなりアップ＆低確率で被ダメージを超絶軽減", 
+        "effect": [
+            {
+                "atk% base buff": 0, 
+                "atk% extra buff based on hp": 75, 
+                "buff proportional to hp": "remaining", 
+                "def% base buff": 0, 
+                "def% extra buff based on hp": 75, 
+                "passive id": "46", 
+                "rec% base buff": 0, 
+                "rec% extra buff based on hp": 75
+            }, 
+            {
+                "passive id": "43", 
+                "take 1 dmg%": 15
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 30, 
+                "dmg% to hp% when attacked high": 30, 
+                "dmg% to hp% when attacked low": 30, 
+                "passive id": "24"
+            }, 
+            {
+                "bc receive count buff activation": 15, 
+                "buff": {
+                    "buff turns (8)": "1", 
+                    "gradual heal high": 99999, 
+                    "gradual heal low": 98999
+                }, 
+                "passive id": "82"
+            }
+        ], 
+        "id": 62280, 
+        "max_stack": 1, 
+        "name": "不撓神盾レーヴグラン", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 7, 
+        "sphere type text": "HP Recovery", 
+        "thumbnail": "sphere_thum_2_1.png", 
+        "type": "sphere"
+    }, 
+    "62290": {
+        "desc": "攻撃ＢＢの威力を超絶アップ＆攻撃力・最大ＨＰを６０％アップ＆攻撃力の上限値（９９９９９）を１５００００まで解放する", 
+        "effect": [
+            {
+                "atk% buff": 60, 
+                "hp% buff": 60, 
+                "passive id": "1"
+            }, 
+            {
+                "bb atk% buff": 200, 
+                "passive id": "64", 
+                "sbb atk% buff": 200, 
+                "ubb atk% buff": 200
+            }, 
+            {
+                "unknown passive id": "143", 
+                "unknown passive params": "150000"
+            }
+        ], 
+        "id": 62290, 
+        "max_stack": 1, 
+        "name": "聖遺神刀ヴィヴァール", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_1_8.png", 
+        "type": "sphere"
+    }, 
+    "62300": {
+        "desc": "ＢＣ・ＨＣ出現率超絶アップ＆全能力３０％アップ＆ＯＤゲージ増加量を大幅アップ＆ＯＤ発動時、一度だけ戦闘不能を耐える＆ＢＣ獲得数が一定数を超える度に２ターン、全属性ユニットからの被ダメージ少し軽減", 
+        "effect": [
+            {
+                "bc drop rate% buff": 25, 
+                "hc drop rate% buff": 25, 
+                "passive id": "19"
+            }, 
+            {
+                "od fill rate%": 30, 
+                "passive id": "70"
+            }, 
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }, 
+            {
+                "unknown passive id": "106", 
+                "unknown passive params": "12,100,1,100,-1"
+            }, 
+            {
+                "bc receive count buff activation": 20, 
+                "buff": {
+                    "buff turns (21)": "2", 
+                    "unknown buff id": "21", 
+                    "unknown buff params": "20"
+                }, 
+                "passive id": "82"
+            }, 
+            {
+                "bc receive count buff activation": 20, 
+                "buff": {
+                    "buff turns (22)": "2", 
+                    "unknown buff id": "22", 
+                    "unknown buff params": "20"
+                }, 
+                "passive id": "82"
+            }, 
+            {
+                "bc receive count buff activation": 20, 
+                "buff": {
+                    "buff turns (23)": "2", 
+                    "unknown buff id": "23", 
+                    "unknown buff params": "20"
+                }, 
+                "passive id": "82"
+            }, 
+            {
+                "bc receive count buff activation": 20, 
+                "buff": {
+                    "buff turns (24)": "2", 
+                    "unknown buff id": "24", 
+                    "unknown buff params": "20"
+                }, 
+                "passive id": "82"
+            }, 
+            {
+                "bc receive count buff activation": 20, 
+                "buff": {
+                    "buff turns (25)": "2", 
+                    "unknown buff id": "25", 
+                    "unknown buff params": "20"
+                }, 
+                "passive id": "82"
+            }, 
+            {
+                "bc receive count buff activation": 20, 
+                "buff": {
+                    "buff turns (26)": "2", 
+                    "unknown buff id": "26", 
+                    "unknown buff params": "20"
+                }, 
+                "passive id": "82"
+            }
+        ], 
+        "id": 62300, 
+        "max_stack": 1, 
+        "name": "禁滅冠イスクラヴォル", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 3, 
+        "sphere type text": "Drop", 
+        "thumbnail": "sphere_thum_3_8.png", 
+        "type": "sphere"
+    }, 
+    "62310": {
+        "desc": "スパークダメージ１５０％アップ＆全状態異常無効＆与ダメージが一定数を超える度に１ターン、攻撃ＢＢ威力アップ＆被ダメージが一定数を超える度に光属性バリア付与＆２ターン、クリティカル・弱点属性無効", 
+        "effect": [
+            {
+                "damage% for spark": 150, 
+                "passive id": "31"
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "73", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "buff": {
+                    "bb atk% buff": 150, 
+                    "buff turns (72)": "2", 
+                    "sbb atk% buff": 150, 
+                    "ubb atk% buff": 150
+                }, 
+                "damage dealt threshold buff activation": 100000, 
+                "passive id": "80"
+            }, 
+            {
+                "buff": {
+                    "buff turns (99)": "-1", 
+                    "unknown buff id": "99", 
+                    "unknown buff params": "5&2000&2000&0&100"
+                }, 
+                "damage threshold buff activation": 15000, 
+                "passive id": "78"
+            }, 
+            {
+                "buff": {
+                    "buff turns (143)": "1", 
+                    "unknown buff id": "143", 
+                    "unknown buff params": "100&100&100"
+                }, 
+                "damage threshold buff activation": 15000, 
+                "passive id": "78"
+            }, 
+            {
+                "buff": {
+                    "buff turns (145)": "1", 
+                    "unknown buff id": "145", 
+                    "unknown buff params": "100&100"
+                }, 
+                "damage threshold buff activation": 15000, 
+                "passive id": "78"
+            }
+        ], 
+        "id": 62310, 
+        "max_stack": 1, 
+        "name": "神誉封符アルティステ", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 11, 
+        "sphere type text": "Spark", 
+        "thumbnail": "sphere_thum_4_1.png", 
+        "type": "sphere"
+    }, 
+    "62320": {
+        "desc": "ＢＢゲージに関するあらゆる能力が上昇", 
+        "effect": [
+            {
+                "unknown passive id": "72", 
+                "unknown passive params": "0,1"
+            }, 
+            {
+                "bc fill per turn": 30, 
+                "passive id": "9"
+            }, 
+            {
+                "bc fill when attacked high": 10, 
+                "bc fill when attacked low": 10, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 40, 
+                "dmg% to hp% when attacked high": 40, 
+                "dmg% to hp% when attacked low": 40, 
+                "passive id": "24"
+            }, 
+            {
+                "atk% buff": 100, 
+                "bb gauge above % buff requirement": 50, 
+                "def% buff": 100, 
+                "passive id": "30", 
+                "rec% buff": 100
+            }, 
+            {
+                "bc fill on spark high": 2, 
+                "bc fill on spark low": 2, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }, 
+            {
+                "hp% buff": 50, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 62320, 
+        "max_stack": 1, 
+        "name": "焉天儀『ダルティスク』", 
+        "raid": false, 
+        "rarity": 7, 
+        "sell_price": 30000, 
+        "sphere type": 6, 
+        "sphere type text": "BB Gauge", 
+        "thumbnail": "sphere_thum_5_8.png", 
+        "type": "sphere"
+    }, 
     "63000": {
         "desc": "クリティカル率をかなりアップ＆クリティカルダメージを大幅にアップ＆攻撃力・防御力・回復力・最大ＨＰを３０％アップ＆弱点属性ダメージをアップ", 
         "effect": [
@@ -16451,6 +18154,106 @@
         "sphere type": 2, 
         "sphere type text": "Critical", 
         "thumbnail": "sphere_thum_3_8.png", 
+        "type": "sphere"
+    }, 
+    "64000": {
+        "desc": "攻撃力・防御力・回復力・最大ＨＰを４５％アップ＆弱点属性ダメージをアップ＆ＢＣ・ＨＣ出現率を大幅にアップ", 
+        "effect": [
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 50.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "atk% buff": 45, 
+                "def% buff": 45, 
+                "hp% buff": 45, 
+                "passive id": "1", 
+                "rec% buff": 45
+            }, 
+            {
+                "bc drop rate% buff": 20, 
+                "hc drop rate% buff": 20, 
+                "passive id": "19"
+            }
+        ], 
+        "id": 64000, 
+        "max_stack": 1, 
+        "name": "天暝珠ラフィ・レクア", 
+        "raid": false, 
+        "rarity": 5, 
+        "sell_price": 30000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_2_8.png", 
+        "type": "sphere"
+    }, 
+    "64001": {
+        "desc": "スパークダメージを１２０％アップ＆スパークが一定数を超える度に３ターン、スパークダメージを２０％アップ＆クリティカルダメージをかなりアップ", 
+        "effect": [
+            {
+                "damage% for spark": 120, 
+                "passive id": "31"
+            }, 
+            {
+                "crit multiplier%": 100.0, 
+                "passive id": "34"
+            }, 
+            {
+                "buff": {
+                    "buff turns (40)": "3", 
+                    "spark dmg% buff": 20
+                }, 
+                "passive id": "86", 
+                "spark count buff activation": 20
+            }
+        ], 
+        "id": 64001, 
+        "max_stack": 1, 
+        "name": "神霊剋戟ジアクレス", 
+        "raid": false, 
+        "rarity": 6, 
+        "sell_price": 30000, 
+        "sphere type": 11, 
+        "sphere type text": "Spark", 
+        "thumbnail": "sphere_thum_1_6.png", 
+        "type": "sphere"
+    }, 
+    "64002": {
+        "desc": "攻撃力の上限値（９９９９９）を１５００００まで解放する＆攻撃ＢＢの威力をかなりアップ＆ＢＢゲージが半分以上の時、攻撃力・防御力・回復力をアップ", 
+        "effect": [
+            {
+                "unknown passive id": "143", 
+                "unknown passive params": "150000"
+            }, 
+            {
+                "atk% buff": 50, 
+                "bb gauge above % buff requirement": 50, 
+                "def% buff": 50, 
+                "passive id": "30", 
+                "rec% buff": 50
+            }, 
+            {
+                "bb atk% buff": 130, 
+                "passive id": "64", 
+                "sbb atk% buff": 130, 
+                "ubb atk% buff": 130
+            }
+        ], 
+        "id": 64002, 
+        "max_stack": 1, 
+        "name": "崇星の極聖刃レデルソール", 
+        "raid": false, 
+        "rarity": 7, 
+        "sell_price": 30000, 
+        "sphere type": 13, 
+        "sphere type text": "Atk Boosting", 
+        "thumbnail": "sphere_thum_4_4.png", 
         "type": "sphere"
     }, 
     "65000": {
@@ -16547,6 +18350,73 @@
         "sphere type": 6, 
         "sphere type text": "BB Gauge", 
         "thumbnail": "sphere_thum_2_5.png", 
+        "type": "sphere"
+    }, 
+    "65030": {
+        "desc": "防御力・最大ＨＰを２０％アップ＆全状態異常を無効＆攻撃力・防御力・回復力を低下する効果を無効", 
+        "effect": [
+            {
+                "atk down resist%": 100, 
+                "curse resist%": 100, 
+                "def down resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "73", 
+                "poison resist%": 100, 
+                "rec down resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1"
+            }
+        ], 
+        "id": 65030, 
+        "max_stack": 1, 
+        "name": "盤古の龍骸", 
+        "raid": false, 
+        "rarity": 4, 
+        "sell_price": 10000, 
+        "sphere type": 1, 
+        "sphere type text": "Status Boost", 
+        "thumbnail": "sphere_thum_5_6.png", 
+        "type": "sphere"
+    }, 
+    "65040": {
+        "desc": "確率で全状態異常をランダムに発生＆攻撃力を２０％アップ＆ＢＣ獲得時の増加量を少しアップ", 
+        "effect": [
+            {
+                "atk% buff": 20, 
+                "passive id": "1"
+            }, 
+            {
+                "curse%": 7, 
+                "passive id": "20", 
+                "poison%": 7, 
+                "sick%": 10
+            }, 
+            {
+                "injury%": 10, 
+                "paralysis%": 7, 
+                "passive id": "20", 
+                "weaken%": 10
+            }, 
+            {
+                "bb gauge fill rate%": 15, 
+                "passive id": "32"
+            }
+        ], 
+        "id": 65040, 
+        "max_stack": 1, 
+        "name": "妖剣ダーインスレイヴ", 
+        "raid": true, 
+        "rarity": 4, 
+        "sell_price": 10000, 
+        "sphere type": 4, 
+        "sphere type text": "Status Ailment", 
+        "thumbnail": "sphere_thum_1_6.png", 
         "type": "sphere"
     }, 
     "70000": {

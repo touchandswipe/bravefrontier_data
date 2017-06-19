@@ -2847,6 +2847,77 @@
         "xp": 0, 
         "zel": 0
     }, 
+    "1000390": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの入口付近。<br>奥に比べ弱い魔物が多いとはいえ油断は禁物だ。", 
+        "difficulty": 1, 
+        "dungeon": "1000318", 
+        "energy_use": 0, 
+        "id": "1000390", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・序地", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000391": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの中部付近。<br>未開拓な領域となるこの地で待ち受けるものとは……。", 
+        "difficulty": 1, 
+        "dungeon": "1000318", 
+        "energy_use": 0, 
+        "id": "1000391", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・中部", 
+        "requires": "1000390", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000392": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの奥地。<br>そこには中部を遙かに越える凶悪な魔物が待ち受けていた。", 
+        "difficulty": 1, 
+        "dungeon": "1000318", 
+        "energy_use": 0, 
+        "id": "1000392", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・奥地", 
+        "requires": "1000391", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000393": {
+        "area": "フロンティアハンター", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリア奥地のさらに先。<br>大気を震わすほどの壮絶な圧力が召喚師に襲いかかる。", 
+        "difficulty": 1, 
+        "dungeon": "1000318", 
+        "energy_use": 0, 
+        "id": "1000393", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・極地", 
+        "requires": "1000392", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "10004": {
         "area": "セルグラード", 
         "battle_count": 9, 
@@ -3182,6 +3253,290 @@
         "requires": "10013", 
         "xp": 5120, 
         "zel": 5300
+    }, 
+    "1001400": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの入口付近。<br>奥に比べ弱い魔物が多いとはいえ油断は禁物だ。", 
+        "difficulty": 1, 
+        "dungeon": "1000319", 
+        "energy_use": 0, 
+        "id": "1001400", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・序地", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001401": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの中部付近。<br>未開拓な領域となるこの地で待ち受けるものとは……。", 
+        "difficulty": 1, 
+        "dungeon": "1000319", 
+        "energy_use": 0, 
+        "id": "1001401", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・中部", 
+        "requires": "1001400", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001402": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの奥地。<br>そこには中部を遙かに越える凶悪な魔物が待ち受けていた。", 
+        "difficulty": 1, 
+        "dungeon": "1000319", 
+        "energy_use": 0, 
+        "id": "1001402", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・奥地", 
+        "requires": "1001401", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001403": {
+        "area": "フロンティアハンター", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリア奥地のさらに先。<br>大気を震わすほどの壮絶な圧力が召喚師に襲いかかる。", 
+        "difficulty": 1, 
+        "dungeon": "1000319", 
+        "energy_use": 0, 
+        "id": "1001403", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・極地", 
+        "requires": "1001402", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001500": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの入口付近。<br>奥に比べ弱い魔物が多いとはいえ油断は禁物だ。", 
+        "difficulty": 1, 
+        "dungeon": "1000320", 
+        "energy_use": 0, 
+        "id": "1001500", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・序地", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001501": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの中部付近。<br>未開拓な領域となるこの地で待ち受けるものとは……。", 
+        "difficulty": 1, 
+        "dungeon": "1000320", 
+        "energy_use": 0, 
+        "id": "1001501", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・中部", 
+        "requires": "1001500", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001502": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの奥地。<br>そこには中部を遙かに越える凶悪な魔物が待ち受けていた。", 
+        "difficulty": 1, 
+        "dungeon": "1000320", 
+        "energy_use": 0, 
+        "id": "1001502", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・奥地", 
+        "requires": "1001501", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001503": {
+        "area": "フロンティアハンター", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリア奥地のさらに先。<br>大気を震わすほどの壮絶な圧力が召喚師に襲いかかる。", 
+        "difficulty": 1, 
+        "dungeon": "1000320", 
+        "energy_use": 0, 
+        "id": "1001503", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・極地", 
+        "requires": "1001502", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001600": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの入口付近。<br>奥に比べ弱い魔物が多いとはいえ油断は禁物だ。", 
+        "difficulty": 1, 
+        "dungeon": "1000321", 
+        "energy_use": 0, 
+        "id": "1001600", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・序地", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001601": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの中部付近。<br>未開拓な領域となるこの地で待ち受けるものとは……。", 
+        "difficulty": 1, 
+        "dungeon": "1000321", 
+        "energy_use": 0, 
+        "id": "1001601", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・中部", 
+        "requires": "1001600", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001602": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの奥地。<br>そこには中部を遙かに越える凶悪な魔物が待ち受けていた。", 
+        "difficulty": 1, 
+        "dungeon": "1000321", 
+        "energy_use": 0, 
+        "id": "1001602", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・奥地", 
+        "requires": "1001601", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001603": {
+        "area": "フロンティアハンター", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリア奥地のさらに先。<br>大気を震わすほどの壮絶な圧力が召喚師に襲いかかる。", 
+        "difficulty": 1, 
+        "dungeon": "1000321", 
+        "energy_use": 0, 
+        "id": "1001603", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・極地", 
+        "requires": "1001602", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001700": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの入口付近。<br>奥に比べ弱い魔物が多いとはいえ油断は禁物だ。", 
+        "difficulty": 1, 
+        "dungeon": "1000322", 
+        "energy_use": 0, 
+        "id": "1001700", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・序地", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001701": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの中部付近。<br>未開拓な領域となるこの地で待ち受けるものとは……。", 
+        "difficulty": 1, 
+        "dungeon": "1000322", 
+        "energy_use": 0, 
+        "id": "1001701", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・中部", 
+        "requires": "1001700", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001702": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの奥地。<br>そこには中部を遙かに越える凶悪な魔物が待ち受けていた。", 
+        "difficulty": 1, 
+        "dungeon": "1000322", 
+        "energy_use": 0, 
+        "id": "1001702", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・奥地", 
+        "requires": "1001701", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1001703": {
+        "area": "フロンティアハンター", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリア奥地のさらに先。<br>大気を震わすほどの壮絶な圧力が召喚師に襲いかかる。", 
+        "difficulty": 1, 
+        "dungeon": "1000322", 
+        "energy_use": 0, 
+        "id": "1001703", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・極地", 
+        "requires": "1001702", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "1002": {
         "area": "ミルヴァーナ", 
@@ -16091,6 +16446,61 @@
         "xp": 11000, 
         "zel": 30000
     }, 
+    "107700": {
+        "area": "105800", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "次元の奔流に呑まれ飛ばされた先は、荒廃した異界だった。<br>帰り道を探す召喚師の前に、無法者たちが立ちはだかる。", 
+        "difficulty": 1, 
+        "dungeon": "106000", 
+        "energy_use": 10, 
+        "id": "107700", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "背徳の炎 Lv.1", 
+        "xp": 700, 
+        "zel": 0
+    }, 
+    "107701": {
+        "area": "105800", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "有象無象の中で唯一人、ワイルドな圧力を持つ男がうそぶく。<br>「３０万ワールド＄懸かった貴様の首……貰うのはこの俺だ」", 
+        "difficulty": 1, 
+        "dungeon": "106000", 
+        "energy_use": 20, 
+        "id": "107701", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "背徳の炎 Lv.2", 
+        "xp": 1700, 
+        "zel": 0
+    }, 
+    "107702": {
+        "area": "105800", 
+        "battle_count": 6, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "「チッ、釣られたか」どうやら誰かにハメられたらしい。<br>「気に食わねぇ。テメェに殴られた分だけでもきっちり返すぜ」", 
+        "difficulty": 1, 
+        "dungeon": "106000", 
+        "energy_use": 30, 
+        "id": "107702", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "背徳の炎 Lv.3", 
+        "xp": 3500, 
+        "zel": 0
+    }, 
     "10771": {
         "area": "エストリア", 
         "battle_count": 5, 
@@ -16125,6 +16535,107 @@
         "xp": 12800, 
         "zel": 30000
     }, 
+    "107800": {
+        "area": "105810", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "次元の奔流に呑まれた先は、豪奢な宮廷だった。<br>騎士たちが召喚師に殺到する。王に害なす者を排除せよ……と。", 
+        "difficulty": 1, 
+        "dungeon": "106010", 
+        "energy_use": 10, 
+        "id": "107800", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "迅雷の所以 Lv.1", 
+        "xp": 700, 
+        "zel": 0
+    }, 
+    "107801": {
+        "area": "105810", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "奥から現れた若き王が、迅雷を帯びた剣を抜き言い放つ。<br>「武人の胸中は剣で問おう」……荒っぽい異界交流が始まった。", 
+        "difficulty": 1, 
+        "dungeon": "106010", 
+        "energy_use": 20, 
+        "id": "107801", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "迅雷の所以 Lv.2", 
+        "xp": 1700, 
+        "zel": 0
+    }, 
+    "107802": {
+        "area": "105810", 
+        "battle_count": 6, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "死闘からしか伝わらないものがある。互いの立場、互いの想い。<br>剣戟から生じた“デンジャータイム”の中で彼らは刃を重ねた。", 
+        "difficulty": 1, 
+        "dungeon": "106010", 
+        "energy_use": 30, 
+        "id": "107802", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "迅雷の所以 Lv.3", 
+        "xp": 3500, 
+        "zel": 0
+    }, 
+    "107900": {
+        "area": "105900", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "unit": {
+                    "count": "1", 
+                    "id": "50792"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "世界の英雄たちがここに集結！！普段交わることのない者たちが<br>展開するのは、心温まる交流か、激しい戦いか、それとも……。", 
+        "difficulty": 1, 
+        "dungeon": "106100", 
+        "energy_use": 10, 
+        "id": "107900", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "英雄たちの饗宴", 
+        "xp": 3000, 
+        "zel": 0
+    }, 
+    "107901": {
+        "area": "105900", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": true, 
+        "desc": "世界の英雄たちによる宴……それはまだまだ終わらない！<br>語り合う言葉は隔たりを越え、我々に何を伝えるのか……？", 
+        "difficulty": 1, 
+        "dungeon": "106100", 
+        "energy_use": 10, 
+        "id": "107901", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "英雄たちの饗宴（和訳ver）", 
+        "requires": "107900", 
+        "xp": 3000, 
+        "zel": 0
+    }, 
     "10800": {
         "area": "10900", 
         "battle_count": 8, 
@@ -16148,6 +16659,81 @@
         "requires": "10766", 
         "xp": 4080, 
         "zel": 5400
+    }, 
+    "108000": {
+        "area": "106000", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "コラボクエストの最初の相手は、どうやら暗黒街を牛耳る権力者のようだ。その容姿は、ある鳥に似ているらしいが……。", 
+        "difficulty": 1, 
+        "dungeon": "106200", 
+        "energy_use": 10, 
+        "id": "108000", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "裏社会の黒幕", 
+        "xp": 3000, 
+        "zel": 8000
+    }, 
+    "108001": {
+        "area": "106000", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "次に現れたのは、ピエロのような姿をしたセクシーな女性？その格好に惑わされるな！彼女は愛した男以外に容赦がないぞ！", 
+        "difficulty": 1, 
+        "dungeon": "106200", 
+        "energy_use": 10, 
+        "id": "108001", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "マッド・ラブ", 
+        "requires": "108000", 
+        "xp": 3000, 
+        "zel": 8000
+    }, 
+    "108002": {
+        "area": "106000", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "白塗りの顔、紫と緑色を基調としたスーツ……犯罪界の道化王子の登場だ！だが今は奴の悪趣味なジョークよりもゼルを優先だ！", 
+        "difficulty": 1, 
+        "dungeon": "106200", 
+        "energy_use": 10, 
+        "id": "108002", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "地獄の道化師", 
+        "requires": "108001", 
+        "xp": 3000, 
+        "zel": 8000
+    }, 
+    "108003": {
+        "area": "106000", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "吉田ヴィランらを撃退したのはいいが、相手はまだ最後の一手を残していたようだ。なんだか格好良いメカが現れたぞ！！", 
+        "difficulty": 1, 
+        "dungeon": "106200", 
+        "energy_use": 15, 
+        "id": "108003", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "秘密兵器？", 
+        "requires": "108002", 
+        "xp": 5000, 
+        "zel": 10000
     }, 
     "10801": {
         "area": "10900", 
@@ -24197,6 +24783,120 @@
         "xp": 10000, 
         "zel": 0
     }, 
+    "151500": {
+        "area": "グランガイア戦記", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "zel": "500000"
+            }, 
+            {
+                "karma": "100000"
+            }
+        ], 
+        "continue": true, 
+        "desc": "【蒼き血の真実編 vol.1】特殊な力を持つ王女マリエラは、自分を狙って異界の魔神が侵攻してくることを予知する……。", 
+        "difficulty": 1, 
+        "dungeon": "150015", 
+        "energy_use": 30, 
+        "id": "151500", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "争乱の予感", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
+    "151501": {
+        "area": "グランガイア戦記", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "zel": "500000"
+            }, 
+            {
+                "karma": "100000"
+            }, 
+            {
+                "unit": {
+                    "count": "1", 
+                    "id": "61125"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "【蒼き血の真実編 vol.2】竜族の長の妻として、子をもうけたマリエラ。だがそのことが新たな悲劇を生み出すことに……。", 
+        "difficulty": 1, 
+        "dungeon": "150015", 
+        "energy_use": 30, 
+        "id": "151501", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "生み出されし復讐者たち", 
+        "requires": "151500", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
+    "151502": {
+        "area": "グランガイア戦記", 
+        "battle_count": 2, 
+        "clear_bonus": [
+            {
+                "zel": "1000000"
+            }, 
+            {
+                "karma": "200000"
+            }, 
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": true, 
+        "desc": "【蒼き血の真実編 vol.3】竜族の長の子を守るリオネスと、執拗にその子を狙うソニアとセージュ。それぞれの思いが激突する。", 
+        "difficulty": 1, 
+        "dungeon": "150015", 
+        "energy_use": 40, 
+        "id": "151502", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "相克する竜と獅子", 
+        "requires": "151501", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "151503": {
+        "area": "グランガイア戦記", 
+        "battle_count": 2, 
+        "clear_bonus": [
+            {
+                "zel": "1000000"
+            }, 
+            {
+                "karma": "200000"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "47214"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "【蒼き血の真実編 vol.4】時は流れ、召喚師としてイシュグリアの地に降り立ったカル。そこである竜族の戦士と出会う……。", 
+        "difficulty": 1, 
+        "dungeon": "150015", 
+        "energy_use": 50, 
+        "id": "151503", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "蒼き血の絆", 
+        "requires": "151502", 
+        "xp": 10000, 
+        "zel": 0
+    }, 
     "1520": {
         "area": "バリウラ", 
         "battle_count": 8, 
@@ -27547,6 +28247,72 @@
         "xp": 100000, 
         "zel": 3000000
     }, 
+    "2100003": {
+        "area": "2100000", 
+        "battle_count": 2, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "今回の擬似ユニットは<br>これまでとはすっごく違う素材だよ！<br>戦い始めたらきっとキミは<br>すっごく驚くと思うな♪", 
+        "difficulty": 1, 
+        "dungeon": "2100000", 
+        "energy_use": 50, 
+        "id": "2100003", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "魔統神の闘舞", 
+        "requires": "2100001,2100002", 
+        "xp": 100000, 
+        "zel": 3000000
+    }, 
+    "2100004": {
+        "area": "2100000", 
+        "battle_count": 2, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "今回の擬似ユニットは<br>これまでとはすっごく違う素材だよ！<br>戦い始めたらきっとキミは<br>すっごく驚くと思うな♪", 
+        "difficulty": 1, 
+        "dungeon": "2100000", 
+        "energy_use": 50, 
+        "id": "2100004", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "創造主の闘舞", 
+        "requires": "2100001,2100002", 
+        "xp": 100000, 
+        "zel": 3000000
+    }, 
+    "2100005": {
+        "area": "2100000", 
+        "battle_count": 2, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "今回の擬似ユニットは<br>これまでとはすっごく違う素材だよ！<br>戦い始めたらきっとキミは<br>すっごく驚くと思うな♪", 
+        "difficulty": 1, 
+        "dungeon": "2100000", 
+        "energy_use": 50, 
+        "id": "2100005", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "封神の闘舞", 
+        "requires": "2100003,2100004", 
+        "xp": 100000, 
+        "zel": 3000000
+    }, 
     "21001": {
         "area": "20200", 
         "battle_count": 3, 
@@ -29511,6 +30277,764 @@
         "xp": 280, 
         "zel": 500
     }, 
+    "23000": {
+        "area": "20400", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "アベル機関に先を越されてしまっているが、この世界に人が足を踏み入れるのは初めてのことらしい。何があるか分からない。", 
+        "difficulty": 1, 
+        "dungeon": "20400", 
+        "energy_use": 13, 
+        "id": "23000", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "未踏の大地", 
+        "requires": "22074", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23001": {
+        "area": "20400", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "どうやら平坦な草原が続いているようだが、草むらに紛れて岩が点在している。気を付けて歩かなければつまずいてしまう。", 
+        "difficulty": 1, 
+        "dungeon": "20400", 
+        "energy_use": 14, 
+        "id": "23001", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "足元に注意", 
+        "requires": "23000", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23002": {
+        "area": "20400", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "見晴らしは良いのに足場が悪い。戦う上であまり良い環境ではないが、気候が良い分過去に探索してきた場所よりましだろう。", 
+        "difficulty": 1, 
+        "dungeon": "20400", 
+        "energy_use": 14, 
+        "id": "23002", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "草むら歩む", 
+        "requires": "23001", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23003": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "優しい風が吹き、足元の草がそよぐ。空を飛び回る鳥たちもなんだか心地よさそうに見える。………あれは本当に鳥だろうか？", 
+        "difficulty": 1, 
+        "dungeon": "20400", 
+        "energy_use": 15, 
+        "id": "23003", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "脚光の翼", 
+        "requires": "23002", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23004": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "足元の瓦礫が増え、遠くに建物らしきものも見えてきた。こういう地形の境目には危険な敵が待ち受けていることが多いが…。", 
+        "difficulty": 1, 
+        "dungeon": "20400", 
+        "energy_use": 18, 
+        "id": "23004", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "高原に立つ", 
+        "requires": "23003", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23010": {
+        "area": "20400", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "遺跡の暗がりに隠れながら魔動人形をやり過ごす。何の目的で造られた存在かは分からないが、戦闘力はありそうだ。", 
+        "difficulty": 1, 
+        "dungeon": "20410", 
+        "energy_use": 13, 
+        "id": "23010", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "暗がりの中", 
+        "requires": "23004", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23011": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "周囲の遺跡は人間が使うには明らかに大きい。しかし、半壊しているのは何故だろう？ここで戦いでもあったのだろうか。", 
+        "difficulty": 1, 
+        "dungeon": "20410", 
+        "energy_use": 14, 
+        "id": "23011", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "朽ちた石材", 
+        "requires": "23010", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23012": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "良い陽気だが、巨大な遺跡の内部はとても暗い。外が明るいだけに暗さが際立って感じられ、目がなかなか暗さに慣れない。", 
+        "difficulty": 1, 
+        "dungeon": "20410", 
+        "energy_use": 15, 
+        "id": "23012", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "暗闇無窮", 
+        "requires": "23011", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23013": {
+        "area": "20400", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "魔動人形に発見されてしまった。反応から察するに、どうやら見逃してくれそうにはない。一戦交えるしか道はないようだ。", 
+        "difficulty": 1, 
+        "dungeon": "20410", 
+        "energy_use": 18, 
+        "id": "23013", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "猛る巨影", 
+        "requires": "23012", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23020": {
+        "area": "20400", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "なんとか魔動人形から逃げ出すことができ、浸水した区画へと辿り着いた。遺跡の傷み具合はこちらの方が酷い有様だ。", 
+        "difficulty": 1, 
+        "dungeon": "20420", 
+        "energy_use": 14, 
+        "id": "23020", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "水浸しの遺跡", 
+        "requires": "23013", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23021": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "腰まで浸かる水を湛えた建造物を抜けると、今度はぬかるんだ地面が待ち受けていた。この区画は早い所抜けてしまいたい。", 
+        "difficulty": 1, 
+        "dungeon": "20420", 
+        "energy_use": 14, 
+        "id": "23021", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "泥中の瓦礫", 
+        "requires": "23020", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23022": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "遺跡は入り組んでいて道はいくつもあるようだ。歩きやすい経路もあったのかもしれない。できれば乾いた地面を歩きたい。", 
+        "difficulty": 1, 
+        "dungeon": "20420", 
+        "energy_use": 15, 
+        "id": "23022", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "要の湿地", 
+        "requires": "23021", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23023": {
+        "area": "20400", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "魔動人形を撃破するためアベル機関と共同戦線を張ることになった。２人ずつ３組に別れて魔動人形を包囲する作戦だ。", 
+        "difficulty": 1, 
+        "dungeon": "20420", 
+        "energy_use": 20, 
+        "id": "23023", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "共同戦線", 
+        "requires": "23022", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23030": {
+        "area": "20400", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "レダの言うように、ここから先の道のりはかなり険しそうだ。しかし、ぐずぐずしていると魔動人形に追い着かれてしまう。", 
+        "difficulty": 1, 
+        "dungeon": "20430", 
+        "energy_use": 14, 
+        "id": "23030", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "滝に手をかざし", 
+        "requires": "23023", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23031": {
+        "area": "20400", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "なんとか登れそうな場所を選びながら進む。誰かが先行した気配は無い。アベル機関の２人は別の道を見つけたのだろうか？", 
+        "difficulty": 1, 
+        "dungeon": "20430", 
+        "energy_use": 14, 
+        "id": "23031", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "削られる大地", 
+        "requires": "23030", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23032": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "腕を伸ばして岩を掴み、滝の飛沫に濡れながら足場を探す。濡れた足場は滑りやすく、お互いに注意し合いながら進んでいく。", 
+        "difficulty": 1, 
+        "dungeon": "20430", 
+        "energy_use": 15, 
+        "id": "23032", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "高く長く轟く", 
+        "requires": "23031", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23033": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "まるで激流を泳ぐような滝登りもようやく終わりだ。かなりの達成感があるが、他にもっと楽な経路があったようにも思える。", 
+        "difficulty": 1, 
+        "dungeon": "20430", 
+        "energy_use": 17, 
+        "id": "23033", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "腕を伸ばせば", 
+        "requires": "23032", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23040": {
+        "area": "20400", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "グラデンスと合流し、断崖絶壁の道を注意しながら進む。先ほどの滝に比べれば楽なものだが、危険なことに変わりはない。", 
+        "difficulty": 1, 
+        "dungeon": "20440", 
+        "energy_use": 14, 
+        "id": "23040", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "断崖肝試し", 
+        "requires": "23033", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23041": {
+        "area": "20400", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "道幅の狭くなった赤い崖を慎重に進む。レダが時々壁の石の標本を採集しているが、この世界特有のものなのだろうか。", 
+        "difficulty": 1, 
+        "dungeon": "20440", 
+        "energy_use": 15, 
+        "id": "23041", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "度胸ひとつ", 
+        "requires": "23040", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23042": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "11049"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "アベル機関たちと対峙する中、突如乱入してきた魔動人形。ラナスたちを追うにしても、まずは魔動人形をなんとかしなければ！", 
+        "difficulty": 1, 
+        "dungeon": "20440", 
+        "energy_use": 20, 
+        "id": "23042", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "襲撃の壁", 
+        "requires": "23041", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23050": {
+        "area": "20400", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ベルツとルジーナのことは気になるが、封神儀探索という使命に戻らねば……。目の前の巨大な神殿は静寂に包まれている。", 
+        "difficulty": 1, 
+        "dungeon": "20450", 
+        "energy_use": 15, 
+        "id": "23050", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "604087", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "使命に向かって", 
+        "requires": "23042", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23051": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "この世界そのものが封神儀だというが、その中心地がこの神殿に当たるらしい。封神儀の核を目指し、注意深く神殿に近寄る。", 
+        "difficulty": 1, 
+        "dungeon": "20450", 
+        "energy_use": 15, 
+        "id": "23051", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "604087", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "頂に登る者", 
+        "requires": "23050", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23052": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "おそらく先行しているアベル機関たちは、この神殿にすでに辿り着いていることだろう。あらゆる方向に警戒しなければ。", 
+        "difficulty": 1, 
+        "dungeon": "20450", 
+        "energy_use": 16, 
+        "id": "23052", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "604087", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "頭を垂れて", 
+        "requires": "23051", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23053": {
+        "area": "20400", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "明るい場所と暗い場所がはっきりと分かれる造りの神殿は、光の取り入れ方に工夫が見られる。一体誰が造ったのだろう？", 
+        "difficulty": 1, 
+        "dungeon": "20450", 
+        "energy_use": 18, 
+        "id": "23053", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "604087", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "眼光鋭意", 
+        "requires": "23052", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23060": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "神殿の中心部に足を踏み入れると、誰かに見られているような気配を感じた。この世界そのものに見られているのだろうか？", 
+        "difficulty": 1, 
+        "dungeon": "20460", 
+        "energy_use": 16, 
+        "id": "23060", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "604087", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "激動の震央", 
+        "requires": "23053", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23061": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "厳粛な雰囲気とともに、進むごとに空気が張り詰めていくのを感じる。この先にあるものが関係しているのは間違いない。", 
+        "difficulty": 1, 
+        "dungeon": "20460", 
+        "energy_use": 16, 
+        "id": "23061", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "604087", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "神秘の渦中", 
+        "requires": "23060", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23062": {
+        "area": "20400", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "こちらの足止めに現れたメルとギャレット。戦いは避けられないようだ。２人を排除し、早くラナスのもとへ向かわねば……。", 
+        "difficulty": 1, 
+        "dungeon": "20460", 
+        "energy_use": 20, 
+        "id": "23062", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "604087", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "懊悩の核心", 
+        "requires": "23061", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23063": {
+        "area": "20400", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "メルとギャレットとの戦闘でかなり時間をとられてしまった。ラナスはもう封神儀の核に辿り着いているかもしれない、急ごう。", 
+        "difficulty": 1, 
+        "dungeon": "20460", 
+        "energy_use": 18, 
+        "id": "23063", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "604087", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "秘儀の中枢", 
+        "requires": "23062", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23064": {
+        "area": "20400", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "魔動人形を完全に倒さなければラナスと対峙することも難しい。強大な力を持つ相手だが、全力で戦えば倒せない敵ではない！", 
+        "difficulty": 1, 
+        "dungeon": "20460", 
+        "energy_use": 25, 
+        "id": "23064", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "604087", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "大地の真芯", 
+        "requires": "23063", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "23070": {
+        "area": "20400", 
+        "battle_count": 8, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "グラデンスとともに封神儀の反応の調査をしていたが、突如地中から魔動人形たちが……。とりあえず包囲を突破しなければ！", 
+        "difficulty": 1, 
+        "dungeon": "20470", 
+        "energy_use": 50, 
+        "id": "23070", 
+        "karma": 0, 
+        "land": "103", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "604086", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "604087", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "目覚める人形たち", 
+        "requires": "23064", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "231": {
         "area": "モルガン", 
         "battle_count": 7, 
@@ -29634,6 +31158,940 @@
         "requires": "234", 
         "xp": 350, 
         "zel": 500
+    }, 
+    "24000": {
+        "area": "20500", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "見上げれば青い大空には昼間にも関わらずいくつもの星が瞬き、頭上をたくさんの竜たちが飛び交っている様子がうかがえる。", 
+        "difficulty": 1, 
+        "dungeon": "20500", 
+        "energy_use": 15, 
+        "id": "24000", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "竜の楽園", 
+        "requires": "23064", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24001": {
+        "area": "20500", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ベルツやアベル機関の目的ははっきりしないが、カルの言う通り彼らの目論見を優先して潰すのも手かもしれない。", 
+        "difficulty": 1, 
+        "dungeon": "20500", 
+        "energy_use": 15, 
+        "id": "24001", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "真昼の流星", 
+        "requires": "24000", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24002": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "青空の下で見上げる星空というのも、見慣れれば良いものだ。すべてが済んだなら再びここで空を眺めるのもいいかもしれない。", 
+        "difficulty": 1, 
+        "dungeon": "20500", 
+        "energy_use": 16, 
+        "id": "24002", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "朝と夜の境界", 
+        "requires": "24001", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24003": {
+        "area": "20500", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "遠目に赤く明滅する光が見えてきた。この星降りの丘とももうじきお別れのようだ。気の緩みを正して先へと進もう。", 
+        "difficulty": 1, 
+        "dungeon": "20500", 
+        "energy_use": 18, 
+        "id": "24003", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "広がる大空", 
+        "requires": "24002", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24010": {
+        "area": "20500", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "グランガイアの神々がこの世界にいたことに驚いたが、やはりというべきか、歓迎はされていないようだ。戦うしか道は無い。", 
+        "difficulty": 1, 
+        "dungeon": "20510", 
+        "energy_use": 20, 
+        "id": "24010", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "実力明示", 
+        "requires": "24003", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24011": {
+        "area": "20500", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "アルザ・マスタの封印……封神儀の役割……。明らかになったことが多すぎる。一度情報を整理するのもいいかもしれない。", 
+        "difficulty": 1, 
+        "dungeon": "20510", 
+        "energy_use": 15, 
+        "id": "24011", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "葬送の焔", 
+        "requires": "24010", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24012": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "炎に赤く照らされた道なき道を進む。召喚術は悌神皇アルザ・マスタを封じるための力……やはり衝撃は隠しきれない。", 
+        "difficulty": 1, 
+        "dungeon": "20510", 
+        "energy_use": 16, 
+        "id": "24012", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "緋色の戦場", 
+        "requires": "24011", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24013": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "余計なことを考えながら戦って集中を欠けば灼熱の炎墓に落ちる危険がある。一旦先ほどの話は忘れて戦闘に集中しよう。", 
+        "difficulty": 1, 
+        "dungeon": "20510", 
+        "energy_use": 16, 
+        "id": "24013", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "始原の力", 
+        "requires": "24012", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24014": {
+        "area": "20500", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "稲光を放つ山の麓近くまでやってきた。竜の炎墓を振り返ると、ひと際強い熱量が近付く。これは…強力な敵が現れる予感だ。", 
+        "difficulty": 1, 
+        "dungeon": "20510", 
+        "energy_use": 18, 
+        "id": "24014", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "炎の行方", 
+        "requires": "24013", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24020": {
+        "area": "20500", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ルジーナは少し焦っているようにも見えた。ベルツを止められなければどういう事態になるのか、先が見えているのだろう。", 
+        "difficulty": 1, 
+        "dungeon": "20520", 
+        "energy_use": 15, 
+        "id": "24020", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "稲妻の喝采", 
+        "requires": "24014", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24021": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "閃光が迸り、雷鳴がひっきりなしに響き渡る。竜の炎墓以上に考え事をするには向いてない場所に来てしまったようだ。", 
+        "difficulty": 1, 
+        "dungeon": "20520", 
+        "energy_use": 16, 
+        "id": "24021", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "高嶺の牙", 
+        "requires": "24020", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24022": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ベルツは相変わらず何を考えているのか分からなかった。ただ、気のせいかその瞳には善意が宿っているようにも見えた。", 
+        "difficulty": 1, 
+        "dungeon": "20520", 
+        "energy_use": 17, 
+        "id": "24022", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "刹那の閃き", 
+        "requires": "24021", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24023": {
+        "area": "20500", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "轟音が鳴り響く。雷とは違う、これは咆哮のようだ。山道を降りきるには、あの声の主との戦闘は避けられないかもしれない。", 
+        "difficulty": 1, 
+        "dungeon": "20520", 
+        "energy_use": 18, 
+        "id": "24023", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "雷の咆哮", 
+        "requires": "24022", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24030": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "穏やかな湖面には幻想的な光が映し出されている。初めに訪れた丘と同じで、ここはゆっくり風景を楽しみたくなる場所だ。", 
+        "difficulty": 1, 
+        "dungeon": "20530", 
+        "energy_use": 16, 
+        "id": "24030", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "静寂の湖", 
+        "requires": "24023", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24031": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "湖面にはさざ波ひとつ立っていない。水鏡のように周囲の風景を移す様子は静寂そのもの。考え事をするなら今かもしれない。", 
+        "difficulty": 1, 
+        "dungeon": "20530", 
+        "energy_use": 16, 
+        "id": "24031", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "鏡に映る瞳", 
+        "requires": "24030", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24032": {
+        "area": "20500", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "静かで穏やかな時間。必要以上に気持ちが落ち着いてしまう。これではいけない。敵の襲撃に備えて気を引き締めなければ。", 
+        "difficulty": 1, 
+        "dungeon": "20530", 
+        "energy_use": 20, 
+        "id": "24032", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "万天震鳴", 
+        "requires": "24031", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24040": {
+        "area": "20500", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ベルツがしたかったこと…ラナスの過去…。考えてみても仕方がない、今はとにかくラナスが力を手にするのを防ぐのが先決だ。", 
+        "difficulty": 1, 
+        "dungeon": "20540", 
+        "energy_use": 16, 
+        "id": "24040", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "移り気な風", 
+        "requires": "24032", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24041": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "湖同様、この樹海もついつい内省的になってしまう。今はやることがはっきりしている。余計なことを考えるのはやめよう。", 
+        "difficulty": 1, 
+        "dungeon": "20540", 
+        "energy_use": 16, 
+        "id": "24041", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "深奥の緑", 
+        "requires": "24040", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24042": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "薄暗い獣道を進んでいると、なんだかこれまで歩んできた道を思い返したくなる。思えば色々なところを歩いてきたものだ。", 
+        "difficulty": 1, 
+        "dungeon": "20540", 
+        "energy_use": 17, 
+        "id": "24042", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "暗く長い道", 
+        "requires": "24041", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24043": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "どうしてだろう、この森は特別異質な雰囲気というわけでもないのに、とても遠くまで来てしまったという気がしてくる。", 
+        "difficulty": 1, 
+        "dungeon": "20540", 
+        "energy_use": 17, 
+        "id": "24043", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "翡翠の心", 
+        "requires": "24042", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24044": {
+        "area": "20500", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "結局、樹海を歩いている間中、これまでの冒険を思い出してあれこれと考え込んでしまった。目の前の戦いに集中しなければ。", 
+        "difficulty": 1, 
+        "dungeon": "20540", 
+        "energy_use": 19, 
+        "id": "24044", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "地の憤激", 
+        "requires": "24043", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24050": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "樹海を抜けると、突然、壮麗な神殿のような建造物が眼前に現れた。グランガイアの神々が造ったものなのだろうか？", 
+        "difficulty": 1, 
+        "dungeon": "20550", 
+        "energy_use": 16, 
+        "id": "24050", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "真理の命脈", 
+        "requires": "24044", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24051": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "神殿は比較的損壊が少なく、綺麗に保たれている。この世界で出会ったあの２人の神が手入れでもしているのだろうか……？", 
+        "difficulty": 1, 
+        "dungeon": "20550", 
+        "energy_use": 17, 
+        "id": "24051", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "迸る鋭気", 
+        "requires": "24050", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24052": {
+        "area": "20500", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "召喚老の２人が、ラナスたちと戦っている場面に遭遇するとは！オーンは嫌がるだろうがグラデンスの指示通り彼に加勢しよう。", 
+        "difficulty": 1, 
+        "dungeon": "20550", 
+        "energy_use": 20, 
+        "id": "24052", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "裂帛合気", 
+        "requires": "24051", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24053": {
+        "area": "20500", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "ラナスは想像以上に手強い相手だった。だが、オーンの強さの方が僅かに上のようだ。このまま戦えば勝てるかもしれない。", 
+        "difficulty": 1, 
+        "dungeon": "20550", 
+        "energy_use": 20, 
+        "id": "24053", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "怒号砕身", 
+        "requires": "24052", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24060": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "オーンが深手を負ったことに全員驚きを隠せない。傷の治療は済んだので大事無いだろうが、ラナスの凄みを感じざるを得ない。", 
+        "difficulty": 1, 
+        "dungeon": "20560", 
+        "energy_use": 16, 
+        "id": "24060", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "警世の星辰", 
+        "requires": "24053", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24061": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "真の召喚の力を得たら、ラナスは何をするつもりなのだろうか。ベルツはエルガイアを守りたいようなことを言っていたが…。", 
+        "difficulty": 1, 
+        "dungeon": "20560", 
+        "energy_use": 16, 
+        "id": "24061", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "夜闇よ深く", 
+        "requires": "24060", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24062": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "また少し物思いにふけってしまっていた。決戦は近いはずだ、こんなことではいけない。頭を振ってしっかりと前を見据える。", 
+        "difficulty": 1, 
+        "dungeon": "20560", 
+        "energy_use": 17, 
+        "id": "24062", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "囁く漆黒", 
+        "requires": "24061", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24063": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "いまさらながらこの洞窟の美しさに気づいた。考えることが多すぎると、どうやら視野も狭くなるようだ。注意せねば。", 
+        "difficulty": 1, 
+        "dungeon": "20560", 
+        "energy_use": 17, 
+        "id": "24063", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "陰翳示す先", 
+        "requires": "24062", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24064": {
+        "area": "20500", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "前方の深い暗がりから何者かが不気味な視線を投げ掛けてきている。洞窟を抜けるには強敵を倒して進むしかないだろう。", 
+        "difficulty": 1, 
+        "dungeon": "20560", 
+        "energy_use": 19, 
+        "id": "24064", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "85", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "15", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "闇の教唆", 
+        "requires": "24063", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24070": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "イシュグリアでアークたちとともに戦った大神皇。その残された力がこの奥にある。今のところ、攻撃的な感じはしないが……。", 
+        "difficulty": 1, 
+        "dungeon": "20570", 
+        "energy_use": 18, 
+        "id": "24070", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "秩序の過去", 
+        "requires": "24064", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24071": {
+        "area": "20500", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "いくつもの異界を巡って封神儀の暴走を止めてきた。その旅もこの地で最後となるだろう。やるべきことをやるだけだ。", 
+        "difficulty": 1, 
+        "dungeon": "20570", 
+        "energy_use": 18, 
+        "id": "24071", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "踏破せし現在", 
+        "requires": "24070", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24072": {
+        "area": "20500", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ラナスには先行されている。力を奪われてしまった場合、おそらく苦しい戦いが待っているだろう。その前に、止めなければ！", 
+        "difficulty": 1, 
+        "dungeon": "20570", 
+        "energy_use": 20, 
+        "id": "24072", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "危急なる未来", 
+        "requires": "24071", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24073": {
+        "area": "20500", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "カルナ・マスタの力を得たラナスは強大だ！だが、グランガイアやイシュグリアでの戦いを思い出し、再び勝利を掴み取れ！", 
+        "difficulty": 1, 
+        "dungeon": "20570", 
+        "energy_use": 23, 
+        "id": "24073", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "金剛不壊", 
+        "requires": "24072", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24074": {
+        "area": "20500", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "人々の希望となるべく、女神とともに戦い続けた召喚師の物語。その戦いの結末は、決して絶望などにしてはいけない！", 
+        "difficulty": 1, 
+        "dungeon": "20570", 
+        "energy_use": 25, 
+        "id": "24074", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "魂の甦る地で", 
+        "requires": "24073", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24080": {
+        "area": "20500", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "11050"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "これまで協力してくれた二神から、戦うよう頼まれた。今後、彼らが前に進むために必要なことなのであれば、応じるまでだ。", 
+        "difficulty": 1, 
+        "dungeon": "20580", 
+        "energy_use": 50, 
+        "id": "24080", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "覚悟の姿", 
+        "requires": "24074", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "24090": {
+        "area": "20500", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "再びアルザ・マスタと対峙することになろうとは……。これもカルナ・マスタの力を得てしまったが故の運命なのだろうか……？", 
+        "difficulty": 1, 
+        "dungeon": "20590", 
+        "energy_use": 50, 
+        "id": "24090", 
+        "karma": 0, 
+        "land": "104", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "605092", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "605093", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "神話の終焉", 
+        "requires": "24080", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "241": {
         "area": "モルガン", 
@@ -30897,6 +33355,23 @@
         "land": "狭間", 
         "mimic_info": {}, 
         "name": "水樹の回廊", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000340": {
+        "area": "新フロンティアゲート", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "規定の敵を倒すまでのスパーク数が試される修練プログラム。<br>ユニットの攻撃能力を把握し、より多くのスパークを叩き出せ！", 
+        "difficulty": 1, 
+        "dungeon": "3000026", 
+        "energy_use": 0, 
+        "id": "3000340", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "連煌演習", 
         "xp": 0, 
         "zel": 0
     }, 
@@ -33177,6 +35652,24 @@
         "xp": 8000, 
         "zel": 30000
     }, 
+    "500002": {
+        "area": "500000", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "召喚師自身を鍛えるために設計された戦闘シミュレーター。<br>立ちはだかる難敵をすべて撃破し、戦力を向上させろ！", 
+        "difficulty": 1, 
+        "dungeon": "500000", 
+        "energy_use": 0, 
+        "id": "500002", 
+        "karma": 0, 
+        "land": "999", 
+        "mimic_info": {}, 
+        "name": "経験訓練場Lv.3", 
+        "requires": "22074", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "500020": {
         "area": "500000", 
         "battle_count": 3, 
@@ -33199,7 +35692,7 @@
         "battle_count": 3, 
         "clear_bonus": [], 
         "continue": true, 
-        "desc": "召喚術の修練を目的とする高難度戦闘シミュレーター。<br>押し寄せる強敵をすべて撃破し、召喚の力をさらに高めよ！", 
+        "desc": "召喚術の修練を目的とする戦闘シミュレーター。<br>押し寄せる強敵をすべて撃破し、召喚の力をさらに高めよ！", 
         "difficulty": 1, 
         "dungeon": "500020", 
         "energy_use": 0, 
@@ -33209,6 +35702,24 @@
         "mimic_info": {}, 
         "name": "召喚術訓練場Lv.2", 
         "requires": "20705", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "500022": {
+        "area": "500000", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "召喚術の修練を目的とする戦闘シミュレーター。<br>立ちはだかる難敵をすべて撃破し、召喚力を進化させろ！", 
+        "difficulty": 1, 
+        "dungeon": "500020", 
+        "energy_use": 0, 
+        "id": "500022", 
+        "karma": 0, 
+        "land": "999", 
+        "mimic_info": {}, 
+        "name": "召喚術訓練場Lv.3", 
+        "requires": "22074", 
         "xp": 0, 
         "zel": 0
     }, 
@@ -33247,6 +35758,24 @@
         "xp": 0, 
         "zel": 0
     }, 
+    "500042": {
+        "area": "500000", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "召喚師の力となる武器の研鑽を目的とした戦闘シミュレーター。<br>立ちはだかる難敵をすべて撃破し、さらなる力をその手に掴め！", 
+        "difficulty": 1, 
+        "dungeon": "500040", 
+        "energy_use": 0, 
+        "id": "500042", 
+        "karma": 0, 
+        "land": "999", 
+        "mimic_info": {}, 
+        "name": "武器訓練場Lv.3", 
+        "requires": "22074", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "500060": {
         "area": "500000", 
         "battle_count": 3, 
@@ -33279,6 +35808,24 @@
         "mimic_info": {}, 
         "name": "能力強化訓練場Lv.2", 
         "requires": "20705", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "500062": {
+        "area": "500000", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "召喚師の能力強化を目的とした戦闘シミュレーター。<br>立ちはだかる難敵をすべて撃破し、己の限界を突破せよ！", 
+        "difficulty": 1, 
+        "dungeon": "500060", 
+        "energy_use": 0, 
+        "id": "500062", 
+        "karma": 0, 
+        "land": "999", 
+        "mimic_info": {}, 
+        "name": "能力強化訓練場Lv.3", 
+        "requires": "22074", 
         "xp": 0, 
         "zel": 0
     }, 
@@ -34417,6 +36964,28 @@
         "xp": 0, 
         "zel": 0
     }, 
+    "600020": {
+        "area": "600000", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "果てなき闘争の渦中に身を投じた魔神との戦い。属性を意識して戦わなければ、勝利はおぼつかないだろう。", 
+        "difficulty": 1, 
+        "dungeon": "600000", 
+        "energy_use": 50, 
+        "id": "600020", 
+        "karma": 0, 
+        "land": "999", 
+        "mimic_info": {}, 
+        "name": "第三の戦域", 
+        "requires": "600010", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "601": {
         "area": "パルミナ", 
         "battle_count": 9, 
@@ -35480,6 +38049,45 @@
         "requires": "666,20067", 
         "xp": 2200, 
         "zel": 2000
+    }, 
+    "700000": {
+        "area": "700000", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "「テメェの本気が見たくなった」鈍器を担いだ男が薄く笑う。<br>「勝てたらこの剣をくれてやる。戦う動機には十分だろう？」", 
+        "difficulty": 1, 
+        "dungeon": "700000", 
+        "energy_use": 20, 
+        "id": "700000", 
+        "karma": 0, 
+        "land": "999", 
+        "mimic_info": {}, 
+        "name": "HEAVY DAY Lv.1", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "700010": {
+        "area": "700000", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "叩き伏せたというのに、相手の殺気は依然として消えない。<br>その内で膨れ上がる“ヘヴィ”な爆炎に、召喚師は戦慄した。", 
+        "difficulty": 1, 
+        "dungeon": "700000", 
+        "energy_use": 30, 
+        "id": "700010", 
+        "karma": 0, 
+        "land": "999", 
+        "mimic_info": {}, 
+        "name": "HEAVY DAY Lv.2", 
+        "requires": "700000", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "701": {
         "area": "リゼリア", 
