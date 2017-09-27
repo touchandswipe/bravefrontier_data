@@ -1510,24 +1510,6 @@
         "xp": 0, 
         "zel": 0
     }, 
-    "1000204": {
-        "area": "1st Expedition", 
-        "battle_count": 4, 
-        "clear_bonus": [], 
-        "continue": true, 
-        "desc": "An area that can only be entered with special Units prepared by the Survey Office. What could be the powerful beings awaiting in its depths...?", 
-        "difficulty": 1, 
-        "dungeon": "20th Expedition", 
-        "energy_use": 0, 
-        "id": "1000204", 
-        "karma": 0, 
-        "land": "Vortex", 
-        "mimic_info": {}, 
-        "name": "Light Lost in Darkness", 
-        "requires": "1000203", 
-        "xp": 0, 
-        "zel": 0
-    }, 
     "10003": {
         "area": "Celgrad", 
         "battle_count": 7, 
@@ -11792,6 +11774,61 @@
         "xp": 5550, 
         "zel": 6400
     }, 
+    "107600": {
+        "area": "Royal Capital Grandshelt", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You can see the great Royal Capital before you after crossing the gate. As you approach it with care, a huge arena catches your eye.", 
+        "difficulty": 1, 
+        "dungeon": "Royal Capital Grandshelt", 
+        "energy_use": 10, 
+        "id": "107600", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Burning Soul Lv. 1", 
+        "xp": 700, 
+        "zel": 0
+    }, 
+    "107601": {
+        "area": "Royal Capital Grandshelt", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "A blonde young man awaits in the otherworldly arena of the Royal Capital smiling fearlessly as he unsheathes his blade. Challenges seem to please him.", 
+        "difficulty": 1, 
+        "dungeon": "Royal Capital Grandshelt", 
+        "energy_use": 20, 
+        "id": "107601", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Burning Soul Lv. 2", 
+        "xp": 1700, 
+        "zel": 0
+    }, 
+    "107602": {
+        "area": "Royal Capital Grandshelt", 
+        "battle_count": 6, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The many marks around the arena suggest men and beasts have fought here before. How many battles to the death has this place seen on a regular basis?", 
+        "difficulty": 1, 
+        "dungeon": "Royal Capital Grandshelt", 
+        "energy_use": 30, 
+        "id": "107602", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Burning Soul Lv. 3", 
+        "xp": 3500, 
+        "zel": 0
+    }, 
     "10761": {
         "area": "Estria", 
         "battle_count": 9, 
@@ -11911,6 +11948,61 @@
         "requires": "10764", 
         "xp": 8600, 
         "zel": 7900
+    }, 
+    "107650": {
+        "area": "Road to the Colosseum", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You see a great arena before you past the gate to another world. A young man with flowing long black hair awaits with sword in hand.", 
+        "difficulty": 1, 
+        "dungeon": "Road to the Colosseum", 
+        "energy_use": 10, 
+        "id": "107650", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Tranquil Spirit Lv. 1", 
+        "xp": 700, 
+        "zel": 0
+    }, 
+    "107651": {
+        "area": "Road to the Colosseum", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Amidst all the commotion in this new world, you meet a young man with black hair that excels in swordsmanship. There is nowhere to run now.", 
+        "difficulty": 1, 
+        "dungeon": "Road to the Colosseum", 
+        "energy_use": 20, 
+        "id": "107651", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Tranquil Spirit Lv. 2", 
+        "xp": 1700, 
+        "zel": 0
+    }, 
+    "107652": {
+        "area": "Road to the Colosseum", 
+        "battle_count": 6, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The deep claw marks and gashes left upon the structure of the arena are a testament of the vicious battles that continuously take place here.", 
+        "difficulty": 1, 
+        "dungeon": "Road to the Colosseum", 
+        "energy_use": 30, 
+        "id": "107652", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Tranquil Spirit Lv. 3", 
+        "xp": 3500, 
+        "zel": 0
     }, 
     "10766": {
         "area": "Estria", 
@@ -21990,7 +22082,7 @@
         "desc": "These mock Units are made of something completely different. You're in for a shock once you start fighting them!", 
         "difficulty": 1, 
         "dungeon": "Strategy Zone", 
-        "energy_use": 25, 
+        "energy_use": 50, 
         "id": "2100000", 
         "karma": 0, 
         "land": "Vortex", 
@@ -22018,7 +22110,6 @@
         "land": "Vortex", 
         "mimic_info": {}, 
         "name": "The Beast God", 
-        "requires": "9999999", 
         "xp": 100000, 
         "zel": 3000000
     }, 
@@ -23547,6 +23638,159 @@
         "land": "Vortex", 
         "mimic_info": {}, 
         "name": "Recalling Bondage - End", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000310": {
+        "area": "New Frontier Gate", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "A trial program where you fight to the end using only Thunder and Light type Units. Choose wisely and get as far as you can!", 
+        "difficulty": 1, 
+        "dungeon": "Flash of Lightning", 
+        "energy_use": 0, 
+        "id": "3000310", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Flash of Lightning", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000311": {
+        "area": "New Frontier Gate", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "A trial program where you fight to the end using only Thunder and Light type Units. Choose wisely and get as far as you can!", 
+        "difficulty": 1, 
+        "dungeon": "Flash of Lightning", 
+        "energy_use": 0, 
+        "id": "3000311", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Flash of Lightning", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000312": {
+        "area": "New Frontier Gate", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "A trial program where you fight to the end using only Thunder and Light type Units. Choose wisely and get as far as you can!", 
+        "difficulty": 1, 
+        "dungeon": "Flash of Lightning", 
+        "energy_use": 0, 
+        "id": "3000312", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Flash of Lightning", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000320": {
+        "area": "New Frontier Gate", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "A trial program where you fight to the end using only Fire and Dark type Units. Choose wisely and get as far as you can!", 
+        "difficulty": 1, 
+        "dungeon": "Flame of Darkness", 
+        "energy_use": 0, 
+        "id": "3000320", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Flame of Darkness", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000321": {
+        "area": "New Frontier Gate", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "A trial program where you fight to the end using only Fire and Dark type Units. Choose wisely and get as far as you can!", 
+        "difficulty": 1, 
+        "dungeon": "Flame of Darkness", 
+        "energy_use": 0, 
+        "id": "3000321", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Flame of Darkness", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000322": {
+        "area": "New Frontier Gate", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "A trial program where you fight to the end using only Fire and Dark type Units. Choose wisely and get as far as you can!", 
+        "difficulty": 1, 
+        "dungeon": "Flame of Darkness", 
+        "energy_use": 0, 
+        "id": "3000322", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Flame of Darkness", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000330": {
+        "area": "New Frontier Gate", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "A trial program where you fight to the end using only Water and Earth type Units. Test your limits under these demanding restrictions!", 
+        "difficulty": 1, 
+        "dungeon": "Sea of Trees", 
+        "energy_use": 0, 
+        "id": "3000330", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Sea of Trees", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000331": {
+        "area": "New Frontier Gate", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "A trial program where you fight to the end using only Water and Earth type Units. Test your limits under these demanding restrictions!", 
+        "difficulty": 1, 
+        "dungeon": "Sea of Trees", 
+        "energy_use": 0, 
+        "id": "3000331", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Sea of Trees", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "3000332": {
+        "area": "New Frontier Gate", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "A trial program where you fight to the end using only Water and Earth type Units. Test your limits under these demanding restrictions!", 
+        "difficulty": 1, 
+        "dungeon": "Sea of Trees", 
+        "energy_use": 0, 
+        "id": "3000332", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Sea of Trees", 
         "xp": 0, 
         "zel": 0
     }, 
@@ -28807,7 +29051,7 @@
         "continue": true, 
         "desc": "Priscilla has got lost in Santa Claus’ mountains. Even worse yet, she’s lost Santa...", 
         "difficulty": 1, 
-        "dungeon": "Montagne Pourpre Lv. 1", 
+        "dungeon": "The Crimson Mountain", 
         "energy_use": 11, 
         "id": "701400", 
         "karma": 0, 
@@ -28828,7 +29072,7 @@
         "continue": true, 
         "desc": "Yoohoo?! Santa? They went crazy. Capture them and bring them back to the log cabin.", 
         "difficulty": 1, 
-        "dungeon": "Montagne Pourpre Lv. 1", 
+        "dungeon": "The Crimson Mountain", 
         "energy_use": 20, 
         "id": "701401", 
         "karma": 0, 
@@ -30101,7 +30345,7 @@
         "continue": true, 
         "desc": "You’ve decided to help Llewxam battle the Corruption. ", 
         "difficulty": 1, 
-        "dungeon": "Dungeon Anniversary Dark", 
+        "dungeon": "Summoners vs Yggdrasil", 
         "energy_use": 11, 
         "id": "702600", 
         "karma": 0, 
@@ -30122,7 +30366,7 @@
         "continue": true, 
         "desc": "Fight the Corruption and suppress her power!", 
         "difficulty": 1, 
-        "dungeon": "Dungeon Anniversary Dark", 
+        "dungeon": "Summoners vs Yggdrasil", 
         "energy_use": 20, 
         "id": "702601", 
         "karma": 0, 
@@ -30146,7 +30390,7 @@
         "continue": true, 
         "desc": "You’ve decided to help the Corruption spread to Llewxam's portal.", 
         "difficulty": 1, 
-        "dungeon": "Dungeon Anniversary Light", 
+        "dungeon": "Summoners vs Llewxam Weaver of F", 
         "energy_use": 11, 
         "id": "702700", 
         "karma": 0, 
@@ -30167,7 +30411,7 @@
         "continue": true, 
         "desc": "Fight Llewxam and collect her tears!", 
         "difficulty": 1, 
-        "dungeon": "Dungeon Anniversary Light", 
+        "dungeon": "Summoners vs Llewxam Weaver of F", 
         "energy_use": 20, 
         "id": "702701", 
         "karma": 0, 
@@ -33177,6 +33421,12 @@
         "clear_bonus": [
             {
                 "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "701041"
+                }
             }
         ], 
         "continue": true, 
@@ -33379,6 +33629,845 @@
         "xp": 7000, 
         "zel": 0
     }, 
+    "706900": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "While peace reigned in the tiny village of Domrémy, forces from the sea prepared to attack. A new invasion begins...", 
+        "difficulty": 1, 
+        "dungeon": "New Invasion", 
+        "energy_use": 15, 
+        "id": "706900", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The final stronghold", 
+        "xp": 2850, 
+        "zel": 0
+    }, 
+    "706901": {
+        "area": "Shapeshifter", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Some Shapeshifters attack the village, while others chase the villagers who have run away into the forest. They were not expecting to encounter any resistance...", 
+        "difficulty": 1, 
+        "dungeon": "New Invasion", 
+        "energy_use": 16, 
+        "id": "706901", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Hunt in the forest", 
+        "requires": "706900", 
+        "xp": 3250, 
+        "zel": 0
+    }, 
+    "706902": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Amadeus and Heinrich arrive in the village mentioned by the villager girl. All that is left to do is to find the famous young girl.", 
+        "difficulty": 1, 
+        "dungeon": "New Invasion", 
+        "energy_use": 17, 
+        "id": "706902", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Strange young girl", 
+        "requires": "706901", 
+        "xp": 3500, 
+        "zel": 0
+    }, 
+    "706903": {
+        "area": "Shapeshifter", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "701046"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "The attack on the village has been interrupted. The group now launches an offensive in order to push back the invaders.", 
+        "difficulty": 1, 
+        "dungeon": "New Invasion", 
+        "energy_use": 18, 
+        "id": "706903", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Counterattack", 
+        "requires": "706902", 
+        "xp": 3850, 
+        "zel": 0
+    }, 
+    "706904": {
+        "area": "Shapeshifter", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": false, 
+        "desc": "Village folk stories speak of a creature who lives in the depths near the village. Some strange noises have been heard recently... Perhaps the stories are true...?", 
+        "difficulty": 1, 
+        "dungeon": "New Invasion", 
+        "energy_use": 35, 
+        "id": "706904", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Marine monster", 
+        "requires": "706903", 
+        "xp": 7000, 
+        "zel": 0
+    }, 
+    "707000": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "By the shore, Heinrich, Amadeus, and Jeanne chase the last Shapeshifters that are trying to escape. In their flight, they leave behind a strange clue.", 
+        "difficulty": 1, 
+        "dungeon": "Sea Chase", 
+        "energy_use": 15, 
+        "id": "707000", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Don’t Leave Anyone Behind!", 
+        "xp": 2850, 
+        "zel": 0
+    }, 
+    "707001": {
+        "area": "Shapeshifter", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Once they find a map, the hunters set off for an unknown island where Cornelius was.", 
+        "difficulty": 1, 
+        "dungeon": "Sea Chase", 
+        "energy_use": 16, 
+        "id": "707001", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "On Cornelius’ Trail", 
+        "requires": "707000", 
+        "xp": 3250, 
+        "zel": 0
+    }, 
+    "707002": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The hunters decide to separate into two groups in order to wipe out all the Shapeshifters on the island.", 
+        "difficulty": 1, 
+        "dungeon": "Sea Chase", 
+        "energy_use": 17, 
+        "id": "707002", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Purification of the Island", 
+        "requires": "707001", 
+        "xp": 3500, 
+        "zel": 0
+    }, 
+    "707003": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Once reunited, the group heads to the west of the island in order to finish the total purification.", 
+        "difficulty": 1, 
+        "dungeon": "Sea Chase", 
+        "energy_use": 18, 
+        "id": "707003", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The End of an Era", 
+        "requires": "707002", 
+        "xp": 3850, 
+        "zel": 0
+    }, 
+    "707004": {
+        "area": "Shapeshifter", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": false, 
+        "desc": "The hunters located the Shapeshifter who tried to attack Hamelincourt. She appears ready for anything. This fight does not seem easy.", 
+        "difficulty": 1, 
+        "dungeon": "Sea Chase", 
+        "energy_use": 35, 
+        "id": "707004", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Master of Animals", 
+        "requires": "707003", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "707100": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Just as Robespierre, a politician known throughout Hamelincourt, decides to visit the town square, he suddenly has a vision.", 
+        "difficulty": 1, 
+        "dungeon": "The Wrath Awakens", 
+        "energy_use": 15, 
+        "id": "707100", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Dark Omen", 
+        "xp": 2850, 
+        "zel": 0
+    }, 
+    "707101": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "After his vision, Robespierre continues on his way to confront Condorcet.", 
+        "difficulty": 1, 
+        "dungeon": "The Wrath Awakens", 
+        "energy_use": 16, 
+        "id": "707101", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "New Determination", 
+        "requires": "707100", 
+        "xp": 3250, 
+        "zel": 0
+    }, 
+    "707102": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "When Robespierre fights Condorcet, their battle is interrupted by the Hamelincourt guards.", 
+        "difficulty": 1, 
+        "dungeon": "The Wrath Awakens", 
+        "energy_use": 17, 
+        "id": "707102", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Inflamed Situation", 
+        "requires": "707101", 
+        "xp": 3500, 
+        "zel": 0
+    }, 
+    "707103": {
+        "area": "Shapeshifter", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "701048"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "After freeing the prisoners, Robespierre decides to go up against the Hamelincourt captain.", 
+        "difficulty": 1, 
+        "dungeon": "The Wrath Awakens", 
+        "energy_use": 18, 
+        "id": "707103", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Hamelincourt Uprising", 
+        "requires": "707102", 
+        "xp": 3850, 
+        "zel": 0
+    }, 
+    "707104": {
+        "area": "Shapeshifter", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": false, 
+        "desc": "On the way to Lutèce, the hunters meet up with some Shapeshifters who caught wind of the Hamelincourt rebellion.", 
+        "difficulty": 1, 
+        "dungeon": "The Wrath Awakens", 
+        "energy_use": 35, 
+        "id": "707104", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Widespread Rumor", 
+        "requires": "707103", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "707200": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The group moves towards the capital, Lutèce, now that Robespierre has joined them.", 
+        "difficulty": 1, 
+        "dungeon": "Road to the Capital", 
+        "energy_use": 15, 
+        "id": "707200", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "A Dangerous Path", 
+        "xp": 3000, 
+        "zel": 0
+    }, 
+    "707201": {
+        "area": "Shapeshifter", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "While Robespierre runs to the aid of the villagers, the rest of the group tries to catch up with him.", 
+        "difficulty": 1, 
+        "dungeon": "Road to the Capital", 
+        "energy_use": 16, 
+        "id": "707201", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Change of Plans", 
+        "requires": "707200", 
+        "xp": 3500, 
+        "zel": 0
+    }, 
+    "707202": {
+        "area": "Shapeshifter", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Separated now from the rest of the group, Heinrich and Amadeus take care of eliminating the Shapeshifters located in the South of the village.", 
+        "difficulty": 1, 
+        "dungeon": "Road to the Capital", 
+        "energy_use": 17, 
+        "id": "707202", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Master and the Student", 
+        "requires": "707201", 
+        "xp": 4000, 
+        "zel": 0
+    }, 
+    "707203": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "701048"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "Each pair having completed its task, they all regroup at the village’s exit.", 
+        "difficulty": 1, 
+        "dungeon": "Road to the Capital", 
+        "energy_use": 18, 
+        "id": "707203", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Trap and Plot", 
+        "requires": "707202", 
+        "xp": 4500, 
+        "zel": 0
+    }, 
+    "707204": {
+        "area": "Shapeshifter", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": false, 
+        "desc": "Rumor has it that a terrible creature roams the forests surrounding Lutèce. Could it be a Shapeshifter?", 
+        "difficulty": 1, 
+        "dungeon": "Road to the Capital", 
+        "energy_use": 35, 
+        "id": "707204", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Rumor from the Forest", 
+        "requires": "707203", 
+        "xp": 10000, 
+        "zel": 0
+    }, 
+    "707300": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The group of hunters finally arrives at the capital of Lutèce. But unfortunately, the city is being attacked by Shapeshifters.", 
+        "difficulty": 1, 
+        "dungeon": "The Revolution", 
+        "energy_use": 15, 
+        "id": "707300", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Power of Knowledge", 
+        "xp": 3000, 
+        "zel": 0
+    }, 
+    "707301": {
+        "area": "Shapeshifter", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "After running into Emily, the group finally reaches the palace. There’s a stronger Shapeshifter presence here... The President is surely in danger.", 
+        "difficulty": 1, 
+        "dungeon": "The Revolution", 
+        "energy_use": 16, 
+        "id": "707301", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Presidential Rescue", 
+        "requires": "707300", 
+        "xp": 3500, 
+        "zel": 0
+    }, 
+    "707302": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Heinrich received the support that he needed, but he leaves the group in order to find an informer in the forest. The role of group leader is therefore left to Robespierre.", 
+        "difficulty": 1, 
+        "dungeon": "The Revolution", 
+        "energy_use": 17, 
+        "id": "707302", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Beginning of Change", 
+        "requires": "707301", 
+        "xp": 4000, 
+        "zel": 0
+    }, 
+    "707303": {
+        "area": "Shapeshifter", 
+        "battle_count": 6, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "701046"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "Robespierre, accompanied by Emily and Jeanne, infiltrates the Lutèce Palace. The revolution is unfolding...", 
+        "difficulty": 1, 
+        "dungeon": "The Revolution", 
+        "energy_use": 18, 
+        "id": "707303", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Revolution", 
+        "requires": "707302", 
+        "xp": 4500, 
+        "zel": 0
+    }, 
+    "707304": {
+        "area": "Shapeshifter", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": false, 
+        "desc": "Robespierre has now taken control. However, the most faithful knights of the former president disagree with this change...", 
+        "difficulty": 1, 
+        "dungeon": "The Revolution", 
+        "energy_use": 35, 
+        "id": "707304", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Loyal Knights", 
+        "requires": "707303", 
+        "xp": 10000, 
+        "zel": 0
+    }, 
+    "707400": {
+        "area": "Shapeshifter", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "While Robespierre takes power in Lutèce, Heinrich heads towards his rendez-vous point. However, the journey onward promises to be difficult…", 
+        "difficulty": 1, 
+        "dungeon": "Fathers and son", 
+        "energy_use": 15, 
+        "id": "707400", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "A Winding Forest", 
+        "xp": 3100, 
+        "zel": 0
+    }, 
+    "707401": {
+        "area": "Shapeshifter", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Unable to bear watching his master set out on what could be a trap, Amadeus rushes after Heinrich.", 
+        "difficulty": 1, 
+        "dungeon": "Fathers and son", 
+        "energy_use": 16, 
+        "id": "707401", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "His Own Path", 
+        "requires": "707400", 
+        "xp": 3700, 
+        "zel": 0
+    }, 
+    "707402": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Amadeus approaches the rendez-vous point. Heinrich seems to already be at the location when Amadeus catches bits of a conversation…", 
+        "difficulty": 1, 
+        "dungeon": "Fathers and son", 
+        "energy_use": 17, 
+        "id": "707402", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Revelation", 
+        "requires": "707401", 
+        "xp": 4200, 
+        "zel": 0
+    }, 
+    "707403": {
+        "area": "Shapeshifter", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "701048"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "As the Lavinias take their last breath, Amadeus thinks he’s finally done with fighting. Then, suddenly, a strange man arrives at their location…", 
+        "difficulty": 1, 
+        "dungeon": "Fathers and son", 
+        "energy_use": 18, 
+        "id": "707403", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Clash of Horns", 
+        "requires": "707402", 
+        "xp": 4800, 
+        "zel": 0
+    }, 
+    "707404": {
+        "area": "Shapeshifter", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": false, 
+        "desc": "The majority of wild animals avoid certain areas of the forest. Could powerful predators be located there?", 
+        "difficulty": 1, 
+        "dungeon": "Fathers and son", 
+        "energy_use": 35, 
+        "id": "707404", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Depths of the Forest", 
+        "requires": "707403", 
+        "xp": 10000, 
+        "zel": 0
+    }, 
+    "707500": {
+        "area": "Shapeshifter", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "It’s been several months since Robespierre came to power, yet some people still refuse to recognize him as ruler. He therefore sends his most faithful soldier to take care of the problem...", 
+        "difficulty": 1, 
+        "dungeon": "Terror Era", 
+        "energy_use": 15, 
+        "id": "707500", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Dirty Work", 
+        "xp": 3100, 
+        "zel": 0
+    }, 
+    "707501": {
+        "area": "Shapeshifter", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Jeanne and Emily heard that a village had been attacked and they arrive there, before Admiral Nelson. The female hunters then discover the Admiral’s true motives.", 
+        "difficulty": 1, 
+        "dungeon": "Terror Era", 
+        "energy_use": 16, 
+        "id": "707501", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Shameful Secret", 
+        "requires": "707500", 
+        "xp": 3700, 
+        "zel": 0
+    }, 
+    "707502": {
+        "area": "Shapeshifter", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Jeanne and Emily managed to convince Nelson to join them and they set off again for the capital in order to put an end to Robespierre’s terror.", 
+        "difficulty": 1, 
+        "dungeon": "Terror Era", 
+        "energy_use": 17, 
+        "id": "707502", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Last Hope", 
+        "requires": "707501", 
+        "xp": 4200, 
+        "zel": 0
+    }, 
+    "707503": {
+        "area": "Shapeshifter", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "701046"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "Jeanne, Emily, and Nelson arrive in the capital and head directly to the palace with a sense of déjà vu. The final clash against Robespierre is drawing near.", 
+        "difficulty": 1, 
+        "dungeon": "Terror Era", 
+        "energy_use": 18, 
+        "id": "707503", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Déjà Vu", 
+        "requires": "707502", 
+        "xp": 4800, 
+        "zel": 0
+    }, 
+    "707504": {
+        "area": "Shapeshifter", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": false, 
+        "desc": "Emily had read that an ancient system of pathways exists in the sewers, but no one has ever dared to try it out.", 
+        "difficulty": 1, 
+        "dungeon": "Terror Era", 
+        "energy_use": 35, 
+        "id": "707504", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Ancient Mystery", 
+        "requires": "707503", 
+        "xp": 10000, 
+        "zel": 0
+    }, 
+    "707600": {
+        "area": "Character Quest", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The fight for internal power in the Republic is now over. However, in the floating kingdom, Cornelius prepares to use his new weapon: Cosette.", 
+        "difficulty": 1, 
+        "dungeon": "A New Future", 
+        "energy_use": 15, 
+        "id": "707600", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "A New Future", 
+        "xp": 4000, 
+        "zel": 0
+    }, 
+    "707601": {
+        "area": "Character Quest", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "701053"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "Dream World - After Cornelius’ training, Cosette has now reached an immense level of power. A level much higher than that of Cornelius...", 
+        "difficulty": 1, 
+        "dungeon": "A New Future", 
+        "energy_use": 15, 
+        "id": "707601", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Revenge is a Dish That’s Best Served...", 
+        "xp": 4000, 
+        "zel": 0
+    }, 
+    "707700": {
+        "area": "Back to school", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "Welcome to Grand Gaia School, the most renowned institute in the world. On your schedule, you see that you begin with History class...", 
+        "difficulty": 1, 
+        "dungeon": "Back to School", 
+        "energy_use": 5, 
+        "id": "707700", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "History Class", 
+        "xp": 100, 
+        "zel": 0
+    }, 
+    "707701": {
+        "area": "Back to school", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "After this first captivating class, you head to the playground. Along the way, someone from the school staff stops you.", 
+        "difficulty": 1, 
+        "dungeon": "Back to School", 
+        "energy_use": 5, 
+        "id": "707701", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Recess", 
+        "requires": "707700", 
+        "xp": 100, 
+        "zel": 0
+    }, 
+    "707702": {
+        "area": "Back to school", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "After your encounter, you realize that you just missed recess. You just have one class left: Biology.", 
+        "difficulty": 1, 
+        "dungeon": "Back to School", 
+        "energy_use": 5, 
+        "id": "707702", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Biology Class", 
+        "requires": "707701", 
+        "xp": 100, 
+        "zel": 0
+    }, 
+    "707703": {
+        "area": "Back to school", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Monsters are invading Grand Gaia School. May the strongest students come to its aid!", 
+        "difficulty": 1, 
+        "dungeon": "Back to School", 
+        "energy_use": 20, 
+        "id": "707703", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Homework", 
+        "requires": "707702", 
+        "xp": 8000, 
+        "zel": 0
+    }, 
     "71": {
         "area": "Mistral", 
         "battle_count": 6, 
@@ -33426,6 +34515,56 @@
         "requires": "705", 
         "xp": 2850, 
         "zel": 2400
+    }, 
+    "7100000": {
+        "area": "Strategy Zone", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "These mock Units are made of something completely different. You're in for a shock once you start fighting them!", 
+        "difficulty": 1, 
+        "dungeon": "Strategy Zone", 
+        "energy_use": 50, 
+        "id": "7100000", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Trinity's Challenge", 
+        "requires": "2000014", 
+        "xp": 100000, 
+        "zel": 3000000
+    }, 
+    "7100100": {
+        "area": "Strategy Zone", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "701051"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "These mock Units are made of something completely different. You're in for a shock once you start fighting them!", 
+        "difficulty": 1, 
+        "dungeon": "Strategy Zone", 
+        "energy_use": 50, 
+        "id": "7100100", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Enki's Challenge", 
+        "requires": "2000014", 
+        "xp": 100000, 
+        "zel": 3000000
     }, 
     "711": {
         "area": "Lizeria", 
@@ -37813,7 +38952,7 @@
         "zel": 0
     }, 
     "9104100": {
-        "area": "Forbidden Vortex Enki", 
+        "area": "Forbidden Vortex", 
         "battle_count": 1, 
         "clear_bonus": [
             {
@@ -37834,7 +38973,7 @@
         "zel": 0
     }, 
     "9104101": {
-        "area": "Forbidden Vortex Enki", 
+        "area": "Forbidden Vortex", 
         "battle_count": 1, 
         "clear_bonus": [
             {
@@ -37858,7 +38997,7 @@
         "zel": 0
     }, 
     "9104102": {
-        "area": "Forbidden Vortex Enki", 
+        "area": "Forbidden Vortex", 
         "battle_count": 1, 
         "clear_bonus": [
             {
@@ -37882,7 +39021,7 @@
         "zel": 0
     }, 
     "9104103": {
-        "area": "Forbidden Vortex Enki", 
+        "area": "Forbidden Vortex", 
         "battle_count": 1, 
         "clear_bonus": [
             {
@@ -37903,6 +39042,33 @@
         "mimic_info": {}, 
         "name": "Fallen Arena of Obedience III", 
         "xp": 9000, 
+        "zel": 0
+    }, 
+    "9104104": {
+        "area": "Forbidden Vortex", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "unit": {
+                    "count": "1", 
+                    "id": "730215"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "In the Arena, Enki gets back up, seemingly not injured by his battles, but with something different in his behaviour. The rules of battle, too, have changed.", 
+        "difficulty": 1, 
+        "dungeon": "Forbidden Vortex", 
+        "energy_use": 25, 
+        "id": "9104104", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Rebirth of the Slave", 
+        "xp": 20000, 
         "zel": 0
     }, 
     "9104200": {
