@@ -16727,7 +16727,7 @@
         "target": "self"
     }, 
     "40300": {
-        "desc": "「ダメージ軽減系」タイプのスフィアを装備時、攻撃力・防御力・回復力・最大ＨＰを１５％アップ＆ターン毎に攻撃力・防御力・回復力をアップ（３ターン目まで上昇量が増加する）", 
+        "desc": "15% boost to all parameters when a Damage Reducing type Sphere is equipped & boosts Atk, Def, Rec each turn for up to 3 turns", 
         "effects": [
             {
                 "atk% buff": 15, 
@@ -16755,11 +16755,11 @@
             }
         ], 
         "id": "40300", 
-        "name": "色褪せぬ忠義", 
+        "name": "Unquestionable Loyalty", 
         "target": "self"
     }, 
     "40400": {
-        "desc": "「ダメージ軽減系」タイプのスフィアを装備時、攻撃力・防御力・回復力・最大ＨＰを２０％アップ＆ターン毎に攻撃力・防御力・回復力をアップ（３ターン目まで上昇量が増加する）", 
+        "desc": "20% boost to all parameters when a Damage Reducing type Sphere is equipped & boosts Atk, Def, Rec each turn for up to 3 turns", 
         "effects": [
             {
                 "atk% buff": 20, 
@@ -16787,11 +16787,11 @@
             }
         ], 
         "id": "40400", 
-        "name": "果てなき信奉", 
+        "name": "Endless Devotion", 
         "target": "self"
     }, 
     "40500": {
-        "desc": "「ＨＰ回復系」タイプのスフィアを装備時、攻撃力・防御力・回復力・最大ＨＰを１５％アップ＆全状態異常を無効", 
+        "desc": "15% boost to all parameters when an HP Recovery type Sphere is equipped & negates all status ailments", 
         "effects": [
             {
                 "atk% buff": 15, 
@@ -16820,11 +16820,11 @@
             }
         ], 
         "id": "40500", 
-        "name": "黙従なるエリート", 
+        "name": "Malleable Elite", 
         "target": "self"
     }, 
     "40600": {
-        "desc": "「ＨＰ回復系」タイプのスフィアを装備時、攻撃力・防御力・回復力・最大ＨＰを２０％アップ＆全状態異常を無効", 
+        "desc": "20% boost to all parameters when an HP Recovery type Sphere is equipped & negates all status ailments", 
         "effects": [
             {
                 "atk% buff": 20, 
@@ -16853,7 +16853,7 @@
             }
         ], 
         "id": "40600", 
-        "name": "レゾンデートルの追求", 
+        "name": "Seeking Raison d'Etre", 
         "target": "self"
     }, 
     "40700": {
@@ -16898,7 +16898,7 @@
         "target": "self"
     }, 
     "40800": {
-        "desc": "被ダメージが一定数を超える度に２ターン、被ダメージを少し軽減＆被ダメージ時、確率でＨＰを回復", 
+        "desc": "Slight damage reduction for 1 turn when damage taken exceeds certain amount & damage taken may restore HP", 
         "effects": [
             {
                 "buff": {
@@ -16920,11 +16920,11 @@
             }
         ], 
         "id": "40800", 
-        "name": "復讐の孤剣", 
+        "name": "Solitary Vengeance", 
         "target": "self"
     }, 
     "40900": {
-        "desc": "被ダメージが一定数を超える度に２ターン、被ダメージを少し軽減＆被ダメージ時、確率でＨＰを回復", 
+        "desc": "Slight damage reduction for 1 turn when damage taken exceeds certain amount & damage taken may restore HP", 
         "effects": [
             {
                 "buff": {
@@ -16946,7 +16946,7 @@
             }
         ], 
         "id": "40900", 
-        "name": "心技一体の境地", 
+        "name": "Unified Body Enlightenment", 
         "target": "self"
     }, 
     "410": {
@@ -17012,7 +17012,7 @@
         "target": "self"
     }, 
     "41000": {
-        "desc": "ターン毎に防御力をアップ（５ターン目まで上昇量が増加する）＆防御貫通効果を無効", 
+        "desc": "Boosts Def each turn for up to 5 turns & negates Def ignoring effects", 
         "effects": [
             {
                 "conditions": [], 
@@ -17030,11 +17030,11 @@
             }
         ], 
         "id": "41000", 
-        "name": "人を護るための剣", 
+        "name": "Protector's Sword", 
         "target": "self"
     }, 
     "41100": {
-        "desc": "ターン毎に防御力をアップ（５ターン目まで上昇量が増加する）＆防御貫通効果を無効", 
+        "desc": "Boosts Def each turn for up to 5 turns & negates Def ignoring effects", 
         "effects": [
             {
                 "conditions": [], 
@@ -17052,11 +17052,11 @@
             }
         ], 
         "id": "41100", 
-        "name": "人々を救うための剣", 
+        "name": "Rescuer's Sword", 
         "target": "self"
     }, 
     "41200": {
-        "desc": "弱点属性ダメージをアップ＆状態異常の敵へのダメージをかなりアップ", 
+        "desc": "Boosts elemental damage & considerably boosts damage against status afflicted foes", 
         "effects": [
             {
                 "conditions": [], 
@@ -17079,11 +17079,11 @@
             }
         ], 
         "id": "41200", 
-        "name": "失伝された凶刃", 
+        "name": "Forgotten Savagery", 
         "target": "self"
     }, 
     "41300": {
-        "desc": "弱点属性ダメージをかなりアップ＆状態異常の敵へのダメージを大幅にアップ", 
+        "desc": "Considerably boosts elemental damage & hugely boosts damage against status afflicted foes", 
         "effects": [
             {
                 "conditions": [], 
@@ -17106,11 +17106,11 @@
             }
         ], 
         "id": "41300", 
-        "name": "暗躍の兇手", 
+        "name": "Dark Schemer", 
         "target": "self"
     }, 
     "41400": {
-        "desc": "ＢＣ・ＨＣ出現率を大幅にアップ＆通常攻撃ＨＩＴ数を増加", 
+        "desc": "Hugely boosts BC, HC drop rates & increases normal hit amount", 
         "effects": [
             {
                 "conditions": [], 
@@ -17127,11 +17127,11 @@
             }
         ], 
         "id": "41400", 
-        "name": "笑顔の行方", 
+        "name": "Smile's Destination", 
         "target": "self"
     }, 
     "41500": {
-        "desc": "ＨＰが半分以上の時、攻撃力をアップ＆攻撃ＢＢの威力を大幅にアップ＆ターン毎にＢＢゲージをかなり増加", 
+        "desc": "Boosts Atk when HP is over 50%, hugely boosts BB Atk & considerably boosts BB gauge each turn", 
         "effects": [
             {
                 "atk% buff": 50, 
@@ -17156,11 +17156,11 @@
             }
         ], 
         "id": "41500", 
-        "name": "光輝武悠伝", 
+        "name": "Radiant Warrior Legend", 
         "target": "self"
     }, 
     "41600": {
-        "desc": "ＢＢゲージが半分以上の時、攻撃力をアップ＆確率で全状態異常をランダムに発生＆確率で被ダメージの２５％を相手に反射する", 
+        "desc": "Boosts Atk when BB gauge is over 50%, probable random status ailment infliction & probable 25% damage counter", 
         "effects": [
             {
                 "atk% buff": 50, 
@@ -17195,11 +17195,11 @@
             }
         ], 
         "id": "41600", 
-        "name": "血華艶悠譚", 
+        "name": "Blood Blossoms", 
         "target": "self"
     }, 
     "41700": {
-        "desc": "「ダメージ軽減系」タイプのスフィアを装備時、攻撃力・防御力・回復力・最大ＨＰを２０％アップ＆全状態異常を無効", 
+        "desc": "20% boost to all parameters when a Damage Reducing type Sphere is equipped & negates all status ailments", 
         "effects": [
             {
                 "atk% buff": 20, 
@@ -17228,11 +17228,11 @@
             }
         ], 
         "id": "41700", 
-        "name": "護剣の継承者", 
+        "name": "Protector Blade's Heir", 
         "target": "self"
     }, 
     "41800": {
-        "desc": "「ダメージ軽減系」タイプのスフィアを装備時、攻撃力・防御力・回復力・最大ＨＰを３０％アップ＆全状態異常を無効", 
+        "desc": "30% boost to all parameters when a Damage Reducing type Sphere is equipped & negates all status ailments", 
         "effects": [
             {
                 "atk% buff": 30, 
@@ -17261,11 +17261,11 @@
             }
         ], 
         "id": "41800", 
-        "name": "真の護剣", 
+        "name": "True Protector Blade", 
         "target": "self"
     }, 
     "41900": {
-        "desc": "攻撃ＢＢの威力をかなりアップ＆スパークダメージを７０％アップ", 
+        "desc": "Considerably boosts BB Atk & 70% boost to Spark damage", 
         "effects": [
             {
                 "conditions": [], 
@@ -17283,7 +17283,7 @@
             }
         ], 
         "id": "41900", 
-        "name": "義雄忠剣", 
+        "name": "Heroic Loyalty", 
         "target": "self"
     }, 
     "4200": {
@@ -17302,7 +17302,7 @@
         "target": "self"
     }, 
     "42000": {
-        "desc": "攻撃ＢＢの威力を大幅にアップ＆スパークダメージを８０％アップ", 
+        "desc": "Hugely boosts BB Atk & 80% boost to Spark damage", 
         "effects": [
             {
                 "conditions": [], 
@@ -17320,7 +17320,7 @@
             }
         ], 
         "id": "42000", 
-        "name": "拝師承伝", 
+        "name": "Reverent Inheritor", 
         "target": "self"
     }, 
     "42100": {
@@ -19358,8 +19358,8 @@
             }, 
             {
                 "conditions": [], 
-                "guard increase mitigation%": 5, 
-                "passive id": "58", 
+                "dmg% mitigation": 5, 
+                "passive id": "8", 
                 "passive target": "self"
             }, 
             {
@@ -19418,16 +19418,9 @@
         "desc": "80% boost to Atk and 15% boost to critical hit rate of Earth types, normal attacks may boost BB gauge & boosts elemental damage", 
         "effects": [
             {
-                "bc fill when attacking high": 10, 
-                "bc fill when attacking low": 5, 
-                "bc fill when attacking%": 50, 
+                "atk% buff": 80, 
                 "conditions": [], 
-                "passive id": "35", 
-                "passive target": "self"
-            }, 
-            {
-                "atk% buff": 50, 
-                "conditions": [], 
+                "crit% buff": 15, 
                 "elements buffed": [
                     "earth"
                 ], 
@@ -19435,9 +19428,18 @@
                 "passive target": "self"
             }, 
             {
+                "bc fill when attacking high": 12, 
+                "bc fill when attacking low": 8, 
+                "bc fill when attacking%": 85, 
                 "conditions": [], 
-                "crit% buff": 15, 
-                "passive id": "1", 
+                "passive id": "35", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 50.0, 
+                "passive id": "50", 
                 "passive target": "self"
             }
         ], 
@@ -19617,6 +19619,81 @@
         ], 
         "id": "8000012", 
         "name": "Brave Combustion", 
+        "target": "self"
+    }, 
+    "8000013": {
+        "desc": "80% boost to Atk and 15% boost to critical hit rate of Water types, considerably boosts Spark damage, boosts elemental damage & raises Atk parameter limits to 130000", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "conditions": [], 
+                "crit% buff": 15, 
+                "elements buffed": [
+                    "water"
+                ], 
+                "passive id": "2", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 60, 
+                "passive id": "31", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive target": "self", 
+                "unknown passive id": "143", 
+                "unknown passive params": "130000"
+            }, 
+            {
+                "conditions": [], 
+                "elemental weakness multiplier%": 50.0, 
+                "passive id": "50", 
+                "passive target": "self", 
+                "water units do extra elemental weakness dmg": true
+            }
+        ], 
+        "id": "8000013", 
+        "name": "Brave Aquarius", 
+        "target": "self"
+    }, 
+    "8000014": {
+        "desc": "80% boost to Atk and 15% boost to critical hit rate of Light types, raises normal hit amount, boosts elemental damage & negates elemental damage", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "conditions": [], 
+                "crit% buff": 15, 
+                "elements buffed": [
+                    "light"
+                ], 
+                "passive id": "2", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "hit increase/hit": 1, 
+                "passive id": "37", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "53", 
+                "passive target": "self", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "elemental weakness multiplier%": 50.0, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "passive target": "self"
+            }
+        ], 
+        "id": "8000014", 
+        "name": "Brave Fairy", 
         "target": "self"
     }, 
     "8000101": {
@@ -21009,6 +21086,92 @@
         "name": "Ruthless Instinct", 
         "target": "self"
     }, 
+    "810547": {
+        "desc": "25% damage reduction from Fire, Earth types & adds slight max HP boost effect for self to BB/SBB when Atk Boosting sphere is equipped", 
+        "effects": [
+            {
+                "conditions": [
+                    {
+                        "sphere category required": "Atk Boosting", 
+                        "sphere category required (raw)": "13"
+                    }
+                ], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "target area": "single", 
+                        "target type": "self", 
+                        "unknown proc id": "92", 
+                        "unknown proc param": "0,10,0"
+                    }
+                ]
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 25.0, 
+                "mitigate earth attacks": true, 
+                "mitigate fire attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }
+        ], 
+        "id": "810547", 
+        "name": "Dragon Force", 
+        "target": "self"
+    }, 
+    "810548": {
+        "desc": "25% damage reduction from Fire, Earth types, raises Atk parameter limits to 130000, 10% damage reduction & adds max HP boost effect for self to BB/SBB when Atk Boosting sphere is equipped", 
+        "effects": [
+            {
+                "conditions": [
+                    {
+                        "sphere category required": "Atk Boosting", 
+                        "sphere category required (raw)": "13"
+                    }
+                ], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "target area": "single", 
+                        "target type": "self", 
+                        "unknown proc id": "92", 
+                        "unknown proc param": "0,15,0"
+                    }
+                ]
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 25.0, 
+                "mitigate earth attacks": true, 
+                "mitigate fire attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive target": "self", 
+                "unknown passive id": "143", 
+                "unknown passive params": "130000"
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation": 10, 
+                "passive id": "8", 
+                "passive target": "self"
+            }
+        ], 
+        "id": "810548", 
+        "name": "True Dragon Force", 
+        "target": "self"
+    }, 
     "811017": {
         "desc": "Boosts BB Atk", 
         "effects": [
@@ -21790,6 +21953,60 @@
         ], 
         "id": "820418", 
         "name": "Ouroburos Reborn", 
+        "target": "self"
+    }, 
+    "820547": {
+        "desc": "5% boost to all parameters for all allies & 25% damage reduction from Water types", 
+        "effects": [
+            {
+                "atk% buff": 5, 
+                "conditions": [], 
+                "def% buff": 5, 
+                "hp% buff": 5, 
+                "passive id": "1", 
+                "passive target": "party", 
+                "rec% buff": 5
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 25.0, 
+                "mitigate water attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }
+        ], 
+        "id": "820547", 
+        "name": "Cold Resistance", 
+        "target": "self"
+    }, 
+    "820548": {
+        "desc": "10% boost to all parameters for all allies, 25% damage reduction from Water types & raises Atk parameter limits to 130000", 
+        "effects": [
+            {
+                "atk% buff": 10, 
+                "conditions": [], 
+                "def% buff": 10, 
+                "hp% buff": 10, 
+                "passive id": "1", 
+                "passive target": "party", 
+                "rec% buff": 10
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 25.0, 
+                "mitigate water attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive target": "self", 
+                "unknown passive id": "143", 
+                "unknown passive params": "130000"
+            }
+        ], 
+        "id": "820548", 
+        "name": "Sub-Zero Endurance", 
         "target": "self"
     }, 
     "8300": {
@@ -23454,6 +23671,72 @@
         "name": "Three Worlds King Taolu", 
         "target": "self"
     }, 
+    "840547": {
+        "desc": "15% damage reduction from normal attacks when Damage Reducing Sphere is equipped & 25% damage reduction from Water, Thunder types", 
+        "effects": [
+            {
+                "conditions": [
+                    {
+                        "sphere category required": "Damage Reducing", 
+                        "sphere category required (raw)": "10"
+                    }
+                ], 
+                "passive target": "self", 
+                "unknown passive id": "128", 
+                "unknown passive params": "100,15,100,15"
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 25.0, 
+                "mitigate thunder attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }
+        ], 
+        "id": "840547", 
+        "name": "Master Swordswoman", 
+        "target": "self"
+    }, 
+    "840548": {
+        "desc": "20% damage reduction from normal attack when Damage Reducing Sphere is equipped, negates Def ignoring effect for all allies, 15% additional damage reduction for all allies & 25% damage reduction from Water, Thunder types", 
+        "effects": [
+            {
+                "conditions": [
+                    {
+                        "sphere category required": "Damage Reducing", 
+                        "sphere category required (raw)": "10"
+                    }
+                ], 
+                "passive target": "self", 
+                "unknown passive id": "128", 
+                "unknown passive params": "100,20,100,20"
+            }, 
+            {
+                "conditions": [], 
+                "dmg% mitigation for elemental attacks": 25.0, 
+                "mitigate thunder attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "ignore def resist chance%": 100, 
+                "passive id": "92", 
+                "passive target": "party"
+            }, 
+            {
+                "conditions": [], 
+                "passive target": "party", 
+                "unknown passive id": "127", 
+                "unknown passive params": "100,15"
+            }
+        ], 
+        "id": "840548", 
+        "name": "Titania", 
+        "target": "self"
+    }, 
     "8500": {
         "desc": "Probable slight HP recovery when attacked & absorbs HP when attacking", 
         "effects": [
@@ -24377,6 +24660,163 @@
         "name": "Matriarch's Chagrin", 
         "target": "self"
     }, 
+    "850547": {
+        "desc": "Negates elemental damage for all allies & boosts all parameters accordingly: 10% when Silver Key is equipped, 15% when Gold Key is equipped, 20% when Diamond Key is equipped", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "53", 
+                "passive target": "party", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }, 
+            {
+                "atk% buff": 10, 
+                "conditions": [
+                    {
+                        "item required": [
+                            "819120"
+                        ]
+                    }
+                ], 
+                "def% buff": 10, 
+                "hp% buff": 10, 
+                "passive id": "1", 
+                "passive target": "self", 
+                "rec% buff": 10
+            }, 
+            {
+                "atk% buff": 15, 
+                "conditions": [
+                    {
+                        "item required": [
+                            "819121"
+                        ]
+                    }
+                ], 
+                "def% buff": 15, 
+                "hp% buff": 15, 
+                "passive id": "1", 
+                "passive target": "self", 
+                "rec% buff": 15
+            }, 
+            {
+                "atk% buff": 20, 
+                "conditions": [
+                    {
+                        "item required": [
+                            "819122"
+                        ]
+                    }
+                ], 
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "passive target": "self", 
+                "rec% buff": 20
+            }
+        ], 
+        "id": "850547", 
+        "name": "Celestial Mage", 
+        "target": "self"
+    }, 
+    "850548": {
+        "desc": "Negates elemental damage for all allies, raises normal hit amount, boosts all parameters accordingly: 10% when Silver Key is equipped, 15% when Gold Key is equipped, 20% when Diamond Key is equipped & adds all elements to attack for 3 turns effect to BB/SBB/UBB when Diamond Key is equipped", 
+        "effects": [
+            {
+                "conditions": [], 
+                "passive id": "53", 
+                "passive target": "party", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }, 
+            {
+                "conditions": [], 
+                "hit increase/hit": 1, 
+                "passive id": "37", 
+                "passive target": "self"
+            }, 
+            {
+                "atk% buff": 10, 
+                "conditions": [
+                    {
+                        "item required": [
+                            "819120"
+                        ]
+                    }
+                ], 
+                "def% buff": 10, 
+                "hp% buff": 10, 
+                "passive id": "1", 
+                "passive target": "self", 
+                "rec% buff": 10
+            }, 
+            {
+                "atk% buff": 15, 
+                "conditions": [
+                    {
+                        "item required": [
+                            "819121"
+                        ]
+                    }
+                ], 
+                "def% buff": 15, 
+                "hp% buff": 15, 
+                "passive id": "1", 
+                "passive target": "self", 
+                "rec% buff": 15
+            }, 
+            {
+                "atk% buff": 20, 
+                "conditions": [
+                    {
+                        "item required": [
+                            "819122"
+                        ]
+                    }
+                ], 
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "passive target": "self", 
+                "rec% buff": 20
+            }, 
+            {
+                "conditions": [
+                    {
+                        "item required": [
+                            "819122"
+                        ]
+                    }
+                ], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "trigger on ubb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "elements added": [
+                            "fire", 
+                            "water", 
+                            "earth", 
+                            "thunder", 
+                            "light", 
+                            "dark"
+                        ], 
+                        "elements added turns": 3, 
+                        "proc id": "30", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }
+        ], 
+        "id": "850548", 
+        "name": "Legendary Celestial Mage", 
+        "target": "self"
+    }, 
     "8600": {
         "desc": "Boosts Atk relative to remaining HP, boosts Atk when BB gauge is full & 20% boost to all parameters when Dandelga is equipped", 
         "effects": [
@@ -24878,6 +25318,77 @@
         "name": "Scarlet Grass-Cutting Style", 
         "target": "self"
     }, 
+    "860287": {
+        "desc": "30% boost to Atk of Dark types & 30% boost to Spark damage<br>Boosts Atk, Def when BB gauge is over 50% & adds 16 combo powerful Dark attack on Light types effect to SBB in Guild Raid", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "conditions": [], 
+                "elements buffed": [
+                    "dark"
+                ], 
+                "passive id": "2", 
+                "passive target": "party"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }
+        ], 
+        "id": "860287", 
+        "name": "Dataflow Anaysis", 
+        "target": "self"
+    }, 
+    "860288": {
+        "desc": "50% boost to Atk of Dark types, 50% boost to Spark damage, adds Dark barrier effect to BB/SBB & raises Atk parameter limits to 130000<br>Boosts Atk, Def when BB gauge is over 50%, adds 22 combo powerful Dark attack on Light types effect to SBB & boosts Dark elemental damage for all allies in Guild Raid", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "conditions": [], 
+                "elements buffed": [
+                    "dark"
+                ], 
+                "passive id": "2", 
+                "passive target": "party"
+            }, 
+            {
+                "conditions": [], 
+                "damage% for spark": 50, 
+                "passive id": "31", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive target": "self", 
+                "unknown passive id": "143", 
+                "unknown passive params": "130000"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on bb": true, 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "elemental barrier absorb dmg%": 100, 
+                        "elemental barrier def": 0, 
+                        "elemental barrier element": "dark", 
+                        "elemental barrier hp": 3500, 
+                        "proc id": "62", 
+                        "target area": "aoe", 
+                        "target type": "party"
+                    }
+                ]
+            }
+        ], 
+        "id": "860288", 
+        "name": "Energy Effusion Calculation", 
+        "target": "self"
+    }, 
     "860317": {
         "desc": "Probable damage reduction to 1 &hugely boosts Spark damage when Sparks have exceeded certain amount for next turn when Nyami's Bells is equipped", 
         "effects": [
@@ -25152,6 +25663,159 @@
         ], 
         "id": "860428", 
         "name": "Mantle of Chaos", 
+        "target": "self"
+    }, 
+    "860517": {
+        "desc": "Damage taken slightly boosts BB gauge, adds resistance to 1 KO attack for any ally who activates OD & 15% boost to all parameters of Female types", 
+        "effects": [
+            {
+                "bc fill when attacked high": 2, 
+                "bc fill when attacked low": 2, 
+                "bc fill when attacked%": 100, 
+                "conditions": [], 
+                "passive id": "25", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive target": "party", 
+                "unknown passive id": "106", 
+                "unknown passive params": "12,100,1,100,-1"
+            }, 
+            {
+                "atk% buff": 15, 
+                "conditions": [], 
+                "crit% buff": 15, 
+                "def% buff": 15, 
+                "gender required": "female", 
+                "hp% buff": 15, 
+                "passive id": "42", 
+                "passive target": "party", 
+                "rec% buff": 15
+            }
+        ], 
+        "id": "860517", 
+        "name": "Delirious Gluttony", 
+        "target": "self"
+    }, 
+    "860518": {
+        "desc": "Damage taken boosts BB gauge, adds resistance to 1 KO attack for any ally who activates OD, 15% boost to all parameters of Female types & 100% boost to Atk and 5% reduction to max HP of Male types", 
+        "effects": [
+            {
+                "bc fill when attacked high": 3, 
+                "bc fill when attacked low": 3, 
+                "bc fill when attacked%": 100, 
+                "conditions": [], 
+                "passive id": "25", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive target": "party", 
+                "unknown passive id": "106", 
+                "unknown passive params": "12,100,1,100,-1"
+            }, 
+            {
+                "atk% buff": 15, 
+                "conditions": [], 
+                "crit% buff": 15, 
+                "def% buff": 15, 
+                "gender required": "female", 
+                "hp% buff": 15, 
+                "passive id": "42", 
+                "passive target": "party", 
+                "rec% buff": 15
+            }, 
+            {
+                "atk% buff": 100, 
+                "conditions": [], 
+                "gender required": "male", 
+                "hp% buff": -5, 
+                "passive id": "42", 
+                "passive target": "party"
+            }
+        ], 
+        "id": "860518", 
+        "name": "Black Heart Pact", 
+        "target": "self"
+    }, 
+    "860547": {
+        "desc": "5% boost to all parameters of Dark types for all allies & boosts BB Atk when Book of E.N.D. is equipped", 
+        "effects": [
+            {
+                "atk% buff": 5, 
+                "conditions": [], 
+                "def% buff": 5, 
+                "elements buffed": [
+                    "dark"
+                ], 
+                "hp% buff": 5, 
+                "passive id": "2", 
+                "passive target": "party", 
+                "rec% buff": 5
+            }, 
+            {
+                "bb atk% buff": 150, 
+                "conditions": [
+                    {
+                        "item required": [
+                            "819123"
+                        ]
+                    }
+                ], 
+                "passive id": "64", 
+                "passive target": "self", 
+                "sbb atk% buff": 150, 
+                "ubb atk% buff": 150
+            }
+        ], 
+        "id": "860547", 
+        "name": "Underworld King", 
+        "target": "self"
+    }, 
+    "860548": {
+        "desc": "10% boost to all parameters of Dark types for all allies, adds resistance against 1 KO attack when HP is below 20% & greatly boosts BB Atk when Book of E.N.D. is equipped", 
+        "effects": [
+            {
+                "atk% buff": 10, 
+                "conditions": [], 
+                "def% buff": 10, 
+                "elements buffed": [
+                    "dark"
+                ], 
+                "hp% buff": 10, 
+                "passive id": "2", 
+                "passive target": "party", 
+                "rec% buff": 10
+            }, 
+            {
+                "buff": {
+                    "angel idol buff (12)": true, 
+                    "angel idol recover hp%": 100, 
+                    "buff turns (12)": "-1"
+                }, 
+                "conditions": [], 
+                "hp below % buff activation": 20, 
+                "passive id": "55", 
+                "passive target": "self"
+            }, 
+            {
+                "bb atk% buff": 300, 
+                "conditions": [
+                    {
+                        "item required": [
+                            "819123"
+                        ]
+                    }
+                ], 
+                "passive id": "64", 
+                "passive target": "self", 
+                "sbb atk% buff": 300, 
+                "ubb atk% buff": 300
+            }
+        ], 
+        "id": "860548", 
+        "name": "Absolute Demon", 
         "target": "self"
     }, 
     "8700": {
@@ -25561,6 +26225,75 @@
         ], 
         "id": "8950288", 
         "name": "The Ace of Spades", 
+        "target": "self"
+    }, 
+    "8960287": {
+        "desc": "30% boost to Atk of Dark types & 30% boost to Spark damage<br>Boosts Atk, Def when BB gauge is over 50% & adds 16 combo powerful Dark attack on Light types effect to SBB in Guild Raid", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "def% buff": 50, 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "target area": "aoe", 
+                        "target type": "enemy", 
+                        "unknown proc id": "97", 
+                        "unknown proc param": "6,900,100,0,0,0,0"
+                    }
+                ]
+            }
+        ], 
+        "id": "8960287", 
+        "name": "Dataflow Anaysis", 
+        "target": "self"
+    }, 
+    "8960288": {
+        "desc": "50% boost to Atk of Dark types, 50% boost to Spark damage, adds Dark barrier effect to BB/SBB & raises Atk parameter limits to 130000<br>Boosts Atk, Def when BB gauge is over 50%, adds 22 combo powerful Dark attack on Light types effect to SBB & boosts Dark elemental damage for all allies in Guild Raid", 
+        "effects": [
+            {
+                "atk% buff": 75, 
+                "bb gauge above % buff requirement": 50, 
+                "conditions": [], 
+                "def% buff": 75, 
+                "passive id": "30", 
+                "passive target": "self"
+            }, 
+            {
+                "conditions": [], 
+                "passive id": "66", 
+                "passive target": "self", 
+                "trigger on sbb": true, 
+                "triggered effect": [
+                    {
+                        "effect delay time(ms)/frame": "0.0/0", 
+                        "target area": "aoe", 
+                        "target type": "enemy", 
+                        "unknown proc id": "97", 
+                        "unknown proc param": "6,1100,100,0,0,0,0"
+                    }
+                ]
+            }, 
+            {
+                "conditions": [], 
+                "dark units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 25.0, 
+                "passive id": "50", 
+                "passive target": "party"
+            }
+        ], 
+        "id": "8960288", 
+        "name": "Energy Effusion Calculation", 
         "target": "self"
     }, 
     "9": {
