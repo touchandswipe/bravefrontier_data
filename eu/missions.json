@@ -1510,6 +1510,503 @@
         "xp": 0, 
         "zel": 0
     }, 
+    "1000210": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the entrance to the mysterious area that appeared beyond the Vortex Gate. The beasts here are somewhat weak, but nevertheless you mustn't be careless.", 
+        "difficulty": 1, 
+        "dungeon": "21st Expedition", 
+        "energy_use": 0, 
+        "id": "1000210", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Entrance 21", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000211": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the center of the mysterious area that appeared beyond the Vortex Gate. Who knows what could be waiting for you in this uncharted frontier...", 
+        "difficulty": 1, 
+        "dungeon": "21st Expedition", 
+        "energy_use": 0, 
+        "id": "1000211", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Middle 21", 
+        "requires": "1000210", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000212": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the end of the mysterious area that appeared beyond the Vortex Gate. Mad beasts far more powerful than those you've come across before await you.", 
+        "difficulty": 1, 
+        "dungeon": "21st Expedition", 
+        "energy_use": 0, 
+        "id": "1000212", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - End 21", 
+        "requires": "1000211", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000213": {
+        "area": "1st Expedition", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the end of the mysterious area that appeared beyond the Vortex Gate. The air shakes as an awesome force descends upon you.", 
+        "difficulty": 1, 
+        "dungeon": "21st Expedition", 
+        "energy_use": 0, 
+        "id": "1000213", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Terminus 21", 
+        "requires": "1000212", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000220": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the entrance to the mysterious area that appeared beyond the Vortex Gate. The beasts here are somewhat weak, but nevertheless you mustn't be careless.", 
+        "difficulty": 1, 
+        "dungeon": "22nd Expedition", 
+        "energy_use": 0, 
+        "id": "1000220", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Entrance 22", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000221": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the center of the mysterious area that appeared beyond the Vortex Gate. Who knows what could be waiting for you in this uncharted frontier...", 
+        "difficulty": 1, 
+        "dungeon": "22nd Expedition", 
+        "energy_use": 0, 
+        "id": "1000221", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Middle 22", 
+        "requires": "1000220", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000222": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the end of the mysterious area that appeared beyond the Vortex Gate. Mad beasts far more powerful than those you've come across before await you.", 
+        "difficulty": 1, 
+        "dungeon": "22nd Expedition", 
+        "energy_use": 0, 
+        "id": "1000222", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - End 22", 
+        "requires": "1000221", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000223": {
+        "area": "1st Expedition", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the end of the mysterious area that appeared beyond the Vortex Gate. The air shakes as an awesome force descends upon you.", 
+        "difficulty": 1, 
+        "dungeon": "22nd Expedition", 
+        "energy_use": 0, 
+        "id": "1000223", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Terminus 22", 
+        "requires": "1000222", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000230": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの入口付近。<br>奥に比べ弱い魔物が多いとはいえ油断は禁物だ。", 
+        "difficulty": 1, 
+        "dungeon": "第２３回領域調査", 
+        "energy_use": 0, 
+        "id": "1000230", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・序地", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000231": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの中部付近。<br>未開拓な領域となるこの地で待ち受けるものとは……。", 
+        "difficulty": 1, 
+        "dungeon": "第２３回領域調査", 
+        "energy_use": 0, 
+        "id": "1000231", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・中部", 
+        "requires": "1000230", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000232": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの奥地。<br>そこには中部を遙かに越える凶悪な魔物が待ち受けていた。", 
+        "difficulty": 1, 
+        "dungeon": "第２３回領域調査", 
+        "energy_use": 0, 
+        "id": "1000232", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・奥地", 
+        "requires": "1000231", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000233": {
+        "area": "1st Expedition", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリア奥地のさらに先。<br>大気を震わすほどの壮絶な圧力が召喚師に襲いかかる。", 
+        "difficulty": 1, 
+        "dungeon": "第２３回領域調査", 
+        "energy_use": 0, 
+        "id": "1000233", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・極地", 
+        "requires": "1000232", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000240": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the entrance to the mysterious area that appeared beyond the Vortex Gate. The beasts here are somewhat weak, but you mustn't be careless.", 
+        "difficulty": 1, 
+        "dungeon": "24th Expedition", 
+        "energy_use": 0, 
+        "id": "1000240", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Entrance 24", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000241": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the center of the mysterious area that appeared beyond the Vortex Gate. Who knows what awaits you in this uncharted frontier...", 
+        "difficulty": 1, 
+        "dungeon": "24th Expedition", 
+        "energy_use": 0, 
+        "id": "1000241", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Middle 24", 
+        "requires": "1000240", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000242": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the end of the mysterious area that appeared beyond the Vortex Gate. Beasts far more powerful than those you've encountered await you.", 
+        "difficulty": 1, 
+        "dungeon": "24th Expedition", 
+        "energy_use": 0, 
+        "id": "1000242", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - End 24", 
+        "requires": "1000241", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000243": {
+        "area": "1st Expedition", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the end of the mysterious area that appeared beyond the Vortex Gate. The air shakes as an awesome force descends upon you.", 
+        "difficulty": 1, 
+        "dungeon": "24th Expedition", 
+        "energy_use": 0, 
+        "id": "1000243", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Terminus 24", 
+        "requires": "1000242", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000250": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the entrance to the mysterious area that appeared beyond the Vortex Gate. The beasts here are somewhat weak, but you mustn't be careless.", 
+        "difficulty": 1, 
+        "dungeon": "25th Expedition", 
+        "energy_use": 0, 
+        "id": "1000250", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Entrance 25", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000251": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the center of the mysterious area that appeared beyond the Vortex Gate. Who knows what awaits you in this uncharted frontier...", 
+        "difficulty": 1, 
+        "dungeon": "25th Expedition", 
+        "energy_use": 0, 
+        "id": "1000251", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Middle 25", 
+        "requires": "1000250", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000252": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the end of the mysterious area that appeared beyond the Vortex Gate. Beasts far more powerful than those you've encountered await you.", 
+        "difficulty": 1, 
+        "dungeon": "25th Expedition", 
+        "energy_use": 0, 
+        "id": "1000252", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - End 25", 
+        "requires": "1000251", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000253": {
+        "area": "1st Expedition", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the end of the mysterious area that appeared beyond the Vortex Gate. The air shakes as an awesome force descends upon you.", 
+        "difficulty": 1, 
+        "dungeon": "25th Expedition", 
+        "energy_use": 0, 
+        "id": "1000253", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Terminus 25", 
+        "requires": "1000252", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000260": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the entrance to the mysterious area that appeared beyond the Vortex Gate. The beasts here are somewhat weak, but you mustn't be careless.", 
+        "difficulty": 1, 
+        "dungeon": "26th Expedition", 
+        "energy_use": 0, 
+        "id": "1000260", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Entrance 26", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000261": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the center of the mysterious area that appeared beyond the Vortex Gate. Who knows what awaits you in this uncharted frontier...", 
+        "difficulty": 1, 
+        "dungeon": "26th Expedition", 
+        "energy_use": 0, 
+        "id": "1000261", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Middle 26", 
+        "requires": "1000260", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000262": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the end of the mysterious area that appeared beyond the Vortex Gate. Beasts far more powerful than those you've encountered await you.", 
+        "difficulty": 1, 
+        "dungeon": "26th Expedition", 
+        "energy_use": 0, 
+        "id": "1000262", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - End 26", 
+        "requires": "1000261", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000263": {
+        "area": "1st Expedition", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the end of the mysterious area that appeared beyond the Vortex Gate. The air shakes as an awesome force descends upon you.", 
+        "difficulty": 1, 
+        "dungeon": "26th Expedition", 
+        "energy_use": 0, 
+        "id": "1000263", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Terminus 26", 
+        "requires": "1000262", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000270": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the entrance to the mysterious area that appeared beyond the Vortex Gate. The beasts here are somewhat weak, but you mustn't be careless.", 
+        "difficulty": 1, 
+        "dungeon": "27th Expedition", 
+        "energy_use": 0, 
+        "id": "1000270", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Entrance 27", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000271": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the center of the mysterious area that appeared beyond the Vortex Gate. Who knows what awaits you in this uncharted frontier...", 
+        "difficulty": 1, 
+        "dungeon": "27th Expedition", 
+        "energy_use": 0, 
+        "id": "1000271", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Middle 27", 
+        "requires": "1000270", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000272": {
+        "area": "1st Expedition", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're nearing the end of the mysterious area that appeared beyond the Vortex Gate. Beasts far more powerful than those you've encountered await you.", 
+        "difficulty": 1, 
+        "dungeon": "27th Expedition", 
+        "energy_use": 0, 
+        "id": "1000272", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - End 27", 
+        "requires": "1000271", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1000273": {
+        "area": "1st Expedition", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're at the end of the mysterious area that appeared beyond the Vortex Gate. The air shakes as an awesome force descends upon you.", 
+        "difficulty": 1, 
+        "dungeon": "27th Expedition", 
+        "energy_use": 0, 
+        "id": "1000273", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Uncharted Frontier - Terminus 27", 
+        "requires": "1000272", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "10003": {
         "area": "Celgrad", 
         "battle_count": 7, 
@@ -19447,6 +19944,92 @@
         "xp": 5100, 
         "zel": 5200
     }, 
+    "151400": {
+        "area": "Grand Gaia Chronicles", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "zel": "500000"
+            }, 
+            {
+                "karma": "100000"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Heroes of a New Era vol. 1 - Humanity has found hope in the new land of Elgaia. However, a threat quickly approaches!", 
+        "difficulty": 1, 
+        "dungeon": "Heroes of a New Era", 
+        "energy_use": 30, 
+        "id": "151400", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Comrades Assemble", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
+    "151401": {
+        "area": "Grand Gaia Chronicles", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "zel": "500000"
+            }, 
+            {
+                "karma": "100000"
+            }, 
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Heroes of a New Era vol. 2 - The Randall Guard has finally been formed, but its members seem rather peculiar...", 
+        "difficulty": 1, 
+        "dungeon": "Heroes of a New Era", 
+        "energy_use": 30, 
+        "id": "151401", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Randall Guard", 
+        "requires": "151400", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
+    "151402": {
+        "area": "Grand Gaia Chronicles", 
+        "battle_count": 2, 
+        "clear_bonus": [
+            {
+                "zel": "1000000"
+            }, 
+            {
+                "karma": "200000"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "47213"
+                }
+            }, 
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Heroes of a New Era vol. 3 - A demon suddenly appears in the city to test the Randall Guard. Are they truly worthy of being called heroes?", 
+        "difficulty": 1, 
+        "dungeon": "Heroes of a New Era", 
+        "energy_use": 50, 
+        "id": "151402", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "A Trial for Heroes", 
+        "requires": "151401", 
+        "xp": 10000, 
+        "zel": 0
+    }, 
     "1520": {
         "area": "Bariura", 
         "battle_count": 8, 
@@ -21946,6 +22529,63 @@
         "xp": 230, 
         "zel": 550
     }, 
+    "20100": {
+        "area": "Bectas", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Now you can't rely on anything else but your own physical power. And although Tilith may be helping, you should stay alert.", 
+        "difficulty": 1, 
+        "dungeon": "Iron District", 
+        "energy_use": 12, 
+        "id": "20100", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "New First Steps", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20101": {
+        "area": "Bectas", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Even surrounded by enemies, at least you were able to meet with Lugina's subordinate, Reda. Watch how she fights.", 
+        "difficulty": 1, 
+        "dungeon": "Iron District", 
+        "energy_use": 12, 
+        "id": "20101", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Battle Playbook", 
+        "requires": "20100", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20102": {
+        "area": "Bectas", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "This is what it is to fight for yourself, feeling the resistance through your weapons. You can see how much you've depended on Summoning until now.", 
+        "difficulty": 1, 
+        "dungeon": "Iron District", 
+        "energy_use": 15, 
+        "id": "20102", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Feeling Resistance", 
+        "requires": "20101", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "202": {
         "area": "Morgan", 
         "battle_count": 8, 
@@ -21970,6 +22610,64 @@
         "xp": 280, 
         "zel": 600
     }, 
+    "20200": {
+        "area": "Bectas", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "A bizarre scene of machines making machines unfolds before you. They make machines in Elgaia, too, but there is no comparison in scale.", 
+        "difficulty": 1, 
+        "dungeon": "Selza Arsenal", 
+        "energy_use": 12, 
+        "id": "20200", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Mass-Production", 
+        "requires": "20102", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20201": {
+        "area": "Bectas", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Machines are everywhere you look. There's no sign of any people. Could this be related to the collapse Reda spoke of?", 
+        "difficulty": 1, 
+        "dungeon": "Selza Arsenal", 
+        "energy_use": 12, 
+        "id": "20201", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Weapons Loaded", 
+        "requires": "20200", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20202": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "You've gotten used to fighting without Summoning. Even so, it might not go well if you run into a powerful enemy as you are now.", 
+        "difficulty": 1, 
+        "dungeon": "Selza Arsenal", 
+        "energy_use": 15, 
+        "id": "20202", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Incoming Iron", 
+        "requires": "20201", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "203": {
         "area": "Morgan", 
         "battle_count": 8, 
@@ -21993,6 +22691,82 @@
         "requires": "202", 
         "xp": 300, 
         "zel": 650
+    }, 
+    "20300": {
+        "area": "Bectas", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You've won the trust of a strange automaton. Your goal keeps moving further away. You've got to fight through swarming enemies to get there.", 
+        "difficulty": 1, 
+        "dungeon": "Demolished Site", 
+        "energy_use": 12, 
+        "id": "20300", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Rescue Operation", 
+        "requires": "20202", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20301": {
+        "area": "Bectas", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The land around you is covered in broken machines, and the sharp debris makes for bad footing. You have to hurry or you'll lose sight of your goal.", 
+        "difficulty": 1, 
+        "dungeon": "Demolished Site", 
+        "energy_use": 12, 
+        "id": "20301", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Buried Steel", 
+        "requires": "20300", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20302": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Your target has slowed down. You're almost there. You've grown confident in your fighting skills, so now it's time to close the gap.", 
+        "difficulty": 1, 
+        "dungeon": "Demolished Site", 
+        "energy_use": 12, 
+        "id": "20302", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Iron Mountains", 
+        "requires": "20301", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20303": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Your target has stopped moving. However, you sense a powerful feeling of malice close by. You won't be able to avoid a difficult fight.", 
+        "difficulty": 1, 
+        "dungeon": "Demolished Site", 
+        "energy_use": 15, 
+        "id": "20303", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Broken Machines", 
+        "requires": "20302", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "204": {
         "area": "Morgan", 
@@ -22021,6 +22795,452 @@
         "requires": "203", 
         "xp": 600, 
         "zel": 700
+    }, 
+    "20400": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Hatch and Tull, you've picked up some unexpected companions on your journey. More importantly, these automatons seem oddly human.", 
+        "difficulty": 1, 
+        "dungeon": "Tech City Mersas", 
+        "energy_use": 12, 
+        "id": "20400", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Path of Extinction", 
+        "requires": "20303", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20401": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You proceed into the tower made of geometric crystal and metal. It looks like it was built for people to live in, but there's no sign of anyone.", 
+        "difficulty": 1, 
+        "dungeon": "Tech City Mersas", 
+        "energy_use": 12, 
+        "id": "20401", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Uninhabited Tower", 
+        "requires": "20400", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20402": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "According to Hatch and Tull, humans vanished from this world long ago. Yet the city seems to be perfectly preserved...", 
+        "difficulty": 1, 
+        "dungeon": "Tech City Mersas", 
+        "energy_use": 13, 
+        "id": "20402", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Soulless City", 
+        "requires": "20401", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20403": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "There are some mechanical experts and actual machines among those you can Summon, but are any of them connected to this world?", 
+        "difficulty": 1, 
+        "dungeon": "Tech City Mersas", 
+        "energy_use": 13, 
+        "id": "20403", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Operational Status", 
+        "requires": "20402", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20404": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Leaving Mersas, you're finally almost at the Information Tower. It would be nice if you could get there without trouble, but...", 
+        "difficulty": 1, 
+        "dungeon": "Tech City Mersas", 
+        "energy_use": 18, 
+        "id": "20404", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {}, 
+        "name": "Encounter the Unknown", 
+        "requires": "20403", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20500": {
+        "area": "Bectas", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You made it to the Information Tower, your present goal. You're able to use Summoning again for whatever reason, so you might as well start climbing.", 
+        "difficulty": 1, 
+        "dungeon": "Information Tower", 
+        "energy_use": 15, 
+        "id": "20500", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Tower of Knowledge", 
+        "requires": "20404", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20501": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You've gotten used to fighting for yourself alongside Summoning. You feel like you've grown to understand why Karl and Seria fight this way.", 
+        "difficulty": 1, 
+        "dungeon": "Information Tower", 
+        "energy_use": 15, 
+        "id": "20501", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Data Overload", 
+        "requires": "20500", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20502": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "There's probably a device you can get information from on the top floor, but before that a powerful enemy you must fight awaits.", 
+        "difficulty": 1, 
+        "dungeon": "Information Tower", 
+        "energy_use": 20, 
+        "id": "20502", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Seek the Truth", 
+        "requires": "20501", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20600": {
+        "area": "Bectas", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You probably shouldn't be surprised, but it seems Bertz made it to this world first. Reda doesn't even need to tell you that you have to hurry.", 
+        "difficulty": 1, 
+        "dungeon": "Zoldas Mountains", 
+        "energy_use": 15, 
+        "id": "20600", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Order and Disorder", 
+        "requires": "20502", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20601": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "This wasteland is wildly different from the rest of Bectas. Is this an area they've extracted ores from in order to make machines?", 
+        "difficulty": 1, 
+        "dungeon": "Zoldas Mountains", 
+        "energy_use": 15, 
+        "id": "20601", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Extreme Development", 
+        "requires": "20600", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20602": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You can see a building past the wasteland. That's probably your destination. What is the being that protects this world? Does this world have gods?", 
+        "difficulty": 1, 
+        "dungeon": "Zoldas Mountains", 
+        "energy_use": 15, 
+        "id": "20602", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Indifferent Lands", 
+        "requires": "20601", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20603": {
+        "area": "Bectas", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "You feel something unpleasant, but it's not malice. Is it a premonition? Watch for dangerous enemies near the building as you advance.", 
+        "difficulty": 1, 
+        "dungeon": "Zoldas Mountains", 
+        "energy_use": 20, 
+        "id": "20603", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Death or Creation", 
+        "requires": "20602", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20700": {
+        "area": "Bectas", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "As expected, the building was full of machines. It also seems to be full of enemies. Be careful, you don't know what else awaits you.", 
+        "difficulty": 1, 
+        "dungeon": "Elevated Station", 
+        "energy_use": 16, 
+        "id": "20700", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Epicenter Survey", 
+        "requires": "20603", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20701": {
+        "area": "Bectas", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Massive numbers of machines are attacking. It's exhausting and there's no end in sight. Reda appears to be sick of it, too.", 
+        "difficulty": 1, 
+        "dungeon": "Elevated Station", 
+        "energy_use": 16, 
+        "id": "20701", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Still Moving", 
+        "requires": "20700", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20702": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Hatch and Tull seem to have told the truth about lacking combat abilities. Maybe this would have been easier if they could fight with you...", 
+        "difficulty": 1, 
+        "dungeon": "Elevated Station", 
+        "energy_use": 18, 
+        "id": "20702", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Steady Movements", 
+        "requires": "20701", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20703": {
+        "area": "Bectas", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You hear an unnatural sound that you recognize. It seems a formidable foe you've fought many times awaits you. Take up your weapon and move forward.", 
+        "difficulty": 1, 
+        "dungeon": "Elevated Station", 
+        "energy_use": 18, 
+        "id": "20703", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Ancient Wings", 
+        "requires": "20702", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20704": {
+        "area": "Bectas", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You've arrived at the central block. Find the being that protects Bectas, and your mission is complete. Yet you feel like you're forgetting something.", 
+        "difficulty": 1, 
+        "dungeon": "Elevated Station", 
+        "energy_use": 25, 
+        "id": "20704", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Central Block", 
+        "requires": "20703", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20705": {
+        "area": "Bectas", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Lugina breaks through a wall and appears. You don't have time to ask questions. For now, defeat the massive automaton he called the \"Divine Machine\"!", 
+        "difficulty": 1, 
+        "dungeon": "Elevated Station", 
+        "energy_use": 10, 
+        "id": "20705", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Departing", 
+        "requires": "20704", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "20800": {
+        "area": "Bectas", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "You've arrived at the building Reda discovered and was set on exploring. This place is clearly different from the other buildings on Bectas.", 
+        "difficulty": 1, 
+        "dungeon": "Michele's Sepulcher", 
+        "energy_use": 50, 
+        "id": "20800", 
+        "karma": 0, 
+        "land": "Bectas", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "601017", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Wildfire Lotus", 
+        "requires": "20705", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "21": {
         "area": "Mistral", 
@@ -22063,6 +23283,30 @@
         "requires": "204", 
         "xp": 220, 
         "zel": 500
+    }, 
+    "21000": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The old castle ringed with a half-frozen lake like a moat makes you think of scenes from Grand Gaia. Who could possibly live here?", 
+        "difficulty": 1, 
+        "dungeon": "Bariura Lake Castle", 
+        "energy_use": 12, 
+        "id": "21000", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Castle on the Lake", 
+        "requires": "20705", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "2100000": {
         "area": "Strategy Zone", 
@@ -22132,9 +23376,891 @@
         "land": "Vortex", 
         "mimic_info": {}, 
         "name": "The Supreme God", 
-        "requires": "9999999", 
+        "requires": "2100000", 
         "xp": 100000, 
         "zel": 3000000
+    }, 
+    "2100003": {
+        "area": "Strategy Zone", 
+        "battle_count": 2, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "These mock Units are made of something completely different. You're in for a shock once you start fighting them!", 
+        "difficulty": 1, 
+        "dungeon": "Strategy Zone", 
+        "energy_use": 50, 
+        "id": "2100003", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Malevolent God", 
+        "requires": "2100000", 
+        "xp": 100000, 
+        "zel": 3000000
+    }, 
+    "2100004": {
+        "area": "Strategy Zone", 
+        "battle_count": 2, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "These mock Units are made of something completely different. You're in for a shock once you start fighting them!", 
+        "difficulty": 1, 
+        "dungeon": "Strategy Zone", 
+        "energy_use": 50, 
+        "id": "2100004", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Creation God", 
+        "requires": "2100000", 
+        "xp": 100000, 
+        "zel": 3000000
+    }, 
+    "21001": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You can see the castle more clearly as you approach, and it really does seem similar to some ruins you've seen before.", 
+        "difficulty": 1, 
+        "dungeon": "Bariura Lake Castle", 
+        "energy_use": 12, 
+        "id": "21001", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Snow-Swept Dawn", 
+        "requires": "21000", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21002": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Did the culture of this world influence Grand Gaia just as the one on Bectas did? Or was it Grand Gaia that influenced this world?", 
+        "difficulty": 1, 
+        "dungeon": "Bariura Lake Castle", 
+        "energy_use": 12, 
+        "id": "21002", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Cold Winds", 
+        "requires": "21001", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21003": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The gate is right ahead of you. You can tell now that you're close. You're pretty sure you've seen extremely similar architecture on Grand Gaia...", 
+        "difficulty": 1, 
+        "dungeon": "Bariura Lake Castle", 
+        "energy_use": 15, 
+        "id": "21003", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Frozen History", 
+        "requires": "21002", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21010": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You were shocked to learn that humans fled to places other than Elgaia during the war with the gods. Are there other cases of this, as well?", 
+        "difficulty": 1, 
+        "dungeon": "Castle Road", 
+        "energy_use": 12, 
+        "id": "21010", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Town Under Attack", 
+        "requires": "21003", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21011": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Fearing attack by the Mystical Wolf's minions, the townsfolk keep their doors shut tight. And thus the town itself is overrun with monsters.", 
+        "difficulty": 1, 
+        "dungeon": "Castle Road", 
+        "energy_use": 12, 
+        "id": "21011", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Abundant Monsters", 
+        "requires": "21010", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21012": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The Mystical Wolf's change is probably related to this land's sealed god. If so, your survey will probably also help to save this world's people.", 
+        "difficulty": 1, 
+        "dungeon": "Castle Road", 
+        "energy_use": 15, 
+        "id": "21012", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Days of Collapse", 
+        "requires": "21011", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21020": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Luciana has moved ahead despite Liana's effort to stop her. It seems our presence has had negative effects. You have to catch up to her.", 
+        "difficulty": 1, 
+        "dungeon": "Snowstorm Woods", 
+        "energy_use": 13, 
+        "id": "21020", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Commence Pursuit", 
+        "requires": "21012", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21021": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Luciana believes the legends, and probably thinks the gods are still humanity's enemies. Liana seems terrified of Tilith, too.", 
+        "difficulty": 1, 
+        "dungeon": "Snowstorm Woods", 
+        "energy_use": 13, 
+        "id": "21021", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Beautiful Cruelty", 
+        "requires": "21020", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21022": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "According to Liana, it's not especially cold right now. This is the normal weather all year. Elgaia might seem like a paradise next to this world.", 
+        "difficulty": 1, 
+        "dungeon": "Snowstorm Woods", 
+        "energy_use": 13, 
+        "id": "21022", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Polar Life", 
+        "requires": "21021", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21023": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The snow on the trees sometimes falls to the ground noisily. How did the people of this world survive in such a cold land?", 
+        "difficulty": 1, 
+        "dungeon": "Snowstorm Woods", 
+        "energy_use": 16, 
+        "id": "21023", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Shadowed Woods", 
+        "requires": "21022", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21030": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The three of you proceed along the lake's shore. The lake is frozen in patches, and it seems like a person could walk out onto the ice in some places.", 
+        "difficulty": 1, 
+        "dungeon": "Raujis Lake", 
+        "energy_use": 13, 
+        "id": "21030", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Frozen Lake Waters", 
+        "requires": "21023", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21031": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "There was no snow in Tull's world, so advancing through it is a real struggle. You have to walk ahead and pack down the snow.", 
+        "difficulty": 1, 
+        "dungeon": "Raujis Lake", 
+        "energy_use": 13, 
+        "id": "21031", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Snowbound Advance", 
+        "requires": "21030", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21032": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The problem with this world is the enemies that hide in the snow and leap out at you. If you get thrown into the lake, you might even die of the cold.", 
+        "difficulty": 1, 
+        "dungeon": "Raujis Lake", 
+        "energy_use": 13, 
+        "id": "21032", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Rippling Waters", 
+        "requires": "21031", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21033": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "You're almost to the site of one of the shrines. However, you're well aware from experience that \"almost there\" is a dangerous place to be.", 
+        "difficulty": 1, 
+        "dungeon": "Raujis Lake", 
+        "energy_use": 18, 
+        "id": "21033", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Shining Ice", 
+        "requires": "21032", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21040": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "There's a fantastical scene unfolding in the sky. You want to observe closely, but there's no time if you intend to catch up to Luciana.", 
+        "difficulty": 1, 
+        "dungeon": "Mirage Snowfields", 
+        "energy_use": 13, 
+        "id": "21040", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Sky Phantoms", 
+        "requires": "21023", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21041": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "These snowfields seem to be filled with lurking enemies, but with Hatch scouting ahead you should still be able to avoid most fights.", 
+        "difficulty": 1, 
+        "dungeon": "Mirage Snowfields", 
+        "energy_use": 13, 
+        "id": "21041", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Silver Waltz", 
+        "requires": "21040", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21042": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You can see far across the vast snowfields, but the enemies hide in the snow and ambush you at times. Stay alert for their presence as you advance.", 
+        "difficulty": 1, 
+        "dungeon": "Mirage Snowfields", 
+        "energy_use": 13, 
+        "id": "21042", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Glittering Snowfall", 
+        "requires": "21041", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21043": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "You're close to the border between the snowfields and the ice lake. Powerful enemies often lie in wait in places like this. Keep your wits about you.", 
+        "difficulty": 1, 
+        "dungeon": "Mirage Snowfields", 
+        "energy_use": 18, 
+        "id": "21043", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Shining Snowscapes", 
+        "requires": "21042", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21050": {
+        "area": "Vilanciel", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The sealed god of this land appears from nowhere. Beat it and you'll complete your mission here. All you can do now is fight with all you have!", 
+        "difficulty": 1, 
+        "dungeon": "Subzero Road", 
+        "energy_use": 20, 
+        "id": "21050", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Encroaching Threats", 
+        "requires": "21033,21043", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21051": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "It seems that the Mystical Wolf was actually this world's sealed god. You need to find a way to win before you fight it again...", 
+        "difficulty": 1, 
+        "dungeon": "Subzero Road", 
+        "energy_use": 15, 
+        "id": "21051", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "The True Target", 
+        "requires": "21050", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21052": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The cold, dry air makes your nose hurt. Reda seems to be freezing, too, but Luciana and Liana appear used to it.", 
+        "difficulty": 1, 
+        "dungeon": "Subzero Road", 
+        "energy_use": 15, 
+        "id": "21052", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Trail of Frozen Blood", 
+        "requires": "21051", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21053": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Enemies attack frequently, but at least it warms you up a bit. It might be nice to fight for yourself under these circumstances.", 
+        "difficulty": 1, 
+        "dungeon": "Subzero Road", 
+        "energy_use": 15, 
+        "id": "21053", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Secret Signposts", 
+        "requires": "21052", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21054": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The air has shifted. There must be an exit nearby. The sisters say that it's still quite a ways to the polar regions even after you leave this cave.", 
+        "difficulty": 1, 
+        "dungeon": "Subzero Road", 
+        "energy_use": 18, 
+        "id": "21054", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Searching for Exits", 
+        "requires": "21053", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21060": {
+        "area": "Vilanciel", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You can't let sudden meetings and attacks confuse you. They attacked after determining you were a Summoner of the Summoners' Hall, which must mean...", 
+        "difficulty": 1, 
+        "dungeon": "Gallum Ice Ridge", 
+        "energy_use": 20, 
+        "id": "21060", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Random Encounter", 
+        "requires": "21054", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21061": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The Abel Faction was ahead of you in this world, too. How much information are they getting before the Summoners' Hall does?", 
+        "difficulty": 1, 
+        "dungeon": "Gallum Ice Ridge", 
+        "energy_use": 16, 
+        "id": "21061", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Darkness a Step Ahead", 
+        "requires": "21060", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21062": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "You can't tell how deep the cracks in the massive ice blocks go. All you can do is take extreme care in where you step as you advance.", 
+        "difficulty": 1, 
+        "dungeon": "Gallum Ice Ridge", 
+        "energy_use": 20, 
+        "id": "21062", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Hellish Avalanche", 
+        "requires": "21061", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21070": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Cold air...no, a presence so tense it hurts. This alone tells you the immense power of the sealed god. Just what is this sealed god?", 
+        "difficulty": 1, 
+        "dungeon": "Mystical Wolf's Lair", 
+        "energy_use": 16, 
+        "id": "21070", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Divine Territory", 
+        "requires": "21062", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21071": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Although you're fairly used to it by now, things are still harder when your Summoning is restricted. You have to get stronger.", 
+        "difficulty": 1, 
+        "dungeon": "Mystical Wolf's Lair", 
+        "energy_use": 16, 
+        "id": "21071", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Utmost Extremity", 
+        "requires": "21070", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21072": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You restored the power of Summoning on Bectas by fighting the sealed god. Will that happen again if you fight the mystical wolf?", 
+        "difficulty": 1, 
+        "dungeon": "Mystical Wolf's Lair", 
+        "energy_use": 18, 
+        "id": "21072", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Howling Wolf Spirit", 
+        "requires": "21071", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21073": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The frequency of enemy attacks has changed... You have a bad feeling about this. You could be wrong, but it feels like you're being chased somewhere.", 
+        "difficulty": 1, 
+        "dungeon": "Mystical Wolf's Lair", 
+        "energy_use": 18, 
+        "id": "21073", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Name the Reaper", 
+        "requires": "21072", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21074": {
+        "area": "Vilanciel", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "It seems the Mystical Wolf's minions have surrounded the area, but you can't let yourself lose for Luciana and Liana's sakes!", 
+        "difficulty": 1, 
+        "dungeon": "Mystical Wolf's Lair", 
+        "energy_use": 25, 
+        "id": "21074", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Defiled Soul", 
+        "requires": "21073", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21080": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "Rene calls you deep underground, beneath the lake castle. Once inside, you experience a sense of deja vu recalling Bariura in Grand Gaia.", 
+        "difficulty": 1, 
+        "dungeon": "Divine Beast's Prison", 
+        "energy_use": 50, 
+        "id": "21080", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Ancient Relics", 
+        "requires": "21074", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "21090": {
+        "area": "Vilanciel", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "10519"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "You see something unexpected as you progress deep into the polar region. It's shocking to see a place so verdant in this snowbound world.", 
+        "difficulty": 1, 
+        "dungeon": "Merciful Glory", 
+        "energy_use": 50, 
+        "id": "21090", 
+        "karma": 0, 
+        "land": "Vilanciel", 
+        "mimic_info": {
+            "group_1_chance": "100", 
+            "group_1_monster_group": "602096", 
+            "group_2_chance": "0", 
+            "group_2_monster_group": "0", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "A Flourishing Place", 
+        "requires": "21074", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "211": {
         "area": "Morgan", 
@@ -22277,6 +24403,844 @@
         "requires": "214", 
         "xp": 240, 
         "zel": 500
+    }, 
+    "22000": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The sun is warm, and the winds are gentle. The climate near here seems nice. Even the leaves make a pleasant sound.", 
+        "difficulty": 1, 
+        "dungeon": "Bluesun Grove Path", 
+        "energy_use": 13, 
+        "id": "22000", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Gentle Winds", 
+        "requires": "21074", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22001": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You see a band of people in black chasing a woman. You don't understand the situation, but she's clearly in danger!", 
+        "difficulty": 1, 
+        "dungeon": "Bluesun Grove Path", 
+        "energy_use": 18, 
+        "id": "22001", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Daylight Shadows", 
+        "requires": "22000", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22002": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Who were those people in black? They might attack again, so you need to get somewhere with better visibility.", 
+        "difficulty": 1, 
+        "dungeon": "Bluesun Grove Path", 
+        "energy_use": 15, 
+        "id": "22002", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Bamboo Cacophony", 
+        "requires": "22001", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22010": {
+        "area": "Ohbanahara", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You've heard of warriors called shinobi. Does that mean someone from Ohbanahara became a Grand Gaian hero?", 
+        "difficulty": 1, 
+        "dungeon": "Prosperity Fields", 
+        "energy_use": 18, 
+        "id": "22010", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Darkness Amid Light", 
+        "requires": "22002", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22011": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Seria's decision caught you off guard. She must be growing up. You can't let her show you up, though.", 
+        "difficulty": 1, 
+        "dungeon": "Prosperity Fields", 
+        "energy_use": 13, 
+        "id": "22011", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Tranquil Winds", 
+        "requires": "22010", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22012": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're going to help Suzune reclaim the country, but that will probably take more than civil discussions to achieve. Be ready to fight.", 
+        "difficulty": 1, 
+        "dungeon": "Prosperity Fields", 
+        "energy_use": 13, 
+        "id": "22012", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "A Rich Nation", 
+        "requires": "22011", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22013": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The watery fields around you are apparently called paddies, and they're strangely beautiful when they glisten in the sunlight.", 
+        "difficulty": 1, 
+        "dungeon": "Prosperity Fields", 
+        "energy_use": 16, 
+        "id": "22013", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Glistening Fields", 
+        "requires": "22012", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22020": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You've seen many signs of wartime destruction already, but this is the first time you've seen the site of a battle that was only days old...", 
+        "difficulty": 1, 
+        "dungeon": "Calamity Plains", 
+        "energy_use": 13, 
+        "id": "22020", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Winds of Corruption", 
+        "requires": "22013", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22021": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Broken swords, shattered armor... You should probably stop looking so closely at the things around you. Suzune's looking pale, too.", 
+        "difficulty": 1, 
+        "dungeon": "Calamity Plains", 
+        "energy_use": 13, 
+        "id": "22021", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Ghastly Scars", 
+        "requires": "22020", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22022": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Sakunoshin said that people who dress and cover their faces like the one you just passed are called begging monks. They dress very suspiciously.", 
+        "difficulty": 1, 
+        "dungeon": "Calamity Plains", 
+        "energy_use": 13, 
+        "id": "22022", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Prayer and Repose", 
+        "requires": "22021", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22023": {
+        "area": "Ohbanahara", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Apparently there's a checkpoint and a city once you get past Calamity Plains. Maybe you should dress like you're from this world to get through it?", 
+        "difficulty": 1, 
+        "dungeon": "Calamity Plains", 
+        "energy_use": 16, 
+        "id": "22023", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Whispers of Death", 
+        "requires": "22022", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22030": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Sakunoshin is unconscious, but you can't leave him behind. For now, try to focus your attacks on the enemy leader and make an opening!", 
+        "difficulty": 1, 
+        "dungeon": "Defensive Checkpoint", 
+        "energy_use": 20, 
+        "id": "22030", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Pent-up Winds", 
+        "requires": "22023", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22031": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You got free thanks to the begging monk. If he's helping you, he's probably an ally of Suzune's. Trust him for now and focus on escaping.", 
+        "difficulty": 1, 
+        "dungeon": "Defensive Checkpoint", 
+        "energy_use": 14, 
+        "id": "22031", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Roadblock Checkpoint", 
+        "requires": "22030", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22032": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "You doubt that the enemy will risk harming Suzune, but you're not sure. You have to escape this castle as soon as possible!", 
+        "difficulty": 1, 
+        "dungeon": "Defensive Checkpoint", 
+        "energy_use": 17, 
+        "id": "22032", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Mighty Swarms", 
+        "requires": "22031", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22040": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "There's a river down the hill and past the checkpoint. The large bridge over it that seems to lead to a city, and the castle lies just beyond.", 
+        "difficulty": 1, 
+        "dungeon": "Grand Bridge", 
+        "energy_use": 14, 
+        "id": "22040", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Winds Over Water", 
+        "requires": "22032", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22041": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're fascinated by this culture so unlike that of Elgaia, but you need to hurry to Suzune's rescue. You'll have time for sightseeing later.", 
+        "difficulty": 1, 
+        "dungeon": "Grand Bridge", 
+        "energy_use": 14, 
+        "id": "22041", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "River Crossing", 
+        "requires": "22040", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22042": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Genba's minions are in position on the bridge, and it won't be easy to get across. You need to hurry and push through it.", 
+        "difficulty": 1, 
+        "dungeon": "Grand Bridge", 
+        "energy_use": 14, 
+        "id": "22042", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Established Borders", 
+        "requires": "22041", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22043": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You come to a sudden stop when you sense a powerful foe. You may have been too hasty in this. You need to calm down and stay centered as you fight.", 
+        "difficulty": 1, 
+        "dungeon": "Grand Bridge", 
+        "energy_use": 14, 
+        "id": "22043", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Breach Interruption", 
+        "requires": "22042", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22044": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "As expected, you've run into a skilled warrior. But why does this warrior know about the sealed god? You'll have to fight to find out.", 
+        "difficulty": 1, 
+        "dungeon": "Grand Bridge", 
+        "energy_use": 20, 
+        "id": "22044", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Dazzling Flames", 
+        "requires": "22043", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22050": {
+        "area": "Ohbanahara", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "There are too many enemies to count! They did know you were coming, so it's not shocking. All you can do is fight your way through.", 
+        "difficulty": 1, 
+        "dungeon": "Skyblock Walls", 
+        "energy_use": 20, 
+        "id": "22050", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Winds in Darkness", 
+        "requires": "22044", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22051": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You dash through the chaotic melee, crushing autumn leaves as you go. Get into the castle while the begging monk keeps Kagenui busy!", 
+        "difficulty": 1, 
+        "dungeon": "Skyblock Walls", 
+        "energy_use": 15, 
+        "id": "22051", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Over the Wall", 
+        "requires": "22050", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22052": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "You've finally gotten through the maze-like castle walls to the main building. Now you can charge the entrance that Sakunoshin mentioned.", 
+        "difficulty": 1, 
+        "dungeon": "Skyblock Walls", 
+        "energy_use": 18, 
+        "id": "22052", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Whispering Fortress", 
+        "requires": "22051", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22060": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You're surprised that the floors are soft. It seems like all of the flooring is made of woven leaves. You notice that Sakunoshin is going barefoot.", 
+        "difficulty": 1, 
+        "dungeon": "Thousand-Mat Hall", 
+        "energy_use": 16, 
+        "id": "22060", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Stagnant Winds", 
+        "requires": "22052", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22061": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The castle doesn't seem to be that big inside. That makes it easy to explore, but the low ceilings make it hard to swing heavy weapons.", 
+        "difficulty": 1, 
+        "dungeon": "Thousand-Mat Hall", 
+        "energy_use": 16, 
+        "id": "22061", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Palace of Bloodshed", 
+        "requires": "22060", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22062": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You rush up the steps for a higher floor. The creaking of the stairways informs you that the castle is made of wood.", 
+        "difficulty": 1, 
+        "dungeon": "Thousand-Mat Hall", 
+        "energy_use": 16, 
+        "id": "22062", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Pillar of the Nation", 
+        "requires": "22061", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22063": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Kagenui has caught up to you from behind, and Genba, the enemy leader, is right ahead. But if you make it through this fight, Suzune will be safe.", 
+        "difficulty": 1, 
+        "dungeon": "Thousand-Mat Hall", 
+        "energy_use": 20, 
+        "id": "22063", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Thundering Roar", 
+        "requires": "22062", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22070": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Sakunoshin saved your life. That Phoenix Strike is terrifying, but it won't be so easy to use with Sakunoshin around.", 
+        "difficulty": 1, 
+        "dungeon": "Phoenix Tower", 
+        "energy_use": 16, 
+        "id": "22070", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Wild Winds", 
+        "requires": "22063", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22071": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You proceed over a roof made of bizarre tiles. You're so high up you couldn't help but look down. There's no coming back if you fall.", 
+        "difficulty": 1, 
+        "dungeon": "Phoenix Tower", 
+        "energy_use": 16, 
+        "id": "22071", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Wrathful Skies", 
+        "requires": "22070", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22072": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You've made it far enough to see Raka, but you face more foes than ever. Seria's eyes tell you that she'll handle it, so you keep heading up.", 
+        "difficulty": 1, 
+        "dungeon": "Phoenix Tower", 
+        "energy_use": 18, 
+        "id": "22072", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Showers of Blades", 
+        "requires": "22071", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22073": {
+        "area": "Ohbanahara", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "You don't have time to wait on Seria, so you'll be facing Raka alone. It seems she won't use her Phoenix Strike, but she's too strong to take lightly.", 
+        "difficulty": 1, 
+        "dungeon": "Phoenix Tower", 
+        "energy_use": 20, 
+        "id": "22073", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Unnatural Might", 
+        "requires": "22072", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22074": {
+        "area": "Ohbanahara", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "This should be your last fight in the castle. You can sense more power from the Mystical Phoenix than any other sealed god so far. Give it your all!", 
+        "difficulty": 1, 
+        "dungeon": "Phoenix Tower", 
+        "energy_use": 25, 
+        "id": "22074", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Chaos in Heaven", 
+        "requires": "22073", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22080": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "11048"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "Suzune has asked you to investigate a monster with Kagenui. Sakunoshin also came along for some reason. Will that cause problems?", 
+        "difficulty": 1, 
+        "dungeon": "Abandoned Temple", 
+        "energy_use": 50, 
+        "id": "22080", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Mysterious Temple", 
+        "requires": "22074", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "22090": {
+        "area": "Ohbanahara", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "Myoukei gave you a letter. When you had Sakunoshin read it, it said to come to this field. What does this have to do with you?", 
+        "difficulty": 1, 
+        "dungeon": "Fields of Despair", 
+        "energy_use": 50, 
+        "id": "22090", 
+        "karma": 0, 
+        "land": "Ohbanahara", 
+        "mimic_info": {
+            "group_1_chance": "75", 
+            "group_1_monster_group": "603086", 
+            "group_2_chance": "25", 
+            "group_2_monster_group": "603096", 
+            "spawn_chance_range_maybe": "10.0~34.0"
+        }, 
+        "name": "Relentless Training", 
+        "requires": "22080", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "221": {
         "area": "Morgan", 
@@ -25731,6 +28695,23 @@
         "xp": 2000, 
         "zel": 1200
     }, 
+    "500000": {
+        "area": "Summoners' Training Camp", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "A special battle simulator designed to train Summoners. Crush every enemy you encounter to increase your innermost potential!", 
+        "difficulty": 1, 
+        "dungeon": "Experience Training", 
+        "energy_use": 0, 
+        "id": "500000", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "Experience Training Lv. 1", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "5000000": {
         "area": "Grand Quest", 
         "battle_count": 14, 
@@ -25911,6 +28892,24 @@
         "xp": 10000, 
         "zel": 50000
     }, 
+    "500001": {
+        "area": "Summoners' Training Camp", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "A special battle simulator designed to train Summoners. Defeat incoming enemies to see your innermost potential soar!", 
+        "difficulty": 1, 
+        "dungeon": "Experience Training", 
+        "energy_use": 0, 
+        "id": "500001", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "Experience Training Lv. 2", 
+        "requires": "20705", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "5000010": {
         "area": "Grand Quest 2", 
         "battle_count": 1, 
@@ -25964,6 +28963,201 @@
         "requires": "5000011", 
         "xp": 10000, 
         "zel": 50000
+    }, 
+    "5000013": {
+        "area": "Grand Quest 2", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "The 7 leaders of the Akras Summoners' Hall Demon Slayers--Griff, Iris, Kafka, Rhoa, Libera, Krantz, and Mirfah--head to the world of Ishgria to survey the land. However, they face an enormous demon soon after arriving. Their leader, Griff, goes after the demon alone. As acting commander, Krantz leads the rest to where the return gate should be, but...", 
+        "difficulty": 4, 
+        "dungeon": "Entrusted Will", 
+        "energy_use": 50, 
+        "id": "5000013", 
+        "karma": 5000, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Entrusted Will", 
+        "requires": "10566", 
+        "xp": 8000, 
+        "zel": 30000
+    }, 
+    "500002": {
+        "area": "Summoners' Training Camp", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "召喚師自身を鍛えるために設計された戦闘シミュレーター。<br>立ちはだかる難敵をすべて撃破し、戦力を向上させろ！", 
+        "difficulty": 1, 
+        "dungeon": "Experience Training", 
+        "energy_use": 0, 
+        "id": "500002", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "経験訓練場Lv.3", 
+        "requires": "22074,999999", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "500020": {
+        "area": "Summoners' Training Camp", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "A special battle simulator designed to hone the Summoning Arts. Defeat all foes in your way to grow more proficient!", 
+        "difficulty": 1, 
+        "dungeon": "Summoning Arts Training", 
+        "energy_use": 0, 
+        "id": "500020", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "Summoning Arts Training Lv. 1", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "500021": {
+        "area": "Summoners' Training Camp", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "A special battle simulator designed to hone the Summoning Arts. Exterminate all foes heading towards you to hone your techniques!", 
+        "difficulty": 1, 
+        "dungeon": "Summoning Arts Training", 
+        "energy_use": 0, 
+        "id": "500021", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "Summoning Arts Training Lv. 2", 
+        "requires": "20705", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "500022": {
+        "area": "Summoners' Training Camp", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "召喚術の修練を目的とする戦闘シミュレーター。<br>立ちはだかる難敵をすべて撃破し、召喚力を進化させろ！", 
+        "difficulty": 1, 
+        "dungeon": "Summoning Arts Training", 
+        "energy_use": 0, 
+        "id": "500022", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "召喚術訓練場Lv.3", 
+        "requires": "22074,999999", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "500040": {
+        "area": "Summoners' Training Camp", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "A special battle simulator designed to bolster the power of Summoner weapons. Vanquish all incoming enemies to develop your skills!", 
+        "difficulty": 1, 
+        "dungeon": "Weapon Training", 
+        "energy_use": 0, 
+        "id": "500040", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "Weapon Training Lv. 1", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "500041": {
+        "area": "Summoners' Training Camp", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "A special battle simulator designed to bolster the power of Summoner weapons. Destroy any enemies on the field to test your weapons' limits!", 
+        "difficulty": 1, 
+        "dungeon": "Weapon Training", 
+        "energy_use": 0, 
+        "id": "500041", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "Weapon Training Lv. 2", 
+        "requires": "20705", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "500042": {
+        "area": "Summoners' Training Camp", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "召喚師の力となる武器の研鑽を目的とした戦闘シミュレーター。<br>立ちはだかる難敵をすべて撃破し、さらなる力をその手に掴め！", 
+        "difficulty": 1, 
+        "dungeon": "Weapon Training", 
+        "energy_use": 0, 
+        "id": "500042", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "武器訓練場Lv.3", 
+        "requires": "22074,999999", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "500060": {
+        "area": "Summoners' Training Camp", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "A special battle simulator designed to help break parameter limits. Destroy all foes before you and allow your true talents to shine!", 
+        "difficulty": 1, 
+        "dungeon": "Parameters Training", 
+        "energy_use": 0, 
+        "id": "500060", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "Parameters Training Lv. 1", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "500061": {
+        "area": "Summoners' Training Camp", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "A special battle simulator designed to help break parameter limits. Crush all foes after you and watch yourself grow in the process!", 
+        "difficulty": 1, 
+        "dungeon": "Parameters Training", 
+        "energy_use": 0, 
+        "id": "500061", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "Parameters Training Lv. 2", 
+        "requires": "20705", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "500062": {
+        "area": "Summoners' Training Camp", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "召喚師の能力強化を目的とした戦闘シミュレーター。<br>立ちはだかる難敵をすべて撃破し、己の限界を突破せよ！", 
+        "difficulty": 1, 
+        "dungeon": "Parameters Training", 
+        "energy_use": 0, 
+        "id": "500062", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "能力強化訓練場Lv.3", 
+        "requires": "22074,999999", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "5008002": {
         "area": "Grand Quest", 
@@ -26984,6 +30178,94 @@
         "requires": "565", 
         "xp": 2400, 
         "zel": 1500
+    }, 
+    "600000": {
+        "area": "CH3 Trials", 
+        "battle_count": 2, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "Here you will face a monster from Raid Battle. Rumor has it Noel is behind its enhanced power...", 
+        "difficulty": 1, 
+        "dungeon": "Battle Hall", 
+        "energy_use": 50, 
+        "id": "600000", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "Round No. 001", 
+        "requires": "20705", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "600010": {
+        "area": "CH3 Trials", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "A fight against an Elder Summoner who has watched over you since the very beginning. It would seem he wants to test how far you have come.", 
+        "difficulty": 1, 
+        "dungeon": "Battle Hall", 
+        "energy_use": 50, 
+        "id": "600010", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "Round No. 002", 
+        "requires": "600000,999999", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "600020": {
+        "area": "CH3 Trials", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "果てなき闘争の渦中に身を投じた魔神との戦い。属性を意識して戦わなければ、勝利はおぼつかないだろう。", 
+        "difficulty": 1, 
+        "dungeon": "Battle Hall", 
+        "energy_use": 50, 
+        "id": "600020", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "第三の戦域", 
+        "requires": "600010,999999", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "600030": {
+        "area": "CH3 Trials", 
+        "battle_count": 2, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "絶大なる神の力を封印するために召喚された封神儀たち。真の召喚の力を使いこなし、彼らにその力を認めさせるのだ。", 
+        "difficulty": 1, 
+        "dungeon": "Battle Hall", 
+        "energy_use": 50, 
+        "id": "600030", 
+        "karma": 0, 
+        "land": "Summoning Arts Lab", 
+        "mimic_info": {}, 
+        "name": "第四の戦域", 
+        "requires": "600020,24074,999999", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "601": {
         "area": "Palmyna", 
@@ -30672,7 +33954,7 @@
         "land": "Vortex", 
         "mimic_info": {}, 
         "name": "Special expedition", 
-        "requires": "99999", 
+        "requires": "999999", 
         "xp": 35000, 
         "zel": 0
     }, 
@@ -30694,6 +33976,27 @@
         "land": "Vortex", 
         "mimic_info": {}, 
         "name": "Fourth Expedition", 
+        "xp": 3000, 
+        "zel": 0
+    }, 
+    "703005": {
+        "area": "Rift", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Journal excerpt: \"…Where am I? This world seems hostile… This energy…\" Obtain the Dragon's scale material in this expedition!", 
+        "difficulty": 1, 
+        "dungeon": "The Rift", 
+        "energy_use": 15, 
+        "id": "703005", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Fifth expedition", 
         "xp": 3000, 
         "zel": 0
     }, 
@@ -30809,6 +34112,49 @@
         "mimic_info": {}, 
         "name": "The Suspicious Village", 
         "xp": 3000, 
+        "zel": 0
+    }, 
+    "703600": {
+        "area": "Character Quest", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Iaroslava still hasn't joined a squad as the deadline approaches quickly. However, it just happens that Team C is looking for one last member...", 
+        "difficulty": 1, 
+        "dungeon": "The Lone Huntress", 
+        "energy_use": 15, 
+        "id": "703600", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Last Chance", 
+        "xp": 4000, 
+        "zel": 0
+    }, 
+    "703601": {
+        "area": "Character Quest", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "While Iaroslava has been part of Team C for a while, everything is not going as she had hoped.", 
+        "difficulty": 1, 
+        "dungeon": "The Lone Huntress", 
+        "energy_use": 15, 
+        "id": "703601", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Lone Huntress", 
+        "requires": "703600", 
+        "xp": 4000, 
         "zel": 0
     }, 
     "704": {
@@ -34514,6 +37860,482 @@
         "xp": 19000, 
         "zel": 0
     }, 
+    "708000": {
+        "area": "The Hunt", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "It's a big day at Siegfried Academy: the second-year students have gone dragon hunting. Natasha has broken away from her group; she's most likely following a fresh lead...", 
+        "difficulty": 1, 
+        "dungeon": "The Trial Begins", 
+        "energy_use": 10, 
+        "id": "708000", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Not a good start...", 
+        "xp": 1500, 
+        "zel": 0
+    }, 
+    "708001": {
+        "area": "The Hunt", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Two members of the squad have finally found each other. They set off hunting again.", 
+        "difficulty": 1, 
+        "dungeon": "The Trial Begins", 
+        "energy_use": 12, 
+        "id": "708001", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Something new for the squad", 
+        "xp": 1800, 
+        "zel": 0
+    }, 
+    "708002": {
+        "area": "The Hunt", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The hunting comes to an end; several squad members have almost found their prey. Who will get to it first?", 
+        "difficulty": 1, 
+        "dungeon": "The Trial Begins", 
+        "energy_use": 15, 
+        "id": "708002", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Everything for glory", 
+        "xp": 2250, 
+        "zel": 0
+    }, 
+    "708100": {
+        "area": "The Hunt", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "After their failure, Natasha and Daria decided to skirt around the rules of the Academy in order to obtain points to climb back up the rankings.", 
+        "difficulty": 1, 
+        "dungeon": "The Forbidden Hunt", 
+        "energy_use": 10, 
+        "id": "708100", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Lack of trust", 
+        "xp": 1500, 
+        "zel": 0
+    }, 
+    "708101": {
+        "area": "The Hunt", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The three girls continue to follow the trail of their prey. The level of cooperation between Tatiana and the other two members doesn't seem to be all that great...", 
+        "difficulty": 1, 
+        "dungeon": "The Forbidden Hunt", 
+        "energy_use": 12, 
+        "id": "708101", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Welcome to the squad", 
+        "xp": 1800, 
+        "zel": 0
+    }, 
+    "708102": {
+        "area": "The Hunt", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The three girls reach their prey's lair; Tatiana's strength should ensure their victory. But a silhouette is lurking in the shadows...", 
+        "difficulty": 1, 
+        "dungeon": "The Forbidden Hunt", 
+        "energy_use": 15, 
+        "id": "708102", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The forbidden hunt", 
+        "xp": 2250, 
+        "zel": 0
+    }, 
+    "708200": {
+        "area": "The Hunt", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The girls will have to face the consequences of their evening escapade. What does the captain have reserved for them?", 
+        "difficulty": 1, 
+        "dungeon": "The Punishment", 
+        "energy_use": 10, 
+        "id": "708200", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Punishment", 
+        "xp": 1500, 
+        "zel": 0
+    }, 
+    "708201": {
+        "area": "The Hunt", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The four girls all have very different personalities and find themselves obliged to cooperate. Will Natasha and Iaroslava make efforts so that everything goes well?", 
+        "difficulty": 1, 
+        "dungeon": "The Punishment", 
+        "energy_use": 12, 
+        "id": "708201", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Back on the Trail", 
+        "xp": 1800, 
+        "zel": 0
+    }, 
+    "708202": {
+        "area": "The Hunt", 
+        "battle_count": 3, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The dragon's roar seemed very powerful, even for an ancient Alpha. The Captain appears to be very tense. However, an Alpha dragon should not overly concern her…", 
+        "difficulty": 1, 
+        "dungeon": "The Punishment", 
+        "energy_use": 15, 
+        "id": "708202", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "More Than Just an Alpha", 
+        "xp": 2250, 
+        "zel": 0
+    }, 
+    "708300": {
+        "area": "The Hunt", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Despite their adventure with the Omega dragon, the girls' daily routines didn't change much at all: class, practicals, stressing out for exams...", 
+        "difficulty": 1, 
+        "dungeon": "The Birth of Tragedy", 
+        "energy_use": 10, 
+        "id": "708300", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Return to Normalcy", 
+        "xp": 1500, 
+        "zel": 0
+    }, 
+    "708301": {
+        "area": "The Hunt", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Finals week has arrived, along with new anxiety attacks. Especially since the girls have not been allowed to stray from the Academy for awhile.", 
+        "difficulty": 1, 
+        "dungeon": "The Birth of Tragedy", 
+        "energy_use": 12, 
+        "id": "708301", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "A Bit More Crowded", 
+        "requires": "708300", 
+        "xp": 1800, 
+        "zel": 0
+    }, 
+    "708302": {
+        "area": "The Hunt", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "It's the final sprint. The exams are very close and the girls work relentlessly. They fall to sleep late at night, their books in their laps.", 
+        "difficulty": 1, 
+        "dungeon": "The Birth of Tragedy", 
+        "energy_use": 15, 
+        "id": "708302", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Night Terror", 
+        "requires": "708301", 
+        "xp": 2250, 
+        "zel": 0
+    }, 
+    "708400": {
+        "area": "The Hunt", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The Academy has been badly damaged by the Omegas' attack: the entire west wing has been destroyed and is now uninhabitable. The students have been entrusted with restoring the Academy.", 
+        "difficulty": 1, 
+        "dungeon": "The Exploration", 
+        "energy_use": 10, 
+        "id": "708400", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Eastern Mountains", 
+        "xp": 1500, 
+        "zel": 0
+    }, 
+    "708401": {
+        "area": "The Hunt", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The Regional Center for Plant Life Studies of the Eastern Mountains has been abandoned for many years. They carried out research there, aiming to improve the equipment used by hunters.", 
+        "difficulty": 1, 
+        "dungeon": "The Exploration", 
+        "energy_use": 12, 
+        "id": "708401", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Center for Plant Life Studies", 
+        "requires": "708400", 
+        "xp": 1800, 
+        "zel": 0
+    }, 
+    "708402": {
+        "area": "The Hunt", 
+        "battle_count": 4, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "The last news the Center reported was that they had completed their work and were thus closing their doors. The Academy approved this decision and the Center gradually fell into ruins.", 
+        "difficulty": 1, 
+        "dungeon": "The Exploration", 
+        "energy_use": 15, 
+        "id": "708402", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Strange Studies", 
+        "requires": "708401", 
+        "xp": 2250, 
+        "zel": 0
+    }, 
+    "708500": {
+        "area": "The Hunt", 
+        "battle_count": 3, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "The adventure in the laboratory had an unexpected effect: Iaroslava became friends with the rest of the squad. Certain adventures can create bonds you might have thought were unimaginable.", 
+        "difficulty": 1, 
+        "dungeon": "End of the Tragedy", 
+        "energy_use": 10, 
+        "id": "708500", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Notebook", 
+        "xp": 1500, 
+        "zel": 0
+    }, 
+    "708501": {
+        "area": "The Hunt", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Despite the numerous dragon attacks around the world, lessons continue for the students at the Academy. These students are the hope and future of all hunters-to-be.", 
+        "difficulty": 1, 
+        "dungeon": "End of the Tragedy", 
+        "energy_use": 12, 
+        "id": "708501", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Final Lesson", 
+        "requires": "708500", 
+        "xp": 1800, 
+        "zel": 0
+    }, 
+    "708502": {
+        "area": "The Hunt", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Following the latest dragon attack, Natasha and the others cannot run away any more and they must face the dragons as a last resort...", 
+        "difficulty": 1, 
+        "dungeon": "End of the Tragedy", 
+        "energy_use": 15, 
+        "id": "708502", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Last Chance", 
+        "requires": "708501", 
+        "xp": 2250, 
+        "zel": 0
+    }, 
+    "708503": {
+        "area": "The Hunt", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Defeated by the Omegas, will the heroic attack carried out by Natasha and the others be enough for them to reach the other world?", 
+        "difficulty": 1, 
+        "dungeon": "End of the Tragedy", 
+        "energy_use": 15, 
+        "id": "708503", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "After the Battle", 
+        "requires": "708502", 
+        "xp": 2500, 
+        "zel": 0
+    }, 
+    "708700": {
+        "area": "3rd Anniversary Prologue", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "unit": {
+                    "count": "1", 
+                    "id": "710312"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "During the Convergence, Htilit was vanquished by the Apex. However, it would appear that she survived. She will make the acquaintance of a very special little girl…", 
+        "difficulty": 1, 
+        "dungeon": "The Power of Friendship", 
+        "energy_use": 10, 
+        "id": "708700", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Little Girl with Divine Power", 
+        "xp": 1500, 
+        "zel": 0
+    }, 
+    "708701": {
+        "area": "3rd Anniversary Prologue", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": false, 
+        "desc": "Htilit has Lucy travel through time and space. Together, they discover many worlds, but will this be enough to keep the littlegirl entertained?", 
+        "difficulty": 1, 
+        "dungeon": "The Power of Friendship", 
+        "energy_use": 12, 
+        "id": "708701", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Change of Heart", 
+        "requires": "708700", 
+        "xp": 1800, 
+        "zel": 0
+    }, 
+    "708800": {
+        "area": "SA 5", 
+        "battle_count": 12, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Our famous presenter, Elie, is exceptionally hosting our Special 2017 Parade. Join us to relive our favorite moments of 2017!", 
+        "difficulty": 1, 
+        "dungeon": "Special 2017 Parade", 
+        "energy_use": 10, 
+        "id": "708800", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Let the Parade begin!", 
+        "xp": 3000, 
+        "zel": 0
+    }, 
+    "708801": {
+        "area": "SA 5", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "It wouldn't be a worthy Parade without petits fours and other delicious appetizers! Come capture tons of Evolution Units, as well as the 2017 Jewel of Remembrance, in this mission.", 
+        "difficulty": 1, 
+        "dungeon": "Special 2017 Parade", 
+        "energy_use": 15, 
+        "id": "708801", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Banquet and petits fours", 
+        "xp": 4500, 
+        "zel": 0
+    }, 
+    "708900": {
+        "area": "Retrouvailles hivernales", 
+        "battle_count": 12, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Julia gathered all the soul mates of this world inside of the Temple of Love. However, it would appear that an unwanted guest has also joined the couples...", 
+        "difficulty": 1, 
+        "dungeon": "Winter Reunion", 
+        "energy_use": 12, 
+        "id": "708900", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "An Intruder amongst Lovers", 
+        "xp": 3000, 
+        "zel": 0
+    }, 
+    "708901": {
+        "area": "Retrouvailles hivernales", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Chocolates are scattered throughout the Temple of Love! Collect them in order to craft and improve Julia and Sergio character spheres!", 
+        "difficulty": 1, 
+        "dungeon": "Winter Reunion", 
+        "energy_use": 15, 
+        "id": "708901", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Sweet Treats", 
+        "xp": 4500, 
+        "zel": 0
+    }, 
     "71": {
         "area": "Mistral", 
         "battle_count": 6, 
@@ -36360,6 +40182,69 @@
         "xp": 4000, 
         "zel": 0
     }, 
+    "8301190": {
+        "area": "AC", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Unexpectedly, a rather typical meadow can be seen on the other side of the gate. Sounds in the distance imply a battle is happening nearby.", 
+        "difficulty": 1, 
+        "dungeon": "Love Never Fades", 
+        "energy_use": 10, 
+        "id": "8301190", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Will Of Man Lv. 1", 
+        "xp": 3000, 
+        "zel": 0
+    }, 
+    "8301191": {
+        "area": "AC", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "A battlefield lies ahead. Arrows fly over your head as metal clings against metal, all accented with a hint of magic. You must fight your way through.", 
+        "difficulty": 2, 
+        "dungeon": "Love Never Fades", 
+        "energy_use": 20, 
+        "id": "8301191", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Will Of Man Lv. 2", 
+        "requires": "8301190", 
+        "xp": 4000, 
+        "zel": 0
+    }, 
+    "8301192": {
+        "area": "AC", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }, 
+            {
+                "unit": {
+                    "count": "1", 
+                    "id": "850977"
+                }
+            }
+        ], 
+        "continue": true, 
+        "desc": "A young knight with red hair has spotted you and confused you for the enemy. You may only leave by beating him in a duel, or by becoming his prisoner.", 
+        "difficulty": 3, 
+        "dungeon": "Love Never Fades", 
+        "energy_use": 30, 
+        "id": "8301192", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Will Of Man Lv. 3", 
+        "requires": "8301191", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
     "8301201": {
         "area": "Dungeon Collab", 
         "battle_count": 5, 
@@ -36435,6 +40320,120 @@
         "name": "Fighting for the Light", 
         "requires": "8301202", 
         "xp": 2500, 
+        "zel": 0
+    }, 
+    "8301204": {
+        "area": "Melody of Winter", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": false, 
+        "desc": "Oh no! Snow Miku's lost her way! Good thing you're here to help, Summoner! But be careful not to hit her, okay? Aim only for the bad guys!", 
+        "difficulty": 1, 
+        "dungeon": "Melody of Winter", 
+        "energy_use": 15, 
+        "id": "8301204", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Lost in Transition", 
+        "xp": 3000, 
+        "zel": 0
+    }, 
+    "8301205": {
+        "area": "Melody of Winter", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Great job, Summoner! Now all you have to do is escort our young guest to--wait, where is she going? What is that in the distance?!", 
+        "difficulty": 2, 
+        "dungeon": "Melody of Winter", 
+        "energy_use": 20, 
+        "id": "8301205", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The World Is A Stage", 
+        "requires": "8301204", 
+        "xp": 4000, 
+        "zel": 0
+    }, 
+    "8301206": {
+        "area": "Melody of Winter", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "Almost there, Summoner! It's time for the performance of a lifetime! Miku, take it away!", 
+        "difficulty": 3, 
+        "dungeon": "Melody of Winter", 
+        "energy_use": 25, 
+        "id": "8301206", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "A New Beginning", 
+        "requires": "8301205", 
+        "xp": 5000, 
+        "zel": 0
+    }, 
+    "8301221": {
+        "area": "Chorus of Spring", 
+        "battle_count": 4, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "When she heard of the beautiful cherry blossoms in Grand Gaia, Senbonzakura Miku knew she had to see them for herself. Her journey's just begun...!", 
+        "difficulty": 1, 
+        "dungeon": "Chorus of Spring", 
+        "energy_use": 15, 
+        "id": "8301221", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Miracle Star Song", 
+        "xp": 3000, 
+        "zel": 0
+    }, 
+    "8301222": {
+        "area": "Chorus of Spring", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Meanwhile, a concert is already underway in a forgotten forest. Miku presses on and soon realizes she isn't the only singer in this bizarre world...", 
+        "difficulty": 2, 
+        "dungeon": "Chorus of Spring", 
+        "energy_use": 20, 
+        "id": "8301222", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Cherry Blossom Concert", 
+        "requires": "8301221", 
+        "xp": 4000, 
+        "zel": 0
+    }, 
+    "8301223": {
+        "area": "Chorus of Spring", 
+        "battle_count": 6, 
+        "clear_bonus": [
+            {
+                "gem": "1"
+            }
+        ], 
+        "continue": true, 
+        "desc": "As the two singers' voices resonate in unison, the snow begins to make way for a new spring. Whose voice shall echo for all eternity?", 
+        "difficulty": 3, 
+        "dungeon": "Chorus of Spring", 
+        "energy_use": 25, 
+        "id": "8301223", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Sweet Spring Encore", 
+        "requires": "8301222", 
+        "xp": 5000, 
         "zel": 0
     }, 
     "8302001": {
@@ -39391,6 +43390,333 @@
         "xp": 12000, 
         "zel": 0
     }, 
+    "9104700": {
+        "area": "Ultimate challenges", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "60300"
+                }
+            }, 
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "700050"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "Melord has the strongest will out of the eight demon lords. Even after Lucius’ betrayal, his loyalty remains unfailing to his master. Will you be able to open his eyes?", 
+        "difficulty": 1, 
+        "dungeon": "Echoes of Ishgria", 
+        "energy_use": 50, 
+        "id": "9104700", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "“The Most Faithful”", 
+        "xp": 12000, 
+        "zel": 0
+    }, 
+    "9104800": {
+        "area": "Ultimate challenges", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "49800"
+                }
+            }, 
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "700050"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "Mordlim has always shown a strong interest in human technologies, but also a poor opinion of their creators. Will you be capable of proving her wrong? ", 
+        "difficulty": 1, 
+        "dungeon": "Echoes of Ishgria", 
+        "energy_use": 50, 
+        "id": "9104800", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Most Aware", 
+        "xp": 12000, 
+        "zel": 0
+    }, 
+    "9104900": {
+        "area": "Ultimate challenges", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "46220"
+                }
+            }, 
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "700050"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "Despite his choice to use his power to protect Ishgria, Kalon never says no to a challenge. Will you be up to it and entertain him for a while?", 
+        "difficulty": 1, 
+        "dungeon": "Echoes of Ishgria", 
+        "energy_use": 50, 
+        "id": "9104900", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Wisest", 
+        "xp": 12000, 
+        "zel": 0
+    }, 
+    "9104910": {
+        "area": "Ultimate challenges", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "49700"
+                }
+            }, 
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "700050"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "Considered the strongest and oldest demon of the 8 of them, Amu Yunos is expecting a worthy distraction. Let's hope that isn't your only purpose.", 
+        "difficulty": 1, 
+        "dungeon": "Echoes of Ishgria", 
+        "energy_use": 50, 
+        "id": "9104910", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The Eldest", 
+        "xp": 12000, 
+        "zel": 0
+    }, 
+    "9104950": {
+        "area": "Ultimate challenges", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "48900"
+                }
+            }, 
+            {
+                "gem": "1"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "700050"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "Barion the demon dragon is a just and honorable king, despite the brutality he can sometimes show. Will you meet the honorable king or the brutal and ultra-powerful fighter?", 
+        "difficulty": 1, 
+        "dungeon": "Echoes of Ishgria", 
+        "energy_use": 50, 
+        "id": "9104950", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "“The Most Honorable”", 
+        "xp": 12000, 
+        "zel": 0
+    }, 
+    "9105000": {
+        "area": "Ultimate challenges", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "2"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "700066"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "The Omega Dragons are the most powerful dragons in the world. It takes several years of experience after graduating from an Academy to hope to be able to contend with them.", 
+        "difficulty": 1, 
+        "dungeon": "Omega Hunt", 
+        "energy_use": 50, 
+        "id": "9105000", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Bida, Cruel Dragon", 
+        "xp": 7500, 
+        "zel": 0
+    }, 
+    "9105200": {
+        "area": "Ultimate challenges", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "2"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "700066"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "Researchers are studying the behavior of dragons and some of them have found that each dragon behaves in a different way. One of these studies even defined them as “humanoids”.", 
+        "difficulty": 1, 
+        "dungeon": "Omega Hunt", 
+        "energy_use": 50, 
+        "id": "9105200", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Balaur, Persecuted Dragon", 
+        "xp": 11500, 
+        "zel": 0
+    }, 
+    "9105300": {
+        "area": "Ultimate challenges", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "2"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "700066"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "Omega dragons are anomalies of nature. They look immortal and don't seem to have any ancestors. A lot of researchers are trying to figure out where they come from.", 
+        "difficulty": 1, 
+        "dungeon": "Omega Hunt", 
+        "energy_use": 50, 
+        "id": "9105300", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Mokele-mbembe, dragon of the river", 
+        "xp": 12000, 
+        "zel": 0
+    }, 
+    "9105400": {
+        "area": "Ultimate challenges", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "2"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "700066"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "Some dragons have lived together for so long that their consciences have become one. This makes them formidable as their group acts as a single entity.", 
+        "difficulty": 1, 
+        "dungeon": "Omega Hunt", 
+        "energy_use": 50, 
+        "id": "9105400", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "The three Dragons of the South", 
+        "xp": 11500, 
+        "zel": 0
+    }, 
+    "9105500": {
+        "area": "Ultimate challenges", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "2"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "700066"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "Some Omega dragons are completely disconnected from their fellow dragons. They live amongst themselves, are self-sufficient and no one dares to approach them.", 
+        "difficulty": 1, 
+        "dungeon": "Omega Hunt", 
+        "energy_use": 50, 
+        "id": "9105500", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Ancient glories", 
+        "xp": 12000, 
+        "zel": 0
+    }, 
+    "9105600": {
+        "area": "Ultimate challenges", 
+        "battle_count": 1, 
+        "clear_bonus": [
+            {
+                "gem": "3"
+            }, 
+            {
+                "item": {
+                    "count": "1", 
+                    "id": "700072"
+                }
+            }
+        ], 
+        "continue": false, 
+        "desc": "For Valentine's Day, Julia decided to challenge you and she is calling the strongest couples of different worlds to assist her in the fight !", 
+        "difficulty": 1, 
+        "dungeon": "Angel of Love", 
+        "energy_use": 50, 
+        "id": "9105600", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Struck by arrows of love", 
+        "xp": 12000, 
+        "zel": 0
+    }, 
     "911": {
         "area": "Agni", 
         "battle_count": 9, 
@@ -40403,6 +44729,23 @@
         "name": "Bad Lands Lv. 4", 
         "requires": "9701102", 
         "xp": 15000, 
+        "zel": 0
+    }, 
+    "999999": {
+        "area": "Test_Evo_Item_Drop", 
+        "battle_count": 1, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "Apa tekadmu bulat? Aku selalu siap bertanggung jawab, sampai jiwaku yang terdalam!", 
+        "difficulty": 1, 
+        "dungeon": "Test_Evo_Item_Drop", 
+        "energy_use": 5, 
+        "id": "999999", 
+        "karma": 0, 
+        "land": "Vortex", 
+        "mimic_info": {}, 
+        "name": "Test_Evo_Item_Drop Lv. 1", 
+        "xp": 3000, 
         "zel": 0
     }
 }

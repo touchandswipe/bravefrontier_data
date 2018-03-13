@@ -2971,7 +2971,7 @@
         "zel": 5100
     }, 
     "100050": {
-        "area": "魂の修練場", 
+        "area": "200000", 
         "battle_count": 6, 
         "clear_bonus": [], 
         "continue": true, 
@@ -2988,7 +2988,7 @@
         "zel": 0
     }, 
     "100051": {
-        "area": "魂の修練場", 
+        "area": "200000", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -3005,7 +3005,7 @@
         "zel": 0
     }, 
     "100052": {
-        "area": "魂の修練場", 
+        "area": "200000", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -3022,7 +3022,7 @@
         "zel": 0
     }, 
     "100053": {
-        "area": "魂の修練場", 
+        "area": "200000", 
         "battle_count": 8, 
         "clear_bonus": [], 
         "continue": true, 
@@ -3087,7 +3087,7 @@
         "zel": 4100
     }, 
     "100100": {
-        "area": "妖精たちの楽園", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -3104,7 +3104,7 @@
         "zel": 0
     }, 
     "100101": {
-        "area": "妖精たちの楽園", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -3121,7 +3121,7 @@
         "zel": 0
     }, 
     "100102": {
-        "area": "妖精たちの楽園", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -3138,7 +3138,7 @@
         "zel": 0
     }, 
     "100103": {
-        "area": "妖精たちの楽園", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -3729,7 +3729,7 @@
         "zel": 4200
     }, 
     "100200": {
-        "area": "欲望の洞窟", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -3823,7 +3823,7 @@
         "zel": 0
     }, 
     "100201": {
-        "area": "欲望の洞窟", 
+        "area": "200000", 
         "battle_count": 6, 
         "clear_bonus": [], 
         "continue": true, 
@@ -3846,7 +3846,7 @@
         "zel": 0
     }, 
     "100202": {
-        "area": "欲望の洞窟", 
+        "area": "200000", 
         "battle_count": 6, 
         "clear_bonus": [], 
         "continue": true, 
@@ -3987,6 +3987,77 @@
         "xp": 4420, 
         "zel": 4800
     }, 
+    "1002200": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの入口付近。<br>奥に比べ弱い魔物が多いとはいえ油断は禁物だ。", 
+        "difficulty": 1, 
+        "dungeon": "1000327", 
+        "energy_use": 0, 
+        "id": "1002200", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・序地", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1002201": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの中部付近。<br>未開拓な領域となるこの地で待ち受けるものとは……。", 
+        "difficulty": 1, 
+        "dungeon": "1000327", 
+        "energy_use": 0, 
+        "id": "1002201", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・中部", 
+        "requires": "1002200", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1002202": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの奥地。<br>そこには中部を遙かに越える凶悪な魔物が待ち受けていた。", 
+        "difficulty": 1, 
+        "dungeon": "1000327", 
+        "energy_use": 0, 
+        "id": "1002202", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・奥地", 
+        "requires": "1002201", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1002203": {
+        "area": "フロンティアハンター", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリア奥地のさらに先。<br>大気を震わすほどの壮絶な圧力が召喚師に襲いかかる。", 
+        "difficulty": 1, 
+        "dungeon": "1000327", 
+        "energy_use": 0, 
+        "id": "1002203", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・極地", 
+        "requires": "1002202", 
+        "xp": 0, 
+        "zel": 0
+    }, 
     "10023": {
         "area": "セルグラード", 
         "battle_count": 9, 
@@ -4010,6 +4081,77 @@
         "requires": "10022", 
         "xp": 4730, 
         "zel": 5100
+    }, 
+    "1002300": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの入口付近。<br>奥に比べ弱い魔物が多いとはいえ油断は禁物だ。", 
+        "difficulty": 1, 
+        "dungeon": "1000328", 
+        "energy_use": 0, 
+        "id": "1002300", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・序地", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1002301": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの中部付近。<br>未開拓な領域となるこの地で待ち受けるものとは……。", 
+        "difficulty": 1, 
+        "dungeon": "1000328", 
+        "energy_use": 0, 
+        "id": "1002301", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・中部", 
+        "requires": "1002300", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1002302": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの奥地。<br>そこには中部を遙かに越える凶悪な魔物が待ち受けていた。", 
+        "difficulty": 1, 
+        "dungeon": "1000328", 
+        "energy_use": 0, 
+        "id": "1002302", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・奥地", 
+        "requires": "1002301", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1002303": {
+        "area": "フロンティアハンター", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリア奥地のさらに先。<br>大気を震わすほどの壮絶な圧力が召喚師に襲いかかる。", 
+        "difficulty": 1, 
+        "dungeon": "1000328", 
+        "energy_use": 0, 
+        "id": "1002303", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・極地", 
+        "requires": "1002302", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "10024": {
         "area": "セルグラード", 
@@ -4038,6 +4180,148 @@
         "requires": "10023", 
         "xp": 5180, 
         "zel": 5400
+    }, 
+    "1002400": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの入口付近。<br>奥に比べ弱い魔物が多いとはいえ油断は禁物だ。", 
+        "difficulty": 1, 
+        "dungeon": "1000329", 
+        "energy_use": 0, 
+        "id": "1002400", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・序地", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1002401": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの中部付近。<br>未開拓な領域となるこの地で待ち受けるものとは……。", 
+        "difficulty": 1, 
+        "dungeon": "1000329", 
+        "energy_use": 0, 
+        "id": "1002401", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・中部", 
+        "requires": "1002400", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1002402": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの奥地。<br>そこには中部を遙かに越える凶悪な魔物が待ち受けていた。", 
+        "difficulty": 1, 
+        "dungeon": "1000329", 
+        "energy_use": 0, 
+        "id": "1002402", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・奥地", 
+        "requires": "1002401", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1002403": {
+        "area": "フロンティアハンター", 
+        "battle_count": 6, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリア奥地のさらに先。<br>大気を震わすほどの壮絶な圧力が召喚師に襲いかかる。", 
+        "difficulty": 1, 
+        "dungeon": "1000329", 
+        "energy_use": 0, 
+        "id": "1002403", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・極地", 
+        "requires": "1002402", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1002500": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの入口付近。<br>奥に比べ弱い魔物が多いとはいえ油断は禁物だ。", 
+        "difficulty": 1, 
+        "dungeon": "1000330", 
+        "energy_use": 0, 
+        "id": "1002500", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・序地", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1002501": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの中部付近。<br>未開拓な領域となるこの地で待ち受けるものとは……。", 
+        "difficulty": 1, 
+        "dungeon": "1000330", 
+        "energy_use": 0, 
+        "id": "1002501", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・中部", 
+        "requires": "1002500", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1002502": {
+        "area": "フロンティアハンター", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリアの奥地。<br>そこには中部を遙かに越える凶悪な魔物が待ち受けていた。", 
+        "difficulty": 1, 
+        "dungeon": "1000330", 
+        "energy_use": 0, 
+        "id": "1002502", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・奥地", 
+        "requires": "1002501", 
+        "xp": 0, 
+        "zel": 0
+    }, 
+    "1002503": {
+        "area": "フロンティアハンター", 
+        "battle_count": 7, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "ゲートの狭間に突如出現した謎のエリア奥地のさらに先。<br>大気を震わすほどの壮絶な圧力が召喚師に襲いかかる。", 
+        "difficulty": 1, 
+        "dungeon": "1000330", 
+        "energy_use": 0, 
+        "id": "1002503", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "未開拓領域・極地", 
+        "requires": "1002502", 
+        "xp": 0, 
+        "zel": 0
     }, 
     "1003": {
         "area": "ミルヴァーナ", 
@@ -4088,7 +4372,7 @@
         "zel": 4300
     }, 
     "100300": {
-        "area": "神の箱庭", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4105,7 +4389,7 @@
         "zel": 3000
     }, 
     "100301": {
-        "area": "神の箱庭", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4122,7 +4406,7 @@
         "zel": 3000
     }, 
     "100302": {
-        "area": "神の箱庭", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4139,7 +4423,7 @@
         "zel": 3000
     }, 
     "100303": {
-        "area": "神の箱庭", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4156,7 +4440,7 @@
         "zel": 3000
     }, 
     "100304": {
-        "area": "神の箱庭", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -4177,7 +4461,7 @@
         "zel": 5000
     }, 
     "100305": {
-        "area": "神の箱庭", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4194,7 +4478,7 @@
         "zel": 3000
     }, 
     "100306": {
-        "area": "神の箱庭", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4293,7 +4577,7 @@
         "zel": 4900
     }, 
     "100320": {
-        "area": "覚醒の機神", 
+        "area": "200000", 
         "battle_count": 3, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4310,7 +4594,7 @@
         "zel": 5000
     }, 
     "100321": {
-        "area": "覚醒の機神", 
+        "area": "200000", 
         "battle_count": 3, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4327,7 +4611,7 @@
         "zel": 5000
     }, 
     "100322": {
-        "area": "覚醒の機神", 
+        "area": "200000", 
         "battle_count": 3, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4344,7 +4628,7 @@
         "zel": 5000
     }, 
     "100323": {
-        "area": "覚醒の機神", 
+        "area": "200000", 
         "battle_count": 3, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4361,7 +4645,7 @@
         "zel": 5000
     }, 
     "100324": {
-        "area": "覚醒の機神", 
+        "area": "200000", 
         "battle_count": 3, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4378,7 +4662,7 @@
         "zel": 5000
     }, 
     "100325": {
-        "area": "覚醒の機神", 
+        "area": "200000", 
         "battle_count": 3, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4499,7 +4783,7 @@
         "zel": 4400
     }, 
     "100400": {
-        "area": "悠久の遺跡", 
+        "area": "200000", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4516,7 +4800,7 @@
         "zel": 0
     }, 
     "100401": {
-        "area": "悠久の遺跡", 
+        "area": "200000", 
         "battle_count": 10, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4533,7 +4817,7 @@
         "zel": 0
     }, 
     "100402": {
-        "area": "悠久の遺跡", 
+        "area": "200000", 
         "battle_count": 10, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4550,7 +4834,7 @@
         "zel": 0
     }, 
     "100403": {
-        "area": "悠久の遺跡", 
+        "area": "200000", 
         "battle_count": 10, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4567,7 +4851,7 @@
         "zel": 0
     }, 
     "100404": {
-        "area": "悠久の遺跡", 
+        "area": "200000", 
         "battle_count": 10, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4708,7 +4992,7 @@
         "zel": 4600
     }, 
     "100500": {
-        "area": "黄金の眠る地", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4725,7 +5009,7 @@
         "zel": 0
     }, 
     "100501": {
-        "area": "黄金の眠る地", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -4742,7 +5026,7 @@
         "zel": 0
     }, 
     "100502": {
-        "area": "黄金の眠る地", 
+        "area": "200000", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -5313,7 +5597,7 @@
         "zel": 0
     }, 
     "100660": {
-        "area": "石版守の伝承", 
+        "area": "200001", 
         "battle_count": 3, 
         "clear_bonus": [], 
         "continue": true, 
@@ -5330,7 +5614,7 @@
         "zel": 0
     }, 
     "100661": {
-        "area": "石版守の伝承", 
+        "area": "200001", 
         "battle_count": 3, 
         "clear_bonus": [], 
         "continue": true, 
@@ -5347,7 +5631,7 @@
         "zel": 0
     }, 
     "100662": {
-        "area": "石版守の伝承", 
+        "area": "200001", 
         "battle_count": 3, 
         "clear_bonus": [
             {
@@ -5368,7 +5652,7 @@
         "zel": 0
     }, 
     "100663": {
-        "area": "100651", 
+        "area": "200001", 
         "battle_count": 3, 
         "clear_bonus": [], 
         "continue": true, 
@@ -5385,7 +5669,7 @@
         "zel": 0
     }, 
     "100664": {
-        "area": "100651", 
+        "area": "200001", 
         "battle_count": 3, 
         "clear_bonus": [], 
         "continue": true, 
@@ -5402,7 +5686,7 @@
         "zel": 0
     }, 
     "100665": {
-        "area": "100651", 
+        "area": "200001", 
         "battle_count": 3, 
         "clear_bonus": [
             {
@@ -5447,7 +5731,7 @@
         "zel": 5800
     }, 
     "100700": {
-        "area": "風舞う孤高の旅人", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -5464,7 +5748,7 @@
         "zel": 0
     }, 
     "100701": {
-        "area": "風舞う孤高の旅人", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -5481,7 +5765,7 @@
         "zel": 0
     }, 
     "100702": {
-        "area": "風舞う孤高の旅人", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -5654,7 +5938,7 @@
         "zel": 30000
     }, 
     "100800": {
-        "area": "闇に生きる者", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -5671,7 +5955,7 @@
         "zel": 0
     }, 
     "100801": {
-        "area": "闇に生きる者", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -5688,7 +5972,7 @@
         "zel": 0
     }, 
     "100802": {
-        "area": "闇に生きる者", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -5709,7 +5993,7 @@
         "zel": 0
     }, 
     "100900": {
-        "area": "黒鉄の鍛帝", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -5726,7 +6010,7 @@
         "zel": 0
     }, 
     "100901": {
-        "area": "黒鉄の鍛帝", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -5743,7 +6027,7 @@
         "zel": 0
     }, 
     "100902": {
-        "area": "黒鉄の鍛帝", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -5812,7 +6096,7 @@
         "zel": 4200
     }, 
     "101000": {
-        "area": "雪原に咲く花", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -5829,7 +6113,7 @@
         "zel": 0
     }, 
     "101001": {
-        "area": "雪原に咲く花", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -5846,7 +6130,7 @@
         "zel": 0
     }, 
     "101002": {
-        "area": "雪原に咲く花", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -6015,7 +6299,7 @@
         "zel": 4300
     }, 
     "101100": {
-        "area": "大地を砕く拳", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -6032,7 +6316,7 @@
         "zel": 0
     }, 
     "101101": {
-        "area": "大地を砕く拳", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -6049,7 +6333,7 @@
         "zel": 0
     }, 
     "101102": {
-        "area": "大地を砕く拳", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -6218,7 +6502,7 @@
         "zel": 4400
     }, 
     "101200": {
-        "area": "疾風迅雷", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -6235,7 +6519,7 @@
         "zel": 0
     }, 
     "101201": {
-        "area": "疾風迅雷", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -6252,7 +6536,7 @@
         "zel": 0
     }, 
     "101202": {
-        "area": "疾風迅雷", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -7106,7 +7390,7 @@
         "zel": 30000
     }, 
     "101700": {
-        "area": "慈しむ炎", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -7123,7 +7407,7 @@
         "zel": 0
     }, 
     "101701": {
-        "area": "慈しむ炎", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -7144,7 +7428,7 @@
         "zel": 0
     }, 
     "101800": {
-        "area": "絶対零度", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -7161,7 +7445,7 @@
         "zel": 0
     }, 
     "101801": {
-        "area": "絶対零度", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -7182,7 +7466,7 @@
         "zel": 0
     }, 
     "101900": {
-        "area": "大地の歌声", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -7199,7 +7483,7 @@
         "zel": 0
     }, 
     "101901": {
-        "area": "大地の歌声", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -7268,7 +7552,7 @@
         "zel": 4300
     }, 
     "102000": {
-        "area": "真雷の名のもとに", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -7285,7 +7569,7 @@
         "zel": 0
     }, 
     "102001": {
-        "area": "真雷の名のもとに", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -7454,7 +7738,7 @@
         "zel": 4400
     }, 
     "102100": {
-        "area": "空に守られる者", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -7471,7 +7755,7 @@
         "zel": 0
     }, 
     "102101": {
-        "area": "空に守られる者", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -7640,7 +7924,7 @@
         "zel": 4500
     }, 
     "102200": {
-        "area": "月に魅入られし者", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -7657,7 +7941,7 @@
         "zel": 0
     }, 
     "102201": {
-        "area": "月に魅入られし者", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -9115,7 +9399,7 @@
         "zel": 1000
     }, 
     "103000": {
-        "area": "希望の豪炎", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9132,7 +9416,7 @@
         "zel": 0
     }, 
     "103001": {
-        "area": "希望の豪炎", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -9301,7 +9585,7 @@
         "zel": 4500
     }, 
     "103100": {
-        "area": "静かなる青迅", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9318,7 +9602,7 @@
         "zel": 0
     }, 
     "103101": {
-        "area": "静かなる青迅", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -9487,7 +9771,7 @@
         "zel": 4600
     }, 
     "103200": {
-        "area": "深緑に眠る知謀", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9504,7 +9788,7 @@
         "zel": 0
     }, 
     "103201": {
-        "area": "深緑に眠る知謀", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -9673,7 +9957,7 @@
         "zel": 4700
     }, 
     "103300": {
-        "area": "黄金の意思", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9690,7 +9974,7 @@
         "zel": 0
     }, 
     "103301": {
-        "area": "黄金の意思", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -9863,7 +10147,7 @@
         "zel": 4900
     }, 
     "103400": {
-        "area": "導くは白き光", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -9880,7 +10164,7 @@
         "zel": 0
     }, 
     "103401": {
-        "area": "導くは白き光", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -10025,7 +10309,7 @@
         "zel": 5100
     }, 
     "103500": {
-        "area": "漆黒の旋風", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -10042,7 +10326,7 @@
         "zel": 0
     }, 
     "103501": {
-        "area": "漆黒の旋風", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -12776,7 +13060,7 @@
         "zel": 4900
     }, 
     "105300": {
-        "area": "The Unholy Tower", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12793,7 +13077,7 @@
         "zel": 0
     }, 
     "105301": {
-        "area": "The Unholy Tower", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12810,7 +13094,7 @@
         "zel": 0
     }, 
     "105302": {
-        "area": "The Unholy Tower", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -12979,7 +13263,7 @@
         "zel": 5100
     }, 
     "105400": {
-        "area": "The Unholy Tower", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -12996,7 +13280,7 @@
         "zel": 0
     }, 
     "105401": {
-        "area": "The Unholy Tower", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13013,7 +13297,7 @@
         "zel": 0
     }, 
     "105402": {
-        "area": "The Unholy Tower", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -13186,7 +13470,7 @@
         "zel": 5300
     }, 
     "105500": {
-        "area": "The Unholy Tower", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13203,7 +13487,7 @@
         "zel": 0
     }, 
     "105501": {
-        "area": "The Unholy Tower", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -13348,7 +13632,7 @@
         "zel": 6300
     }, 
     "105600": {
-        "area": "HELLBORN NIGHTMARE", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13365,7 +13649,7 @@
         "zel": 0
     }, 
     "105601": {
-        "area": "HELLBORN NIGHTMARE", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13382,7 +13666,7 @@
         "zel": 0
     }, 
     "105602": {
-        "area": "HELLBORN NIGHTMARE", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -13585,7 +13869,7 @@
         "zel": 30000
     }, 
     "105700": {
-        "area": "HELLBORN NIGHTMARE", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13602,7 +13886,7 @@
         "zel": 0
     }, 
     "105701": {
-        "area": "HELLBORN NIGHTMARE", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -13619,7 +13903,7 @@
         "zel": 0
     }, 
     "105702": {
-        "area": "HELLBORN NIGHTMARE", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -14812,7 +15096,7 @@
         "zel": 5300
     }, 
     "106500": {
-        "area": "104600", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -14829,7 +15113,7 @@
         "zel": 0
     }, 
     "106501": {
-        "area": "104600", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -15002,7 +15286,7 @@
         "zel": 6300
     }, 
     "106600": {
-        "area": "104700", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -15019,7 +15303,7 @@
         "zel": 0
     }, 
     "106601": {
-        "area": "104700", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -15198,7 +15482,7 @@
         "zel": 30000
     }, 
     "106700": {
-        "area": "104800", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -15215,7 +15499,7 @@
         "zel": 0
     }, 
     "106701": {
-        "area": "104800", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -15264,7 +15548,7 @@
         "zel": 30000
     }, 
     "106800": {
-        "area": "104900", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -15281,7 +15565,7 @@
         "zel": 0
     }, 
     "106801": {
-        "area": "104900", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -15302,7 +15586,7 @@
         "zel": 0
     }, 
     "106900": {
-        "area": "105000", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -15319,7 +15603,7 @@
         "zel": 0
     }, 
     "106901": {
-        "area": "105000", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -15364,7 +15648,7 @@
         "zel": 4700
     }, 
     "107000": {
-        "area": "105100", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [], 
         "continue": true, 
@@ -15381,7 +15665,7 @@
         "zel": 0
     }, 
     "107001": {
-        "area": "105100", 
+        "area": "200002", 
         "battle_count": 5, 
         "clear_bonus": [
             {
@@ -17142,6 +17426,27 @@
         "requires": "10804", 
         "xp": 4090, 
         "zel": 5500
+    }, 
+    "108100": {
+        "area": "106100", 
+        "battle_count": 5, 
+        "clear_bonus": [
+            {
+                "gem": "3"
+            }
+        ], 
+        "continue": true, 
+        "desc": "ゴー☆ジャス動画でおなじみのブレフロ王からの挑戦状！<br>国民よ、ブレフロ王にその力を示せ！！", 
+        "difficulty": 1, 
+        "dungeon": "106300", 
+        "energy_use": 10, 
+        "id": "108100", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "ブレフロ王・来たる！！", 
+        "xp": 1500, 
+        "zel": 0
     }, 
     "10811": {
         "area": "10900", 
@@ -19290,6 +19595,108 @@
         "dungeon": "110047", 
         "energy_use": 15, 
         "id": "110520", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "石版守の園", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110530": {
+        "area": "110048", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "1日1回だけ開かれるという天上への入口。<br>聞こえてくるケロケロという鳴き声は複数種類あるようだが…。", 
+        "difficulty": 1, 
+        "dungeon": "110048", 
+        "energy_use": 15, 
+        "id": "110530", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "天上の園", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110540": {
+        "area": "110049", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "1日1回だけ入ることの許された幼魔達の楽園。<br>小さなものたちは合成相手を噂し合っているとか。", 
+        "difficulty": 1, 
+        "dungeon": "110049", 
+        "energy_use": 15, 
+        "id": "110540", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "幼魔の園", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110550": {
+        "area": "110050", 
+        "battle_count": 2, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "1日1回だけ開く石版守の園へと繋がる扉。<br>その先では石版を大切に抱えた存在が待っているという。", 
+        "difficulty": 1, 
+        "dungeon": "110050", 
+        "energy_use": 15, 
+        "id": "110550", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "石版守の園", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110560": {
+        "area": "110051", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "1日1回だけ開かれるという天上への入口。<br>聞こえてくるケロケロという鳴き声は複数種類あるようだが…。", 
+        "difficulty": 1, 
+        "dungeon": "110051", 
+        "energy_use": 15, 
+        "id": "110560", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "天上の園", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110570": {
+        "area": "110052", 
+        "battle_count": 5, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "1日1回だけ入ることの許された幼魔達の楽園。<br>小さなものたちは合成相手を噂し合っているとか。", 
+        "difficulty": 1, 
+        "dungeon": "110052", 
+        "energy_use": 15, 
+        "id": "110570", 
+        "karma": 0, 
+        "land": "狭間", 
+        "mimic_info": {}, 
+        "name": "幼魔の園", 
+        "xp": 1000, 
+        "zel": 0
+    }, 
+    "110580": {
+        "area": "110053", 
+        "battle_count": 2, 
+        "clear_bonus": [], 
+        "continue": true, 
+        "desc": "1日1回だけ開く石版守の園へと繋がる扉。<br>その先では石版を大切に抱えた存在が待っているという。", 
+        "difficulty": 1, 
+        "dungeon": "110053", 
+        "energy_use": 15, 
+        "id": "110580", 
         "karma": 0, 
         "land": "狭間", 
         "mimic_info": {}, 
@@ -41178,7 +41585,7 @@
         "zel": 3400
     }, 
     "8311000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -41195,7 +41602,7 @@
         "zel": 0
     }, 
     "8312000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -41212,7 +41619,7 @@
         "zel": 0
     }, 
     "8313000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -41257,7 +41664,7 @@
         "zel": 3700
     }, 
     "8321000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -41274,7 +41681,7 @@
         "zel": 0
     }, 
     "8322000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -41291,7 +41698,7 @@
         "zel": 0
     }, 
     "8323000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -41336,7 +41743,7 @@
         "zel": 4100
     }, 
     "8331000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -41353,7 +41760,7 @@
         "zel": 0
     }, 
     "8332000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -41370,7 +41777,7 @@
         "zel": 0
     }, 
     "8333000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -41419,7 +41826,7 @@
         "zel": 4300
     }, 
     "8341000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -41436,7 +41843,7 @@
         "zel": 0
     }, 
     "8342000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -41453,7 +41860,7 @@
         "zel": 0
     }, 
     "8343000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -41474,7 +41881,7 @@
         "zel": 0
     }, 
     "8351000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -41491,7 +41898,7 @@
         "zel": 0
     }, 
     "8352000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -41508,7 +41915,7 @@
         "zel": 0
     }, 
     "8353000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {
@@ -41529,7 +41936,7 @@
         "zel": 0
     }, 
     "8361000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -41546,7 +41953,7 @@
         "zel": 0
     }, 
     "8362000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [], 
         "continue": true, 
@@ -41563,7 +41970,7 @@
         "zel": 0
     }, 
     "8363000": {
-        "area": "BATTLE MAIDEN", 
+        "area": "200002", 
         "battle_count": 7, 
         "clear_bonus": [
             {

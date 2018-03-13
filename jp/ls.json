@@ -1690,8 +1690,8 @@
                 "passive id": "31"
             }, 
             {
-                "unknown passive id": "143", 
-                "unknown passive params": "130000"
+                "increase atk cap": 130000, 
+                "passive id": "143"
             }, 
             {
                 "dark units do extra elemental weakness dmg": true, 
@@ -1778,6 +1778,342 @@
         ], 
         "id": "10159", 
         "name": "神凱皇耀の誓剣"
+    }, 
+    "10160": {
+        "desc": "全てのユニットの全能力を７０％アップ＆ＢＢ及びＳＢＢの発動率をアップ＆確率で通常攻撃を全体攻撃化", 
+        "effects": [
+            {
+                "atk% buff": 70, 
+                "def% buff": 70, 
+                "hp% buff": 70, 
+                "passive id": "1", 
+                "rec% buff": 70
+            }, 
+            {
+                "increase skill activation in arena%": 10, 
+                "passive id": "111"
+            }, 
+            {
+                "aoe atk inc%": -50, 
+                "chance to aoe": 20, 
+                "passive id": "96"
+            }
+        ], 
+        "id": "10160", 
+        "name": "想神覇の天儚"
+    }, 
+    "10161": {
+        "desc": "全てのユニットの全能力を８０％アップ＆ＢＢ及びＳＢＢの発動率を大幅にアップ＆確率で通常攻撃を全体攻撃化＆ＡＢＰ及びＣＢＰの獲得量を超絶アップ", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "def% buff": 80, 
+                "hp% buff": 80, 
+                "passive id": "1", 
+                "rec% buff": 80
+            }, 
+            {
+                "abp gain%": 100, 
+                "cbp gain%": 50, 
+                "passive id": "112"
+            }, 
+            {
+                "increase skill activation in arena%": 30, 
+                "passive id": "111"
+            }, 
+            {
+                "aoe atk inc%": -30, 
+                "chance to aoe": 30, 
+                "passive id": "96"
+            }
+        ], 
+        "id": "10161", 
+        "name": "想顕神覇の天醒"
+    }, 
+    "10162": {
+        "desc": "全てのユニットの全能力を１０％アップ", 
+        "effects": [
+            {
+                "atk% buff": 10, 
+                "def% buff": 10, 
+                "hp% buff": 10, 
+                "passive id": "1", 
+                "rec% buff": 10
+            }
+        ], 
+        "id": "10162", 
+        "name": "空の光"
+    }, 
+    "10163": {
+        "desc": "全てのユニットの全能力を１５％アップ", 
+        "effects": [
+            {
+                "atk% buff": 15, 
+                "def% buff": 15, 
+                "hp% buff": 15, 
+                "passive id": "1", 
+                "rec% buff": 15
+            }
+        ], 
+        "id": "10163", 
+        "name": "虚の光"
+    }, 
+    "10164": {
+        "desc": "全てのユニットの全能力を２０％アップ＆クリティカルダメージをかなりアップ＆スパークダメージを５０％アップ", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "rec% buff": 20
+            }, 
+            {
+                "crit multiplier%": 100.0, 
+                "passive id": "34"
+            }, 
+            {
+                "damage% for spark": 50, 
+                "passive id": "31"
+            }
+        ], 
+        "id": "10164", 
+        "name": "無の光"
+    }, 
+    "10165": {
+        "desc": "全てのユニットの全能力を３０％アップ＆クリティカルダメージを大幅にアップ＆スパークダメージを７０％アップ＆光・闇属性の弱点属性ダメージを大幅にアップ", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }, 
+            {
+                "crit multiplier%": 150.0, 
+                "passive id": "34"
+            }, 
+            {
+                "damage% for spark": 70, 
+                "passive id": "31"
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 100.0, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50"
+            }
+        ], 
+        "id": "10165", 
+        "name": "銀河の輝鏡"
+    }, 
+    "10166": {
+        "desc": "全てのユニットの全能力を４０％アップ＆光・闇属性ユニットからの被ダメージを１５％軽減＆闇属性の弱点属性ダメージを大幅にアップ＆ＯＤゲージの増加量をかなりアップ", 
+        "effects": [
+            {
+                "atk% buff": 40, 
+                "def% buff": 40, 
+                "hp% buff": 40, 
+                "passive id": "1", 
+                "rec% buff": 40
+            }, 
+            {
+                "dmg% mitigation for elemental attacks": 15.0, 
+                "mitigate dark attacks": true, 
+                "mitigate light attacks": true, 
+                "passive id": "62"
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 150.0, 
+                "passive id": "50"
+            }, 
+            {
+                "od fill rate%": 20, 
+                "passive id": "70"
+            }
+        ], 
+        "id": "10166", 
+        "name": "影義神架の耀絆"
+    }, 
+    "10167": {
+        "desc": "全てのユニットの全能力を８０％アップ＆スパークダメージを１１０％アップ＆ＢＢ発動に必要なＢＢゲージ量を軽減＆獲得経験値をかなりアップ", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "def% buff": 80, 
+                "hp% buff": 80, 
+                "passive id": "1", 
+                "rec% buff": 80
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 15
+            }, 
+            {
+                "damage% for spark": 110, 
+                "passive id": "31"
+            }, 
+            {
+                "passive id": "97", 
+                "xp gained increase%": 15
+            }
+        ], 
+        "id": "10167", 
+        "name": "万神終の記世"
+    }, 
+    "10168": {
+        "desc": "全てのユニットの全能力を１００％アップ＆スパークダメージを１３０％アップ＆ＢＢ発動に必要なＢＢゲージ量を軽減＆獲得経験値を大幅にアップ", 
+        "effects": [
+            {
+                "atk% buff": 100, 
+                "def% buff": 100, 
+                "hp% buff": 100, 
+                "passive id": "1", 
+                "rec% buff": 100
+            }, 
+            {
+                "passive id": "48", 
+                "reduced bb bc cost%": 20
+            }, 
+            {
+                "damage% for spark": 130, 
+                "passive id": "31"
+            }, 
+            {
+                "passive id": "97", 
+                "xp gained increase%": 20
+            }
+        ], 
+        "id": "10168", 
+        "name": "万窮神終の完世"
+    }, 
+    "10169": {
+        "desc": "全てのユニットの全能力を１０％アップ＆攻撃ＢＢの威力をアップ", 
+        "effects": [
+            {
+                "atk% buff": 10, 
+                "def% buff": 10, 
+                "hp% buff": 10, 
+                "passive id": "1", 
+                "rec% buff": 10
+            }, 
+            {
+                "bb atk% buff": 50, 
+                "passive id": "64", 
+                "sbb atk% buff": 50, 
+                "ubb atk% buff": 50
+            }
+        ], 
+        "id": "10169", 
+        "name": "義騎の心道"
+    }, 
+    "10170": {
+        "desc": "全てのユニットの全能力を２０％アップ＆攻撃ＢＢの威力をアップ", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "rec% buff": 20
+            }, 
+            {
+                "bb atk% buff": 75, 
+                "passive id": "64", 
+                "sbb atk% buff": 75, 
+                "ubb atk% buff": 75
+            }
+        ], 
+        "id": "10170", 
+        "name": "義誓騎の博愛"
+    }, 
+    "10171": {
+        "desc": "全てのユニットの全能力を３０％アップ＆攻撃ＢＢの威力をかなりアップ", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }, 
+            {
+                "bb atk% buff": 100, 
+                "passive id": "64", 
+                "sbb atk% buff": 100, 
+                "ubb atk% buff": 100
+            }
+        ], 
+        "id": "10171", 
+        "name": "義真騎の栄勲"
+    }, 
+    "10172": {
+        "desc": "全てのユニットの全能力を１０％アップ＆クリティカルダメージをかなりアップ", 
+        "effects": [
+            {
+                "atk% buff": 10, 
+                "def% buff": 10, 
+                "hp% buff": 10, 
+                "passive id": "1", 
+                "rec% buff": 10
+            }, 
+            {
+                "crit multiplier%": 100.0, 
+                "passive id": "34"
+            }
+        ], 
+        "id": "10172", 
+        "name": "勇憧の決意"
+    }, 
+    "10173": {
+        "desc": "全てのユニットの全能力を２０％アップ＆クリティカル時、ＢＢゲージをかなり増加・ダメージを大幅にアップ", 
+        "effects": [
+            {
+                "atk% buff": 20, 
+                "def% buff": 20, 
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "rec% buff": 20
+            }, 
+            {
+                "crit multiplier%": 150.0, 
+                "passive id": "34"
+            }, 
+            {
+                "bc fill on crit max": 6, 
+                "bc fill on crit min": 4, 
+                "bc fill on crit%": 100.0, 
+                "passive id": "65"
+            }
+        ], 
+        "id": "10173", 
+        "name": "王騎の勇光"
+    }, 
+    "10174": {
+        "desc": "全てのユニットの全能力を３０％アップ＆クリティカル時、ＢＢゲージを大幅に増加・ダメージを大幅にアップ", 
+        "effects": [
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }, 
+            {
+                "crit multiplier%": 150.0, 
+                "passive id": "34"
+            }, 
+            {
+                "bc fill on crit max": 8, 
+                "bc fill on crit min": 6, 
+                "bc fill on crit%": 100.0, 
+                "passive id": "65"
+            }
+        ], 
+        "id": "10174", 
+        "name": "真王騎の煌斬"
     }, 
     "102": {
         "desc": "炎属性ユニットの攻撃力を５０％アップ・最大ＨＰを１０％アップ", 
@@ -3293,6 +3629,63 @@
         "id": "1214", 
         "name": "神撃の煌覇動"
     }, 
+    "1215": {
+        "desc": "ＢＣ獲得時の増加量をアップ＆ターン毎にＢＢゲージを増加", 
+        "effects": [
+            {
+                "bc fill per turn": 2, 
+                "passive id": "9"
+            }, 
+            {
+                "bb gauge fill rate%": 30, 
+                "passive id": "32"
+            }
+        ], 
+        "id": "1215", 
+        "name": "影老の魔謀"
+    }, 
+    "1216": {
+        "desc": "ＢＣ獲得時の増加量をアップ＆ターン毎にＢＢゲージを増加＆被ダメージ時、確率でＨＰを少し回復", 
+        "effects": [
+            {
+                "bc fill per turn": 3, 
+                "passive id": "9"
+            }, 
+            {
+                "bb gauge fill rate%": 40, 
+                "passive id": "32"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 20, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 15, 
+                "passive id": "24"
+            }
+        ], 
+        "id": "1216", 
+        "name": "影幻老の魔操"
+    }, 
+    "1217": {
+        "desc": "ＢＣ獲得時の増加量をかなりアップ＆ターン毎にＢＢゲージをかなり増加＆被ダメージ時、確率でＨＰを回復", 
+        "effects": [
+            {
+                "bc fill per turn": 4, 
+                "passive id": "9"
+            }, 
+            {
+                "bb gauge fill rate%": 50, 
+                "passive id": "32"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }
+        ], 
+        "id": "1217", 
+        "name": "影久老の真意"
+    }, 
     "122": {
         "desc": "樹属性ユニットの攻撃力を５０％アップ・最大ＨＰを１０％アップ", 
         "effects": [
@@ -3779,8 +4172,12 @@
                 "passive id": "1"
             }, 
             {
-                "unknown passive id": "103", 
-                "unknown passive params": "200,200,200,50,1"
+                "bb atk% add": 200, 
+                "hp threshold": 50, 
+                "passive id": "103", 
+                "sbb atk% add": 200, 
+                "triggered when hp": "higher", 
+                "ubb atk% add": 200
             }, 
             {
                 "buff": {
@@ -3804,8 +4201,12 @@
                 "passive id": "1"
             }, 
             {
-                "unknown passive id": "103", 
-                "unknown passive params": "250,250,250,50,1"
+                "bb atk% add": 250, 
+                "hp threshold": 50, 
+                "passive id": "103", 
+                "sbb atk% add": 250, 
+                "triggered when hp": "higher", 
+                "ubb atk% add": 250
             }, 
             {
                 "buff": {
@@ -4115,8 +4516,9 @@
                 "passive id": "31"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "5,50"
+                "passive id": "100", 
+                "spark crit chance%": 5, 
+                "spark crit dmg%": 50
             }
         ], 
         "id": "12528", 
@@ -4168,9 +4570,10 @@
             }, 
             {
                 "buff": {
-                    "buff turns (111)": "3", 
-                    "unknown buff id": "111", 
-                    "unknown buff params": "200&300&100"
+                    "bc fill on spark high": 3, 
+                    "bc fill on spark low": 2, 
+                    "bc fill on spark%": 100, 
+                    "buff turns (111)": "3"
                 }, 
                 "on crit activation chance%": 100, 
                 "passive id": "89"
@@ -4388,6 +4791,80 @@
         "id": "12537", 
         "name": "慈泰神祀の晶杖"
     }, 
+    "12538": {
+        "desc": "全てのユニットの防御力・回復力・最大ＨＰを６０％アップ＆ターン毎にＨＰを回復＆被ダメージ時、確率でＨＰを回復＆全状態異常を無効＆攻撃力・防御力・回復力を低下する効果を無効", 
+        "effects": [
+            {
+                "def% buff": 60, 
+                "hp% buff": 60, 
+                "passive id": "1", 
+                "rec% buff": 60
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 1000, 
+                "turn heal low": 800
+            }, 
+            {
+                "atk down resist%": 100, 
+                "curse resist%": 100, 
+                "def down resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "73", 
+                "poison resist%": 100, 
+                "rec down resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "id": "12538", 
+        "name": "紡神輪の源命"
+    }, 
+    "12539": {
+        "desc": "全てのユニットの防御力・回復力・最大ＨＰを８０％アップ＆ターン毎にＨＰをかなり回復＆被ダメージ時、確率でＨＰを回復＆全状態異常を無効＆攻撃力・防御力・回復力を低下する効果を無効", 
+        "effects": [
+            {
+                "def% buff": 80, 
+                "hp% buff": 80, 
+                "passive id": "1", 
+                "rec% buff": 80
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 25, 
+                "passive id": "24"
+            }, 
+            {
+                "passive id": "33", 
+                "rec% added (turn heal)": 10.0, 
+                "turn heal high": 1200, 
+                "turn heal low": 1000
+            }, 
+            {
+                "atk down resist%": 100, 
+                "curse resist%": 100, 
+                "def down resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "73", 
+                "poison resist%": 100, 
+                "rec down resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "id": "12539", 
+        "name": "紡廻神輪の醒命"
+    }, 
     "126": {
         "desc": "樹属性ユニットの攻撃力を１００％アップ・最大ＨＰを３０％アップ", 
         "effects": [
@@ -4544,8 +5021,9 @@
                 "passive id": "31"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "5,50"
+                "passive id": "100", 
+                "spark crit chance%": 5, 
+                "spark crit dmg%": 50
             }
         ], 
         "id": "13002", 
@@ -4564,8 +5042,9 @@
                 "passive id": "31"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "10,50"
+                "passive id": "100", 
+                "spark crit chance%": 10, 
+                "spark crit dmg%": 50
             }, 
             {
                 "bb gauge fill rate%": 50, 
@@ -6019,6 +6498,45 @@
         "id": "1711", 
         "name": "燃え盛る巨弩"
     }, 
+    "1712": {
+        "desc": "スパーク時、ＢＣ出現率を少しアップ", 
+        "effects": [
+            {
+                "bc drop% for spark": 15, 
+                "passive id": "31"
+            }
+        ], 
+        "id": "1712", 
+        "name": "守護プログラムver1.0"
+    }, 
+    "1713": {
+        "desc": "スパーク時、ＢＣ出現率をアップ", 
+        "effects": [
+            {
+                "bc drop% for spark": 30, 
+                "passive id": "31"
+            }
+        ], 
+        "id": "1713", 
+        "name": "守護プログラムver2.0"
+    }, 
+    "1714": {
+        "desc": "スパーク時、ＢＣ出現率をかなりアップ＆被ダメージ時、ＢＢゲージを少し増加", 
+        "effects": [
+            {
+                "bc drop% for spark": 50, 
+                "passive id": "31"
+            }, 
+            {
+                "bc fill when attacked high": 2, 
+                "bc fill when attacked low": 1, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }
+        ], 
+        "id": "1714", 
+        "name": "守護プログラムver3.0"
+    }, 
     "172": {
         "desc": "光・闇属性ユニットの攻撃力を１００％アップ＆全状態異常を無効＆状態異常の敵へのダメージをアップ", 
         "effects": [
@@ -6116,6 +6634,104 @@
         ], 
         "id": "174", 
         "name": "艶刹神綺の彩葬"
+    }, 
+    "175": {
+        "desc": "樹属性ユニットの攻撃力を１００％アップ・最大ＨＰを３０％アップ＆全てのユニットの攻撃力を５０％アップ・最大ＨＰを３０％アップ＆全状態異常・クリティカル・弱点属性ダメージを無効", 
+        "effects": [
+            {
+                "atk% buff": 100, 
+                "elements buffed": [
+                    "earth"
+                ], 
+                "hp% buff": 30, 
+                "passive id": "2"
+            }, 
+            {
+                "atk% buff": 50, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "crit chance base resist%": 100, 
+                "crit chance buffed resist%": 100, 
+                "crit dmg base damage resist%": 100, 
+                "crit dmg buffed damage resist%": 100, 
+                "passive id": "53", 
+                "strong base element damage resist%": 100, 
+                "strong buffed element damage resist%": 100
+            }, 
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "id": "175", 
+        "name": "繚華翠神の耀榮"
+    }, 
+    "176": {
+        "desc": "雷属性ユニットの攻撃力を１００％アップ・最大ＨＰを３０％アップ＆全てのユニットの攻撃力を５０％アップ・最大ＨＰを３０％アップ＆クリティカルダメージを大幅にアップ＆スパークダメージを１００％アップ", 
+        "effects": [
+            {
+                "atk% buff": 100, 
+                "elements buffed": [
+                    "thunder"
+                ], 
+                "hp% buff": 30, 
+                "passive id": "2"
+            }, 
+            {
+                "atk% buff": 50, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 100, 
+                "passive id": "31"
+            }, 
+            {
+                "crit multiplier%": 175.0, 
+                "passive id": "34"
+            }
+        ], 
+        "id": "176", 
+        "name": "轟閃穹神の耀矢"
+    }, 
+    "177": {
+        "desc": "闇属性ユニットの攻撃力を１００％アップ・最大ＨＰを３０％アップ＆全てのユニットの攻撃力を５０％アップ・最大ＨＰを３０％アップ＆被ダメージ時、ＢＢゲージを大幅に増加・確率でＨＰを回復", 
+        "effects": [
+            {
+                "atk% buff": 100, 
+                "elements buffed": [
+                    "dark"
+                ], 
+                "hp% buff": 30, 
+                "passive id": "2"
+            }, 
+            {
+                "atk% buff": 50, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill when attacked high": 7, 
+                "bc fill when attacked low": 4, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "dmg% to hp% when attacked chance%": 30, 
+                "dmg% to hp% when attacked high": 25, 
+                "dmg% to hp% when attacked low": 25, 
+                "passive id": "24"
+            }
+        ], 
+        "id": "177", 
+        "name": "闇雅神希の聖継"
     }, 
     "18": {
         "desc": "リーダースキル１説明", 
@@ -6262,6 +6878,43 @@
         ], 
         "id": "1807", 
         "name": "戦蝕界神の力"
+    }, 
+    "1808": {
+        "desc": "ＢＣ獲得時の増加量を少しアップ", 
+        "effects": [
+            {
+                "bb gauge fill rate%": 20, 
+                "passive id": "32"
+            }
+        ], 
+        "id": "1808", 
+        "name": "冷の祝福"
+    }, 
+    "1809": {
+        "desc": "ＢＣ獲得時の増加量をアップ", 
+        "effects": [
+            {
+                "bb gauge fill rate%": 30, 
+                "passive id": "32"
+            }
+        ], 
+        "id": "1809", 
+        "name": "氷冷の祝福"
+    }, 
+    "1810": {
+        "desc": "ＢＣ獲得時の増加量をかなりアップ＆クリティカルダメージをアップ", 
+        "effects": [
+            {
+                "bb gauge fill rate%": 50, 
+                "passive id": "32"
+            }, 
+            {
+                "crit multiplier%": 50.0, 
+                "passive id": "34"
+            }
+        ], 
+        "id": "1810", 
+        "name": "氷結の祝福"
     }, 
     "1900": {
         "desc": "全てのユニットの攻撃力を１０％アップ", 
@@ -7444,8 +8097,9 @@
                 "passive id": "34"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "10,50"
+                "passive id": "100", 
+                "spark crit chance%": 10, 
+                "spark crit dmg%": 50
             }
         ], 
         "id": "1955", 
@@ -7861,12 +8515,17 @@
                 "passive id": "34"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "5,50"
+                "passive id": "100", 
+                "spark crit chance%": 5, 
+                "spark crit dmg%": 50
             }, 
             {
-                "unknown passive id": "103", 
-                "unknown passive params": "250,250,250,50,1"
+                "bb atk% add": 250, 
+                "hp threshold": 50, 
+                "passive id": "103", 
+                "sbb atk% add": 250, 
+                "triggered when hp": "higher", 
+                "ubb atk% add": 250
             }
         ], 
         "id": "1970", 
@@ -7886,12 +8545,17 @@
                 "passive id": "34"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "10,50"
+                "passive id": "100", 
+                "spark crit chance%": 10, 
+                "spark crit dmg%": 50
             }, 
             {
-                "unknown passive id": "103", 
-                "unknown passive params": "280,280,280,50,1"
+                "bb atk% add": 280, 
+                "hp threshold": 50, 
+                "passive id": "103", 
+                "sbb atk% add": 280, 
+                "triggered when hp": "higher", 
+                "ubb atk% add": 280
             }
         ], 
         "id": "1971", 
@@ -7952,6 +8616,64 @@
         ], 
         "id": "1973", 
         "name": "神颱刻の双薙"
+    }, 
+    "1974": {
+        "desc": "全てのユニットの攻撃力・防御力・最大ＨＰを７０％アップ＆攻撃ＢＢの威力を超絶アップ＆ターン毎にＢＢゲージを大幅に増加＆被ダメージ時、ＢＢゲージを大幅に増加", 
+        "effects": [
+            {
+                "atk% buff": 70, 
+                "def% buff": 70, 
+                "hp% buff": 70, 
+                "passive id": "1"
+            }, 
+            {
+                "bb atk% buff": 250, 
+                "passive id": "64", 
+                "sbb atk% buff": 250, 
+                "ubb atk% buff": 250
+            }, 
+            {
+                "bc fill per turn": 7, 
+                "passive id": "9"
+            }, 
+            {
+                "bc fill when attacked high": 7, 
+                "bc fill when attacked low": 4, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }
+        ], 
+        "id": "1974", 
+        "name": "審神焉の導界"
+    }, 
+    "1975": {
+        "desc": "全てのユニットの攻撃力・防御力・最大ＨＰを８０％アップ＆攻撃ＢＢの威力を超絶アップ＆ターン毎にＢＢゲージを超絶増加＆被ダメージ時、ＢＢゲージを超絶増加", 
+        "effects": [
+            {
+                "atk% buff": 80, 
+                "def% buff": 80, 
+                "hp% buff": 80, 
+                "passive id": "1"
+            }, 
+            {
+                "bb atk% buff": 300, 
+                "passive id": "64", 
+                "sbb atk% buff": 300, 
+                "ubb atk% buff": 300
+            }, 
+            {
+                "bc fill per turn": 8, 
+                "passive id": "9"
+            }, 
+            {
+                "bc fill when attacked high": 8, 
+                "bc fill when attacked low": 5, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }
+        ], 
+        "id": "1975", 
+        "name": "審環神焉の統界"
     }, 
     "2": {
         "desc": "リーダースキル１説明", 
@@ -8875,6 +9597,60 @@
         ], 
         "id": "2137", 
         "name": "神殺しの横に立つ少女"
+    }, 
+    "2138": {
+        "desc": "全状態異常を無効", 
+        "effects": [
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "id": "2138", 
+        "name": "軍団長の威光"
+    }, 
+    "2139": {
+        "desc": "全状態異常を無効", 
+        "effects": [
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }
+        ], 
+        "id": "2139", 
+        "name": "百人隊長の威光"
+    }, 
+    "2140": {
+        "desc": "全状態異常を無効＆ＢＢ発動時のＢＢゲージの消費量を少し軽減", 
+        "effects": [
+            {
+                "curse resist%": 100, 
+                "injury resist%": 100, 
+                "paralysis resist%": 100, 
+                "passive id": "4", 
+                "poison resist%": 100, 
+                "sick resist%": 100, 
+                "weaken resist%": 100
+            }, 
+            {
+                "passive id": "49", 
+                "reduced bb bc use chance%": 100, 
+                "reduced bb bc use% high": 10, 
+                "reduced bb bc use% low": 5
+            }
+        ], 
+        "id": "2140", 
+        "name": "提督の威煌"
     }, 
     "2200": {
         "desc": "パーティのユニットが５属性以上で攻撃力を２５％アップ", 
@@ -10023,8 +10799,9 @@
                 "passive id": "96"
             }, 
             {
-                "unknown passive id": "112", 
-                "unknown passive params": "50,25"
+                "abp gain%": 50, 
+                "cbp gain%": 25, 
+                "passive id": "112"
             }
         ], 
         "id": "2516", 
@@ -10067,8 +10844,9 @@
                 "unknown passive params": "-50,50,1,0"
             }, 
             {
-                "unknown passive id": "112", 
-                "unknown passive params": "50,25"
+                "abp gain%": 50, 
+                "cbp gain%": 25, 
+                "passive id": "112"
             }
         ], 
         "id": "2518", 
@@ -10234,6 +11012,43 @@
         ], 
         "id": "2804", 
         "name": "虚壊神の凄震"
+    }, 
+    "2805": {
+        "desc": "確率で防御貫通効果を付与", 
+        "effects": [
+            {
+                "ignore def%": 10, 
+                "passive id": "29"
+            }
+        ], 
+        "id": "2805", 
+        "name": "闇の抱擁"
+    }, 
+    "2806": {
+        "desc": "確率で防御貫通効果を付与", 
+        "effects": [
+            {
+                "ignore def%": 10, 
+                "passive id": "29"
+            }
+        ], 
+        "id": "2806", 
+        "name": "闇の窒息"
+    }, 
+    "2807": {
+        "desc": "確率で防御貫通効果を付与＆スパークダメージを７５％アップ", 
+        "effects": [
+            {
+                "ignore def%": 15, 
+                "passive id": "29"
+            }, 
+            {
+                "damage% for spark": 75, 
+                "passive id": "31"
+            }
+        ], 
+        "id": "2807", 
+        "name": "闇の昏睡"
     }, 
     "2900": {
         "desc": "被ダメージ時、ＢＢゲージを少し増加＆低確率で被ダメージを超絶軽減", 
@@ -10725,6 +11540,93 @@
         ], 
         "id": "3012", 
         "name": "偽りに満ちた海"
+    }, 
+    "3013": {
+        "desc": "確率で全状態異常をランダムに発生＆全属性の弱点属性ダメージをかなりアップ", 
+        "effects": [
+            {
+                "injury%": 7, 
+                "passive id": "20", 
+                "poison%": 5, 
+                "sick%": 7, 
+                "weaken%": 7
+            }, 
+            {
+                "curse%": 5, 
+                "paralysis%": 5, 
+                "passive id": "20"
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 75.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }
+        ], 
+        "id": "3013", 
+        "name": "炎精の転機"
+    }, 
+    "3014": {
+        "desc": "確率で全状態異常をランダムに発生＆全属性の弱点属性ダメージを大幅にアップ", 
+        "effects": [
+            {
+                "injury%": 10, 
+                "passive id": "20", 
+                "poison%": 7, 
+                "sick%": 10, 
+                "weaken%": 10
+            }, 
+            {
+                "curse%": 7, 
+                "paralysis%": 7, 
+                "passive id": "20"
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 100.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }
+        ], 
+        "id": "3014", 
+        "name": "炎艶精の策動"
+    }, 
+    "3015": {
+        "desc": "確率で全状態異常をランダムに発生＆全属性の弱点属性ダメージを大幅にアップ", 
+        "effects": [
+            {
+                "injury%": 15, 
+                "passive id": "20", 
+                "poison%": 10, 
+                "sick%": 15, 
+                "weaken%": 15
+            }, 
+            {
+                "curse%": 10, 
+                "paralysis%": 10, 
+                "passive id": "20"
+            }, 
+            {
+                "dark units do extra elemental weakness dmg": true, 
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 125.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "light units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }
+        ], 
+        "id": "3015", 
+        "name": "魔艶精の敢謀"
     }, 
     "302": {
         "desc": "水属性ユニットの回復力を２５％アップ", 
@@ -12599,8 +13501,8 @@
                 "passive id": "25"
             }, 
             {
-                "unknown passive id": "111", 
-                "unknown passive params": "10"
+                "increase skill activation in arena%": 10, 
+                "passive id": "111"
             }
         ], 
         "id": "4355", 
@@ -12621,12 +13523,13 @@
                 "passive id": "25"
             }, 
             {
-                "unknown passive id": "111", 
-                "unknown passive params": "20"
+                "increase skill activation in arena%": 20, 
+                "passive id": "111"
             }, 
             {
-                "unknown passive id": "112", 
-                "unknown passive params": "50,25"
+                "abp gain%": 50, 
+                "cbp gain%": 25, 
+                "passive id": "112"
             }
         ], 
         "id": "4356", 
@@ -12677,8 +13580,9 @@
                 "unknown passive params": "0,0,50,50,20,0"
             }, 
             {
-                "unknown passive id": "112", 
-                "unknown passive params": "50,25"
+                "abp gain%": 50, 
+                "cbp gain%": 25, 
+                "passive id": "112"
             }
         ], 
         "id": "4358", 
@@ -12762,8 +13666,9 @@
                 "passive id": "69"
             }, 
             {
-                "unknown passive id": "112", 
-                "unknown passive params": "50,25"
+                "abp gain%": 50, 
+                "cbp gain%": 25, 
+                "passive id": "112"
             }
         ], 
         "id": "4361", 
@@ -13634,6 +14539,123 @@
         ], 
         "id": "4392", 
         "name": "Juno"
+    }, 
+    "4393": {
+        "desc": "全てのユニットの防御力・最大ＨＰを３０％アップ＆ＢＢ発動時のＢＢゲージ消費量を少し軽減", 
+        "effects": [
+            {
+                "def% buff": 30, 
+                "hp% buff": 30, 
+                "passive id": "1"
+            }, 
+            {
+                "passive id": "49", 
+                "reduced bb bc use chance%": 100, 
+                "reduced bb bc use% high": 10, 
+                "reduced bb bc use% low": 5
+            }
+        ], 
+        "id": "4393", 
+        "name": "導き手の助言"
+    }, 
+    "4394": {
+        "desc": "全てのユニットの防御力・最大ＨＰを４０％アップ＆ＢＢ発動時のＢＢゲージ消費量を少し軽減＆ＢＣ獲得時の増加量をアップ", 
+        "effects": [
+            {
+                "def% buff": 40, 
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "passive id": "49", 
+                "reduced bb bc use chance%": 100, 
+                "reduced bb bc use% high": 15, 
+                "reduced bb bc use% low": 10
+            }, 
+            {
+                "bb gauge fill rate%": 30, 
+                "passive id": "32"
+            }
+        ], 
+        "id": "4394", 
+        "name": "導き手の才識"
+    }, 
+    "4395": {
+        "desc": "全てのユニットの防御力・最大ＨＰを５０％アップ＆ＢＢ発動時のＢＢゲージ消費量を少し軽減＆ＢＣ獲得時の増加量をかなりアップ＆光・闇属性ユニットからの被ダメージを５％軽減", 
+        "effects": [
+            {
+                "def% buff": 50, 
+                "hp% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "passive id": "49", 
+                "reduced bb bc use chance%": 100, 
+                "reduced bb bc use% high": 15, 
+                "reduced bb bc use% low": 10
+            }, 
+            {
+                "bb gauge fill rate%": 50, 
+                "passive id": "32"
+            }, 
+            {
+                "dmg% mitigation for elemental attacks": 5.0, 
+                "mitigate dark attacks": true, 
+                "mitigate light attacks": true, 
+                "passive id": "62"
+            }
+        ], 
+        "id": "4395", 
+        "name": "探究者の叡智"
+    }, 
+    "4396": {
+        "desc": "全てのユニットの防御力・最大ＨＰを１００％アップ＆被ダメージ時、ＢＢゲージを大幅に増加・確率でＢＢゲージ増加量を１ターンかなり低下", 
+        "effects": [
+            {
+                "def% buff": 100, 
+                "hp% buff": 100, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill when attacked high": 7, 
+                "bc fill when attacked low": 4, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "unknown passive id": "114", 
+                "unknown passive params": "112,-50,-1,30,1"
+            }
+        ], 
+        "id": "4396", 
+        "name": "邏神結の慈祈"
+    }, 
+    "4397": {
+        "desc": "全てのユニットの防御力・最大ＨＰを１２０％アップ＆被ダメージ時、ＢＢゲージを超絶増加・確率でＢＢゲージ増加量を１ターンかなり低下＆ＡＢＰ及びＣＢＰの獲得量を超絶アップ", 
+        "effects": [
+            {
+                "def% buff": 120, 
+                "hp% buff": 120, 
+                "passive id": "1"
+            }, 
+            {
+                "bc fill when attacked high": 10, 
+                "bc fill when attacked low": 6, 
+                "bc fill when attacked%": 100, 
+                "passive id": "25"
+            }, 
+            {
+                "unknown passive id": "114", 
+                "unknown passive params": "112,-50,-1,50,1"
+            }, 
+            {
+                "abp gain%": 100, 
+                "cbp gain%": 50, 
+                "passive id": "112"
+            }
+        ], 
+        "id": "4397", 
+        "name": "邏悠神結の泰祈"
     }, 
     "4400": {
         "desc": "ターン毎にＢＢゲージを少し増加＆全ての状態異常にかなりかかりにくくなる", 
@@ -15754,6 +16776,44 @@
         "id": "5546", 
         "name": "統滄瀑神の咆氾"
     }, 
+    "5547": {
+        "desc": "全てのユニットの最大ＨＰを１５％アップ", 
+        "effects": [
+            {
+                "hp% buff": 15, 
+                "passive id": "1"
+            }
+        ], 
+        "id": "5547", 
+        "name": "君主の炎"
+    }, 
+    "5548": {
+        "desc": "全てのユニットの最大ＨＰを２０％アップ", 
+        "effects": [
+            {
+                "hp% buff": 20, 
+                "passive id": "1"
+            }
+        ], 
+        "id": "5548", 
+        "name": "王の護炎"
+    }, 
+    "5549": {
+        "desc": "全てのユニットの最大ＨＰを２５％アップ＆樹属性ユニットからの被ダメージを１５％軽減", 
+        "effects": [
+            {
+                "hp% buff": 25, 
+                "passive id": "1"
+            }, 
+            {
+                "dmg% mitigation for elemental attacks": 15.0, 
+                "mitigate earth attacks": true, 
+                "passive id": "62"
+            }
+        ], 
+        "id": "5549", 
+        "name": "神王の護炎"
+    }, 
     "555": {
         "desc": "光属性ユニットからの被ダメージを１５％軽減＆闇属性の弱点属性ダメージを大幅にアップ＆ＯＤゲージの増加量をかなりアップ", 
         "effects": [
@@ -17691,8 +18751,9 @@
                 "passive id": "31"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "3,50"
+                "passive id": "100", 
+                "spark crit chance%": 3, 
+                "spark crit dmg%": 50
             }
         ], 
         "id": "7442", 
@@ -17711,8 +18772,9 @@
                 "passive id": "31"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "5,50"
+                "passive id": "100", 
+                "spark crit chance%": 5, 
+                "spark crit dmg%": 50
             }, 
             {
                 "dmg% mitigation for elemental attacks": 15.0, 
@@ -17805,8 +18867,9 @@
                 "passive id": "31"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "5,50"
+                "passive id": "100", 
+                "spark crit chance%": 5, 
+                "spark crit dmg%": 50
             }
         ], 
         "id": "7447", 
@@ -17827,8 +18890,9 @@
                 "ubb atk% buff": 200
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "3,50"
+                "passive id": "100", 
+                "spark crit chance%": 3, 
+                "spark crit dmg%": 50
             }
         ], 
         "id": "7448", 
@@ -17849,8 +18913,9 @@
                 "ubb atk% buff": 250
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "5,50"
+                "passive id": "100", 
+                "spark crit chance%": 5, 
+                "spark crit dmg%": 50
             }, 
             {
                 "damage dealt threshold activation": 10000, 
@@ -18516,8 +19581,9 @@
                 "passive id": "19"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "5,50"
+                "passive id": "100", 
+                "spark crit chance%": 5, 
+                "spark crit dmg%": 50
             }
         ], 
         "id": "7476", 
@@ -18536,8 +19602,8 @@
                 "passive id": "9"
             }, 
             {
-                "unknown passive id": "111", 
-                "unknown passive params": "10"
+                "increase skill activation in arena%": 10, 
+                "passive id": "111"
             }
         ], 
         "id": "7477", 
@@ -18556,12 +19622,13 @@
                 "passive id": "9"
             }, 
             {
-                "unknown passive id": "111", 
-                "unknown passive params": "20"
+                "increase skill activation in arena%": 20, 
+                "passive id": "111"
             }, 
             {
-                "unknown passive id": "112", 
-                "unknown passive params": "50,25"
+                "abp gain%": 50, 
+                "cbp gain%": 25, 
+                "passive id": "112"
             }
         ], 
         "id": "7478", 
@@ -18580,8 +19647,9 @@
                 "passive id": "31"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "3,50"
+                "passive id": "100", 
+                "spark crit chance%": 3, 
+                "spark crit dmg%": 50
             }
         ], 
         "id": "7479", 
@@ -18600,8 +19668,9 @@
                 "passive id": "31"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "5,50"
+                "passive id": "100", 
+                "spark crit chance%": 5, 
+                "spark crit dmg%": 50
             }, 
             {
                 "damage dealt threshold activation": 30000, 
@@ -18726,8 +19795,9 @@
                 "passive id": "96"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "5,50"
+                "passive id": "100", 
+                "spark crit chance%": 5, 
+                "spark crit dmg%": 50
             }
         ], 
         "id": "7485", 
@@ -18751,8 +19821,9 @@
                 "passive id": "96"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "10,50"
+                "passive id": "100", 
+                "spark crit chance%": 10, 
+                "spark crit dmg%": 50
             }
         ], 
         "id": "7486", 
@@ -19267,8 +20338,9 @@
                 "passive id": "47"
             }, 
             {
-                "unknown passive id": "100", 
-                "unknown passive params": "10,50"
+                "passive id": "100", 
+                "spark crit chance%": 10, 
+                "spark crit dmg%": 50
             }
         ], 
         "id": "7507", 
@@ -19694,8 +20766,12 @@
                 "rec% buff": 50
             }, 
             {
-                "unknown passive id": "103", 
-                "unknown passive params": "200,200,200,50,1"
+                "bb atk% add": 200, 
+                "hp threshold": 50, 
+                "passive id": "103", 
+                "sbb atk% add": 200, 
+                "triggered when hp": "higher", 
+                "ubb atk% add": 200
             }, 
             {
                 "hp drain chance%": 100, 
@@ -19726,8 +20802,12 @@
                 "rec% buff": 60
             }, 
             {
-                "unknown passive id": "103", 
-                "unknown passive params": "250,250,250,50,1"
+                "bb atk% add": 250, 
+                "hp threshold": 50, 
+                "passive id": "103", 
+                "sbb atk% add": 250, 
+                "triggered when hp": "higher", 
+                "ubb atk% add": 250
             }, 
             {
                 "hp drain chance%": 100, 
@@ -20170,6 +21250,114 @@
         ], 
         "id": "7537", 
         "name": "截尽神葬の顛刃"
+    }, 
+    "7538": {
+        "desc": "全てのユニットの攻撃力・最大ＨＰを１００％アップ＆スパークダメージを１４０％アップ＆クリティカルダメージを大幅にアップ＆攻撃ＢＢの威力を超絶アップ", 
+        "effects": [
+            {
+                "atk% buff": 100, 
+                "hp% buff": 100, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 140, 
+                "passive id": "31"
+            }, 
+            {
+                "bb atk% buff": 250, 
+                "passive id": "64", 
+                "sbb atk% buff": 250, 
+                "ubb atk% buff": 250
+            }, 
+            {
+                "crit multiplier%": 150.0, 
+                "passive id": "34"
+            }
+        ], 
+        "id": "7538", 
+        "name": "至神武の荒魂"
+    }, 
+    "7539": {
+        "desc": "全てのユニットの攻撃力・最大ＨＰを１２０％アップ＆スパークダメージを１５０％アップ＆クリティカルダメージを大幅にアップ＆攻撃ＢＢの威力を超絶アップ", 
+        "effects": [
+            {
+                "atk% buff": 120, 
+                "hp% buff": 120, 
+                "passive id": "1"
+            }, 
+            {
+                "damage% for spark": 150, 
+                "passive id": "31"
+            }, 
+            {
+                "bb atk% buff": 300, 
+                "passive id": "64", 
+                "sbb atk% buff": 300, 
+                "ubb atk% buff": 300
+            }, 
+            {
+                "crit multiplier%": 175.0, 
+                "passive id": "34"
+            }
+        ], 
+        "id": "7539", 
+        "name": "至羅神武の荒天"
+    }, 
+    "7540": {
+        "desc": "全てのユニットの攻撃力を１００％アップ・最大ＨＰを４０％アップ＆炎・水・樹・雷属性ユニットからの被ダメージを１５％軽減＆炎・水・樹・雷属性の弱点属性ダメージを大幅にアップ＆クリティカルダメージを大幅にアップ", 
+        "effects": [
+            {
+                "atk% buff": 100, 
+                "hp% buff": 40, 
+                "passive id": "1"
+            }, 
+            {
+                "dmg% mitigation for elemental attacks": 15.0, 
+                "mitigate earth attacks": true, 
+                "mitigate fire attacks": true, 
+                "mitigate thunder attacks": true, 
+                "mitigate water attacks": true, 
+                "passive id": "62"
+            }, 
+            {
+                "earth units do extra elemental weakness dmg": true, 
+                "elemental weakness multiplier%": 150.0, 
+                "fire units do extra elemental weakness dmg": true, 
+                "passive id": "50", 
+                "thunder units do extra elemental weakness dmg": true, 
+                "water units do extra elemental weakness dmg": true
+            }, 
+            {
+                "crit multiplier%": 175.0, 
+                "passive id": "34"
+            }
+        ], 
+        "id": "7540", 
+        "name": "蒼慧神雄の牽截"
+    }, 
+    "7541": {
+        "desc": "全てのユニットの攻撃力・最大ＨＰを５０％アップ＆スパーク時、ＢＣ・ＨＣ出現率をかなりアップ・ＢＢゲージを増加・ダメージを１２０％アップ", 
+        "effects": [
+            {
+                "atk% buff": 50, 
+                "hp% buff": 50, 
+                "passive id": "1"
+            }, 
+            {
+                "bc drop% for spark": 70, 
+                "damage% for spark": 120, 
+                "hc drop% for spark": 40, 
+                "passive id": "31"
+            }, 
+            {
+                "bc fill on spark high": 3, 
+                "bc fill on spark low": 2, 
+                "bc fill on spark%": 100, 
+                "passive id": "47"
+            }
+        ], 
+        "id": "7541", 
+        "name": "閃挺神砲の蒼弾"
     }, 
     "7600": {
         "desc": "水・光属性ユニットの攻撃力を５０％アップ", 
@@ -21307,6 +22495,62 @@
         "id": "8805", 
         "name": "輝法界神の護煌"
     }, 
+    "8806": {
+        "desc": "全てのユニットの回復力・最大ＨＰを２０％アップ＆ＨＣ獲得時の回復量をかなりアップ", 
+        "effects": [
+            {
+                "hp% buff": 20, 
+                "passive id": "1", 
+                "rec% buff": 20
+            }, 
+            {
+                "hc effectiveness%": 50, 
+                "passive id": "10"
+            }
+        ], 
+        "id": "8806", 
+        "name": "聖機の信想"
+    }, 
+    "8807": {
+        "desc": "全てのユニットの回復力・最大ＨＰを３０％アップ＆ＨＣ出現率を大幅にアップ＆ＨＣ獲得時の回復量をかなりアップ", 
+        "effects": [
+            {
+                "hp% buff": 30, 
+                "passive id": "1", 
+                "rec% buff": 30
+            }, 
+            {
+                "hc effectiveness%": 50, 
+                "passive id": "10"
+            }, 
+            {
+                "hc drop rate% buff": 20, 
+                "passive id": "19"
+            }
+        ], 
+        "id": "8807", 
+        "name": "聖護機の恩愛"
+    }, 
+    "8808": {
+        "desc": "全てのユニットの回復力・最大ＨＰを４０％アップ＆ＨＣ出現率を超絶アップ＆ＨＣ獲得時の回復量を大幅にアップ", 
+        "effects": [
+            {
+                "hp% buff": 40, 
+                "passive id": "1", 
+                "rec% buff": 40
+            }, 
+            {
+                "hc effectiveness%": 75, 
+                "passive id": "10"
+            }, 
+            {
+                "hc drop rate% buff": 25, 
+                "passive id": "19"
+            }
+        ], 
+        "id": "8808", 
+        "name": "聖捧機の誓救"
+    }, 
     "8900": {
         "desc": "全てのユニットの攻撃力・防御力を１５％アップ", 
         "effects": [
@@ -22137,6 +23381,72 @@
         ], 
         "id": "9351", 
         "name": "常闇の夢想"
+    }, 
+    "9352": {
+        "desc": "全てのユニットの攻撃力・防御力を２０％アップ＆被ダメージ時、確率でＨＰを少し回復", 
+        "effects": [
+            {
+                "dmg% to hp% when attacked chance%": 20, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 15, 
+                "passive id": "24"
+            }, 
+            {
+                "atk% buff": 20, 
+                "def% buff": 20, 
+                "passive id": "1"
+            }
+        ], 
+        "id": "9352", 
+        "name": "異鎧の威光"
+    }, 
+    "9353": {
+        "desc": "全てのユニットの攻撃力・防御力を３０％アップ＆確率でＨＰを少し吸収＆被ダメージ時、確率でＨＰを少し回復", 
+        "effects": [
+            {
+                "dmg% to hp% when attacked chance%": 20, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 15, 
+                "passive id": "24"
+            }, 
+            {
+                "hp drain chance%": 50, 
+                "hp drain% high": 8, 
+                "hp drain% low": 3, 
+                "passive id": "17"
+            }, 
+            {
+                "atk% buff": 30, 
+                "def% buff": 30, 
+                "passive id": "1"
+            }
+        ], 
+        "id": "9353", 
+        "name": "異鋼鎧の執念"
+    }, 
+    "9354": {
+        "desc": "全てのユニットの攻撃力・防御力を４０％アップ＆ＨＰを少し吸収＆被ダメージ時、確率でＨＰを回復", 
+        "effects": [
+            {
+                "dmg% to hp% when attacked chance%": 25, 
+                "dmg% to hp% when attacked high": 20, 
+                "dmg% to hp% when attacked low": 20, 
+                "passive id": "24"
+            }, 
+            {
+                "hp drain chance%": 100, 
+                "hp drain% high": 8, 
+                "hp drain% low": 3, 
+                "passive id": "17"
+            }, 
+            {
+                "atk% buff": 40, 
+                "def% buff": 40, 
+                "passive id": "1"
+            }
+        ], 
+        "id": "9354", 
+        "name": "叛王鎧の轟槍"
     }, 
     "9400": {
         "desc": "全てのユニットの攻撃力を１５％アップ＆ＨＰが半分以上の時、攻撃力をアップ", 
